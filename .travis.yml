@@ -1,0 +1,8 @@
+language: csharp
+solution: JumpGo-Standard-Edition.sln
+mono:
+  - latest
+install:
+  - nuget restore JumpGo-Standard-Edition.sln
+  - nuget install WindowsAPICodePack-Shell
+  - nuget install WindowsAPICodePack-Core
