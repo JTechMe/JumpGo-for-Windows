@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)chrome://newtab/ -->
+<html i18n-values="dir:textdirection;
+                   bookmarkbarattached:bookmarkbarattached;
+                   lang:language" dir="ltr" bookmarkbarattached="false" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title i18n-content="title">New Tab</title>
+<link rel="stylesheet" href="chrome://resources/css/text_defaults.css">
+<style>/* Copyright 2014 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ *
+ * Incognito and guest mode NTP shared CSS.
+ */
+
+html {
+  background: #fafafa;
+}
+
+body {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.7em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin-top: 0;
+}
+
+a {
+  color: rgb(39, 110, 242);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+  box-sizing: border-box;
+  color: black;
+  line-height: 1.5;
+  margin: 5.5em auto 0;
+  max-width: 640px;
+  padding: 30px 35px 30px 37px;
+  width: 100%;
+}
+
+.content > span {
+  display: block;
+}
+
+.content p:last-child {
+  margin-bottom: 4px;
+}
+
+@media (max-width:700px) {
+  body {
+    margin: 1em 2em 2em;
+  }
+}
+
+@media (max-width:400px) {
+  body {
+    margin: 3em 1.5em 2em;
+  }
+}
+
+@media (max-height:480px) and (max-width:400px) {
+  .content {
+    margin: auto;
+  }
+}
+</style>
+<style>/* Copyright 2013 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+.content > span {
+  max-width: 416px;
+}
+
+.icon {
+  -webkit-margin-start: 25px;
+  content: -webkit-image-set(
+      url(data:image/png;base64,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) 1x);
+  float: right;
+  height: 128px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  width: 128px;
+}
+
+html[dir='rtl'] .icon {
+  float: left;
+}
+
+@media (max-width:400px) {
+  .icon {
+    -webkit-margin-start: 15px;
+    height: 96px;
+    width: 96px;
+  }
+}
+</style>
+<script>
+// Until themes can clear the cache, force-reload the theme stylesheet.
+document.write('<link id="incognitothemecss" rel="stylesheet" ' +
+               'href="chrome://theme/css/incognito_new_tab_theme.css?' +
+               Date.now() + '">');
+</script><link id="incognitothemecss" rel="stylesheet" href="chrome://theme/css/incognito_new_tab_theme.css?1432943108875">
+</head>
+<body>
+<div class="content">
+  <div class="icon"></div>
+  <span>
+    <h1 i18n-content="incognitoTabHeading">You’ve gone incognito</h1>
+    <p>
+      <span i18n-values=".innerHTML:incognitoTabDescription">Pages you view in incognito tabs won’t stick around in your browser’s history, cookie store, or search history after you’ve closed <strong>all</strong> of your incognito tabs. Any files you download or bookmarks you create will be kept.</span>
+      <a i18n-content="learnMore" i18n-values=".href:learnMoreLink" href="https://support.google.com/chrome/?p=incognito">Learn more about incognito browsing</a>
+    </p>
+    <p>
+      <strong i18n-content="incognitoTabWarning">Going incognito doesn’t hide your browsing from your employer, your internet service provider, or the websites you visit.</strong>
+    </p>
+  </span>
+</div>
+
+<script src="chrome://resources/js/cr.js"></script>
+<script>
+cr.define('ntp', function() {
+  'use strict';
+  /**
+   * Set whether the bookmarks bar is attached or not.
+   * @param {boolean} attached Whether the bar is attached or not.
+   */
+  function setBookmarkBarAttached(attached) {
+    document.documentElement.setAttribute('bookmarkbarattached', !!attached);
+  }
+
+  function themeChanged() {
+    document.getElementById('incognitothemecss').href =
+        'chrome://theme/css/incognito_new_tab_theme.css?' + Date.now();
+  }
+
+  return {
+    setBookmarkBarAttached: setBookmarkBarAttached,
+    themeChanged: themeChanged,
+  };
+});
+</script>
+
+<script>// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+/**
+ * @fileoverview This file defines a singleton which provides access to all data
+ * that is available as soon as the page's resources are loaded (before DOM
+ * content has finished loading). This data includes both localized strings and
+ * any data that is important to have ready from a very early stage (e.g. things
+ * that must be displayed right away).
+ */
+
+var loadTimeData;
+
+// Expose this type globally as a temporary work around until
+// https://github.com/google/closure-compiler/issues/544 is fixed.
+/** @constructor */
+function LoadTimeData() {}
+
+(function() {
+  'use strict';
+
+  LoadTimeData.prototype = {
+    /**
+     * Sets the backing object.
+     *
+     * Note that there is no getter for |data_| to discourage abuse of the form:
+     *
+     *     var value = loadTimeData.data()['key'];
+     *
+     * @param {Object} value The de-serialized page data.
+     */
+    set data(value) {
+      expect(!this.data_, 'Re-setting data.');
+      this.data_ = value;
+    },
+
+    /**
+     * Returns a JsEvalContext for |data_|.
+     * @returns {JsEvalContext}
+     */
+    createJsEvalContext: function() {
+      return new JsEvalContext(this.data_);
+    },
+
+    /**
+     * @param {string} id An ID of a value that might exist.
+     * @return {boolean} True if |id| is a key in the dictionary.
+     */
+    valueExists: function(id) {
+      return id in this.data_;
+    },
+
+    /**
+     * Fetches a value, expecting that it exists.
+     * @param {string} id The key that identifies the desired value.
+     * @return {*} The corresponding value.
+     */
+    getValue: function(id) {
+      expect(this.data_, 'No data. Did you remember to include strings.js?');
+      var value = this.data_[id];
+      expect(typeof value != 'undefined', 'Could not find value for ' + id);
+      return value;
+    },
+
+    /**
+     * As above, but also makes sure that the value is a string.
+     * @param {string} id The key that identifies the desired string.
+     * @return {string} The corresponding string value.
+     */
+    getString: function(id) {
+      var value = this.getValue(id);
+      expectIsType(id, value, 'string');
+      return /** @type {string} */ (value);
+    },
+
+    /**
+     * Returns a formatted localized string where $1 to $9 are replaced by the
+     * second to the tenth argument.
+     * @param {string} id The ID of the string we want.
+     * @param {...string} var_args The extra values to include in the formatted
+     *     output.
+     * @return {string} The formatted string.
+     */
+    getStringF: function(id, var_args) {
+      var value = this.getString(id);
+      if (!value)
+        return '';
+
+      var varArgs = arguments;
+      return value.replace(/\$[$1-9]/g, function(m) {
+        return m == '$$' ? '$' : varArgs[m[1]];
+      });
+    },
+
+    /**
+     * As above, but also makes sure that the value is a boolean.
+     * @param {string} id The key that identifies the desired boolean.
+     * @return {boolean} The corresponding boolean value.
+     */
+    getBoolean: function(id) {
+      var value = this.getValue(id);
+      expectIsType(id, value, 'boolean');
+      return /** @type {boolean} */ (value);
+    },
+
+    /**
+     * As above, but also makes sure that the value is an integer.
+     * @param {string} id The key that identifies the desired number.
+     * @return {number} The corresponding number value.
+     */
+    getInteger: function(id) {
+      var value = this.getValue(id);
+      expectIsType(id, value, 'number');
+      expect(value == Math.floor(value), 'Number isn\'t integer: ' + value);
+      return /** @type {number} */ (value);
+    },
+
+    /**
+     * Override values in loadTimeData with the values found in |replacements|.
+     * @param {Object} replacements The dictionary object of keys to replace.
+     */
+    overrideValues: function(replacements) {
+      expect(typeof replacements == 'object',
+             'Replacements must be a dictionary object.');
+      for (var key in replacements) {
+        this.data_[key] = replacements[key];
+      }
+    }
+  };
+
+  /**
+   * Checks condition, displays error message if expectation fails.
+   * @param {*} condition The condition to check for truthiness.
+   * @param {string} message The message to display if the check fails.
+   */
+  function expect(condition, message) {
+    if (!condition) {
+      console.error('Unexpected condition on ' + document.location.href + ': ' +
+                    message);
+    }
+  }
+
+  /**
+   * Checks that the given value has the given type.
+   * @param {string} id The id of the value (only used for error message).
+   * @param {*} value The value to check the type on.
+   * @param {string} type The type we expect |value| to be.
+   */
+  function expectIsType(id, value, type) {
+    expect(typeof value == type, '[' + value + '] (' + id +
+                                 ') is not a ' + type);
+  }
+
+  expect(!loadTimeData, 'should only include this file once');
+  loadTimeData = new LoadTimeData;
+})();
+</script><script>loadTimeData.data = {"bookmarkbarattached":false,"fontfamily":"'Segoe UI', Tahoma, sans-serif","fontsize":"75%","incognitoTabDescription":"Pages you view in incognito tabs won’t stick around in your browser’s history, cookie store, or search history after you’ve closed \u003Cstrong>all\u003C/strong> of your incognito tabs. Any files you download or bookmarks you create will be kept.","incognitoTabHeading":"You’ve gone incognito","incognitoTabWarning":"Going incognito doesn’t hide your browsing from your employer, your internet service provider, or the websites you visit.","language":"en","learnMore":"Learn more about incognito browsing","learnMoreLink":"https://support.google.com/chrome/?p=incognito","textdirection":"ltr","title":"New Tab"};</script><script>// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+/**
+ * @fileoverview This is a simple template engine inspired by JsTemplates
+ * optimized for i18n.
+ *
+ * It currently supports three handlers:
+ *
+ *   * i18n-content which sets the textContent of the element.
+ *
+ *     <span i18n-content="myContent"></span>
+ *
+ *   * i18n-options which generates <option> elements for a <select>.
+ *
+ *     <select i18n-options="myOptionList"></select>
+ *
+ *   * i18n-values is a list of attribute-value or property-value pairs.
+ *     Properties are prefixed with a '.' and can contain nested properties.
+ *
+ *     <span i18n-values="title:myTitle;.style.fontSize:fontSize"></span>
+ *
+ * This file is a copy of i18n_template.js, with minor tweaks to support using
+ * load_time_data.js. It should replace i18n_template.js eventually.
+ */
+
+var i18nTemplate = (function() {
+  /**
+   * This provides the handlers for the templating engine. The key is used as
+   * the attribute name and the value is the function that gets called for every
+   * single node that has this attribute.
+   * @type {!Object}
+   */
+  var handlers = {
+    /**
+     * This handler sets the textContent of the element.
+     * @param {HTMLElement} element The node to modify.
+     * @param {string} key The name of the value in the dictionary.
+     * @param {LoadTimeData} dictionary The dictionary of strings to draw from.
+     */
+    'i18n-content': function(element, key, dictionary) {
+      element.textContent = dictionary.getString(key);
+    },
+
+    /**
+     * This handler adds options to a <select> element.
+     * @param {HTMLElement} select The node to modify.
+     * @param {string} key The name of the value in the dictionary. It should
+     *     identify an array of values to initialize an <option>. Each value,
+     *     if a pair, represents [content, value]. Otherwise, it should be a
+     *     content string with no value.
+     * @param {LoadTimeData} dictionary The dictionary of strings to draw from.
+     */
+    'i18n-options': function(select, key, dictionary) {
+      var options = dictionary.getValue(key);
+      options.forEach(function(optionData) {
+        var option = typeof optionData == 'string' ?
+            new Option(optionData) :
+            new Option(optionData[1], optionData[0]);
+        select.appendChild(option);
+      });
+    },
+
+    /**
+     * This is used to set HTML attributes and DOM properties. The syntax is:
+     *   attributename:key;
+     *   .domProperty:key;
+     *   .nested.dom.property:key
+     * @param {HTMLElement} element The node to modify.
+     * @param {string} attributeAndKeys The path of the attribute to modify
+     *     followed by a colon, and the name of the value in the dictionary.
+     *     Multiple attribute/key pairs may be separated by semicolons.
+     * @param {LoadTimeData} dictionary The dictionary of strings to draw from.
+     */
+    'i18n-values': function(element, attributeAndKeys, dictionary) {
+      var parts = attributeAndKeys.replace(/\s/g, '').split(/;/);
+      parts.forEach(function(part) {
+        if (!part)
+          return;
+
+        var attributeAndKeyPair = part.match(/^([^:]+):(.+)$/);
+        if (!attributeAndKeyPair)
+          throw new Error('malformed i18n-values: ' + attributeAndKeys);
+
+        var propName = attributeAndKeyPair[1];
+        var propExpr = attributeAndKeyPair[2];
+
+        var value = dictionary.getValue(propExpr);
+
+        // Allow a property of the form '.foo.bar' to assign a value into
+        // element.foo.bar.
+        if (propName[0] == '.') {
+          var path = propName.slice(1).split('.');
+          var targetObject = element;
+          while (targetObject && path.length > 1) {
+            targetObject = targetObject[path.shift()];
+          }
+          if (targetObject) {
+            targetObject[path] = value;
+            // In case we set innerHTML (ignoring others) we need to
+            // recursively check the content.
+            if (path == 'innerHTML')
+              process(element, dictionary);
+          }
+        } else {
+          element.setAttribute(propName, /** @type {string} */(value));
+        }
+      });
+    }
+  };
+
+  var attributeNames = Object.keys(handlers);
+  var selector = 'html /deep/ [' + attributeNames.join('],[') + ']';
+
+  /**
+   * Processes a DOM tree with the {@code dictionary} map.
+   * @param {HTMLElement} node The root of the DOM tree to process.
+   * @param {LoadTimeData} dictionary The dictionary to draw from.
+   */
+  function process(node, dictionary) {
+    var elements = node.querySelectorAll(selector);
+    for (var element, i = 0; element = elements[i]; i++) {
+      for (var j = 0; j < attributeNames.length; j++) {
+        var name = attributeNames[j];
+        var attribute = element.getAttribute(name);
+        if (attribute != null)
+          handlers[name](element, attribute, dictionary);
+      }
+    }
+  }
+
+  return {
+    process: process
+  };
+}());
+
+
+i18nTemplate.process(document, loadTimeData);
+</script></body></html>
