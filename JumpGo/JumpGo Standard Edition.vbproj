@@ -77,10 +77,13 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="APNM FrameWork CL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -424,7 +427,6 @@
     <Content Include="bin\Debug\JumpGo 4.2.ico" />
     <Content Include="bin\Debug\JumpGo 4.ico" />
     <Content Include="bin\Debug\JumpGo.ico" />
-    <Content Include="bin\Debug\JumpGo.xml" />
     <Content Include="bin\Debug\jumpgo_4_3___installer_LQZ_icon.ico" />
     <Content Include="bin\Debug\jumpgo_4_3___uninstall_PxB_icon.ico" />
     <Content Include="bin\Debug\MdiTabControl.dll" />
