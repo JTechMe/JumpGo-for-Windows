@@ -335,6 +335,12 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\activex.vch" />
+    <None Include="bin\Debug\FlashInstall.log" />
+    <None Include="bin\Debug\Geckofx-Core.dll.config" />
+    <None Include="bin\Debug\manifest.json" />
+    <None Include="bin\Debug\MySettings.AppSettings" />
+    <None Include="bin\Debug\plugin.vch" />
     <None Include="JumpGo_TemporaryKey.pfx" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
@@ -397,6 +403,41 @@
     <None Include="Resources\web_hi_res_512.png" />
     <None Include="bin\Debug\JumpGo_Dev_Edition_Updated.ico" />
     <None Include="bin\Debug\JumpGo_4_2_Updated.ico" />
+    <Content Include="bin\Debug\APNM FrameWork CL.dll" />
+    <Content Include="bin\Debug\AutoUpdater.NET.dll" />
+    <Content Include="bin\Debug\AxInterop.SHDocVw.dll" />
+    <Content Include="bin\Debug\Dev Left.bmp" />
+    <Content Include="bin\Debug\FastColoredTextBox.dll" />
+    <Content Include="bin\Debug\Flash.ocx" />
+    <Content Include="bin\Debug\FlashUtil64_20_0_0_286_Plugin.exe" />
+    <Content Include="bin\Debug\FlashUtil_ActiveX.dll" />
+    <Content Include="bin\Debug\FlashUtil_ActiveX.exe" />
+    <Content Include="bin\Debug\Geckofx-Core.dll" />
+    <Content Include="bin\Debug\Geckofx-Winforms.dll" />
+    <Content Include="bin\Debug\Getting Started.html" />
+    <Content Include="bin\Debug\Interop.SHDocVw.dll" />
+    <Content Include="bin\Debug\JG Left.bmp" />
+    <Content Include="bin\Debug\JumpGo 1.ico" />
+    <Content Include="bin\Debug\JumpGo 3.ico" />
+    <Content Include="bin\Debug\JumpGo 4 - Installer.ico" />
+    <Content Include="bin\Debug\JumpGo 4 - Uninstall.ico" />
+    <Content Include="bin\Debug\JumpGo 4.2.ico" />
+    <Content Include="bin\Debug\JumpGo 4.ico" />
+    <Content Include="bin\Debug\JumpGo.ico" />
+    <Content Include="bin\Debug\JumpGo.xml" />
+    <Content Include="bin\Debug\jumpgo_4_3___installer_LQZ_icon.ico" />
+    <Content Include="bin\Debug\jumpgo_4_3___uninstall_PxB_icon.ico" />
+    <Content Include="bin\Debug\MdiTabControl.dll" />
+    <Content Include="bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll" />
+    <Content Include="bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml" />
+    <Content Include="bin\Debug\Microsoft.WindowsAPICodePack.dll" />
+    <Content Include="bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll" />
+    <Content Include="bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml" />
+    <Content Include="bin\Debug\Microsoft.WindowsAPICodePack.xml" />
+    <Content Include="bin\Debug\NPSWF64_20_0_0_286.dll" />
+    <Content Include="bin\Debug\pepflashplayer.dll" />
+    <Content Include="bin\Debug\rtaGlassEffectsLib.dll" />
+    <Content Include="bin\Debug\Skybound.Gecko.dll" />
     <Content Include="JumpGo_4_2_Updated.ico" />
     <Content Include="JumpGo_Dev_Edition_Updated.ico" />
     <None Include="Resources\JGTabControlGradient HC.png" />
