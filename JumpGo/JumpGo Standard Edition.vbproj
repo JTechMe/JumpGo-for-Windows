@@ -418,6 +418,7 @@
     <Content Include="bin\Debug\Geckofx-Core.dll" />
     <Content Include="bin\Debug\Geckofx-Winforms.dll" />
     <Content Include="bin\Debug\Getting Started.html" />
+    <Content Include="bin\Debug\Incognito\New Tab.html" />
     <Content Include="bin\Debug\Interop.SHDocVw.dll" />
     <Content Include="bin\Debug\JG Left.bmp" />
     <Content Include="bin\Debug\JumpGo 1.ico" />
