@@ -401,6 +401,18 @@ Namespace My
                 Me("SavedLinks") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property CurVerIDAvai() As String
+            Get
+                Return CType(Me("CurVerIDAvai"),String)
+            End Get
+            Set
+                Me("CurVerIDAvai") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

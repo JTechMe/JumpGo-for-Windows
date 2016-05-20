@@ -179,6 +179,7 @@
     <Compile Include="AppBuildTester.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CurVerIDClass.vb" />
     <Compile Include="HistoryForm.Designer.vb">
       <DependentUpon>HistoryForm.vb</DependentUpon>
     </Compile>

@@ -164,7 +164,7 @@ Public Class JumpGoMain
     End Sub
 
     Private Sub JumpGo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        My.Settings.CurVerIDAvai = My.Application.Info.Version.ToString
         If File.Exists(GetFolderPath(SpecialFolder.ApplicationData) + "\JTechMe\JumpGo\DevEd\Settings\MySettings.AppSettings") = True Then
             'importSettings()
         End If
