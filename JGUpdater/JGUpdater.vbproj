@@ -49,6 +49,9 @@
   <PropertyGroup>
     <ApplicationIcon>jumpgo_4_3___installer_LQZ_icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Octokit, Version=0.19.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Octokit.0.19.0\lib\net45\Octokit.dll</HintPath>
@@ -79,11 +82,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainUForm.vb">
+    <Compile Include="IEDLTF1.Designer.vb">
+      <DependentUpon>IEDLTF1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IEDLTF1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GHUForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GHUForm.Designer.vb">
+      <DependentUpon>GHUForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainUForm.Designer.vb">
       <DependentUpon>MainUForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainUForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -103,6 +118,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="IEDLTF1.resx">
+      <DependentUpon>IEDLTF1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GHUForm.resx">
+      <DependentUpon>GHUForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainUForm.resx">
       <DependentUpon>MainUForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +135,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -131,12 +153,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\JumpGo\JumpGo Standard Edition.vbproj">
-      <Project>{42100b9f-6e5f-4907-81b4-29763d0d55c4}</Project>
-      <Name>JumpGo Standard Edition</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

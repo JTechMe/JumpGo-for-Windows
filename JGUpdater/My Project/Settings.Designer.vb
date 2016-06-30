@@ -77,6 +77,18 @@ Namespace My
                 Me("RepoURL") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("http://jtechme.github.io/jgwinse/")>  _
+        Public Property DLURL() As String
+            Get
+                Return CType(Me("DLURL"),String)
+            End Get
+            Set
+                Me("DLURL") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

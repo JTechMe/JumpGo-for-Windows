@@ -1,0 +1,531 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JumpGo
+</name>
+</assembly>
+<members>
+<member name="T:JumpGoStandardEdition.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.arrow_back_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.arrow_next_3_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.arrow_refresh_2_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Back_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Back_Icon___Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.BackCircle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.BackCircleDis">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.BackCircleDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.BackCircleOver">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.BarEnd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.blueprint_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.dgjkbv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.dgjkbv___Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Dock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.errorLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.fnal2_570x456___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Forward_Icon___Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Forward_Icon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Forward_Icon2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ForwardSquare">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ForwardSquareDis">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ForwardSquareDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ForwardSquareOver">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Graphicloads_100_Flat_Zoom_search_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Home_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Home_Icon___Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.homeTransparent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_collapse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_desktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_expand">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_forward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_invert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_reading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_star">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_tabs">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_action_text_size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_bookmark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_history">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_webpage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.IconBack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.IconForward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.IconPlus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_1024">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_109">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_110">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_114">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_115">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_167">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_5302">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_5306">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_5322">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_5323">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_5369">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.imageres_90">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JGTabControlGradient">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JGTabControlGradient_HC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_1_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_3_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_4_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_4_2_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_4_2_Updated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_4_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_Dev_Edition">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_Dev_Edition_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_Dev_Edition_Updated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.JumpGo_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Menu_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Menu_Icon___Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.MenuBG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.MenuTransparent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.NewTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.NewTabZ">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.poweredby_400_6d69147aa379">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.poweredby_400_6d69147aa379___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Refresh_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Refresh_Icon___Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.SearchButton">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.secured">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Stop_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Stop_Icon___Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.String1">
+<summary>
+  Looks up a localized string similar to AboutBox1.PictureBox1.Image = My.Resources.JumpGo___Copy.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.String2">
+<summary>
+  Looks up a localized string similar to JumpGoMain.Icon = My.Resources.JumpGo_Icon.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Tab_Color_Swatch___Copy__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.Transparent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.unsecured">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.URLbar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.web_hi_res_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

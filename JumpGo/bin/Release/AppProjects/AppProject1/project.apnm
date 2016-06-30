@@ -1,0 +1,31 @@
+APNM.project.manifestVersion{1.0.0}
+~(c)JTechMe 2016
+~The APNM framework is licenced under the General-Open-Control-License-v1.0
+~Do not delete the first 4 lines in this document.
+AppProject1
+com.jtechme.appproject1
+1.0.0
+~This is the official framework for developing web apps and extentions for the JumpGo Desktop browser.
+~Permissions always start on line 10 and end on line 21
+!permissions!
++FRAMEWORK_USE+
++INTERNET_ACCESS+
++PROJECT_DIR+
++LOCAL_FILES+
++JG_SETTINGS+
++APNM_SETTINGS+
+~Do Not Delete
+~Do Not Delete
+~Do Not Delete
+~Do Not Delete
+!permissions!
+~The icon file is always referenced on line 26
+~The default icon name is "icon.ico" but can be changed to any other *.ico file.
+~The icon file is always a *.ico file and cannot be changed.
+<iconfile>{
+icon.ico
+}
+~Now call your "index.html" file
+<index>{
+index.html
+}

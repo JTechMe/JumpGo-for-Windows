@@ -1,0 +1,16 @@
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\JGUpdater.exe.config
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\JGUpdater.exe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\JGUpdater.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\JGUpdater.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\Octokit.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\Octokit.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\Octokit.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.vbprojResolveAssemblyReference.cache
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.IEDLTF1.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.MainUForm.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.Resources.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.vbproj.GenerateResource.Cache
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.exe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.GHUForm.resources

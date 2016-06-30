@@ -52,7 +52,7 @@ Partial Class MainUForm
         Me.GroupBox1.Location = New System.Drawing.Point(233, 53)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(417, 122)
-        Me.GroupBox1.TabIndex = 14
+        Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Update Prefferences"
         '
@@ -132,9 +132,9 @@ Partial Class MainUForm
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(293, 37)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(100, 13)
-        Me.Label3.TabIndex = 13
-        Me.Label3.Text = "Powered by Octokit"
+        Me.Label3.Size = New System.Drawing.Size(125, 13)
+        Me.Label3.TabIndex = 19
+        Me.Label3.Text = "Just to speed things up..."
         '
         'Button2
         '
@@ -142,7 +142,7 @@ Partial Class MainUForm
         Me.Button2.Location = New System.Drawing.Point(118, 323)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(101, 23)
-        Me.Button2.TabIndex = 12
+        Me.Button2.TabIndex = 18
         Me.Button2.Text = "Download Update"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -152,7 +152,7 @@ Partial Class MainUForm
         Me.Button1.Location = New System.Drawing.Point(12, 323)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 23)
-        Me.Button1.TabIndex = 11
+        Me.Button1.TabIndex = 17
         Me.Button1.Text = "Check for Update"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -162,9 +162,9 @@ Partial Class MainUForm
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(233, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(160, 25)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "GitHub Updater"
+        Me.Label1.Size = New System.Drawing.Size(174, 25)
+        Me.Label1.TabIndex = 16
+        Me.Label1.Text = "JumpGo Updater"
         '
         'PictureBox1
         '
@@ -174,7 +174,7 @@ Partial Class MainUForm
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(215, 215)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabIndex = 15
         Me.PictureBox1.TabStop = False
         '
         'MainUForm
@@ -188,6 +188,7 @@ Partial Class MainUForm
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MainUForm"
         Me.Text = "JumpGo Updater"

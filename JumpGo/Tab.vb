@@ -14,7 +14,7 @@ Public Class Tab
     Private browser As GeckoWebBrowser
 
     Sub New()
-
+        'Xpcom.Initialize("Firefox")
         InitializeComponent()
         'Xpcom.Initialize(Environment.CurrentDirectory + "/xulrunner")
         Dim app_dir = Path.GetDirectoryName(Application.ExecutablePath)
@@ -30,14 +30,18 @@ Public Class Tab
         MenuOpen = False
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        FasterBrowser1.GoBack()
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        If FasterBrowser1.CanGoBack Then
+            FasterBrowser1.GoBack()
+        End If
         Panel4.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        FasterBrowser1.GoForward()
+        If FasterBrowser1.CanGoBack Then
+            FasterBrowser1.GoForward()
+        End If
         Panel4.Visible = False
         MenuOpen = False
     End Sub
@@ -85,7 +89,7 @@ Public Class Tab
         MenuOpen = False
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs)
         FasterBrowser1.Navigate(My.Settings.Home)
         Panel4.Visible = False
         MenuOpen = False
@@ -141,6 +145,17 @@ Public Class Tab
         obj = FasterBrowser1.Url.AbsoluteUri
         'My.Settings.WebHistory.Items.Add(obj)
 
+        If FasterBrowser1.CanGoForward Then
+            PictureBox5.Image = My.Resources.ForwardSquare
+        Else
+            PictureBox5.Image = My.Resources.ForwardSquareDis
+        End If
+
+        If FasterBrowser1.CanGoBack Then
+            PictureBox4.Image = My.Resources.BackCircle
+        Else
+            PictureBox4.Image = My.Resources.BackCircleDis
+        End If
     End Sub
 
     Private Sub FasterBrowser1_DocumentCompleted(sender As Object, e As EventArgs) Handles FasterBrowser1.DocumentCompleted
@@ -216,6 +231,18 @@ Public Class Tab
         'My.Settings.WebHistory.Add(FasterBrowser1.Url.AbsoluteUri.ToString)
 
         'My.Settings.WebHistory.Add(FasterBrowser1.DocumentTitle.ToString & "," & FasterBrowser1.Url.ToString)
+
+        If FasterBrowser1.CanGoForward Then
+            PictureBox5.Image = My.Resources.ForwardSquare
+        Else
+            PictureBox5.Image = My.Resources.ForwardSquareDis
+        End If
+
+        If FasterBrowser1.CanGoBack Then
+            PictureBox4.Image = My.Resources.BackCircle
+        Else
+            PictureBox4.Image = My.Resources.BackCircleDis
+        End If
     End Sub
 
     Private Sub geticon()
@@ -340,7 +367,7 @@ Public Class Tab
         If My.Settings.FirstRun = True Then
             FasterBrowser1.Navigate(Environment.CurrentDirectory + "\Welcome\index.html")
             My.Settings.FirstRun = False
-            JumpGoMain.WindowState = System.Windows.Forms.FormWindowState.Maximized
+            'JumpGoMain.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Else
             'FasterBrowser1.Navigate(My.Settings.NewTab)
             'FasterBrowser1.Navigate(Environment.CurrentDirectory + "\Getting Started.html")
@@ -358,24 +385,26 @@ Public Class Tab
         End If
 
         If My.Settings.ThemeColor = "Dark" Then
-            Button1.BackgroundImage = My.Resources.BackCircle
+            'Button1.BackgroundImage = My.Resources.BackCircle
+            'PictureBox4.Image = My.Resources.BackCircle
             Button2.BackgroundImage = My.Resources.ForwardSquare
             'Button3.BackgroundImage = My.Resources.Forward_Icon1
             Button4.BackgroundImage = My.Resources.Refresh
-            Button5.BackgroundImage = My.Resources.homeTransparent
+            'Button5.BackgroundImage = My.Resources.homeTransparent
             Button6.BackgroundImage = My.Resources.SearchButton
-            Button7.BackgroundImage = My.Resources.MenuTransparent
+            'Button7.BackgroundImage = My.Resources.MenuTransparent
         Else
-            Button1.BackgroundImage = My.Resources.BackCircle
+            'PictureBox4.Image = My.Resources.BackCircle
             Button2.BackgroundImage = My.Resources.ForwardSquare
             'Button3.BackgroundImage = My.Resources.ForwardSquare
             Button4.BackgroundImage = My.Resources.Refresh
-            Button5.BackgroundImage = My.Resources.homeTransparent
+            'Button5.BackgroundImage = My.Resources.homeTransparent
             Button6.BackgroundImage = My.Resources.SearchButton
-            Button7.BackgroundImage = My.Resources.MenuTransparent
+            'Button7.BackgroundImage = My.Resources.MenuTransparent
         End If
         'Dim sUserAgent As String = "Mozilla/5.0 (Windows; U; Windows NT 6.1; pl; rv:1.9.1) Gecko/20090624 Firefox/3.5 (.NET CLR 3.5.30729)"
         Dim sUserAgent As String = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0"
+        'Dim sUserAgent As String = "Mozilla/5.0 (Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 JumpGo/4.3"
         'Dim sUserAgent As String = "JTechMe/5.0 (Windows; U; Windows NT 6.1; pl; rv:1.9.1) Gecko/20090624 JumpGo/4.3 (.NET CLR 3.5.30729)"
         GeckoPreferences.User("general.useragent.override") = sUserAgent
 
@@ -431,7 +460,7 @@ Public Class Tab
         End If
     End Sub
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs)
         If MenuOpen = False Then
             Panel4.Visible = True
             MenuOpen = True
@@ -503,6 +532,11 @@ Public Class Tab
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         'geticon()
         'FasterBrowser1.Refresh()
+        If FasterBrowser1.CanGoBack Then
+            If PictureBox4.Image.Equals(My.Resources.BackCircleDis) Then
+                'PictureBox4.Image = My.Resources.BackCircle
+            End If
+        End If
     End Sub
 
     Function themetimer()
@@ -519,21 +553,21 @@ Public Class Tab
         End If
 
         If My.Settings.ThemeColor = "Dark" Then
-            Button1.BackgroundImage = My.Resources.BackCircle
+            'Button1.BackgroundImage = My.Resources.BackCircle
             Button2.BackgroundImage = My.Resources.ForwardSquare
             'Button3.BackgroundImage = My.Resources.Forward_Icon1
             Button4.BackgroundImage = My.Resources.Refresh
-            Button5.BackgroundImage = My.Resources.homeTransparent
+            'Button5.BackgroundImage = My.Resources.homeTransparent
             Button6.BackgroundImage = My.Resources.SearchButton
-            Button7.BackgroundImage = My.Resources.MenuTransparent
+            'Button7.BackgroundImage = My.Resources.MenuTransparent
         Else
-            Button1.BackgroundImage = My.Resources.BackCircle
+            'Button1.BackgroundImage = My.Resources.BackCircle
             Button2.BackgroundImage = My.Resources.ForwardSquare
             'Button3.BackgroundImage = My.Resources.ForwardSquare
             Button4.BackgroundImage = My.Resources.Refresh
-            Button5.BackgroundImage = My.Resources.homeTransparent
+            'Button5.BackgroundImage = My.Resources.homeTransparent
             Button6.BackgroundImage = My.Resources.SearchButton
-            Button7.BackgroundImage = My.Resources.MenuTransparent
+            'Button7.BackgroundImage = My.Resources.MenuTransparent
         End If
         Return 0
     End Function
@@ -650,5 +684,109 @@ Public Class Tab
     Private Sub ToolStrip2_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs)
         Panel4.Visible = False
         MenuOpen = False
+    End Sub
+
+    Private Sub BackToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BackToolStripMenuItem.Click
+        'Button1.PerformClick()
+    End Sub
+
+    Private Sub ForwardToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ForwardToolStripMenuItem.Click
+        Button2.PerformClick()
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        If MenuOpen = False Then
+            Panel4.Visible = True
+            MenuOpen = True
+        Else
+            Panel4.Visible = False
+            MenuOpen = False
+        End If
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        FasterBrowser1.Navigate(My.Settings.Home)
+        Panel4.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        If FasterBrowser1.CanGoBack Then
+            FasterBrowser1.GoBack()
+        End If
+        Panel4.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub PictureBox4_MouseHover(sender As Object, e As EventArgs) Handles PictureBox4.MouseHover
+        If FasterBrowser1.CanGoBack Then
+            PictureBox4.Image = My.Resources.BackCircleOver
+        Else
+            PictureBox4.Image = My.Resources.BackCircleDis
+        End If
+    End Sub
+
+    Private Sub PictureBox4_MouseDown(sender As Object, e As EventArgs) Handles PictureBox4.MouseDown
+        If FasterBrowser1.CanGoBack Then
+            PictureBox4.Image = My.Resources.BackCircleDown
+        Else
+            PictureBox4.Image = My.Resources.BackCircleDis
+        End If
+    End Sub
+
+    Private Sub PictureBox4_MouseUp(sender As Object, e As EventArgs) Handles PictureBox4.MouseUp
+        If FasterBrowser1.CanGoBack Then
+            PictureBox4.Image = My.Resources.BackCircle
+        Else
+            PictureBox4.Image = My.Resources.BackCircleDis
+        End If
+    End Sub
+
+    Private Sub PictureBox4_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox4.MouseLeave
+        If FasterBrowser1.CanGoBack Then
+            PictureBox4.Image = My.Resources.BackCircle
+        Else
+            PictureBox4.Image = My.Resources.BackCircleDis
+        End If
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+        If FasterBrowser1.CanGoForward Then
+            FasterBrowser1.GoForward()
+        End If
+        Panel4.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub PictureBox5_MouseHover(sender As Object, e As EventArgs) Handles PictureBox5.MouseHover
+        If FasterBrowser1.CanGoForward Then
+            PictureBox5.Image = My.Resources.ForwardSquareOver
+        Else
+            PictureBox5.Image = My.Resources.ForwardSquareDis
+        End If
+    End Sub
+
+    Private Sub PictureBox5_MouseDown(sender As Object, e As EventArgs) Handles PictureBox5.MouseDown
+        If FasterBrowser1.CanGoForward Then
+            PictureBox5.Image = My.Resources.ForwardSquareDown
+        Else
+            PictureBox5.Image = My.Resources.ForwardSquareDis
+        End If
+    End Sub
+
+    Private Sub PictureBox5_MouseUp(sender As Object, e As EventArgs) Handles PictureBox5.MouseUp
+        If FasterBrowser1.CanGoForward Then
+            PictureBox5.Image = My.Resources.ForwardSquare
+        Else
+            PictureBox5.Image = My.Resources.ForwardSquareDis
+        End If
+    End Sub
+
+    Private Sub PictureBox5_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox5.MouseLeave
+        If FasterBrowser1.CanGoForward Then
+            PictureBox5.Image = My.Resources.ForwardSquare
+        Else
+            PictureBox5.Image = My.Resources.ForwardSquareDis
+        End If
     End Sub
 End Class

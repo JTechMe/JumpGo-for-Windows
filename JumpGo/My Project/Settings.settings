@@ -6,10 +6,10 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Search" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.google.com/#q=</Value>
+      <Value Profile="(Default)">https://www.google.com/search?client=jumpgo&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=</Value>
     </Setting>
     <Setting Name="Google" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.google.com/#q=</Value>
+      <Value Profile="(Default)">https://www.google.com/search?client=jumpgo&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=</Value>
     </Setting>
     <Setting Name="Yahoo" Type="System.String" Scope="User">
       <Value Profile="(Default)">https://search.yahoo.com/search;_ylt=AtBw7aX_oxzoq6VqvLov.5WbvZx4?p=</Value>
@@ -84,7 +84,7 @@
       <Value Profile="(Default)">https://www.youtube.com/results?search_query=</Value>
     </Setting>
     <Setting Name="DuckDuckGoSearch" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://duckduckgo.com/?q=</Value>
+      <Value Profile="(Default)">https://duckduckgo.com/?t=jumpgo&amp;q=</Value>
     </Setting>
     <Setting Name="StackOverflowSearch" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://stackoverflow.com/search?q=</Value>
@@ -94,6 +94,12 @@
     </Setting>
     <Setting Name="CurVerIDAvai" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastWinState" Type="System.String" Scope="User">
+      <Value Profile="(Default)">normal</Value>
+    </Setting>
+    <Setting Name="AeroTabs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

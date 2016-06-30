@@ -22,6 +22,7 @@ Imports Gecko
 'Imports System.IO
 Imports System.Linq
 Imports System.Environment
+Imports System.Runtime.InteropServices
 
 Public Class JumpGoMain
 
@@ -66,6 +67,17 @@ Public Class JumpGoMain
     End Sub
 
     Private browser As GeckoWebBrowser
+
+    'begining of the new aero extender function
+    <Runtime.InteropServices.StructLayout(Runtime.InteropServices.LayoutKind.Sequential)> Public Structure Side
+        Public Left As Integer
+        Public Right As Integer
+        Public Top As Integer
+        Public Bottom As Integer
+    End Structure
+    <Runtime.InteropServices.DllImport("dwmapi.dll")> Public Shared Function DwmExtendFrameIntoClientArea(ByVal hWnd As IntPtr, ByRef pMarinset As Side) As Integer
+    End Function
+    'end of the aero extender
 
     Sub New()
 
@@ -164,24 +176,44 @@ Public Class JumpGoMain
     End Sub
 
     Private Sub JumpGo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        'Dim jgAppData As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)
+
+        'Process.Start(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData))
+
+        'aero extending try
+        Try
+            Me.BackColor = Color.Black 'It must be set to black...
+            Dim Side As Side = New Side
+            Side.Left = 0
+            Side.Right = 0
+            Side.Top = 31
+            Side.Bottom = 0
+            Dim result As Integer = DwmExtendFrameIntoClientArea(Me.Handle, Side)
+        Catch ex As Exception
+        End Try
+        'end of aero extending try
+
         My.Settings.CurVerIDAvai = My.Application.Info.Version.ToString
-        If File.Exists(GetFolderPath(SpecialFolder.ApplicationData) + "\JTechMe\JumpGo\DevEd\Settings\MySettings.AppSettings") = True Then
+        If File.Exists(GetFolderPath(SpecialFolder.ApplicationData) + "\JTechMe\JumpGo\StandardEd\Settings\MySettings.AppSettings") = True Then
             'importSettings()
         End If
 
-        If My.Settings.SetIcon = "Dev" Then
+#Region "Theming"
+        'This will set the JumpGo icon to whatever current or legacy icon the user chooses
+        If My.Settings.SetIcon = "Dev" Then 'This option is only available in JG Dev Ed
             Me.Icon = My.Resources.JumpGo_Dev_Edition_Updated
         Else
-            If My.Settings.SetIcon = "JG4" Then
+            If My.Settings.SetIcon = "JG4" Then 'This is the most up-to-date icon as of 6/15/16
                 Me.Icon = My.Resources.JumpGo_4_2_Updated
             Else
-                If My.Settings.SetIcon = "JG3" Then
+                If My.Settings.SetIcon = "JG3" Then 'This is the JumpGo 3 icon
                     Me.Icon = My.Resources.JumpGo_3_Icon
                 Else
-                    If My.Settings.SetIcon = "JG2" Then
+                    If My.Settings.SetIcon = "JG2" Then 'This is the JumpGo 2 icon
                         Me.Icon = My.Resources.JumpGo_Icon
                     Else
-                        If My.Settings.SetIcon = "JG1" Then
+                        If My.Settings.SetIcon = "JG1" Then 'This is the first JumpGo icon
                             Me.Icon = My.Resources.JumpGo_1_Icon
                         End If
                     End If
@@ -189,7 +221,35 @@ Public Class JumpGoMain
             End If
         End If
 
-        Me.Size = My.Settings.LastSize
+        'This will set the aero transparency for the MDI Tab Control
+        If My.Settings.AeroTabs = True Then
+            TabControl1.TabGlassGradient = True
+        Else
+            TabControl1.TabGlassGradient = False
+        End If
+
+        ''This is where the rtaGlassEffect begins
+        'Dim glasseffect As New rtaGlassEffectsLib.rtaGlassEffect
+
+        'glasseffect.TopBarSize = 31
+
+        'glasseffect.ShowEffect(Me)
+        'glasseffect.UseHandCursorOnTitle = False
+        'glasseffect.BottomBarSize = 0
+        'glasseffect.LeftBarSize = 0
+        'glasseffect.ShowEffect(Me)
+        ''This is where it ends
+#End Region
+
+        'This will set the size and window state of the JumpGoMain.vb form
+        If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
+            Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
+        Else 'This will run if the last saved window state was not normal
+            If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
+                Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+            End If
+        End If
+
         'Here we have the array of 3 buttons (0, 1, 2) which will be our ThumbnailToolbarButtons
         Dim array(4) As ThumbnailToolBarButton
         array(0) = TaskButton1
@@ -202,11 +262,12 @@ Public Class JumpGoMain
 
         'NewTabButton("")
 
-        TabControl1.TabPages.Add(TabButtonNew).CloseButtonVisible = False
+        'TabControl1.TabPages.Add(TabButtonNew).CloseButtonVisible = False
 
         'NewTabButton("")
         If My.Settings.FirstRun = True Then
             CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
+            My.Settings.Upgrade()
             My.Settings.FirstRun = False
             'Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Else
@@ -215,80 +276,11 @@ Public Class JumpGoMain
 
         'NewTabButton("")
 
-        Dim glasseffect As New rtaGlassEffectsLib.rtaGlassEffect
-
-        glasseffect.TopBarSize = 31
-
-        glasseffect.ShowEffect(Me)
-        glasseffect.UseHandCursorOnTitle = False
-        glasseffect.BottomBarSize = 0
-        glasseffect.LeftBarSize = 0
-        glasseffect.ShowEffect(Me)
-
         'Me.FormBorderStyle = Windows.Forms.FormBorderStyle.Sizable
         'Me.ControlBox = False
         'Me.Text = ""
 
-        ' Get the path to the Application Data folder
-        Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
-
-        If File.Exists(appData + "\JTechMe\JumpGo\StandardEd\Special\") = True Then
-
-        Else
-            My.Computer.FileSystem.CopyDirectory(Environment.CurrentDirectory + "/Special", appData + "\JTechMe\JumpGo\StandardEd\Special", True)
-        End If
-
-        If File.Exists(appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master.zip") = False Then
-                If Directory.Exists(appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master") = True Then
-                    My.Computer.FileSystem.DeleteDirectory(
-  appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master",
-  FileIO.DeleteDirectoryOption.DeleteAllContents)
-                    'My.Computer.FileSystem.DeleteDirectory(Environment.CurrentDirectory + "\UpdaterDL\DotNET-Updater-Files-master")
-                End If
-            Else
-                My.Computer.FileSystem.DeleteFile(appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master.zip")
-
-            If Directory.Exists(appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master") = True Then
-                My.Computer.FileSystem.DeleteDirectory(
-  appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master",
-  FileIO.DeleteDirectoryOption.DeleteAllContents)
-                'My.Computer.FileSystem.DeleteDirectory(Environment.CurrentDirectory + "\UpdaterDL\DotNET-Updater-Files-master")
-            End If
-        End If
-
-        My.Computer.Network.DownloadFile(
-                "https://codeload.github.com/JTechMe/DotNET-Updater-Files/zip/master",
-                appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master.zip")
-
-        'Dim wc As WebClient = New WebClient()
-        'wc.DownloadFile("http://codeload.github.com/JTechMe/DotNET-Updater-Files/zip/master", Environment.CurrentDirectory + "\UpdaterDL\DotNET-Updater-Files-master.zip")
-
-        'Dim startPath As String = "c:\example\start"
-        Dim zipPath As String = appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master.zip"
-        Dim extractPath As String = appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master"
-
-        'ZipFile.CreateFromDirectory(startPath, zipPath)
-
-        ZipFile.ExtractToDirectory(zipPath, extractPath)
-
-        'Uncomment below line to see Russian version
-
-        'AutoUpdater.CurrentCulture = CultureInfo.CreateSpecificCulture("ru-RU");
-
-        'If you want to open download page when user click on download button uncomment below line.
-
-        'AutoUpdater.OpenDownloadPage = true;
-
-        'Don't want user to select remind later time in AutoUpdater notification window then uncomment 3 lines below so default remind later time will be set to 2 days.
-
-        'AutoUpdater.LetUserSelectRemindLater = false;
-        'AutoUpdater.RemindLaterTimeSpan = RemindLaterFormat.Days;
-        'AutoUpdater.RemindLaterAt = 2;
-
-        'AutoUpdater.Start("http://rbsoft.org/updates/right-click-enhancer.xml")
-        'AutoUpdater.Start("https://github.com/JTechMe/DotNET-Updater-Files/blob/master/JGDEB.xml")
-        AutoUpdater.Start(appData + "\JTechMe\JumpGo\DevEd\UpdaterDL\DotNET-Updater-Files-master\DotNET-Updater-Files-master\JGDEB.xml")
-        'Timer1.Start()
+        Timer2.Start()
     End Sub
 
     Private Sub JumpGoMain_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
@@ -306,7 +298,7 @@ Public Class JumpGoMain
     End Function
 
     Function CreateNewTab(ByRef url As String)
-
+        'url = My.Settings.NewTab
         Dim t As New Tab
         t.FasterBrowser1.Navigate(url)
         Dim NewTab = TabControl1.TabPages.Add(t)
@@ -337,13 +329,35 @@ Public Class JumpGoMain
         Return 0
     End Function
 
+    Function TabPlusBttn()
+
+        TabControl1.TabPages.Add(TabButtonNew).CloseButtonVisible = False
+        'TabControl1.TabPages.Add(TabButtonNew).Name = "meow123"
+
+        Return 0
+    End Function
+
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         CreateNewTab(My.Settings.NewTab)
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         'Me.Text = TabControl1.SelectedForm.text
-        My.Settings.LastSize = Me.Size
+        If Me.WindowState = FormWindowState.Normal Then
+            My.Settings.LastSize = Me.Size
+            My.Settings.LastWinState = "normal"
+        Else
+            If Me.WindowState = FormWindowState.Maximized Then
+                My.Settings.LastWinState = "maximized"
+            Else
+                If Me.WindowState = FormWindowState.Minimized Then
+                    My.Settings.LastWinState = "normal"
+                End If
+            End If
+        End If
+        'If TabControl1.TabPages.Count = 0 Then
+        'Me.Close()
+        'End If
         'If TabControl1.SelectedForm.text = "About JumpGo Developer Edition" Then
         'If TabControl1.SelectedForm.text = " " Then
         'CreateNewTab("http://www.google.com/")
@@ -371,5 +385,15 @@ Public Class JumpGoMain
 
     Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
         CreateNewTab(My.Settings.NewTab)
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        CreateNewTab(My.Settings.NewTab)
+    End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        If TabControl1.TabPages.Count = 0 Then
+            Me.Close()
+        End If
     End Sub
 End Class

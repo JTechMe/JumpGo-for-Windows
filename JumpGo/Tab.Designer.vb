@@ -44,16 +44,20 @@ Partial Class Tab
         Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
         Me.AddFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RemoveFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
@@ -81,9 +85,13 @@ Partial Class Tab
         Me.Panel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel5.SuspendLayout()
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
@@ -310,13 +318,12 @@ Partial Class Tab
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel1.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.JGTabControlGradient
         Me.Panel1.Controls.Add(Me.ToolStrip2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.Button7)
+        Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.Panel3)
+        Me.Panel1.Controls.Add(Me.PictureBox4)
+        Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
@@ -350,51 +357,27 @@ Partial Class Tab
         '
         'AddFavoriteToolStripMenuItem
         '
-        Me.AddFavoriteToolStripMenuItem.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_action_plus
         Me.AddFavoriteToolStripMenuItem.Name = "AddFavoriteToolStripMenuItem"
         Me.AddFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.AddFavoriteToolStripMenuItem.Text = "Add Favorite"
         '
         'RemoveFavoriteToolStripMenuItem
         '
-        Me.RemoveFavoriteToolStripMenuItem.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_action_delete
         Me.RemoveFavoriteToolStripMenuItem.Name = "RemoveFavoriteToolStripMenuItem"
         Me.RemoveFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.RemoveFavoriteToolStripMenuItem.Text = "Remove Favorite"
         '
-        'Button1
+        'PictureBox3
         '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.BackCircle
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(12, 9)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(30, 30)
-        Me.Button1.TabIndex = 1
-        Me.ToolTip1.SetToolTip(Me.Button1, "Back")
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button7
-        '
-        Me.Button7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button7.BackColor = System.Drawing.Color.Transparent
-        Me.Button7.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.MenuTransparent
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.ForeColor = System.Drawing.Color.Transparent
-        Me.Button7.Location = New System.Drawing.Point(777, 11)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(33, 26)
-        Me.Button7.TabIndex = 13
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Image = Global.JumpGoStandardEdition.My.Resources.Resources.homeTransparent
+        Me.PictureBox3.Location = New System.Drawing.Point(498, 11)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(41, 26)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox3.TabIndex = 21
+        Me.PictureBox3.TabStop = False
         '
         'Panel3
         '
@@ -417,16 +400,16 @@ Partial Class Tab
         Me.TextBox2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(31, 3)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(188, 19)
+        Me.TextBox2.Size = New System.Drawing.Size(186, 19)
         Me.TextBox2.TabIndex = 8
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.BarEnd
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(197, 0)
+        Me.PictureBox1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BarEnd
+        Me.PictureBox1.Location = New System.Drawing.Point(196, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox1.Size = New System.Drawing.Size(24, 24)
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
@@ -446,20 +429,54 @@ Partial Class Tab
         Me.Button6.TabIndex = 9
         Me.Button6.UseVisualStyleBackColor = True
         '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BackCircleDis
+        Me.PictureBox4.Location = New System.Drawing.Point(12, 9)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(30, 29)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 20
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.JumpGoStandardEdition.My.Resources.Resources.MenuTransparent
+        Me.PictureBox2.Location = New System.Drawing.Point(777, 11)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(33, 26)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox2.TabIndex = 22
+        Me.PictureBox2.TabStop = False
+        '
         'Panel2
         '
         Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel2.BackColor = System.Drawing.SystemColors.Window
         Me.Panel2.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.URLbar
+        Me.Panel2.Controls.Add(Me.PictureBox5)
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Button20)
         Me.Panel2.Controls.Add(Me.TextBox1)
-        Me.Panel2.Controls.Add(Me.Button2)
-        Me.Panel2.Location = New System.Drawing.Point(35, 11)
+        Me.Panel2.Location = New System.Drawing.Point(42, 11)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(421, 25)
+        Me.Panel2.Size = New System.Drawing.Size(415, 25)
         Me.Panel2.TabIndex = 11
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(0, -1)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(23, 27)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox5.TabIndex = 23
+        Me.PictureBox5.TabStop = False
         '
         'Button4
         '
@@ -472,7 +489,7 @@ Partial Class Tab
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.ForeColor = System.Drawing.Color.Transparent
-        Me.Button4.Location = New System.Drawing.Point(388, 0)
+        Me.Button4.Location = New System.Drawing.Point(382, 0)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(33, 26)
         Me.Button4.TabIndex = 4
@@ -488,7 +505,7 @@ Partial Class Tab
         Me.Button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button20.ForeColor = System.Drawing.Color.Transparent
-        Me.Button20.Location = New System.Drawing.Point(30, 0)
+        Me.Button20.Location = New System.Drawing.Point(23, 0)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(25, 26)
         Me.Button20.TabIndex = 4
@@ -504,44 +521,78 @@ Partial Class Tab
         Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(61, 3)
+        Me.TextBox1.Location = New System.Drawing.Point(49, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(321, 19)
+        Me.TextBox1.Size = New System.Drawing.Size(327, 19)
         Me.TextBox1.TabIndex = 0
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(175, 167)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(30, 30)
+        Me.Button1.TabIndex = 6
+        Me.ToolTip1.SetToolTip(Me.Button1, "Back")
+        Me.Button1.UseVisualStyleBackColor = False
+        Me.Button1.Visible = False
+        '
+        'Button7
+        '
+        Me.Button7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button7.FlatAppearance.BorderSize = 0
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.ForeColor = System.Drawing.Color.Transparent
+        Me.Button7.Location = New System.Drawing.Point(467, 232)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(33, 26)
+        Me.Button7.TabIndex = 13
+        Me.Button7.UseVisualStyleBackColor = False
+        Me.Button7.Visible = False
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.ForwardSquare
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(7, 0)
+        Me.Button2.Location = New System.Drawing.Point(243, 115)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(23, 26)
         Me.Button2.TabIndex = 2
         Me.ToolTip1.SetToolTip(Me.Button2, "Forward")
         Me.Button2.UseVisualStyleBackColor = False
+        Me.Button2.Visible = False
         '
         'Button5
         '
         Me.Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.homeTransparent
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button5.FlatAppearance.BorderSize = 0
         Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.ForeColor = System.Drawing.Color.Transparent
-        Me.Button5.Location = New System.Drawing.Point(498, 11)
+        Me.Button5.Location = New System.Drawing.Point(459, 114)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(41, 26)
         Me.Button5.TabIndex = 5
         Me.Button5.UseVisualStyleBackColor = False
+        Me.Button5.Visible = False
         '
         'OpenFileDialog1
         '
@@ -567,7 +618,7 @@ Partial Class Tab
         '
         'FastColoredTextBox1
         '
-        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(2, 14)
+        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(27, 14)
         Me.FastColoredTextBox1.BackBrush = Nothing
         Me.FastColoredTextBox1.CharHeight = 14
         Me.FastColoredTextBox1.CharWidth = 8
@@ -603,7 +654,6 @@ Partial Class Tab
         '
         Me.ToolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_action_delete
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
@@ -612,10 +662,9 @@ Partial Class Tab
         '
         'ToolStripButton2
         '
-        Me.ToolStripButton2.Image = Global.JumpGoStandardEdition.My.Resources.Resources.web_hi_res_512
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(138, 22)
+        Me.ToolStripButton2.Size = New System.Drawing.Size(122, 22)
         Me.ToolStripButton2.Text = "View Source Window"
         '
         'ContextMenuStrip1
@@ -697,7 +746,7 @@ Partial Class Tab
         Me.FasterBrowser1.Location = New System.Drawing.Point(0, 45)
         Me.FasterBrowser1.Name = "FasterBrowser1"
         Me.FasterBrowser1.Size = New System.Drawing.Size(822, 488)
-        Me.FasterBrowser1.TabIndex = 6
+        Me.FasterBrowser1.TabIndex = 1
         Me.FasterBrowser1.UseHttpActivityObserver = False
         '
         'Tab
@@ -705,7 +754,11 @@ Partial Class Tab
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(822, 533)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Panel4)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.FasterBrowser1)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel1)
@@ -718,11 +771,15 @@ Partial Class Tab
         Me.Panel1.PerformLayout()
         Me.ToolStrip2.ResumeLayout(False)
         Me.ToolStrip2.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -786,4 +843,8 @@ Partial Class Tab
     Friend WithEvents ToolStripDropDownButton1 As ToolStripDropDownButton
     Friend WithEvents AddFavoriteToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RemoveFavoriteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
 End Class

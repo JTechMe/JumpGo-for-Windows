@@ -30,6 +30,8 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -106,7 +108,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Geckofx-Winforms.dll</HintPath>
     </Reference>
-    <Reference Include="MdiTabControl, Version=1.0.3742.19745, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="MdiTabControl, Version=1.1.6015.39347, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\MdiTabControl.dll</HintPath>
     </Reference>
@@ -179,6 +181,7 @@
     <Compile Include="AppBuildTester.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="CurVerIDClass.vb" />
     <Compile Include="HistoryForm.Designer.vb">
       <DependentUpon>HistoryForm.vb</DependentUpon>
@@ -482,6 +485,14 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\ForwardSquareDis.png" />
+    <None Include="Resources\ForwardSquareDown.png" />
+    <None Include="Resources\ForwardSquareOver.png" />
+    <None Include="Resources\BackCircleDown.png" />
+    <None Include="Resources\BackCircleOver.png" />
+    <None Include="Resources\BackCircleDis.png" />
+    <None Include="Resources\NewTabZ.png" />
+    <None Include="Resources\errorLarge.png" />
     <None Include="Resources\MenuBG.png" />
     <None Include="Resources\web_hi_res_512.png" />
     <None Include="bin\Debug\JumpGo_Dev_Edition_Updated.ico" />
@@ -987,7 +998,6 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

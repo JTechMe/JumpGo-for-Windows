@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("JumpGo")>
-<Assembly: AssemblyDescription("The internet just got better!")>
+<Assembly: AssemblyDescription("JumpGo Web Browser by JTechMe")>
 <Assembly: AssemblyCompany("JTechMe")>
 <Assembly: AssemblyProduct("JumpGo")>
 <Assembly: AssemblyCopyright("Copyright © JTechMe 2015")> 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("4.3.5.0")>
+<Assembly: AssemblyVersion("4.3.6.8")>
 <Assembly: AssemblyFileVersion("1.0.0.0")> 

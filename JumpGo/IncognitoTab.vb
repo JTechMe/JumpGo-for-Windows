@@ -6,6 +6,7 @@ Imports Gecko
 'Imports System.IO
 Imports System.Linq
 Imports System.Reflection
+Imports Gecko.ObserverNotifications
 
 Public Class IncognitoTab
 
@@ -216,6 +217,7 @@ Public Class IncognitoTab
     End Sub
 
     Private Sub Tab_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         If My.Settings.FirstRun = True Then
             FasterBrowser1.Navigate(Environment.CurrentDirectory + "\Incognito\New Tab.html")
             My.Settings.FirstRun = False

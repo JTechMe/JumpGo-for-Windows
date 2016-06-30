@@ -1,0 +1,125 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">JumpGo</span>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search">
+              <label class="mdl-textfield__label" for="search">Enter your query...</label>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <div class="demo-crumbs mdl-color-text--grey-500">
+              JTechMe &gt; JumpGo &gt; Welcome
+            </div>
+            <h3>New Features</h3>
+              <p>
+                Features of this version of JumpGo include a new navigation panel, a menu panel, a Settings window and more.
+				</p>
+              <p>
+			  The most obvious feature when you start up JumpGo is going to be the new navigation panel. This new navigation panel breathes life into the old navigation buttons bringing them into 2015 with a new sleek ui. This panel contains the standard navigation buttons you're used to seeing in the beta versions of JumpGo but also holds a new menu button. This menu button opens up the brand new menu panel.
+              </p>
+              <p>
+			  The menu panel is a feature that has popped up here and there in browsers such as Chrome, Firefox, Internet Explorer and many more, so we only thought it fitting to include it in this release of JumpGo. From the menu you now have access to parts of the browser that weren't available before the menu panel that include "New Window", Settings", Theme Designer" and "Open HTML". The menu also brings back a few old features from the beta v.1.x series and beta v.2.x series such as "New Tab", "About" and Exit".
+              </p>
+			  <p>
+			  Another feature is the Settings window. This window allows the user to change different aspects of the browser such as the version logo. JumpGo now supports switching to legacy logos from previous versions. You can also change the default search engine, the home page and the new tab page. Theme settings are available from the Settings window but for advanced theme settings it is recommened to use the Theme Designer. Addons are not currently available but will be available in the future.
+			  </p>
+			  <p>
+			  One of the most recent features is the inclusion of themes. You now have more control over your customization of JumpGo. To create your own theme you can simply open the theme designer from either the menu or the Settings window and applying your theme. For creating a sharable theme, you can use a theme template downloaded from this site as a starting point and simply replace the image files with your own. (Remember to use the exact naming conventions used in the theme template.
+			  </p>
+            <h3>Faster with Gecko</h3>
+              <p>
+			  By using the GeckoFX renderinng engine by Mozilla, the speed of the browser was trippled from the beta v.2.x series that used the Trident rendering engine. This switch from Trident to Gecko trippled the browseing speed and reduced the number of crashes to almost none. Gecko also allows for a better html5 experience.
+              </p>
+          </div>
+        </div>
+        <footer class="demo-footer mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <ul class="mdl-mini-footer--link-list">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy and Terms</a></li>
+              <li><a href="#">User Agreement</a></li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <a href="https://jumpgodev.codeplex.com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Developer Edition</a>
+    <script src="../../material.min.js"></script>
+  </body>
+</html>

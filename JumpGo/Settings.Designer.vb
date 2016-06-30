@@ -544,7 +544,6 @@ Partial Class Settings
         '
         Me.RadioButton11.AutoSize = True
         Me.RadioButton11.Checked = True
-        Me.RadioButton11.Enabled = False
         Me.RadioButton11.Location = New System.Drawing.Point(168, 19)
         Me.RadioButton11.Name = "RadioButton11"
         Me.RadioButton11.Size = New System.Drawing.Size(55, 17)
@@ -556,6 +555,7 @@ Partial Class Settings
         'RadioButton10
         '
         Me.RadioButton10.AutoSize = True
+        Me.RadioButton10.Enabled = False
         Me.RadioButton10.Location = New System.Drawing.Point(6, 19)
         Me.RadioButton10.Name = "RadioButton10"
         Me.RadioButton10.Size = New System.Drawing.Size(76, 17)

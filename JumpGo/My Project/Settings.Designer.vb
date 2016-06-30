@@ -68,7 +68,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("https://www.google.com/#q=")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("https://www.google.com/search?client=jumpgo&ie=UTF-8&oe=UTF-8&q=")>  _
         Public Property Search() As String
             Get
                 Return CType(Me("Search"),String)
@@ -80,7 +80,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("https://www.google.com/#q=")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("https://www.google.com/search?client=jumpgo&ie=UTF-8&oe=UTF-8&q=")>  _
         Public Property Google() As String
             Get
                 Return CType(Me("Google"),String)
@@ -369,7 +369,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("https://duckduckgo.com/?q=")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("https://duckduckgo.com/?t=jumpgo&q=")>  _
         Public Property DuckDuckGoSearch() As String
             Get
                 Return CType(Me("DuckDuckGoSearch"),String)
@@ -411,6 +411,30 @@ Namespace My
             End Get
             Set
                 Me("CurVerIDAvai") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("normal")>  _
+        Public Property LastWinState() As String
+            Get
+                Return CType(Me("LastWinState"),String)
+            End Get
+            Set
+                Me("LastWinState") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property AeroTabs() As Boolean
+            Get
+                Return CType(Me("AeroTabs"),Boolean)
+            End Get
+            Set
+                Me("AeroTabs") = value
             End Set
         End Property
     End Class
