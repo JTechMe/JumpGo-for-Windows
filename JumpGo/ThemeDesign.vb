@@ -199,4 +199,27 @@ Public Class ThemeDesign
             My.Settings.HighContrast = False
         End If
     End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = True Then
+            If My.Settings.HighContrast = True Then
+                Panel1.BackgroundImage = My.Resources.JGTabControlGradient_HC
+                Tab.Panel1.BackgroundImage = My.Resources.JGTabControlGradient_HC
+                InfoTab.Panel1.BackgroundImage = My.Resources.JGTabControlGradient_HC
+                HistoryForm.Panel1.BackgroundImage = My.Resources.JGTabControlGradient_HC
+                Button27.Text = "High Contrast Mode - Enabled"
+            Else
+                Panel1.BackgroundImage = My.Resources.JGTabControlGradient
+                Tab.Panel1.BackgroundImage = My.Resources.JGTabControlGradient
+                InfoTab.Panel1.BackgroundImage = My.Resources.JGTabControlGradient
+                HistoryForm.Panel1.BackgroundImage = My.Resources.JGTabControlGradient
+                Button27.Text = "High Contrast Mode - Disabled"
+            End If
+            GroupBox1.Enabled = True
+            My.Settings.NavPnlBGEnabled = True
+        Else
+            Tab.Panel1.BackgroundImage = Nothing
+            My.Settings.NavPnlBGEnabled = False
+        End If
+    End Sub
 End Class

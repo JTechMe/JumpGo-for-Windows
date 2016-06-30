@@ -73,6 +73,7 @@ Partial Class Tab
         Me.BackToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ForwardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.OpenInNewTabToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CopyImageContentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CopyImageLocationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SelectAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -669,9 +670,9 @@ Partial Class Tab
         '
         'ContextMenuStrip1
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackToolStripMenuItem, Me.ForwardToolStripMenuItem, Me.ToolStripSeparator1, Me.CopyImageContentsToolStripMenuItem, Me.CopyImageLocationToolStripMenuItem, Me.SelectAllToolStripMenuItem, Me.ToolStripSeparator2, Me.ViewSourceToolStripMenuItem, Me.ViewInSystemBrowserToolStripMenuItem, Me.PagePropertiesToolStripMenuItem, Me.LMNOPToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackToolStripMenuItem, Me.ForwardToolStripMenuItem, Me.ToolStripSeparator1, Me.OpenInNewTabToolStripMenuItem, Me.CopyImageContentsToolStripMenuItem, Me.CopyImageLocationToolStripMenuItem, Me.SelectAllToolStripMenuItem, Me.ToolStripSeparator2, Me.ViewSourceToolStripMenuItem, Me.ViewInSystemBrowserToolStripMenuItem, Me.PagePropertiesToolStripMenuItem, Me.LMNOPToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(199, 214)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(199, 236)
         '
         'BackToolStripMenuItem
         '
@@ -689,6 +690,13 @@ Partial Class Tab
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         Me.ToolStripSeparator1.Size = New System.Drawing.Size(195, 6)
+        '
+        'OpenInNewTabToolStripMenuItem
+        '
+        Me.OpenInNewTabToolStripMenuItem.Name = "OpenInNewTabToolStripMenuItem"
+        Me.OpenInNewTabToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.OpenInNewTabToolStripMenuItem.Text = "Open in New Tab"
+        Me.OpenInNewTabToolStripMenuItem.Visible = False
         '
         'CopyImageContentsToolStripMenuItem
         '
@@ -847,4 +855,5 @@ Partial Class Tab
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents OpenInNewTabToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -127,26 +127,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23154688">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23157248">
       <assemblyIdentity name="JumpGo" version="4.3.6.8" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AK+71Qpd6dZkHHegN4mCkDShMmQDvBudoFd29X4JCY4=</dsig:DigestValue>
+        <dsig:DigestValue>UejMwjeo4qvwC74eSftOTSxs2mY75azgMgcxBYiF63U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="198144">
-      <assemblyIdentity name="MdiTabControl" version="1.1.6015.39347" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="138240">
+      <assemblyIdentity name="MdiTabControl" version="1.1.6022.15796" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>O+ygAZ5PJ8VwZPFPTt8Tnji9+AnG75GUKiOQrU65KKQ=</dsig:DigestValue>
+        <dsig:DigestValue>xKx0FY1o3WQvut/ghXHaQSOc8kuazRIkLpE6K4c9348=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -693,13 +693,13 @@
       <dsig:DigestValue>FxWIpU67w3jd/SAdOEVUV3v0erw+awU6sNdecMX4SXk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\Debug\MdiTabControl.dll" size="198144">
+  <file name="bin\Debug\MdiTabControl.dll" size="138240">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>O+ygAZ5PJ8VwZPFPTt8Tnji9+AnG75GUKiOQrU65KKQ=</dsig:DigestValue>
+      <dsig:DigestValue>xKx0FY1o3WQvut/ghXHaQSOc8kuazRIkLpE6K4c9348=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\mdl-templates\assets\android-desktop.png" size="5531">
@@ -3726,13 +3726,13 @@
       <dsig:DigestValue>Wx6fRMx2lmGudOLAQcjdbBX3n22k5lOStVsXNvO3P+I=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="JumpGo.exe.config" size="4953">
+  <file name="JumpGo.exe.config" size="5062">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>SA7+dFxp0+ZiWSglNE/Gk6ucnGWY/ZmKRbmdW6yLldY=</dsig:DigestValue>
+      <dsig:DigestValue>984YZ2FX6eSVxTGJn6DfGIJualrX7XaKs6tO4eS7Qbg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="JumpGo.ico" size="13546574">

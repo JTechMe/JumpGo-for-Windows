@@ -55,7 +55,7 @@ Public Class Tab
             'AxWebBrowser1.Navigate(TextBox1.Text)
             Dim uri As Uri
 
-            If System.Uri.TryCreate(TextBox1.Text, UriKind.Absolute, uri) Then
+            If System.Uri.TryCreate(TextBox1.Text, UriKind.RelativeOrAbsolute, uri) Then
                 ' Navigate to it
                 FasterBrowser1.Navigate(TextBox1.Text)
             Else
@@ -115,6 +115,14 @@ Public Class Tab
         MenuOpen = False
     End Sub
 
+    Private Sub FasterBrowser1_DomFocus(sender As Object, e As EventArgs) Handles FasterBrowser1.DomFocus
+        'm_strInnerHtml = FasterBrowser1.Document.ActiveElement.GetAttribute("href")
+    End Sub
+
+    Private Sub FasterBrowser1_Navigating(sender As Object, e As EventArgs) Handles FasterBrowser1.Navigating
+        Me.Text = "Connecting..."
+    End Sub
+
     Private Sub FasterBrowser1_Navigated(sender As Object, e As GeckoNavigatedEventArgs) Handles FasterBrowser1.Navigated
         FasterBrowser1.ContextMenuStrip = ContextMenuStrip1
         FasterBrowser1.ContextMenu = ContextMenuStrip1.ContextMenu
@@ -126,12 +134,15 @@ Public Class Tab
         'Me.Icon
         'Me.Text = FasterBrowser1.Document.Title.ToString
         'Me.Text = FasterBrowser1.Text.ToString
-        Me.Text = FasterBrowser1.DocumentTitle.ToString
+        'Me.Text = FasterBrowser1.DocumentTitle.ToString
         'Me.Text = FasterBrowser1.Url.AbsoluteUri
-        If cz119 = Environment.CurrentDirectory + "\Welcome\index.html" Then
+        If cz119 = Environment.CurrentDirectory + "/Welcome/index.html" Then
             TextBox1.Text = "JumpGo://Welcome"
         End If
-        If cz119.Contains(Environment.CurrentDirectory + "\Welcome\index.html") Then
+        If cz119.Contains(Environment.CurrentDirectory + "/Welcome/index.html") Then
+            TextBox1.Text = "JumpGo://Welcome"
+        End If
+        If cz119.Contains("Welcome/index.html") Then
             TextBox1.Text = "JumpGo://Welcome"
         End If
         If cz119.Contains("https://") Then
@@ -156,6 +167,8 @@ Public Class Tab
         Else
             PictureBox4.Image = My.Resources.BackCircleDis
         End If
+
+        Me.ToolTip1.ToolTipTitle = FasterBrowser1.DocumentTitle
     End Sub
 
     Private Sub FasterBrowser1_DocumentCompleted(sender As Object, e As EventArgs) Handles FasterBrowser1.DocumentCompleted
@@ -164,20 +177,20 @@ Public Class Tab
 
         'AxWebBrowser1.Navigate(FasterBrowser1.Url)
         'FasterBrowser1.Url.ToString()
-        TextBox1.Text = FasterBrowser1.Url.ToString
+        'TextBox1.Text = FasterBrowser1.Url.ToString
         Dim cz119 As String = FasterBrowser1.Url.ToString
         'Me.Icon
         'Me.Text = FasterBrowser1.Document.Title.ToString
         'Me.Text = FasterBrowser1.Text.ToString
         Me.Text = FasterBrowser1.DocumentTitle.ToString
         'Me.Text = FasterBrowser1.Url.AbsoluteUri
-        If FasterBrowser1.Url.AbsolutePath = Environment.CurrentDirectory + " \ Welcome \ Index.html" Then
+        If FasterBrowser1.Url.AbsolutePath = Environment.CurrentDirectory + "/Welcome/index.html" Then
             TextBox1.Text = "JumpGo: //Welcome"
         End If
-        If cz119 = Environment.CurrentDirectory + "\Welcome\index.html" Then
+        If cz119 = Environment.CurrentDirectory + "/Welcome/index.html" Then
             TextBox1.Text = "JumpGo://Welcome"
         End If
-        If cz119.Contains(Environment.CurrentDirectory + "\Welcome\index.html") Then
+        If cz119.Contains(Environment.CurrentDirectory + "/Welcome/index.html") Then
             TextBox1.Text = "JumpGo://Welcome"
         End If
         If cz119.Contains("https://") Then
@@ -243,6 +256,8 @@ Public Class Tab
         Else
             PictureBox4.Image = My.Resources.BackCircleDis
         End If
+
+        Me.ToolTip1.ToolTipTitle = FasterBrowser1.DocumentTitle
     End Sub
 
     Private Sub geticon()
@@ -362,6 +377,7 @@ Public Class Tab
 
     Private Sub Tab_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         GeckoPreferences.Default("extensions.blocklist.enabled") = False
+        'GeckoPreferences.Default()
         FasterBrowser1.ContextMenuStrip = ContextMenuStrip1
         FasterBrowser1.ContextMenu = ContextMenuStrip1.ContextMenu
         If My.Settings.FirstRun = True Then
@@ -402,8 +418,13 @@ Public Class Tab
             Button6.BackgroundImage = My.Resources.SearchButton
             'Button7.BackgroundImage = My.Resources.MenuTransparent
         End If
+
+        Dim WinVerID As String = Environment.OSVersion.ToString()
+
         'Dim sUserAgent As String = "Mozilla/5.0 (Windows; U; Windows NT 6.1; pl; rv:1.9.1) Gecko/20090624 Firefox/3.5 (.NET CLR 3.5.30729)"
-        Dim sUserAgent As String = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0"
+        'Dim sUserAgent As String = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0"
+        Dim sUserAgent As String = "Mozilla/5.0 (Windows NT " + WinVerID + "; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0"
+        'Dim sUserAgent As String = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 JumpGo/43.0"
         'Dim sUserAgent As String = "Mozilla/5.0 (Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 JumpGo/4.3"
         'Dim sUserAgent As String = "JTechMe/5.0 (Windows; U; Windows NT 6.1; pl; rv:1.9.1) Gecko/20090624 JumpGo/4.3 (.NET CLR 3.5.30729)"
         GeckoPreferences.User("general.useragent.override") = sUserAgent
@@ -788,5 +809,22 @@ Public Class Tab
         Else
             PictureBox5.Image = My.Resources.ForwardSquareDis
         End If
+    End Sub
+
+    Private Sub CopyImageLocationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CopyImageLocationToolStripMenuItem.Click
+        FasterBrowser1.CopyLinkLocation()
+    End Sub
+
+    Private Sub OpenInNewTabToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OpenInNewTabToolStripMenuItem.Click
+        'FasterBrowser1.Document.ActiveElement.
+        'JumpGoMain.CreateNewTab("")
+    End Sub
+
+    Private Sub FasterBrowser1_Navigating(sender As Object, e As Events.GeckoNavigatingEventArgs) Handles FasterBrowser1.Navigating
+
+    End Sub
+
+    Private Sub FasterBrowser1_DomFocus(sender As Object, e As DomEventArgs) Handles FasterBrowser1.DomFocus
+
     End Sub
 End Class

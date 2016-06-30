@@ -212,3 +212,10 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 /JumpGo-for-Windows/
+*.msi
+JGSetupTBU/Debug/setup.exe
+JGUpdater/bin/Debug/JGUpdater.exe
+JGUpdater/bin/Debug/JGUpdater.exe
+JumpGo/bin/Debug/JumpGo.exe
+JumpGo/obj/Debug/JumpGo.exe
+JumpGo/obj/Release/JumpGo Developer.exe

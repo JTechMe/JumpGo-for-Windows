@@ -437,6 +437,18 @@ Namespace My
                 Me("AeroTabs") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property NavPnlBGEnabled() As Boolean
+            Get
+                Return CType(Me("NavPnlBGEnabled"),Boolean)
+            End Get
+            Set
+                Me("NavPnlBGEnabled") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

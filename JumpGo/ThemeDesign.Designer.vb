@@ -85,6 +85,7 @@ Partial Class ThemeDesign
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button28 = New System.Windows.Forms.Button()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Panel4.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -232,7 +233,7 @@ Partial Class ThemeDesign
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(48, 19)
+        Me.TextBox3.Location = New System.Drawing.Point(48, 25)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(151, 20)
         Me.TextBox3.TabIndex = 13
@@ -241,7 +242,7 @@ Partial Class ThemeDesign
         '
         Me.Button15.FlatAppearance.BorderSize = 0
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Location = New System.Drawing.Point(205, 19)
+        Me.Button15.Location = New System.Drawing.Point(205, 25)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(30, 20)
         Me.Button15.TabIndex = 14
@@ -258,9 +259,10 @@ Partial Class ThemeDesign
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox3)
         Me.GroupBox1.Controls.Add(Me.Button15)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 186)
+        Me.GroupBox1.Enabled = False
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 183)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(241, 107)
+        Me.GroupBox1.Size = New System.Drawing.Size(241, 110)
         Me.GroupBox1.TabIndex = 15
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Navigation Panel"
@@ -269,7 +271,7 @@ Partial Class ThemeDesign
         '
         Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button27.Location = New System.Drawing.Point(6, 75)
+        Me.Button27.Location = New System.Drawing.Point(6, 81)
         Me.Button27.Name = "Button27"
         Me.Button27.Size = New System.Drawing.Size(229, 23)
         Me.Button27.TabIndex = 20
@@ -278,7 +280,7 @@ Partial Class ThemeDesign
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(48, 46)
+        Me.TextBox4.Location = New System.Drawing.Point(48, 52)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(90, 20)
         Me.TextBox4.TabIndex = 19
@@ -287,7 +289,7 @@ Partial Class ThemeDesign
         '
         Me.Button17.FlatAppearance.BorderSize = 0
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.Location = New System.Drawing.Point(180, 45)
+        Me.Button17.Location = New System.Drawing.Point(180, 51)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(55, 20)
         Me.Button17.TabIndex = 18
@@ -297,7 +299,7 @@ Partial Class ThemeDesign
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 49)
+        Me.Label2.Location = New System.Drawing.Point(6, 55)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(31, 13)
         Me.Label2.TabIndex = 17
@@ -307,7 +309,7 @@ Partial Class ThemeDesign
         '
         Me.Button16.FlatAppearance.BorderSize = 0
         Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Location = New System.Drawing.Point(144, 46)
+        Me.Button16.Location = New System.Drawing.Point(144, 52)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(30, 20)
         Me.Button16.TabIndex = 16
@@ -317,7 +319,7 @@ Partial Class ThemeDesign
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 22)
+        Me.Label1.Location = New System.Drawing.Point(6, 28)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(36, 13)
         Me.Label1.TabIndex = 15
@@ -362,7 +364,7 @@ Partial Class ThemeDesign
         Me.GroupBox2.Controls.Add(Me.Button18)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.Button20)
-        Me.GroupBox2.Location = New System.Drawing.Point(42, 130)
+        Me.GroupBox2.Location = New System.Drawing.Point(42, 96)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(171, 50)
         Me.GroupBox2.TabIndex = 20
@@ -429,7 +431,7 @@ Partial Class ThemeDesign
         Me.GroupBox3.Controls.Add(Me.Label5)
         Me.GroupBox3.Controls.Add(Me.TextBox6)
         Me.GroupBox3.Controls.Add(Me.Button23)
-        Me.GroupBox3.Location = New System.Drawing.Point(217, 103)
+        Me.GroupBox3.Location = New System.Drawing.Point(217, 69)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(241, 77)
         Me.GroupBox3.TabIndex = 20
@@ -571,7 +573,6 @@ Partial Class ThemeDesign
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel1.BackgroundImage = Global.JumpGoStandardEdition.My.Resources.Resources.JGTabControlGradient
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Button7)
         Me.Panel1.Controls.Add(Me.Panel3)
@@ -773,11 +774,22 @@ Partial Class ThemeDesign
         Me.Button28.TabIndex = 14
         Me.Button28.UseVisualStyleBackColor = False
         '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(21, 160)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(202, 17)
+        Me.CheckBox1.TabIndex = 21
+        Me.CheckBox1.Text = "Enable NavPanel Background Image"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'ThemeDesign
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(751, 296)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button28)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button26)
@@ -873,4 +885,5 @@ Partial Class ThemeDesign
     Private WithEvents LineShape3 As PowerPacks.LineShape
     Private WithEvents LineShape2 As PowerPacks.LineShape
     Private WithEvents LineShape4 As PowerPacks.LineShape
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
