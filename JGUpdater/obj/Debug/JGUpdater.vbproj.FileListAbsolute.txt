@@ -14,3 +14,4 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpda
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.pdb
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.GHUForm.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.ZIPUpdater.resources

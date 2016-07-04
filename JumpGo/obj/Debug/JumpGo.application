@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="JumpGo.exe.manifest" size="181108">
+    <dependentAssembly dependencyType="install" codebase="JumpGo.exe.manifest" size="181116">
       <assemblyIdentity name="JumpGo.exe" version="4.3.1.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LxReROMGW/6uZM/zKD96wT996itprPjSv2kHZTlZT50=</dsig:DigestValue>
+        <dsig:DigestValue>yTtWKqblZd9ZQUuidyealZWt9Hz4J5ru0+FE5xKTtpA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -31,7 +31,20 @@ Partial Class JumpGoMain
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.TabControl1 = New MdiTabControl.TabControl()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
+        Me.NewTabToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewWindowToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewPrivateWindowToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.OpenFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SavePageAsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextMenuStrip2 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1.SuspendLayout()
+        Me.ToolStrip2.SuspendLayout()
+        Me.ContextMenuStrip2.SuspendLayout()
         Me.SuspendLayout()
         '
         'ContextMenuStrip1
@@ -83,6 +96,7 @@ Partial Class JumpGoMain
         Me.TabControl1.BackLowColor = System.Drawing.Color.Transparent
         Me.TabControl1.BorderColor = System.Drawing.Color.DimGray
         Me.TabControl1.BorderColorDisabled = System.Drawing.Color.Transparent
+        Me.TabControl1.ContextMenuStrip = Me.ContextMenuStrip2
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.MenuRenderer = Nothing
@@ -126,12 +140,97 @@ Partial Class JumpGoMain
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'ToolStrip2
+        '
+        Me.ToolStrip2.BackColor = System.Drawing.Color.Transparent
+        Me.ToolStrip2.ContextMenuStrip = Me.ContextMenuStrip2
+        Me.ToolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripDropDownButton1})
+        Me.ToolStrip2.Location = New System.Drawing.Point(0, 0)
+        Me.ToolStrip2.Name = "ToolStrip2"
+        Me.ToolStrip2.Size = New System.Drawing.Size(781, 25)
+        Me.ToolStrip2.TabIndex = 8
+        Me.ToolStrip2.Text = "ToolStrip2"
+        Me.ToolStrip2.Visible = False
+        '
+        'ToolStripDropDownButton1
+        '
+        Me.ToolStripDropDownButton1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewTabToolStripMenuItem, Me.NewWindowToolStripMenuItem, Me.NewPrivateWindowToolStripMenuItem, Me.ToolStripSeparator1, Me.OpenFileToolStripMenuItem, Me.SavePageAsToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.ToolStripDropDownButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.ToolStripDropDownButton1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.MenuTransparent
+        Me.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1"
+        Me.ToolStripDropDownButton1.Size = New System.Drawing.Size(54, 22)
+        Me.ToolStripDropDownButton1.Text = "File"
+        '
+        'NewTabToolStripMenuItem
+        '
+        Me.NewTabToolStripMenuItem.Name = "NewTabToolStripMenuItem"
+        Me.NewTabToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.T), System.Windows.Forms.Keys)
+        Me.NewTabToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
+        Me.NewTabToolStripMenuItem.Text = "New Tab"
+        '
+        'NewWindowToolStripMenuItem
+        '
+        Me.NewWindowToolStripMenuItem.Name = "NewWindowToolStripMenuItem"
+        Me.NewWindowToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
+        Me.NewWindowToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
+        Me.NewWindowToolStripMenuItem.Text = "New Window"
+        '
+        'NewPrivateWindowToolStripMenuItem
+        '
+        Me.NewPrivateWindowToolStripMenuItem.Name = "NewPrivateWindowToolStripMenuItem"
+        Me.NewPrivateWindowToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
+            Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
+        Me.NewPrivateWindowToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
+        Me.NewPrivateWindowToolStripMenuItem.Text = "New Private Window"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(254, 6)
+        '
+        'OpenFileToolStripMenuItem
+        '
+        Me.OpenFileToolStripMenuItem.Enabled = False
+        Me.OpenFileToolStripMenuItem.Name = "OpenFileToolStripMenuItem"
+        Me.OpenFileToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
+        Me.OpenFileToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
+        Me.OpenFileToolStripMenuItem.Text = "Open File..."
+        '
+        'SavePageAsToolStripMenuItem
+        '
+        Me.SavePageAsToolStripMenuItem.Enabled = False
+        Me.SavePageAsToolStripMenuItem.Name = "SavePageAsToolStripMenuItem"
+        Me.SavePageAsToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
+        Me.SavePageAsToolStripMenuItem.Text = "Save Page As..."
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'ContextMenuStrip2
+        '
+        Me.ContextMenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem})
+        Me.ContextMenuStrip2.Name = "ContextMenuStrip2"
+        Me.ContextMenuStrip2.Size = New System.Drawing.Size(106, 26)
+        '
+        'MenuToolStripMenuItem
+        '
+        Me.MenuToolStripMenuItem.Image = Global.JumpGoStandardEdition.My.Resources.Resources.MenuTransparent
+        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
+        Me.MenuToolStripMenuItem.Text = "Menu"
+        '
         'JumpGoMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(781, 472)
         Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.ToolStrip2)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.Button1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -140,6 +239,9 @@ Partial Class JumpGoMain
         Me.ShowIcon = False
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
+        Me.ToolStrip2.ResumeLayout(False)
+        Me.ToolStrip2.PerformLayout()
+        Me.ContextMenuStrip2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -151,4 +253,15 @@ Partial Class JumpGoMain
     Friend WithEvents ToolStripButton1 As System.Windows.Forms.ToolStripButton
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
     Friend WithEvents Button1 As Button
+    Friend WithEvents ToolStrip2 As ToolStrip
+    Friend WithEvents ToolStripDropDownButton1 As ToolStripDropDownButton
+    Friend WithEvents NewTabToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NewWindowToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NewPrivateWindowToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OpenFileToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents SavePageAsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContextMenuStrip2 As ContextMenuStrip
+    Friend WithEvents MenuToolStripMenuItem As ToolStripMenuItem
 End Class

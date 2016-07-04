@@ -4,7 +4,7 @@
   <description asmv2:iconFile="JumpGo_4_2_Updated.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo" version="4.3.6.8" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo" version="4.3.6.20319" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23157248">
-      <assemblyIdentity name="JumpGo" version="4.3.6.8" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23161856">
+      <assemblyIdentity name="JumpGo" version="4.3.6.20319" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UejMwjeo4qvwC74eSftOTSxs2mY75azgMgcxBYiF63U=</dsig:DigestValue>
+        <dsig:DigestValue>4eDkMu+x37mPHqrfDxCfD2dYgKSFDppwBZ0jfJ5zu4o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

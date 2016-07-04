@@ -342,6 +342,35 @@ Public Class JumpGoMain
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
+        If ToolStrip2.Visible = True Then
+            'aero extending try
+            Try
+                Me.BackColor = Color.Black 'It must be set to black...
+                Dim Side As Side = New Side
+                Side.Left = 0
+                Side.Right = 0
+                Side.Top = 56
+                Side.Bottom = 0
+                Dim result As Integer = DwmExtendFrameIntoClientArea(Me.Handle, Side)
+            Catch ex As Exception
+            End Try
+            'end of aero extending try
+        Else
+            'aero extending try
+            Try
+                Me.BackColor = Color.Black 'It must be set to black...
+                Dim Side As Side = New Side
+                Side.Left = 0
+                Side.Right = 0
+                Side.Top = 31
+                Side.Bottom = 0
+                Dim result As Integer = DwmExtendFrameIntoClientArea(Me.Handle, Side)
+            Catch ex As Exception
+            End Try
+            'end of aero extending try
+        End If
+
         'Me.Text = TabControl1.SelectedForm.text
         If Me.WindowState = FormWindowState.Normal Then
             My.Settings.LastSize = Me.Size
@@ -395,5 +424,31 @@ Public Class JumpGoMain
         If TabControl1.TabPages.Count = 0 Then
             Me.Close()
         End If
+    End Sub
+
+    Private Sub MenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MenuToolStripMenuItem.Click
+        If ToolStrip2.Visible = False Then
+            ToolStrip2.Visible = True
+        Else
+            ToolStrip2.Visible = False
+        End If
+    End Sub
+
+    Private Sub NewTabToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewTabToolStripMenuItem.Click
+        CreateNewTab(My.Settings.NewTab)
+    End Sub
+
+    Private Sub NewWindowToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewWindowToolStripMenuItem.Click
+        Dim SecondForm As New JumpGoMain
+        SecondForm.Show()
+    End Sub
+
+    Private Sub NewPrivateWindowToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewPrivateWindowToolStripMenuItem.Click
+        Dim NewIncognito As New IncognitoMain
+        NewIncognito.Show()
+    End Sub
+
+    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
+        Me.Close()
     End Sub
 End Class
