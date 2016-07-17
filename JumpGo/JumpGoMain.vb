@@ -28,6 +28,7 @@ Public Class JumpGoMain
 
     Dim timedExtraction As Integer = 0
 
+#Region "Buttons in Dev Ed"
     Public WithEvents TaskButton1 As New ThumbnailToolBarButton(My.Resources.imageres_5302, "Web Source")
     Public WithEvents TaskButton2 As New ThumbnailToolBarButton(My.Resources.imageres_5306, "Source Writer")
     Public WithEvents TaskButton3 As New ThumbnailToolBarButton(My.Resources.IconPlus, "New Tab")
@@ -59,15 +60,17 @@ Public Class JumpGoMain
         Settings.Visible = True
     End Sub
 
-    Private Sub TaskButton5Click(ByVal sender As System.Object, _
+    Private Sub TaskButton5Click(ByVal sender As System.Object,
                            ByVal e As Microsoft.WindowsAPICodePack.Taskbar.ThumbnailButtonClickedEventArgs) _
                            Handles TaskButton5.Click
         Dim SecondForm As New JumpGoMain
         SecondForm.Show()
     End Sub
+#End Region
 
     Private browser As GeckoWebBrowser
 
+#Region "New Aero pt 1"
     'begining of the new aero extender function
     <Runtime.InteropServices.StructLayout(Runtime.InteropServices.LayoutKind.Sequential)> Public Structure Side
         Public Left As Integer
@@ -78,6 +81,7 @@ Public Class JumpGoMain
     <Runtime.InteropServices.DllImport("dwmapi.dll")> Public Shared Function DwmExtendFrameIntoClientArea(ByVal hWnd As IntPtr, ByRef pMarinset As Side) As Integer
     End Function
     'end of the aero extender
+#End Region
 
     Sub New()
 
@@ -94,6 +98,7 @@ Public Class JumpGoMain
         'Xpcom.CreateInstance(Of AppDomainManager)("@mozilla.org/login-manager;1")
     End Sub
 
+#Region "Old Import Export Settings Subs"
     Private Sub exportSettings()
         ' Get the path to the Application Data folder
         Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
@@ -174,6 +179,7 @@ Public Class JumpGoMain
 
         'End If
     End Sub
+#End Region
 
     Private Sub JumpGo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -181,6 +187,7 @@ Public Class JumpGoMain
 
         'Process.Start(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData))
 
+#Region "New Aero pt 2"
         'aero extending try
         Try
             Me.BackColor = Color.Black 'It must be set to black...
@@ -193,6 +200,7 @@ Public Class JumpGoMain
         Catch ex As Exception
         End Try
         'end of aero extending try
+#End Region
 
         My.Settings.CurVerIDAvai = My.Application.Info.Version.ToString
         If File.Exists(GetFolderPath(SpecialFolder.ApplicationData) + "\JTechMe\JumpGo\StandardEd\Settings\MySettings.AppSettings") = True Then
@@ -250,6 +258,7 @@ Public Class JumpGoMain
             End If
         End If
 
+#Region "More Buttons in Dev Ed"
         'Here we have the array of 3 buttons (0, 1, 2) which will be our ThumbnailToolbarButtons
         Dim array(4) As ThumbnailToolBarButton
         array(0) = TaskButton1
@@ -259,6 +268,7 @@ Public Class JumpGoMain
         array(4) = TaskButton5
         'Here we make use of the API to add the buttons. It will handle the form itself, and use the array of buttons we defined earlier
         'TaskbarManager.Instance.ThumbnailToolBars.AddButtons(Me.Handle, array)
+#End Region
 
         'NewTabButton("")
 
@@ -269,7 +279,14 @@ Public Class JumpGoMain
             CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
             My.Settings.Upgrade()
             My.Settings.FirstRun = False
-            'Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+            'This will set the size and window state of the JumpGoMain.vb form
+            If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
+                Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
+            Else 'This will run if the last saved window state was not normal
+                If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
+                    Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+                End If
+            End If
         Else
             CreateNewTab(My.Settings.Home)
         End If
@@ -287,6 +304,7 @@ Public Class JumpGoMain
         exportSettings()
     End Sub
 
+#Region "Tab Page Creators"
     Function OpenHistoryTab(ByRef url As String)
 
         Dim t As New HistoryForm
@@ -340,6 +358,7 @@ Public Class JumpGoMain
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         CreateNewTab(My.Settings.NewTab)
     End Sub
+#End Region
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 

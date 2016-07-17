@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Hayır">
+<!ENTITY sync.label "Adblock Plus ayarlarını &amp;eşitle">
+<!ENTITY whitelist.site.label "?1? sitesinde devre dışı kal">
+<!ENTITY notification.closing.button.hide "B&amp;u bildirimi kapat">
+<!ENTITY filters.label "&amp;Süzgeç tercihleri">
+<!ENTITY disable.label "Her yerde devre dışı kal">
+<!ENTITY objecttab.title "Engelle">
+<!ENTITY objecttab.tooltip "Bu nesneyi Adblock Plus ile engellemek için buraya tıklayın.">
+<!ENTITY menuitem.label "Adblock Plus Tercihleri">
+<!ENTITY objecttabs.label "Flash ve &amp;Java'yı kulakçıklarla belirt">
+<!ENTITY sendReport.label "&amp;Bu sayfadaki sorunu bildir">
+<!ENTITY whitelist.page.label "Sadece bu sayfada devre dışı kal">
+<!ENTITY context.image.label "Adblock Plus: Resmi engelle">
+<!ENTITY notification.button.yes "&amp;Evet">
+<!ENTITY opensidebar.label "E&amp;ngellenebilecek öğeleri göster">
+<!ENTITY notification.button.close "&amp;Kapat">
+<!ENTITY shownotifications.label "Yararlı &amp;bildirimleri göster">
+<!ENTITY contribute.label "Adblock Plus'a katkıda bulun">
+<!ENTITY toolbarbutton.label "Adblock Plus">
+<!ENTITY context.frame.label "Adblock Plus: Çerçeveyi engelle">
+<!ENTITY blocked.tooltip "Bu sayfada engellenen öğeler:">
+<!ENTITY notification.closing.button.optout "Bildirim göstermeyi &amp;durdur">
+<!ENTITY counthits.label "Süzgeç isa&amp;betini say">
+<!ENTITY showinstatusbar.label "&amp;Durum çubuğunda göster">
+<!ENTITY sidebar.title "Bu sayfadaki engellenebilecek öğeler">
+<!ENTITY options.label "S&amp;eçenekler">
+<!ENTITY context.object.label "Adblock Plus: Nesneyi engelle">
+<!ENTITY context.removeWhitelist.label "Adblock Plus: Bu sayfada devreye sok">
+<!ENTITY filters.tooltip "En etkin süzgeçler:">
+<!ENTITY closesidebar.label "E&amp;ngellenebilecek öğeleri gizle">
+<!ENTITY showintoolbar.label "A&amp;raç çubuğunda göster">
+<!ENTITY status.tooltip "Durum:">
+<!ENTITY context.media.label "Adblock Plus: Ses/video engelle">

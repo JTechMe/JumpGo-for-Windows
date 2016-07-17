@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Menu Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Menu Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuBM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuBM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JumpGo - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JumpGo - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,8 +130,8 @@
   <data name="BackCircleOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackCircleOver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="secured" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\secured.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="URLbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\URLbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,14 +139,17 @@
   <data name="Graphicloads-100-Flat-Zoom-search-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Graphicloads-100-Flat-Zoom-search-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GridMenuButtonBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GridMenuButtonBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imageres_1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_1024.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageres_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_90.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_action_tabs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_action_tabs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Forward Icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forward Icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,17 +172,23 @@
   <data name="web_hi_res_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\web_hi_res_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuUR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuUR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imageres_5306" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_5306.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Dock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JumpGo_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JumpGo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_customize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_customize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Menu_Icon___Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu Icon - Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_text_size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_text_size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="poweredby_400.6d69147aa379 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poweredby_400.6d69147aa379 - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +202,8 @@
   <data name="ic_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_action_forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_action_forward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="homeTransparentDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homeTransparentDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dgjkbv" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dgjkbv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,20 +211,32 @@
   <data name="BarEnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BarEnd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Forward Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Forward Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuRM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuRM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NewTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="errorLarge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\errorLarge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="JumpGo 4 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JumpGo 4.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Back Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Back Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ForwardSquareOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ForwardSquareOver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Home Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Home Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JGTabControlGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JGTabControlGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuUL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuUL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_action_invert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_action_invert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,14 +247,23 @@
   <data name="Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuTransparentHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuTransparentHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="JumpGo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JumpGo 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageres_114" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_114.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tab Color Swatch - Copy (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tab Color Swatch - Copy (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="JumpGo 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JumpGo 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuLM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuLM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fnal2-570x456 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fnal2-570x456 - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,8 +271,8 @@
   <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Back Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Back Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_action_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageres_109" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_109.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,17 +292,14 @@
   <data name="ic_action_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_action_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imageres_5323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_5323.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imageres_5369" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_5369.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_action_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_action_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackCircle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic_action_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ForwardSquareDis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ForwardSquareDis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JumpGo 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JumpGo 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,11 +307,14 @@
   <data name="dgjkbv___Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dgjkbv - Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JumpGo_Dev_Edition_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\JumpGo Dev Edition.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_action_forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_forward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JumpGo_Dev_Edition_Updated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\JumpGo_Dev_Edition_Updated.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_gear_cog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_gear_cog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JGTabControlGradient_HC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JGTabControlGradient HC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -298,8 +328,8 @@
   <data name="ic_action_collapse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_action_collapse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Forward Icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Forward Icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_action_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageres_5302" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_5302.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -307,23 +337,41 @@
   <data name="arrow-next-3-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow-next-3-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuBR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuBR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BackCircleDis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackCircleDis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_new_window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_new_window.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuFM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuFM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_webpage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_webpage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imageres_5323" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imageres_5323.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_action_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JumpGo 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JumpGo 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="JumpGoAboutLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JumpGoAboutLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_action_reading" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_action_reading.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="JumpGo_Dev_Edition_Updated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\JumpGo_Dev_Edition_Updated.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Home_Icon___Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Home Icon - Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuUM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>AboutBox1.PictureBox1.Image = My.Resources.JumpGo___Copy</value>
   </data>
   <data name="SearchButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SearchButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,8 +382,8 @@
   <data name="imageres_167" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_167.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JGTabControlGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JGTabControlGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_action_tabs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_tabs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arrow-back-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow-back-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,14 +394,17 @@
   <data name="JumpGo_4_2_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JumpGo 4.2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuTransparentDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuTransparentDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MenuTransparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuTransparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_action_expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_action_expand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="errorLarge" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\errorLarge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tab Color Swatch - Copy (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tab Color Swatch - Copy (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NewTabZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewTabZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -369,6 +420,9 @@
   </data>
   <data name="JumpGo Dev Edition" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JumpGo Dev Edition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forward Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forward Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Refresh_Icon___Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Refresh Icon - Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,14 +445,17 @@
   <data name="IconForward" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Iconsmind-Outline-Arrow-Forward-2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="String1" xml:space="preserve">
-    <value>AboutBox1.PictureBox1.Image = My.Resources.JumpGo___Copy</value>
+  <data name="BackCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackCircle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ForwardSquareDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ForwardSquareDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_action_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_action_home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuBL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuBL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Back_Icon___Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Back Icon - Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blueprint_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blueprint_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -409,22 +466,28 @@
   <data name="ic_action_desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_action_desktop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_action_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_action_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GridMenuButtonBGDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GridMenuButtonBGDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JumpGo_Dev_Edition_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\JumpGo Dev Edition.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Stop_Icon___Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Stop Icon - Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="secured" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\secured.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Menu Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_action_text_size" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_action_text_size.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="homeTransparentHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homeTransparentHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Back_Icon___Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Back Icon - Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="JumpGo_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JumpGo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ForwardSquareDis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ForwardSquareDis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_incognito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_incognito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_source" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_source.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

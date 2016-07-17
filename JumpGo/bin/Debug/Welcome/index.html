@@ -49,6 +49,10 @@
       rel="stylesheet">
     <link rel="stylesheet" href="material.min.css">
     <link rel="stylesheet" href="styles.css">
+	
+	<!-- tabzilla -->
+	<link rel="stylesheet" type="text/css" href="css/tabzilla.css" media="screen" />
+	
     <style>
     #view-source {
       position: fixed;
@@ -59,13 +63,20 @@
       margin-bottom: 40px;
       z-index: 900;
     }
+	#tabzilla:before {
+    background-color: #0C99D5;
+}
     </style>
   </head>
   <body>
     <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
       <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">JumpGo</span>
+        <div id="tabzilla">
+			<a href="http://jtechme.github.io/">JTechMe</a>
+		</div>
+		<div class="mdl-layout__header-row">
+		  <img src="images/logo.png">
+          <!--<span class="mdl-layout-title">JumpGo</span>-->
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
@@ -119,7 +130,7 @@
         </footer>
       </main>
     </div>
-    <a href="https://jumpgodev.codeplex.com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Developer Edition</a>
+    <a href="https://github.com/jtechme" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Us on Github</a>
     <script src="../../material.min.js"></script>
   </body>
 </html>

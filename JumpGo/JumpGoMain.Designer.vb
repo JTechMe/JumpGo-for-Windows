@@ -30,6 +30,8 @@ Partial Class JumpGoMain
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.TabControl1 = New MdiTabControl.TabControl()
+        Me.ContextMenuStrip2 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
@@ -40,11 +42,9 @@ Partial Class JumpGoMain
         Me.OpenFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SavePageAsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextMenuStrip2 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1.SuspendLayout()
-        Me.ToolStrip2.SuspendLayout()
         Me.ContextMenuStrip2.SuspendLayout()
+        Me.ToolStrip2.SuspendLayout()
         Me.SuspendLayout()
         '
         'ContextMenuStrip1
@@ -65,7 +65,7 @@ Partial Class JumpGoMain
         Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.None
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1})
-        Me.ToolStrip1.Location = New System.Drawing.Point(757, 0)
+        Me.ToolStrip1.Location = New System.Drawing.Point(834, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(24, 31)
         Me.ToolStrip1.Stretch = True
@@ -130,6 +130,19 @@ Partial Class JumpGoMain
         Me.TabControl1.TabPlusImage = Nothing
         Me.TabControl1.TabPlusVisable = True
         Me.TabControl1.TopSeparator = False
+        '
+        'ContextMenuStrip2
+        '
+        Me.ContextMenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem})
+        Me.ContextMenuStrip2.Name = "ContextMenuStrip2"
+        Me.ContextMenuStrip2.Size = New System.Drawing.Size(106, 26)
+        '
+        'MenuToolStripMenuItem
+        '
+        Me.MenuToolStripMenuItem.Image = Global.JumpGoStandardEdition.My.Resources.Resources.MenuTransparent
+        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
+        Me.MenuToolStripMenuItem.Text = "Menu"
         '
         'Button1
         '
@@ -211,37 +224,24 @@ Partial Class JumpGoMain
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
-        'ContextMenuStrip2
-        '
-        Me.ContextMenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem})
-        Me.ContextMenuStrip2.Name = "ContextMenuStrip2"
-        Me.ContextMenuStrip2.Size = New System.Drawing.Size(106, 26)
-        '
-        'MenuToolStripMenuItem
-        '
-        Me.MenuToolStripMenuItem.Image = Global.JumpGoStandardEdition.My.Resources.Resources.MenuTransparent
-        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
-        Me.MenuToolStripMenuItem.Text = "Menu"
-        '
         'JumpGoMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(781, 472)
         Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ToolStrip2)
         Me.Controls.Add(Me.ToolStrip1)
-        Me.Controls.Add(Me.Button1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
         Me.Name = "JumpGoMain"
         Me.ShowIcon = False
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
+        Me.ContextMenuStrip2.ResumeLayout(False)
         Me.ToolStrip2.ResumeLayout(False)
         Me.ToolStrip2.PerformLayout()
-        Me.ContextMenuStrip2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

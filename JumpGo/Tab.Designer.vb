@@ -1,4 +1,5 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+﻿Imports Gecko
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Tab
     Inherits System.Windows.Forms.Form
 
@@ -82,7 +83,19 @@ Partial Class Tab
         Me.ViewInSystemBrowserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PagePropertiesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LMNOPToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.DdMenu1 = New JumpGoStandardEdition.DDMenu()
+        Me.GridMenuButton8 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton7 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton9 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton4 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton5 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton6 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton3 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton2 = New JumpGoStandardEdition.GridMenuButton()
+        Me.GridMenuButton1 = New JumpGoStandardEdition.GridMenuButton()
         Me.FasterBrowser1 = New JumpGoStandardEdition.FasterBrowser()
+        'Me.FasterBrowser1 = New GeckoWebBrowser
         Me.Panel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
@@ -97,6 +110,7 @@ Partial Class Tab
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
         Me.ContextMenuStrip1.SuspendLayout()
+        Me.DdMenu1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel4
@@ -433,7 +447,7 @@ Partial Class Tab
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BackCircleDis
+        Me.PictureBox4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BackCircle
         Me.PictureBox4.Location = New System.Drawing.Point(12, 9)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(30, 29)
@@ -595,6 +609,9 @@ Partial Class Tab
         Me.Button5.UseVisualStyleBackColor = False
         Me.Button5.Visible = False
         '
+        'SaveFileDialog1
+        '
+        '
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
@@ -747,6 +764,141 @@ Partial Class Tab
         Me.LMNOPToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
         Me.LMNOPToolStripMenuItem.Text = "LMNOP"
         '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Location = New System.Drawing.Point(195, 283)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.ScriptErrorsSuppressed = True
+        Me.WebBrowser1.Size = New System.Drawing.Size(250, 250)
+        Me.WebBrowser1.TabIndex = 15
+        Me.WebBrowser1.Visible = False
+        Me.WebBrowser1.WebBrowserShortcutsEnabled = False
+        '
+        'DdMenu1
+        '
+        Me.DdMenu1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DdMenu1.BackColor = System.Drawing.Color.White
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton8)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton7)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton9)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton4)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton5)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton6)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton3)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton2)
+        Me.DdMenu1.Controls.Add(Me.GridMenuButton1)
+        Me.DdMenu1.Location = New System.Drawing.Point(510, 45)
+        Me.DdMenu1.Name = "DdMenu1"
+        Me.DdMenu1.Size = New System.Drawing.Size(300, 296)
+        Me.DdMenu1.TabIndex = 14
+        Me.DdMenu1.Visible = False
+        '
+        'GridMenuButton8
+        '
+        Me.GridMenuButton8.BackColor = System.Drawing.Color.White
+        Me.GridMenuButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton8.ButtonText = "     About"
+        Me.GridMenuButton8.Image = Global.JumpGoStandardEdition.My.Resources.Resources.JumpGo_4_2
+        Me.GridMenuButton8.Location = New System.Drawing.Point(196, 179)
+        Me.GridMenuButton8.Name = "GridMenuButton8"
+        Me.GridMenuButton8.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton8.TabIndex = 24
+        '
+        'GridMenuButton7
+        '
+        Me.GridMenuButton7.BackColor = System.Drawing.Color.White
+        Me.GridMenuButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton7.ButtonText = "Powered By"
+        Me.GridMenuButton7.Image = Global.JumpGoStandardEdition.My.Resources.Resources.index
+        Me.GridMenuButton7.Location = New System.Drawing.Point(110, 179)
+        Me.GridMenuButton7.Name = "GridMenuButton7"
+        Me.GridMenuButton7.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton7.TabIndex = 23
+        '
+        'GridMenuButton9
+        '
+        Me.GridMenuButton9.BackColor = System.Drawing.Color.Transparent
+        Me.GridMenuButton9.BackgroundImage = CType(resources.GetObject("GridMenuButton9.BackgroundImage"), System.Drawing.Image)
+        Me.GridMenuButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton9.ButtonText = "     History"
+        Me.GridMenuButton9.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_history
+        Me.GridMenuButton9.Location = New System.Drawing.Point(24, 179)
+        Me.GridMenuButton9.Name = "GridMenuButton9"
+        Me.GridMenuButton9.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton9.TabIndex = 22
+        '
+        'GridMenuButton4
+        '
+        Me.GridMenuButton4.BackColor = System.Drawing.Color.Transparent
+        Me.GridMenuButton4.BackgroundImage = CType(resources.GetObject("GridMenuButton4.BackgroundImage"), System.Drawing.Image)
+        Me.GridMenuButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton4.ButtonText = "View Source"
+        Me.GridMenuButton4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_source
+        Me.GridMenuButton4.Location = New System.Drawing.Point(196, 98)
+        Me.GridMenuButton4.Name = "GridMenuButton4"
+        Me.GridMenuButton4.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton4.TabIndex = 21
+        '
+        'GridMenuButton5
+        '
+        Me.GridMenuButton5.BackColor = System.Drawing.Color.Transparent
+        Me.GridMenuButton5.BackgroundImage = CType(resources.GetObject("GridMenuButton5.BackgroundImage"), System.Drawing.Image)
+        Me.GridMenuButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton5.ButtonText = "    Theme"
+        Me.GridMenuButton5.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_customize
+        Me.GridMenuButton5.Location = New System.Drawing.Point(110, 98)
+        Me.GridMenuButton5.Name = "GridMenuButton5"
+        Me.GridMenuButton5.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton5.TabIndex = 20
+        '
+        'GridMenuButton6
+        '
+        Me.GridMenuButton6.BackColor = System.Drawing.Color.Transparent
+        Me.GridMenuButton6.BackgroundImage = CType(resources.GetObject("GridMenuButton6.BackgroundImage"), System.Drawing.Image)
+        Me.GridMenuButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton6.ButtonText = "   Settings"
+        Me.GridMenuButton6.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_gear_cog
+        Me.GridMenuButton6.Location = New System.Drawing.Point(24, 98)
+        Me.GridMenuButton6.Name = "GridMenuButton6"
+        Me.GridMenuButton6.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton6.TabIndex = 19
+        '
+        'GridMenuButton3
+        '
+        Me.GridMenuButton3.BackColor = System.Drawing.Color.Transparent
+        Me.GridMenuButton3.BackgroundImage = CType(resources.GetObject("GridMenuButton3.BackgroundImage"), System.Drawing.Image)
+        Me.GridMenuButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton3.ButtonText = "Save Page"
+        Me.GridMenuButton3.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_webpage
+        Me.GridMenuButton3.Location = New System.Drawing.Point(196, 17)
+        Me.GridMenuButton3.Name = "GridMenuButton3"
+        Me.GridMenuButton3.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton3.TabIndex = 18
+        '
+        'GridMenuButton2
+        '
+        Me.GridMenuButton2.BackColor = System.Drawing.Color.Transparent
+        Me.GridMenuButton2.BackgroundImage = CType(resources.GetObject("GridMenuButton2.BackgroundImage"), System.Drawing.Image)
+        Me.GridMenuButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton2.ButtonText = "  Incognito"
+        Me.GridMenuButton2.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_incognito
+        Me.GridMenuButton2.Location = New System.Drawing.Point(110, 17)
+        Me.GridMenuButton2.Name = "GridMenuButton2"
+        Me.GridMenuButton2.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton2.TabIndex = 17
+        '
+        'GridMenuButton1
+        '
+        Me.GridMenuButton1.BackColor = System.Drawing.Color.Transparent
+        Me.GridMenuButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GridMenuButton1.ButtonText = "NewWindow"
+        Me.GridMenuButton1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_new_window
+        Me.GridMenuButton1.Location = New System.Drawing.Point(24, 17)
+        Me.GridMenuButton1.Name = "GridMenuButton1"
+        Me.GridMenuButton1.Size = New System.Drawing.Size(80, 75)
+        Me.GridMenuButton1.TabIndex = 16
+        '
         'FasterBrowser1
         '
         Me.FasterBrowser1.ContextMenuStrip = Me.ContextMenuStrip1
@@ -762,6 +914,8 @@ Partial Class Tab
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(822, 533)
+        Me.Controls.Add(Me.DdMenu1)
+        Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Panel4)
@@ -774,6 +928,7 @@ Partial Class Tab
         Me.Name = "Tab"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "JumpGo"
+        Me.TransparencyKey = System.Drawing.Color.Magenta
         Me.Panel4.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
@@ -794,6 +949,7 @@ Partial Class Tab
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.ContextMenuStrip1.ResumeLayout(False)
+        Me.DdMenu1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -856,4 +1012,15 @@ Partial Class Tab
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents OpenInNewTabToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DdMenu1 As DDMenu
+    Friend WithEvents GridMenuButton9 As GridMenuButton
+    Friend WithEvents GridMenuButton4 As GridMenuButton
+    Friend WithEvents GridMenuButton5 As GridMenuButton
+    Friend WithEvents GridMenuButton6 As GridMenuButton
+    Friend WithEvents GridMenuButton3 As GridMenuButton
+    Friend WithEvents GridMenuButton2 As GridMenuButton
+    Friend WithEvents GridMenuButton1 As GridMenuButton
+    Friend WithEvents GridMenuButton7 As GridMenuButton
+    Friend WithEvents GridMenuButton8 As GridMenuButton
+    Friend WithEvents WebBrowser1 As WebBrowser
 End Class

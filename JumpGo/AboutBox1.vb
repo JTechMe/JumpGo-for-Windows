@@ -90,11 +90,13 @@ Public NotInheritable Class AboutBox1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         'JumpGoMain.CreateNewTab("http://www.mozilla.org/poweredby")
-        Process.Start("http://www.mozilla.org/poweredby")
+        'Process.Start("http://www.mozilla.org/poweredby")
+        JumpGoMain.CreateNewTab("https://www.mozilla.org/en-US/about/powered-by/")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        JumpGoMain.NewInfoTab("http://joehorton990.wix.com/jumpgo")
+        'JumpGoMain.NewInfoTab("http://joehorton990.wix.com/jumpgo")
+        JumpGoMain.CreateNewTab("http://jtechme.github.io/jumpgo")
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

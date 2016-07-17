@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Nie">
+<!ENTITY sync.label "&amp;Synchronizuj ustawienia Adblock Plusa">
+<!ENTITY whitelist.site.label "Wyłącz blokowanie na ?1?">
+<!ENTITY notification.closing.button.hide "Zamknij to p&amp;owiadomienie">
+<!ENTITY filters.label "&amp;Ustawienia filtra">
+<!ENTITY disable.label "Wyłącz wszędzie">
+<!ENTITY objecttab.title "Zablokuj">
+<!ENTITY objecttab.tooltip "Kliknij tutaj, aby zablokować ten obiekt">
+<!ENTITY menuitem.label "&amp;Adblock Plus - ustawienia">
+<!ENTITY objecttabs.label "Wyświetlaj przycis&amp;ki blokowania na elementach Flasha i Javy">
+<!ENTITY sendReport.label "&amp;Zgłoś problem na tej stronie">
+<!ENTITY whitelist.page.label "Wyłącz blokowanie tylko na tej stronie">
+<!ENTITY context.image.label "Zablokuj obrazek">
+<!ENTITY notification.button.yes "&amp;Tak">
+<!ENTITY opensidebar.label "Otwórz listę &amp;blokowalnych elementów">
+<!ENTITY notification.button.close "&amp;Zamknij">
+<!ENTITY shownotifications.label "Wyświetlaj użyteczne powiadomie&amp;nia">
+<!ENTITY contribute.label "Wspomóż Adblock Plusa">
+<!ENTITY toolbarbutton.label "Adblock Plus">
+<!ENTITY context.frame.label "Zablokuj ramkę">
+<!ENTITY blocked.tooltip "Zablokowane elementy na tej stronie:">
+<!ENTITY notification.closing.button.optout "Nie wyświetlaj &amp;powiadomień">
+<!ENTITY counthits.label "Zli&amp;czaj użycie filtra">
+<!ENTITY showinstatusbar.label "&amp;Wyświetlaj ikonę Adblock Plusa na pasku stanu">
+<!ENTITY sidebar.title "Blokowalne elementy na aktywnej stronie">
+<!ENTITY options.label "&amp;Opcje">
+<!ENTITY context.object.label "Zablokuj obiekt">
+<!ENTITY context.removeWhitelist.label "Włącz ponownie na tej stronie">
+<!ENTITY filters.tooltip "Najczęściej stosowane filtry:">
+<!ENTITY closesidebar.label "Zamknij listę blokowal&amp;nych elementów">
+<!ENTITY showintoolbar.label "Wyświetlaj ikonę Adblock Plusa na pasku na&amp;rzędzi">
+<!ENTITY status.tooltip "Status:">
+<!ENTITY context.media.label "Zablokuj wideo/audio">

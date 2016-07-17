@@ -19,6 +19,8 @@ Public Class Tab
         'Xpcom.Initialize(Environment.CurrentDirectory + "/xulrunner")
         Dim app_dir = Path.GetDirectoryName(Application.ExecutablePath)
         Gecko.Xpcom.Initialize(Path.Combine(app_dir, "xulrunner"))
+        Gecko.GeckoPreferences.Default("extensions.blocklist.enabled") = False
+        'Xpcom.ComponentRegistrar.AutoRegister()
         'browser = New GeckoWebBrowser()
 
         'browser.Dock = DockStyle.Fill
@@ -26,15 +28,23 @@ Public Class Tab
 
         'Me.Controls.Add(browser)
         'Xpcom.CreateInstance(Of AppDomainManager)("@mozilla.org/login-manager;1")
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
+    End Sub
+
+    Private Sub RegisterExtensionDir(dir As String)
+        Console.WriteLine("Registering binary extension directory:  " & dir)
+        Dim chromeDir = DirectCast(Xpcom.NewNativeLocalFile(dir), nsIFile)
+        Dim chromeFile = chromeDir.Clone()
+        chromeFile.Append(New nsAString("chrome.manifest"))
+        Xpcom.ComponentRegistrar.AutoRegister(chromeFile)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         If FasterBrowser1.CanGoBack Then
             FasterBrowser1.GoBack()
         End If
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -42,7 +52,7 @@ Public Class Tab
         If FasterBrowser1.CanGoBack Then
             FasterBrowser1.GoForward()
         End If
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -51,23 +61,27 @@ Public Class Tab
             FasterBrowser1.Navigate(Environment.CurrentDirectory + "\Welcome\index.html")
             TextBox1.Text = "JumpGo://Welcome"
         Else
-            FasterBrowser1.Navigate(TextBox1.Text)
-            'AxWebBrowser1.Navigate(TextBox1.Text)
-            Dim uri As Uri
+            If TextBox1.Text = "JumpGo://DevTest" Then
 
-            If System.Uri.TryCreate(TextBox1.Text, UriKind.RelativeOrAbsolute, uri) Then
-                ' Navigate to it
-                FasterBrowser1.Navigate(TextBox1.Text)
             Else
-                ' Treat it as a search
-                If TextBox1.Text.Contains(" ") Then
-                    TextBox1.Text.Replace(" "c, "+"c)
+                FasterBrowser1.Navigate(TextBox1.Text)
+                'AxWebBrowser1.Navigate(TextBox1.Text)
+                Dim uri As Uri
+
+                If System.Uri.TryCreate(TextBox1.Text, UriKind.RelativeOrAbsolute, uri) Then
+                    ' Navigate to it
+                    FasterBrowser1.Navigate(TextBox1.Text)
                 Else
-                    FasterBrowser1.Navigate(My.Settings.Search + TextBox1.Text)
+                    ' Treat it as a search
+                    If TextBox1.Text.Contains(" ") Then
+                        TextBox1.Text.Replace(" "c, "+"c)
+                    Else
+                        FasterBrowser1.Navigate(My.Settings.Search + TextBox1.Text)
+                    End If
                 End If
             End If
         End If
-        Panel4.Visible = False
+            DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -79,39 +93,39 @@ Public Class Tab
             FasterBrowser1.Navigate(TextBox1.Text)
             'AxWebBrowser1.Navigate(TextBox1.Text)
         End If
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         FasterBrowser1.Reload()
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs)
         FasterBrowser1.Navigate(My.Settings.Home)
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub FasterBrowser1_Click(sender As Object, e As EventArgs) Handles FasterBrowser1.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub FasterBrowser1_MouseClick(sender As Object, e As MouseEventArgs) Handles FasterBrowser1.MouseClick
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub FasterBrowser1_MouseDown(sender As Object, e As MouseEventArgs) Handles FasterBrowser1.MouseDown
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub FasterBrowser1_MouseHover(sender As Object, e As EventArgs) Handles FasterBrowser1.MouseHover
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -119,8 +133,19 @@ Public Class Tab
         'm_strInnerHtml = FasterBrowser1.Document.ActiveElement.GetAttribute("href")
     End Sub
 
+    Private Sub FasterBrowser1_CreateWindow(sender As Object, e As EventArgs) Handles FasterBrowser1.CreateWindow
+        'JumpGoMain.CreateNewTab(FasterBrowser1.Document.ActiveElement)
+        'WebBrowser1.Navigate(FasterBrowser1.Url)
+    End Sub
+
+    Private Sub FasterBrowser1_DocumentTitleChanged(sender As Object, e As EventArgs) Handles FasterBrowser1.DocumentTitleChanged
+        Me.Text = FasterBrowser1.DocumentTitle
+        'WebBrowser1.Navigate(FasterBrowser1.Url)
+    End Sub
+
     Private Sub FasterBrowser1_Navigating(sender As Object, e As EventArgs) Handles FasterBrowser1.Navigating
         Me.Text = "Connecting..."
+        WebBrowser1.Navigate(FasterBrowser1.Url)
     End Sub
 
     Private Sub FasterBrowser1_Navigated(sender As Object, e As GeckoNavigatedEventArgs) Handles FasterBrowser1.Navigated
@@ -313,24 +338,24 @@ Public Class Tab
 
     Private Sub AboutGoToolStripMenuItem_Click(sender As Object, e As EventArgs)
         AboutBox1.Visible = True
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         If My.Settings.Search = My.Settings.WikipediaSearch Then
             FasterBrowser1.Navigate(My.Settings.Search & TextBox2.Text & My.Settings.WikipediaSearchPt2)
-            Panel4.Visible = False
+            DdMenu1.Visible = False
             MenuOpen = False
         Else
             FasterBrowser1.Navigate(My.Settings.Search & TextBox2.Text)
-            Panel4.Visible = False
+            DdMenu1.Visible = False
             MenuOpen = False
         End If
     End Sub
 
     Private Sub TextBox1_Click(sender As Object, e As EventArgs) Handles TextBox1.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -342,13 +367,13 @@ Public Class Tab
         If e.KeyCode = Keys.Enter Then
             e.SuppressKeyPress = True
             Button3()
-            Panel4.Visible = False
+            DdMenu1.Visible = False
             MenuOpen = False
         End If
     End Sub
 
     Private Sub TextBox2_Click(sender As Object, e As EventArgs) Handles TextBox2.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -356,7 +381,7 @@ Public Class Tab
         If e.KeyCode = Keys.Enter Then
             e.SuppressKeyPress = True
             Button6.PerformClick()
-            Panel4.Visible = False
+            DdMenu1.Visible = False
             MenuOpen = False
         End If
 
@@ -371,7 +396,7 @@ Public Class Tab
     End Sub
 
     Private Sub Tab_Click(sender As Object, e As EventArgs) Handles Me.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -397,7 +422,7 @@ Public Class Tab
         If My.Settings.MenuPanelBG = "" Then
 
         Else
-            Panel4.BackgroundImage = System.Drawing.Image.FromFile(My.Settings.MenuPanelBG)
+            DdMenu1.BackgroundImage = System.Drawing.Image.FromFile(My.Settings.MenuPanelBG)
         End If
 
         If My.Settings.ThemeColor = "Dark" Then
@@ -483,45 +508,45 @@ Public Class Tab
 
     Private Sub Button7_Click(sender As Object, e As EventArgs)
         If MenuOpen = False Then
-            Panel4.Visible = True
+            DdMenu1.Visible = True
             MenuOpen = True
         Else
-            Panel4.Visible = False
+            DdMenu1.Visible = False
             MenuOpen = False
         End If
     End Sub
 
     Private Sub Panel1_Click(sender As Object, e As EventArgs) Handles Panel1.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Panel3_Click(sender As Object, e As EventArgs) Handles Panel3.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Panel2_Click(sender As Object, e As EventArgs) Handles Panel2.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         JumpGoMain.CreateNewTab(My.Settings.NewTab)
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         Dim SecondForm As New JumpGoMain
         SecondForm.Show()
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
         FasterBrowser1.SaveDocument(SaveFileDialog1.ShowDialog)
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -530,19 +555,20 @@ Public Class Tab
         'FasterBrowser1.Navigate(OpenFileDialog1.FileName)
         FastColoredTextBox1.Text = FasterBrowser1.Document.GetElementsByTagName("html")(0).InnerHtml
         Panel5.Visible = True
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        AboutBox1.Visible = True
-        Panel4.Visible = False
+        'AboutBox1.Visible = True
+        AboutGo1.Visible = True
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         Settings.Visible = True
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -558,6 +584,7 @@ Public Class Tab
                 'PictureBox4.Image = My.Resources.BackCircle
             End If
         End If
+
     End Sub
 
     Function themetimer()
@@ -568,9 +595,9 @@ Public Class Tab
         End If
 
         If My.Settings.MenuPanelBG = "" Then
-            Panel4.BackgroundImage = My.Resources.Transparent
+            DdMenu1.BackgroundImage = My.Resources.Transparent
         Else
-            Panel4.BackgroundImage = System.Drawing.Image.FromFile(My.Settings.MenuPanelBG)
+            DdMenu1.BackgroundImage = System.Drawing.Image.FromFile(My.Settings.MenuPanelBG)
         End If
 
         If My.Settings.ThemeColor = "Dark" Then
@@ -595,7 +622,7 @@ Public Class Tab
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
         ThemeDesign.Visible = True
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -609,27 +636,27 @@ Public Class Tab
         'FasterBrowser1.ViewSource()
         'FastColoredTextBox1.Text = FasterBrowser1.Document.GetElementsByTagName("html")(0).InnerHtml
         'Panel5.Visible = True
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
 
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
         SourceWriter.Visible = True
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
         Dim NewIncognito As New IncognitoMain
         NewIncognito.Show()
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
         AppBuilder.Visible = True
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -663,7 +690,7 @@ Public Class Tab
         JumpGoMain.OpenHistoryTab(My.Settings.NewTab)
 
         'JumpGoMain.CreateNewTab(appData + "\JTechMe\JumpGo\StandardEd\Special\History\index.html")
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -673,7 +700,7 @@ Public Class Tab
 
     Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
         Panel5.Visible = False
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -688,22 +715,22 @@ Public Class Tab
         'FastColoredTextBox1.Text = FasterBrowser1.Document.GetElementsByTagName("html")(0).InnerHtml
         'Panel5.Visible = True
         Panel5.Visible = False
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub ToolStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles ToolStrip1.ItemClicked
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub FastColoredTextBox1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles FastColoredTextBox1.Click
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
     Private Sub ToolStrip2_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs)
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -717,25 +744,57 @@ Public Class Tab
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
         If MenuOpen = False Then
-            Panel4.Visible = True
+            DdMenu1.Visible = True
             MenuOpen = True
         Else
-            Panel4.Visible = False
+            DdMenu1.Visible = False
             MenuOpen = False
         End If
     End Sub
 
+    Private Sub PictureBox2_MouseHover(sender As Object, e As EventArgs) Handles PictureBox2.MouseHover
+        PictureBox2.Image = My.Resources.MenuTransparentHover
+    End Sub
+
+    Private Sub PictureBox2_MouseDown(sender As Object, e As EventArgs) Handles PictureBox2.MouseDown
+        PictureBox2.Image = My.Resources.MenuTransparentDown
+    End Sub
+
+    Private Sub PictureBox2_MouseUp(sender As Object, e As EventArgs) Handles PictureBox2.MouseUp
+        PictureBox2.Image = My.Resources.MenuTransparent
+    End Sub
+
+    Private Sub PictureBox2_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox2.MouseLeave
+        PictureBox2.Image = My.Resources.MenuTransparent
+    End Sub
+
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         FasterBrowser1.Navigate(My.Settings.Home)
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
+    End Sub
+
+    Private Sub PictureBox3_MouseHover(sender As Object, e As EventArgs) Handles PictureBox3.MouseHover
+        PictureBox3.Image = My.Resources.homeTransparentHover
+    End Sub
+
+    Private Sub PictureBox3_MouseDown(sender As Object, e As EventArgs) Handles PictureBox3.MouseDown
+        PictureBox3.Image = My.Resources.homeTransparentDown
+    End Sub
+
+    Private Sub PictureBox3_MouseUp(sender As Object, e As EventArgs) Handles PictureBox3.MouseUp
+        PictureBox3.Image = My.Resources.homeTransparent
+    End Sub
+
+    Private Sub PictureBox3_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox3.MouseLeave
+        PictureBox3.Image = My.Resources.homeTransparent
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
         If FasterBrowser1.CanGoBack Then
             FasterBrowser1.GoBack()
         End If
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -775,7 +834,7 @@ Public Class Tab
         If FasterBrowser1.CanGoForward Then
             FasterBrowser1.GoForward()
         End If
-        Panel4.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 
@@ -825,6 +884,120 @@ Public Class Tab
     End Sub
 
     Private Sub FasterBrowser1_DomFocus(sender As Object, e As DomEventArgs) Handles FasterBrowser1.DomFocus
+
+    End Sub
+
+    Private Sub SaveFullDocumentFailed()
+        If SaveFileDialog1.ShowDialog = DialogResult.OK Then
+            FasterBrowser1.SaveDocument(SaveFileDialog1.FileName)
+        Else
+
+        End If
+    End Sub
+
+#Region "New Menu Buttons"
+    Private Sub DDMenu1_Paint(sender As Object, e As PaintEventArgs) Handles DdMenu1.Paint
+
+    End Sub
+
+    Private Sub GridMenuButton1_Click(sender As Object, e As EventArgs) Handles GridMenuButton1.Click
+        Dim SecondForm As New JumpGoMain
+        SecondForm.Show()
+        DdMenu1.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub GridMenuButton2_Click(sender As Object, e As EventArgs) Handles GridMenuButton2.Click
+        Dim NewIncognito As New IncognitoMain
+        NewIncognito.Show()
+        DdMenu1.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub GridMenuButton3_Click(sender As Object, e As EventArgs) Handles GridMenuButton3.Click
+        SaveFileDialog1.Filter = "HTML Files|*.html|All Files|*.*"
+        'FasterBrowser1.SaveDocument(SaveFileDialog1.ShowDialog)
+        SaveFullDocumentFailed()
+        DdMenu1.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub GridMenuButton6_Click(sender As Object, e As EventArgs) Handles GridMenuButton6.Click
+        Settings.Visible = True
+        DdMenu1.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub GridMenuButton5_Click(sender As Object, e As EventArgs) Handles GridMenuButton5.Click
+        ThemeDesign.Visible = True
+        DdMenu1.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub GridMenuButton4_Click(sender As Object, e As EventArgs) Handles GridMenuButton4.Click
+        Dim HTMLSource As New WebSource
+        HTMLSource.FastColoredTextBox1.Text = FasterBrowser1.Document.GetElementsByTagName("html")(0).InnerHtml
+        HTMLSource.FileLoacation = FasterBrowser1.Url.ToString
+        HTMLSource.Visible = True
+        'WebSource.Visible = True
+        'WebSource.FastColoredTextBox1.Text = FasterBrowser1.DocumentTitle
+        'FasterBrowser1.ViewSource()
+        'FastColoredTextBox1.Text = FasterBrowser1.Document.GetElementsByTagName("html")(0).InnerHtml
+        'Panel5.Visible = True
+        DdMenu1.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub GridMenuButton9_Click(sender As Object, e As EventArgs) Handles GridMenuButton9.Click
+        'HistoryForm.ListBox1.Items.Add(FasterBrowser1.History.Index)
+        'HistoryForm.RichTextBox1.Text = FasterBrowser1.History.Index
+
+        ' Get the path to the Application Data folder
+        Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
+
+        ' Loops through all the history entries
+        For Each entry As GeckoHistoryEntry In FasterBrowser1.History
+            ' Creates the string that will contain our data
+            Dim result As String = ""
+
+            Try
+                ' Attempts to get the title and add it to the result, which in my test cases always fails
+                result = entry.Title + " | "
+            Catch
+            End Try
+
+            ' Gets the URL and adds it to the result
+            result += entry.Url.ToString
+
+            ' Sends the result to the console
+            Console.WriteLine(result)
+
+            'HistoryForm.ListBox1.Items.Add(result)
+        Next
+
+        JumpGoMain.OpenHistoryTab(My.Settings.NewTab)
+
+        'JumpGoMain.CreateNewTab(appData + "\JTechMe\JumpGo\StandardEd\Special\History\index.html")
+        DdMenu1.Visible = False
+        MenuOpen = False
+    End Sub
+
+    Private Sub GridMenuButton7_Click(sender As Object, e As EventArgs) Handles GridMenuButton7.Click
+        JumpGoMain.CreateNewTab("https://www.mozilla.org/en-US/about/powered-by/")
+        DdMenu1.Visible = False
+    End Sub
+
+    Private Sub GridMenuButton8_Click(sender As Object, e As EventArgs) Handles GridMenuButton8.Click
+        AboutGo1.Visible = True
+        DdMenu1.Visible = False
+    End Sub
+#End Region
+
+    Private Sub SaveFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles SaveFileDialog1.FileOk
+
+    End Sub
+
+    Private Sub FasterBrowser1_CreateWindow(sender As Object, e As GeckoCreateWindowEventArgs) Handles FasterBrowser1.CreateWindow
 
     End Sub
 End Class
