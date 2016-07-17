@@ -4,7 +4,7 @@
   <description asmv2:iconFile="JumpGo_4_2_Updated.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo" version="4.3.6.28281" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo" version="4.3.6.41921" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -128,25 +128,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23629824">
-      <assemblyIdentity name="JumpGo" version="4.3.6.28281" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="JumpGo" version="4.3.6.41921" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eYQnJqxdGzGLet1/EkQ4PUQ0BlEodIbReeAnakRthAA=</dsig:DigestValue>
+        <dsig:DigestValue>fHeVY5m83CW7dwG2hMQQ4HA6SPvz0M1H//0dfvig07M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="138240">
-      <assemblyIdentity name="MdiTabControl" version="1.1.6022.15796" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="91136">
+      <assemblyIdentity name="MdiTabControl" version="1.1.6041.41597" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xKx0FY1o3WQvut/ghXHaQSOc8kuazRIkLpE6K4c9348=</dsig:DigestValue>
+        <dsig:DigestValue>ZpFnq4UvlPzir7LpvK+Ut6w8+sg58W2Dglw3yVPkpoQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
