@@ -427,6 +427,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="curverid.xml" />
     <Content Include="TestPage001.html" />
     <None Include="Resources\ic_source.png" />
     <None Include="Resources\ic_customize.png" />
@@ -569,6 +570,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JGUpdater\JGUpdater.vbproj">
+      <Project>{cbfb2bac-1265-4246-8544-a61f25e6a33c}</Project>
+      <Name>JGUpdater</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

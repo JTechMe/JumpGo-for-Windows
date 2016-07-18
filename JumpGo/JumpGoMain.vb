@@ -17,6 +17,7 @@ Imports System.IO.Compression
 Imports System.IO.Directory
 Imports System.IO.DirectoryNotFoundException
 Imports System.IO.FileAccess
+Imports System.Xml
 
 Imports Gecko
 'Imports System.IO
@@ -24,37 +25,46 @@ Imports System.Linq
 Imports System.Environment
 Imports System.Runtime.InteropServices
 
-Public Class JumpGoMain
+' __  __   ______   __  __   ___   ______    ______       ______   ______   ______    ________  ___   __    _______    __       
+'/_/\/_/\ /_____/\ /_/\/_/\ /__/\ /_____/\  /_____/\     /_____/\ /_____/\ /_____/\  /_______/\/__/\ /__/\ /______/\  /__/\     
+'\ \ \ \ \\:_ \ \\:\ \:\ \\:\ \\:_ \ \ \:_\/_    \:__\/ \: _ \ \\:_ \ \ \__.:._\/\:\_\\  \ \\:__\/ __ \ .: \ \    
+' \:\_\ \ \\:\ \ \ \\:\ \:\ \\:_\/ \:(_) ) )_\:\/___/\    \:\ \  __\:\ \ \ \\:\ \ \ \   \:\ \  \:. `-\  \ \\:\ /____/\\:\ \   
+'  \:_\/ \:\ \ \ \\:\ \:\ \      \: __ `\ \\:___\/_    \:\ \/_/\\:\ \ \ \\:\ \ \ \  _\:\ \__\:. _    \ \\:\\_  _\/ \__\/_  
+'    \:\ \  \:\_\ \ \\:\_\:\ \      \ \ `\ \ \\:\____/\    \:\_\ \ \\:\_\ \ \\:\/.:| |/__\:\__/\\. \`-\  \ \\:\_\ \ \   /__/\ 
+'     \__\/   \_____\/ \_____\/       \_\/ \_\/ \_____\/     \_____\/ \_____\/ \____/_/\________\/ \__\/ \__\/ \_____\/   \__\/ 
+
+Public Class JumpGoMain 'What do ya know? The main startup form class! It's amazing! Not really...
 
     Dim timedExtraction As Integer = 0
 
 #Region "Buttons in Dev Ed"
+    'This buttons are pretty useless outside of the Dev Edition. I keep 'em aroud because I pull sources back and forth between editions.
     Public WithEvents TaskButton1 As New ThumbnailToolBarButton(My.Resources.imageres_5302, "Web Source")
     Public WithEvents TaskButton2 As New ThumbnailToolBarButton(My.Resources.imageres_5306, "Source Writer")
     Public WithEvents TaskButton3 As New ThumbnailToolBarButton(My.Resources.IconPlus, "New Tab")
     Public WithEvents TaskButton4 As New ThumbnailToolBarButton(My.Resources.imageres_114, "Settings")
     Public WithEvents TaskButton5 As New ThumbnailToolBarButton(My.Resources.imageres_5322, "New Window")
 
-    Private Sub TaskButton1Click(ByVal sender As System.Object, _
+    Private Sub TaskButton1Click(ByVal sender As System.Object,
                            ByVal e As Microsoft.WindowsAPICodePack.Taskbar.ThumbnailButtonClickedEventArgs) _
                            Handles TaskButton1.Click
         'WebSource.Visible = True
         TabControl1.SelectedForm.fasterbrowser.viewsource()
     End Sub
 
-    Private Sub TaskButton2Click(ByVal sender As System.Object, _
+    Private Sub TaskButton2Click(ByVal sender As System.Object,
                            ByVal e As Microsoft.WindowsAPICodePack.Taskbar.ThumbnailButtonClickedEventArgs) _
                            Handles TaskButton2.Click
         SourceWriter.Visible = True
     End Sub
 
-    Private Sub TaskButton3Click(ByVal sender As System.Object, _
+    Private Sub TaskButton3Click(ByVal sender As System.Object,
                            ByVal e As Microsoft.WindowsAPICodePack.Taskbar.ThumbnailButtonClickedEventArgs) _
                            Handles TaskButton3.Click
         CreateNewTab("")
     End Sub
 
-    Private Sub TaskButton4Click(ByVal sender As System.Object, _
+    Private Sub TaskButton4Click(ByVal sender As System.Object,
                            ByVal e As Microsoft.WindowsAPICodePack.Taskbar.ThumbnailButtonClickedEventArgs) _
                            Handles TaskButton4.Click
         Settings.Visible = True
@@ -72,6 +82,7 @@ Public Class JumpGoMain
 
 #Region "New Aero pt 1"
     'begining of the new aero extender function
+    'I honestly don't understand most of this, but, whatever.
     <Runtime.InteropServices.StructLayout(Runtime.InteropServices.LayoutKind.Sequential)> Public Structure Side
         Public Left As Integer
         Public Right As Integer
@@ -159,21 +170,21 @@ Public Class JumpGoMain
 
         Using sReader As New StreamReader(oDialog.FileName)
 
-                While sReader.Peek() > 0
+            While sReader.Peek() > 0
 
-                    Dim input = sReader.ReadLine()
+                Dim input = sReader.ReadLine()
 
-                    ' Split comma delimited data ( SettingName,SettingValue )  
-                    Dim dataSplit = input.Split(CChar(","))
+                ' Split comma delimited data ( SettingName,SettingValue )  
+                Dim dataSplit = input.Split(CChar(","))
 
-                    '           Setting         Value  
-                    My.Settings(dataSplit(0)) = dataSplit(1)
+                '           Setting         Value  
+                My.Settings(dataSplit(0)) = dataSplit(1)
 
-                End While
+            End While
 
-            End Using
+        End Using
 
-            My.Settings.Save()
+        My.Settings.Save()
 
         'MessageBox.Show("Import of settings successfull", "Import", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
@@ -187,16 +198,43 @@ Public Class JumpGoMain
 
         'Process.Start(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData))
 
+#Region "curverid editor"
+        'I know what you're thinking;
+        'Hasn't he tried to get the stupid curverid thing to work a million times before already?
+        'Answer: Yes. Yes I have. But that's not the point! I think I've got it this time!
+        'Even if it doesn't work, I'll still know I've tried it a million and one times!
+        'If you have no idea what curverid is, look through the JGUpdater and JGUpdaterEleveated sources.
+        Dim appdata As String = Path.GetTempPath
+        'Dim appdata As String = GetFolderPath(SpecialFolder.ApplicationData) + "JTechMe\JumpGo\StandardEd\Updates\"
+        Dim sSource = Environment.CurrentDirectory + "/curverid.xml"
+        Dim sTarget = appdata + "curverid.loc.xml"
+
+        File.Copy(sSource, sTarget, True)
+
+        Dim myXmlDocument As XmlDocument = New XmlDocument()
+        'myXmlDocument.Load(Environment.CurrentDirectory + "\curverid.xml")
+        myXmlDocument.Load(appdata + "curverid.loc.xml")
+        Dim lclcurver As String = myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText
+        myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText = My.Application.Info.Version.ToString
+
+        'If File.Exists(tempdata + "\curverid.xml") = True Then
+        '    File.Delete(tempdata + "\curverid.xml")
+        'End If
+        'File.Delete(Environment.CurrentDirectory + "\curverid.xml")
+        'myXmlDocument.Save(Environment.CurrentDirectory + "\curverid.xml")
+        myXmlDocument.Save(appdata + "curverid.loc.xml")
+#End Region
+
 #Region "New Aero pt 2"
         'aero extending try
         Try
             Me.BackColor = Color.Black 'It must be set to black...
-            Dim Side As Side = New Side
+            Dim Side As Side = New Side 'Dim Side not Dark Side.
             Side.Left = 0
             Side.Right = 0
             Side.Top = 31
             Side.Bottom = 0
-            Dim result As Integer = DwmExtendFrameIntoClientArea(Me.Handle, Side)
+            Dim result As Integer = DwmExtendFrameIntoClientArea(Me.Handle, Side) 'Yea, this is a headache and a half.
         Catch ex As Exception
         End Try
         'end of aero extending try
@@ -208,6 +246,11 @@ Public Class JumpGoMain
         End If
 
 #Region "Theming"
+        'I really do discourage the use of themes in JumpGo because, as with most applications,
+        'it slows the application down imensely...
+        'Eh, whatever... It'll make it look nice I guess?
+
+        'The Icon changer doesn't work correctly anymore... sad?
         'This will set the JumpGo icon to whatever current or legacy icon the user chooses
         If My.Settings.SetIcon = "Dev" Then 'This option is only available in JG Dev Ed
             Me.Icon = My.Resources.JumpGo_Dev_Edition_Updated
@@ -237,6 +280,7 @@ Public Class JumpGoMain
         End If
 
         ''This is where the rtaGlassEffect begins
+        ''None of this is used anymore because we have a new Aero themer up above
         'Dim glasseffect As New rtaGlassEffectsLib.rtaGlassEffect
 
         'glasseffect.TopBarSize = 31
@@ -305,6 +349,7 @@ Public Class JumpGoMain
     End Sub
 
 #Region "Tab Page Creators"
+    'These are kinda important. Just sayin'
     Function OpenHistoryTab(ByRef url As String)
 
         Dim t As New HistoryForm
@@ -315,7 +360,7 @@ Public Class JumpGoMain
         Return 0
     End Function
 
-    Function CreateNewTab(ByRef url As String)
+    Function CreateNewTab(ByRef url As String) 'This is by far the most important tab creator.
         'url = My.Settings.NewTab
         Dim t As New Tab
         t.FasterBrowser1.Navigate(url)

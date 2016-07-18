@@ -125,6 +125,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="VistaSecurity.vb" />
     <Compile Include="ZipExtractMod.vb" />
     <Compile Include="ZIPUpdater.Designer.vb">
       <DependentUpon>ZIPUpdater.vb</DependentUpon>
@@ -155,7 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="jgudtrkey001.pfx" />
-    <None Include="My Project\app.manifest" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -173,6 +176,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JGUpdaterElevated\JGUpdaterElevated.vbproj">
+      <Project>{e1602119-b58f-43cf-baad-5044552f1c5e}</Project>
+      <Name>JGUpdaterElevated</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -22,5 +22,22 @@ JGUpdater
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="M:JGUpdater.hackman3vilGuy.CodeProject.VistaSecurity.ElevateWithButton.VistaSecurity.IsAdmin">
+ <summary>
+ Checks if the process is elevated
+ </summary>
+ <returns>If is elevated</returns>
+</member>
+<member name="M:JGUpdater.hackman3vilGuy.CodeProject.VistaSecurity.ElevateWithButton.VistaSecurity.AddShieldToButton(System.Windows.Forms.Button)">
+ <summary>
+ Add a shield icon to a button
+ </summary>
+ <param name="b">The button</param>
+</member>
+<member name="M:JGUpdater.hackman3vilGuy.CodeProject.VistaSecurity.ElevateWithButton.VistaSecurity.RestartElevated">
+ <summary>
+ Restart the current process with administrator credentials
+ </summary>
+</member>
 </members>
 </doc>

@@ -8,7 +8,14 @@ Imports System.Linq
 Imports System.Reflection
 Imports System.Environment
 
-Public Class Tab
+'      _                    _ __    ___           
+'   _ | |  _  _    _ __    | '_ \  / __|    ___   
+'  | || | | +| |  | '  \   | .__/ | (_ |   / _ \  
+'  _\__/   \_,_|  |_|_|_|  |_|__   \___|   \___/  
+'_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| 
+'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
+
+Public Class Tab 'I think this is possibly the most headache enducing class in the whole application.
 
     Dim MenuOpen As Boolean = False
     Private browser As GeckoWebBrowser
@@ -81,7 +88,7 @@ Public Class Tab
                 End If
             End If
         End If
-            DdMenu1.Visible = False
+        DdMenu1.Visible = False
         MenuOpen = False
     End Sub
 

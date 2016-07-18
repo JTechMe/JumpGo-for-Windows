@@ -159,6 +159,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_0B0E774F28994A34B1C4F496C52E8471"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0B0ED7B545054E1199AD183384FB5865"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -921,6 +927,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_4FE5F1E7A517A51C371D4A6B4189AAB3"
+        "OwnerKey" = "8:_7C7D22C575B248BAB41C196CEB96D0E1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4FE5F1E7A517A51C371D4A6B4189AAB3"
+        "OwnerKey" = "8:_1A62706FB15D48C7BB6B789808235725"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4FE8FD85923142A282F6B125AE4F83D5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1215,6 +1233,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_67526C52B9DE0FC8E16F2A48EAA69631"
+        "OwnerKey" = "8:_7C7D22C575B248BAB41C196CEB96D0E1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_67526C52B9DE0FC8E16F2A48EAA69631"
+        "OwnerKey" = "8:_36B964735BE64D718F741584C5F6A0A4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_67526C52B9DE0FC8E16F2A48EAA69631"
+        "OwnerKey" = "8:_4FE5F1E7A517A51C371D4A6B4189AAB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_67E09ADDE22D429C8EC7C7BA2DB24C78"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1421,18 +1457,6 @@
         {
         "MsmKey" = "8:_7C7D22C575B248BAB41C196CEB96D0E1"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7CDA865F9A51A8FBB9E3F98ED953D1FC"
-        "OwnerKey" = "8:_7C7D22C575B248BAB41C196CEB96D0E1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7CDA865F9A51A8FBB9E3F98ED953D1FC"
-        "OwnerKey" = "8:_1A62706FB15D48C7BB6B789808235725"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -2273,24 +2297,6 @@
         {
         "MsmKey" = "8:_BD2BD00A946D46B2B3BA2D93DAD83370"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BD5835D2E90870949FEBBF3575D4B4EC"
-        "OwnerKey" = "8:_7C7D22C575B248BAB41C196CEB96D0E1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BD5835D2E90870949FEBBF3575D4B4EC"
-        "OwnerKey" = "8:_36B964735BE64D718F741584C5F6A0A4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BD5835D2E90870949FEBBF3575D4B4EC"
-        "OwnerKey" = "8:_7CDA865F9A51A8FBB9E3F98ED953D1FC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -3244,6 +3250,18 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4FE5F1E7A517A51C371D4A6B4189AAB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_67526C52B9DE0FC8E16F2A48EAA69631"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_986CF4B423303923CA20323C52CF073B"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -3257,18 +3275,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D4928FF6D3CA092F47B9AF61EE66B669"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7CDA865F9A51A8FBB9E3F98ED953D1FC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BD5835D2E90870949FEBBF3575D4B4EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -3891,6 +3897,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B0E774F28994A34B1C4F496C52E8471"
+            {
+            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\curverid.xml"
+            "TargetName" = "8:curverid.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_53627329B0C345768033052FCB058B51"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B0ED7B545054E1199AD183384FB5865"
             {
             "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\mdl-templates\\assets\\comp_tooltips.png"
@@ -4495,7 +4521,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:JumpGo, Version=4.3.6.17160, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:JumpGo, Version=4.3.6.41921, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
                     "_1A62706FB15D48C7BB6B789808235725"
@@ -6444,6 +6470,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4FE5F1E7A517A51C371D4A6B4189AAB3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_4FE5F1E7A517A51C371D4A6B4189AAB3"
+                    {
+                    "Name" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_53627329B0C345768033052FCB058B51"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4FE8FD85923142A282F6B125AE4F83D5"
             {
             "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\xulrunner\\plugins\\npnul32.dll"
@@ -7079,7 +7136,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MdiTabControl, Version=1.1.6022.15796, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MdiTabControl, Version=1.1.6041.41597, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_61363B6BE7F3D3CA34FE10EB05FBABF5"
@@ -7375,6 +7432,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_67526C52B9DE0FC8E16F2A48EAA69631"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_67526C52B9DE0FC8E16F2A48EAA69631"
+                    {
+                    "Name" = "8:Microsoft.WindowsAPICodePack.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_53627329B0C345768033052FCB058B51"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67E09ADDE22D429C8EC7C7BA2DB24C78"
@@ -8055,37 +8143,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7CDA865F9A51A8FBB9E3F98ED953D1FC"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_7CDA865F9A51A8FBB9E3F98ED953D1FC"
-                    {
-                    "Name" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7D5E3B4985074DD4841A1AE1C1C66421"
@@ -10351,7 +10408,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MdiTabControl, Version=1.1.6022.15796, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MdiTabControl, Version=1.1.6041.41597, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_AC96CD8226E64FA2A6972A514ADAD9FD"
@@ -10947,37 +11004,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BD5835D2E90870949FEBBF3575D4B4EC"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_BD5835D2E90870949FEBBF3575D4B4EC"
-                    {
-                    "Name" = "8:Microsoft.WindowsAPICodePack.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.WindowsAPICodePack.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD687B1821B54B33AA9F6D6E5660E723"
@@ -14469,15 +14495,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:JumpGo Browser"
-        "ProductCode" = "8:{71E00A09-6958-4E13-97AF-95769D7DD6AC}"
-        "PackageCode" = "8:{D709287C-2839-457A-9E2B-83D4433686F9}"
+        "ProductCode" = "8:{40EB8778-151C-45C5-9D47-93433A36D521}"
+        "PackageCode" = "8:{8F51A948-AC79-4A1B-9EDF-463558AF2788}"
         "UpgradeCode" = "8:{53B765DB-78E3-434E-8014-CBF05A89CAB6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:4.3.68"
+        "ProductVersion" = "8:4.3.7"
         "Manufacturer" = "8:JTechMe"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

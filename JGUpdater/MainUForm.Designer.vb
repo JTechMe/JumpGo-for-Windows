@@ -36,6 +36,7 @@ Partial Class MainUForm
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -177,11 +178,21 @@ Partial Class MainUForm
         Me.PictureBox1.TabIndex = 15
         Me.PictureBox1.TabStop = False
         '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.Location = New System.Drawing.Point(6, 233)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
+        Me.RichTextBox1.Size = New System.Drawing.Size(638, 84)
+        Me.RichTextBox1.TabIndex = 26
+        Me.RichTextBox1.Text = ""
+        '
         'MainUForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(662, 358)
+        Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
@@ -213,4 +224,5 @@ Partial Class MainUForm
     Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents RichTextBox1 As RichTextBox
 End Class
