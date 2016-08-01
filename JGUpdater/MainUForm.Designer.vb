@@ -37,6 +37,7 @@ Partial Class MainUForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -140,7 +141,7 @@ Partial Class MainUForm
         'Button2
         '
         Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.Button2.Location = New System.Drawing.Point(118, 323)
+        Me.Button2.Location = New System.Drawing.Point(12, 323)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(101, 23)
         Me.Button2.TabIndex = 18
@@ -150,12 +151,13 @@ Partial Class MainUForm
         'Button1
         '
         Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.Button1.Location = New System.Drawing.Point(12, 323)
+        Me.Button1.Location = New System.Drawing.Point(233, 181)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 23)
         Me.Button1.TabIndex = 17
         Me.Button1.Text = "Check for Update"
         Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Visible = False
         '
         'Label1
         '
@@ -180,18 +182,27 @@ Partial Class MainUForm
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(6, 233)
+        Me.RichTextBox1.Location = New System.Drawing.Point(12, 233)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(638, 84)
         Me.RichTextBox1.TabIndex = 26
         Me.RichTextBox1.Text = ""
         '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(119, 323)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(531, 23)
+        Me.ProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous
+        Me.ProgressBar1.TabIndex = 27
+        '
         'MainUForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(662, 358)
+        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label3)
@@ -225,4 +236,5 @@ Partial Class MainUForm
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents ProgressBar1 As ProgressBar
 End Class

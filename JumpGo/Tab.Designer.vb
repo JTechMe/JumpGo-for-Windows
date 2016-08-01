@@ -95,7 +95,6 @@ Partial Class Tab
         Me.GridMenuButton2 = New JumpGoStandardEdition.GridMenuButton()
         Me.GridMenuButton1 = New JumpGoStandardEdition.GridMenuButton()
         Me.FasterBrowser1 = New JumpGoStandardEdition.FasterBrowser()
-        'Me.FasterBrowser1 = New GeckoWebBrowser
         Me.Panel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
@@ -447,7 +446,7 @@ Partial Class Tab
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BackCircle
+        Me.PictureBox4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BackCircleDis
         Me.PictureBox4.Location = New System.Drawing.Point(12, 9)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(30, 29)
@@ -485,7 +484,7 @@ Partial Class Tab
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ForwardSquareDis
         Me.PictureBox5.Location = New System.Drawing.Point(0, -1)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(23, 27)
@@ -636,7 +635,7 @@ Partial Class Tab
         '
         'FastColoredTextBox1
         '
-        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(27, 14)
+        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(2, 14)
         Me.FastColoredTextBox1.BackBrush = Nothing
         Me.FastColoredTextBox1.CharHeight = 14
         Me.FastColoredTextBox1.CharWidth = 8
@@ -644,6 +643,7 @@ Partial Class Tab
         Me.FastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.FastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
         Me.FastColoredTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FastColoredTextBox1.Font = New System.Drawing.Font("Courier New", 9.75!)
         Me.FastColoredTextBox1.IsReplaceMode = False
         Me.FastColoredTextBox1.Language = FastColoredTextBoxNS.Language.HTML
         Me.FastColoredTextBox1.LeftBracket = Global.Microsoft.VisualBasic.ChrW(60)

@@ -287,6 +287,12 @@
     <Compile Include="ThemeDesign.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UserControlBox.Designer.vb">
+      <DependentUpon>UserControlBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="WebAppForm.Designer.vb">
       <DependentUpon>WebAppForm.vb</DependentUpon>
     </Compile>
@@ -361,6 +367,9 @@
     <EmbeddedResource Include="ThemeDesign.resx">
       <DependentUpon>ThemeDesign.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBox.resx">
+      <DependentUpon>UserControlBox.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WebAppForm.resx">
       <DependentUpon>WebAppForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -407,15 +416,6 @@
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
-    <COMReference Include="FlashBrokerLib">
-      <Guid>{FAB3E735-69C7-453B-A446-B6823C6DF1C9}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
     <COMReference Include="SHDocVw">
       <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -428,6 +428,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="curverid.xml" />
+    <None Include="Resources\tabclose.png" />
+    <None Include="Resources\tabclosehot.png" />
+    <None Include="Resources\ctrl_box_red_bttn11.png" />
+    <None Include="Resources\ctrl_box_left_bttn1.png" />
+    <None Include="Resources\ctrl_box_left_bttn2.png" />
+    <None Include="Resources\ctrl_box_left_bttn3.png" />
+    <None Include="Resources\ctrl_box_red_bttn2.png" />
+    <None Include="Resources\ctrl_box_red_bttn3.png" />
+    <None Include="Resources\ctrl_box_right_bttn3.png" />
+    <None Include="Resources\ctrl_box_right_bttn1.png" />
+    <None Include="Resources\ctrl_box_right_bttn2.png" />
     <Content Include="TestPage001.html" />
     <None Include="Resources\ic_source.png" />
     <None Include="Resources\ic_customize.png" />
@@ -570,12 +581,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\JGUpdater\JGUpdater.vbproj">
-      <Project>{cbfb2bac-1265-4246-8544-a61f25e6a33c}</Project>
-      <Name>JGUpdater</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

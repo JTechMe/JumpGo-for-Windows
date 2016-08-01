@@ -75,10 +75,11 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGo.exe
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGo.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGo.pdb
-C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache
-C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\MdiTabControl.pdb
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.AboutGo1.resources
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.DDMenu.resources
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.GridMenuButton.resources
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.dll
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\MdiTabControl.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.UserControlBox.resources

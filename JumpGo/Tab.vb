@@ -407,13 +407,28 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
         MenuOpen = False
     End Sub
 
+    Public Function HaveInternetConnection() As Boolean
+        'This tests your network connection
+        Try
+            Return My.Computer.Network.Ping("www.google.com")
+        Catch
+            Return False
+        End Try
+
+    End Function
+
     Private Sub Tab_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         GeckoPreferences.Default("extensions.blocklist.enabled") = False
         'GeckoPreferences.Default()
         FasterBrowser1.ContextMenuStrip = ContextMenuStrip1
         FasterBrowser1.ContextMenu = ContextMenuStrip1.ContextMenu
         If My.Settings.FirstRun = True Then
-            FasterBrowser1.Navigate(Environment.CurrentDirectory + "\Welcome\index.html")
+            'FasterBrowser1.Navigate(Environment.CurrentDirectory + "\Welcome\index.html")
+            If HaveInternetConnection() = True Then 'This checks if you're connected to the internet
+                FasterBrowser1.Navigate("http://jtechme.github.io/jg/jumpgo")
+            Else
+                FasterBrowser1.Navigate(Environment.CurrentDirectory + "\Welcome\offline.html")
+            End If
             My.Settings.FirstRun = False
             'JumpGoMain.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Else
@@ -452,6 +467,12 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
         End If
 
         Dim WinVerID As String = Environment.OSVersion.ToString()
+
+        If WinVerID = "10.0" Then
+
+        Else
+
+        End If
 
         'Dim sUserAgent As String = "Mozilla/5.0 (Windows; U; Windows NT 6.1; pl; rv:1.9.1) Gecko/20090624 Firefox/3.5 (.NET CLR 3.5.30729)"
         'Dim sUserAgent As String = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0"
@@ -586,11 +607,7 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         'geticon()
         'FasterBrowser1.Refresh()
-        If FasterBrowser1.CanGoBack Then
-            If PictureBox4.Image.Equals(My.Resources.BackCircleDis) Then
-                'PictureBox4.Image = My.Resources.BackCircle
-            End If
-        End If
+
 
     End Sub
 

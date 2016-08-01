@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89A975D5-4AF8-4C2C-8FAB-56C5733BA893}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>JumpGoDevEdition.My.MyApplication</StartupObject>
+    <RootNamespace>JumpGoDevEdition</RootNamespace>
+    <AssemblyName>JumpGo Dev</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>JumpGo</ProductName>
+    <PublisherName>JTechMe</PublisherName>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>4.3.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JumpGo Dev.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JumpGo Dev.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>Off</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>jumpgo_dev_edition_updated_jg3_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8EC72D66FE4106D88655527BD3222E750F4FBF25</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>JumpGo_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="APNM FrameWork CL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\APNM FrameWork CL.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoUpdater.NET, Version=1.3.1.0, Culture=neutral, PublicKeyToken=942f95247e354701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\AutoUpdater.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="FastColoredTextBox, Version=2.9.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Core, Version=29.0.11.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Geckofx-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Winforms, Version=29.0.11.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Geckofx-Winforms.dll</HintPath>
+    </Reference>
+    <Reference Include="MdiTabControl, Version=1.0.3742.19745, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MdiTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>..\packages\WindowsAPICodePack-Core.1.1.1\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>..\packages\WindowsAPICodePack-Shell.1.1.1\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationBuildTasks" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="rtaGlassEffectsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\rtaGlassEffectsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutGo1.Designer.vb">
+      <DependentUpon>AboutGo1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutGo1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOnSettings.Designer.vb">
+      <DependentUpon>AddOnSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddOnSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppBuilder.Designer.vb">
+      <DependentUpon>AppBuilder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBuilder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppBuildTester.Designer.vb">
+      <DependentUpon>AppBuildTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBuildTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DDMenu.Designer.vb">
+      <DependentUpon>DDMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DDMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GridMenuButton.Designer.vb">
+      <DependentUpon>GridMenuButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GridMenuButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HistoryForm.Designer.vb">
+      <DependentUpon>HistoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncognitoMain.Designer.vb">
+      <DependentUpon>IncognitoMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncognitoMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FasterBrowser.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IncognitoTab.Designer.vb">
+      <DependentUpon>IncognitoTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncognitoTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncognitoTabButtonNew.Designer.vb">
+      <DependentUpon>IncognitoTabButtonNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncognitoTabButtonNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoTab.Designer.vb">
+      <DependentUpon>InfoTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JumpGoMain.Designer.vb">
+      <DependentUpon>JumpGoMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JumpGoMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SourceWriter.Designer.vb">
+      <DependentUpon>SourceWriter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SourceWriter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tab.Designer.vb">
+      <DependentUpon>Tab.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TabButtonNew.Designer.vb">
+      <DependentUpon>TabButtonNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TabButtonNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemeDesign.Designer.vb">
+      <DependentUpon>ThemeDesign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeDesign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlBox.Designer.vb">
+      <DependentUpon>UserControlBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebAppForm.Designer.vb">
+      <DependentUpon>WebAppForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WebAppForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebSource.Designer.vb">
+      <DependentUpon>WebSource.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WebSource.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutGo1.resx">
+      <DependentUpon>AboutGo1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOnSettings.resx">
+      <DependentUpon>AddOnSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBuilder.resx">
+      <DependentUpon>AppBuilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBuildTester.resx">
+      <DependentUpon>AppBuildTester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryForm.resx">
+      <DependentUpon>HistoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncognitoMain.resx">
+      <DependentUpon>IncognitoMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncognitoTab.resx">
+      <DependentUpon>IncognitoTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncognitoTabButtonNew.resx">
+      <DependentUpon>IncognitoTabButtonNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoTab.resx">
+      <DependentUpon>InfoTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JumpGoMain.resx">
+      <DependentUpon>JumpGoMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SourceWriter.resx">
+      <DependentUpon>SourceWriter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab.resx">
+      <DependentUpon>Tab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabButtonNew.resx">
+      <DependentUpon>TabButtonNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemeDesign.resx">
+      <DependentUpon>ThemeDesign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBox.resx">
+      <DependentUpon>UserControlBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebAppForm.resx">
+      <DependentUpon>WebAppForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebSource.resx">
+      <DependentUpon>WebSource.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JumpGo_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\arrow-back-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-next-3-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-refresh-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fnal2-570x456 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="FlashBrokerLib">
+      <Guid>{FAB3E735-69C7-453B-A446-B6823C6DF1C9}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ctrl_box_right_bttn2.png" />
+    <None Include="Resources\ctrl_box_right_bttn1.png" />
+    <None Include="Resources\ctrl_box_red_bttn11.png" />
+    <None Include="Resources\ctrl_box_red_bttn3.png" />
+    <None Include="Resources\ctrl_box_red_bttn2.png" />
+    <None Include="Resources\ctrl_box_red_bttn1.png" />
+    <None Include="Resources\ctrl_box_left_bttn3.png" />
+    <None Include="Resources\ctrl_box_left_bttn2.png" />
+    <None Include="Resources\ctrl_box_left_bttn1.png" />
+    <None Include="Resources\ctrl_box_bttn1.png" />
+    <None Include="Resources\ctrl_box_right_bttn3.png" />
+    <None Include="Resources\tab_bg_bp1.png" />
+    <None Include="Resources\tab_bg_bp.png" />
+    <None Include="Resources\JumpGo_Dev_Edition_Updated.png" />
+    <None Include="Resources\JumpGo Dev Edition Updated.png" />
+    <None Include="bin\Debug\jumpgo_dev_edition_updated_jg3_icon.ico" />
+    <Content Include="jumpgo_dev_edition_updated_jg3_icon.ico" />
+    <None Include="Resources\tabclosehot.png" />
+    <None Include="Resources\tabclose.png" />
+    <None Include="Resources\NewTabZ.png" />
+    <None Include="Resources\MenuUR.png" />
+    <None Include="Resources\MenuUM.png" />
+    <None Include="Resources\MenuUL.png" />
+    <None Include="Resources\MenuTransparentHover.png" />
+    <None Include="Resources\MenuTransparentDown.png" />
+    <None Include="Resources\MenuRM.png" />
+    <None Include="Resources\MenuLM.png" />
+    <None Include="Resources\MenuFM.png" />
+    <None Include="Resources\MenuBR.png" />
+    <None Include="Resources\MenuBM.png" />
+    <None Include="Resources\MenuBL.png" />
+    <None Include="Resources\MenuBG.png" />
+    <None Include="Resources\JumpGoAboutLogo.png" />
+    <None Include="Resources\ic_source.png" />
+    <None Include="Resources\ic_new_window.png" />
+    <None Include="Resources\ic_incognito.png" />
+    <None Include="Resources\ic_gear_cog.png" />
+    <None Include="Resources\ic_customize.png" />
+    <None Include="Resources\homeTransparentHover.png" />
+    <None Include="Resources\homeTransparentDown.png" />
+    <None Include="Resources\GridMenuButtonBGDown.png" />
+    <None Include="Resources\GridMenuButtonBG.png" />
+    <None Include="Resources\ForwardSquareOver.png" />
+    <None Include="Resources\ForwardSquareDown.png" />
+    <None Include="Resources\ForwardSquareDis.png" />
+    <None Include="Resources\errorLarge.png" />
+    <None Include="Resources\BackCircleOver.png" />
+    <None Include="Resources\BackCircleDown.png" />
+    <None Include="Resources\BackCircleDis.png" />
+    <None Include="Resources\web_hi_res_512.png" />
+    <None Include="bin\Debug\JumpGo_Dev_Edition_Updated.ico" />
+    <None Include="bin\Debug\JumpGo_4_2_Updated.ico" />
+    <Content Include="JumpGo_Dev_Edition_Updated.ico" />
+    <None Include="Resources\JGTabControlGradient HC.png" />
+    <None Include="Resources\BarEnd.png" />
+    <None Include="Resources\SearchButton.png" />
+    <None Include="Resources\MenuTransparent.png" />
+    <None Include="Resources\homeTransparent.png" />
+    <None Include="Resources\NewTab.png" />
+    <None Include="Resources\URLbar.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\unsecured.png" />
+    <None Include="Resources\secured.png" />
+    <None Include="Resources\ForwardSquare.png" />
+    <None Include="Resources\BackCircle.png" />
+    <None Include="Resources\ic_search.png" />
+    <None Include="Resources\ic_history.png" />
+    <None Include="Resources\ic_folder.png" />
+    <None Include="Resources\ic_bookmark.png" />
+    <None Include="Resources\ic_action_text_size.png" />
+    <None Include="Resources\ic_action_tabs.png" />
+    <None Include="Resources\ic_action_star.png" />
+    <None Include="Resources\ic_action_refresh.png" />
+    <None Include="Resources\ic_action_reading.png" />
+    <None Include="Resources\ic_action_plus.png" />
+    <None Include="Resources\ic_action_invert.png" />
+    <None Include="Resources\ic_action_home.png" />
+    <None Include="Resources\ic_action_forward.png" />
+    <None Include="Resources\ic_action_expand.png" />
+    <None Include="Resources\ic_action_desktop.png" />
+    <None Include="Resources\ic_action_delete.png" />
+    <None Include="Resources\ic_action_collapse.png" />
+    <None Include="Resources\ic_action_back.png" />
+    <None Include="Resources\ic_webpage.png" />
+    <None Include="Resources\JGTabControlGradient.png" />
+    <None Include="Resources\Stop Icon.png" />
+    <None Include="Resources\imageres_5369.ico" />
+    <None Include="Resources\imageres_5322.ico" />
+    <None Include="Resources\imageres_5323.ico" />
+    <None Include="Resources\imageres_5306.ico" />
+    <None Include="Resources\imageres_5302.ico" />
+    <None Include="Resources\imageres_1024.ico" />
+    <None Include="Resources\imageres_167.ico" />
+    <None Include="Resources\imageres_115.ico" />
+    <None Include="Resources\imageres_114.ico" />
+    <None Include="Resources\imageres_109.ico" />
+    <None Include="Resources\imageres_110.ico" />
+    <None Include="Resources\imageres_90.ico" />
+    <None Include="Resources\Add.png" />
+    <None Include="bin\Debug\JumpGo Dev Edition.ico" />
+    <Content Include="JumpGo 3.ico" />
+    <Content Include="JumpGo 4.ico" />
+    <Content Include="JumpGo Dev Edition.ico" />
+    <Content Include="JumpGo.ico" />
+    <None Include="Resources\JumpGo Dev Edition.png" />
+    <None Include="Resources\Icons8-Windows-8-Science-Plus2-Math.ico" />
+    <None Include="Resources\Iconsmind-Outline-Arrow-Forward-2.ico" />
+    <None Include="Resources\Iconsmind-Outline-Arrow-Back-3.ico" />
+    <None Include="Resources\JumpGo 4.2.ico" />
+    <None Include="Resources\JumpGo 1.png" />
+    <None Include="Resources\JumpGo - Copy.ico" />
+    <None Include="Resources\JumpGo 4.2.png" />
+    <None Include="Resources\index.png" />
+    <None Include="Resources\Transparent.png" />
+    <None Include="Resources\dgjkbv - Light.png" />
+    <None Include="Resources\Stop Icon - Light.png" />
+    <None Include="Resources\Refresh Icon - Light.png" />
+    <None Include="Resources\Menu Icon - Light.png" />
+    <None Include="Resources\Home Icon - Light.png" />
+    <None Include="Resources\Forward Icon - Light.png" />
+    <None Include="Resources\Back Icon - Light.png" />
+    <None Include="Resources\Getting Started.html" />
+    <None Include="Resources\JumpGo.ico" />
+    <None Include="Resources\JumpGo 4.ico" />
+    <None Include="Resources\JumpGo 3.ico" />
+    <None Include="Resources\Dock.png" />
+    <None Include="Resources\Menu Icon.png" />
+    <None Include="Resources\Tab Color Swatch - Copy %282%29.png" />
+    <None Include="Resources\dgjkbv.png" />
+    <None Include="Resources\Home Icon.png" />
+    <None Include="Resources\Refresh Icon.png" />
+    <None Include="Resources\Forward Icon2.png" />
+    <None Include="Resources\Forward Icon1.png" />
+    <None Include="Resources\Forward Icon.png" />
+    <None Include="Resources\Back Icon.png" />
+    <None Include="Resources\JumpGo 4.png" />
+    <None Include="Resources\JumpGo 3.png" />
+    <None Include="Resources\poweredby_400.6d69147aa379 - Copy.png" />
+    <None Include="Resources\poweredby_400.6d69147aa379.png" />
+    <None Include="Resources\JumpGo - Copy.png" />
+    <None Include="Resources\Graphicloads-100-Flat-Zoom-search-2.png" />
+    <None Include="Resources\blueprint_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

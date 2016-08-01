@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;No">
+<!ENTITY sync.label "Si&amp;ncronizar la configuración de Adblock Plus">
+<!ENTITY whitelist.site.label "Deshabilitar en ?1?">
+<!ENTITY notification.closing.button.hide "Cerrar &amp;esta notificación">
+<!ENTITY filters.label "P&amp;referencias de filtro">
+<!ENTITY disable.label "Deshabilitar en todos lados">
+<!ENTITY objecttab.title "Bloquear">
+<!ENTITY objecttab.tooltip "Hacé clic acá para bloquear este objeto con Adblock Plus">
+<!ENTITY menuitem.label "&amp;Preferencias de Adblock Plus">
+<!ENTITY objecttabs.label "Mostrar pe&amp;stañas en Flash y Java">
+<!ENTITY sendReport.label "&amp;Informar de problemas en esta página">
+<!ENTITY whitelist.page.label "Deshabilitar solamente en esta página">
+<!ENTITY context.image.label "Adblock Plus: bloquear imagen">
+<!ENTITY notification.button.yes "&amp;Sí">
+<!ENTITY opensidebar.label "&amp;Abrir elementos bloqueables">
+<!ENTITY notification.button.close "&amp;Cerrar">
+<!ENTITY shownotifications.label "Mostrar &amp;notificaciones útiles">
+<!ENTITY contribute.label "Contribuí a Adblock Plus">
+<!ENTITY toolbarbutton.label "Adblock Plus">
+<!ENTITY context.frame.label "Adblock Plus: bloquear marco">
+<!ENTITY blocked.tooltip "Elementos bloqueados en esta página:">
+<!ENTITY notification.closing.button.optout "&amp;Dejar de mostrar notificaciones">
+<!ENTITY counthits.label "&amp;Veces usado">
+<!ENTITY showinstatusbar.label "Mostrar en la barra de &amp;estado">
+<!ENTITY sidebar.title "Elementos bloqueables en la página actual">
+<!ENTITY options.label "&amp;Opciones">
+<!ENTITY context.object.label "Adblock Plus: bloquear objeto">
+<!ENTITY context.removeWhitelist.label "Adblock Plus: rehabilitar en esta página">
+<!ENTITY filters.tooltip "Filtros más activos:">
+<!ENTITY closesidebar.label "&amp;Cerrar elementos bloqueables">
+<!ENTITY showintoolbar.label "Mostrar en la barra de &amp;herramientas">
+<!ENTITY status.tooltip "Estado:">
+<!ENTITY context.media.label "Adblock Plus: bloquear audio/video">

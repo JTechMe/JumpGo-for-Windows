@@ -1,0 +1,74 @@
+<!ENTITY restore.custom.warning "سيتم إستبدال كافة الفلتراتك المخصصة بمحتوى الملف المحدد. هل تريد المتابعه؟">
+<!ENTITY slow.column "فلاتر &amp;بطيئة">
+<!ENTITY enabled.column "مف&amp;عل">
+<!ENTITY subscription.lastDownload.checksumMismatch "فشل الأمر، عدم تطابق المجموع الإختباري">
+<!ENTITY noFiltersInGroup.text "المجموعة المختارة فارغة.">
+<!ENTITY subscription.actions.label "الإجراءات">
+<!ENTITY filter.selectAll.label "إختيار الكل">
+<!ENTITY backupButton.label "ال&amp;نسخ الإحتياطي والإسترجاع">
+<!ENTITY restore.minVersion.warning "تنبيه: الملف تم إنشاؤه بواسطة نسخة حديثة لأد بلوك بلس. يجب عليك تحديث آد بلوك بلس قبل عمليةالإسترجاع من هذا الملف.">
+<!ENTITY restore.error "لا يمكن معالجة بينات الملف، من المحتمل أن هذاالملف ليس نسخة إحتياطية لآد بلوك بلس؟">
+<!ENTITY sort.ascending.label "ترتيب أبجدي (A &gt; Z) (&amp;ص)">
+<!ENTITY sort.label "ترتي&amp;ب حسب">
+<!ENTITY subscription.source.label "قائمة الفلاتر">
+<!ENTITY hitcount.column "إ&amp;حصاءات">
+<!ENTITY noFilters.text "لا توجد لديك فلاتر مخصصة بعد.">
+<!ENTITY backup.custom.title "الفلاتر المخصصة فقط">
+<!ENTITY subscription.external.label "تم التحديث من اضافة اخرى">
+<!ENTITY subscription.delete.label "ازالة">
+<!ENTITY noGroupSelected.text "تحتاج إلى تحديد مجموعة فلتر قبل أن يمكن عرض مجموعة الفلاتر هته.">
+<!ENTITY filter.cut.label "قص">
+<!ENTITY restore.default.label "الإسترجاع من النسخة الإحتياطية ?1?">
+<!ENTITY subscription.lastDownload.inProgress "جاري التحميل…">
+<!ENTITY subscriptions.tab.label "إشتراكات الفلاتر">
+<!ENTITY sort.descending.label "ت&amp;رتيب أبجدي (Z &gt; A)">
+<!ENTITY filters.remove.warning "هل تريد حقاً إزالة الفلاتر المختارة؟">
+<!ENTITY filter.delete.label "حذف">
+<!ENTITY addSubscriptionAdd.label "اضافة">
+<!ENTITY viewMenu.label "عرض">
+<!ENTITY subscription.lastDownload.unknown "غير متاح">
+<!ENTITY addSubscriptionCancel.label "الغاء">
+<!ENTITY subscription.enabled.label "مفعّل">
+<!ENTITY noSubscriptions.text "لم تضف أي إشتراك فلاتر حتى الان. آد بلُك بلَس لا يحجب 
+أي شيء بدون هذه الفلاتر, الرجاء إختيار &quot;إشتراكات الفلاتر&quot; 
+لإضافة أحدها.">
+<!ENTITY subscription.update.label "تحدبث الفلاتر">
+<!ENTITY dialog.title "تفضيلات الفلترات لآدبلوك بلس">
+<!ENTITY addFilter.label "إ&amp;ضافة فلتر">
+<!ENTITY subscription.minVersion.warning "إشتراك الفلاتر هذا يتطلب إصدار آد بلُك بلَس حديث، يجب عليك التحديث إلى أحدث إصدار.">
+<!ENTITY subscription.lastDownload.invalidURL "فشل الأمر، العنوان ليس صحيح">
+<!ENTITY backup.error "حصل هناك خطأ في كتابة الفلاتر إلى الملف. تأكد من أن الملف قابل للتعديل و لا يتم إستخدامه من قبل برنامج آخر.">
+<!ENTITY filter.moveUp.label "إلى الأعلى">
+<!ENTITY addGroup.label "إضافة &amp;مجموعة فلاتر">
+<!ENTITY filter.edit.label "تحرير">
+<!ENTITY subscription.showHideFilters.label "إظهار / إخفاء الفلاتر">
+<!ENTITY acceptableAds2.label "السماح لب&amp;عض الإعلانات الغير متطفّلة">
+<!ENTITY addSubscriptionOther.label "إضافة اشتراك آخر">
+<!ENTITY close.label "إغلاق">
+<!ENTITY sort.none.label "غي&amp;ر مرتب">
+<!ENTITY filter.actions.label "التطبيقات على الفلتر">
+<!ENTITY filter.copy.label "نسخ">
+<!ENTITY filter.moveDown.label "إلى الأسفل">
+<!ENTITY filter.resetHitCounts.label "إعادة الإحصائيات الوضع الأصلي">
+<!ENTITY readMore.label "قراءة المزيد">
+<!ENTITY subscription.moveUp.label "إلى الأعلى">
+<!ENTITY addSubscription.label "إضافة إشتراك فلاتر">
+<!ENTITY subscription.homepage.label "صفحة البداية">
+<!ENTITY backup.complete.title "كل الإشتراكات والفلاتر">
+<!ENTITY restore.own.label "الإسترجاع من النسخة الإحتياطية الخاصة">
+<!ENTITY restore.complete.warning "سيتم إستبدال كافة تفضيلات فلتراتك بمحتويات الملف المحدد. هل تريد المتابعه؟">
+<!ENTITY filters.tab.label "الفلاتر المخصصة">
+<!ENTITY backup.label "إنشاء نسخة إحتياطية جديدة">
+<!ENTITY find.label "بحث (&amp;ج)">
+<!ENTITY subscription.moveDown.label "إلى الأسفل">
+<!ENTITY subscription.lastDownload.connectionError "فشل الأمر، بسبب فشل التحميل">
+<!ENTITY subscription.lastDownload.success "نجاح">
+<!ENTITY subscription.lastDownload.invalidData "فشل الأمر، قائمة فلاتر ليست صحيحة">
+<!ENTITY filter.paste.label "لصق">
+<!ENTITY subscription.disabledFilters.enable "تفعيل الفلاتر المعطّلة">
+<!ENTITY lasthit.column "&amp;آخر إحصاء">
+<!ENTITY subscription.editTitle.label "تعديل العنوان">
+<!ENTITY subscription.disabledFilters.warning "بعض الفلاتر في هذا الإشتراك معطّلة.">
+<!ENTITY filter.column "قاعدة ال&amp;فلتر">
+<!ENTITY subscription.lastDownload.label "آخر تحميل">
+<!ENTITY viewList.label "إظهار القائمة">

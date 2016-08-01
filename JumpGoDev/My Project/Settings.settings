@@ -1,0 +1,108 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Search" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.google.com/search?client=jumpgo&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=</Value>
+    </Setting>
+    <Setting Name="Google" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.google.com/search?client=jumpgo&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=</Value>
+    </Setting>
+    <Setting Name="Yahoo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://search.yahoo.com/search;_ylt=AtBw7aX_oxzoq6VqvLov.5WbvZx4?p=</Value>
+    </Setting>
+    <Setting Name="Bing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.bing.com/search?q=google&amp;go=Submit&amp;qs=n&amp;form=QBLH&amp;pq=</Value>
+    </Setting>
+    <Setting Name="UserSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Home" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.google.com/</Value>
+    </Setting>
+    <Setting Name="NewTab" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.google.com/</Value>
+    </Setting>
+    <Setting Name="FirstRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NavPanelBG" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MenuPanelBG" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThemeColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dark</Value>
+    </Setting>
+    <Setting Name="LastSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">797, 510</Value>
+    </Setting>
+    <Setting Name="WebApps" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Bookmarks" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;https://www.google.com/&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="HighContrast" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Client" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Beta</Value>
+    </Setting>
+    <Setting Name="BetaClient" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/JTechMe/DotNET-Updater-Files/master/JGDEB.xml</Value>
+    </Setting>
+    <Setting Name="StableClient" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/JTechMe/DotNET-Updater-Files/master/JGDES.xml</Value>
+    </Setting>
+    <Setting Name="SetIcon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dev</Value>
+    </Setting>
+    <Setting Name="WebHistory" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GoogleDevelopersSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://developers.google.com/s/results/?q=</Value>
+    </Setting>
+    <Setting Name="WikipediaSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://en.wikipedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;search=</Value>
+    </Setting>
+    <Setting Name="WikipediaSearchPt2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&amp;fulltext=Search</Value>
+    </Setting>
+    <Setting Name="GitHubSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/search?utf8=✓&amp;q=</Value>
+    </Setting>
+    <Setting Name="YouTubeSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.youtube.com/results?search_query=</Value>
+    </Setting>
+    <Setting Name="DuckDuckGoSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://duckduckgo.com/?t=jumpgo&amp;q=</Value>
+    </Setting>
+    <Setting Name="StackOverflowSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://stackoverflow.com/search?q=</Value>
+    </Setting>
+    <Setting Name="SavedLinks" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CurVerIDAvai" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastWinState" Type="System.String" Scope="User">
+      <Value Profile="(Default)">normal</Value>
+    </Setting>
+    <Setting Name="AeroTabs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NavPnlBGEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

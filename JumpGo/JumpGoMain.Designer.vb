@@ -42,6 +42,7 @@ Partial Class JumpGoMain
         Me.OpenFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SavePageAsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UserControlBox1 = New JumpGoStandardEdition.UserControlBox()
         Me.ToolStrip1.SuspendLayout()
         Me.ContextMenuStrip2.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
@@ -65,7 +66,7 @@ Partial Class JumpGoMain
         Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.None
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1})
-        Me.ToolStrip1.Location = New System.Drawing.Point(834, 0)
+        Me.ToolStrip1.Location = New System.Drawing.Point(933, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(24, 31)
         Me.ToolStrip1.Stretch = True
@@ -101,7 +102,7 @@ Partial Class JumpGoMain
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.MenuRenderer = Nothing
         Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.Size = New System.Drawing.Size(781, 472)
+        Me.TabControl1.Size = New System.Drawing.Size(880, 527)
         Me.TabControl1.TabBackHighColor = System.Drawing.SystemColors.Control
         Me.TabControl1.TabBackHighColorDisabled = System.Drawing.Color.Transparent
         Me.TabControl1.TabBackLowColorDisabled = System.Drawing.Color.Transparent
@@ -119,9 +120,9 @@ Partial Class JumpGoMain
         Me.TabControl1.TabCloseButtonForeColor = System.Drawing.Color.DimGray
         Me.TabControl1.TabCloseButtonForeColorDisabled = System.Drawing.Color.DimGray
         Me.TabControl1.TabCloseButtonForeColorHot = System.Drawing.Color.DimGray
-        Me.TabControl1.TabCloseButtonImage = Nothing
+        Me.TabControl1.TabCloseButtonImage = Global.JumpGoStandardEdition.My.Resources.Resources.tabclose
         Me.TabControl1.TabCloseButtonImageDisabled = Nothing
-        Me.TabControl1.TabCloseButtonImageHot = Nothing
+        Me.TabControl1.TabCloseButtonImageHot = Global.JumpGoStandardEdition.My.Resources.Resources.tabclosehot
         Me.TabControl1.TabGlassGradient = True
         Me.TabControl1.TabIndex = 2
         Me.TabControl1.TabMinimumWidth = 200
@@ -224,11 +225,20 @@ Partial Class JumpGoMain
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(257, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
+        'UserControlBox1
+        '
+        Me.UserControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.UserControlBox1.Location = New System.Drawing.Point(777, 0)
+        Me.UserControlBox1.Name = "UserControlBox1"
+        Me.UserControlBox1.Size = New System.Drawing.Size(100, 21)
+        Me.UserControlBox1.TabIndex = 9
+        '
         'JumpGoMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(781, 472)
+        Me.ClientSize = New System.Drawing.Size(880, 527)
+        Me.Controls.Add(Me.UserControlBox1)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ToolStrip2)
@@ -264,4 +274,5 @@ Partial Class JumpGoMain
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ContextMenuStrip2 As ContextMenuStrip
     Friend WithEvents MenuToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents UserControlBox1 As UserControlBox
 End Class

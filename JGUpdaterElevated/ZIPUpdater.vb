@@ -50,22 +50,22 @@ Public Class ZIPUpdater
 
         'Create directory in which you will unzip your items.
         IO.Directory.CreateDirectory(outputFolder)
-        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "IO.Directory.CreateDirectory(" & outputFolder & ")"
+        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "$ IO.Directory.CreateDirectory(" & outputFolder & ")"
         ProgressBar1.Value = 25
 
         'Declare the folder where the items will be extracted.
         Dim output As Object = shObj.NameSpace((outputFolder))
-        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "Dim output As Object = shObj.NameSpace((" & outputFolder & "))"
+        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "$ Dim output As Object = shObj.NameSpace((" & outputFolder & "))"
         ProgressBar1.Value = 50
 
         'Declare the input zip file.
         Dim input As Object = shObj.NameSpace((inputZip))
-        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "Dim input As Object = shObj.NameSpace((" & outputFolder & "))"
+        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "$ Dim input As Object = shObj.NameSpace((" & outputFolder & "))"
         ProgressBar1.Value = 75
 
         'Extract the items from the zip file.
         output.CopyHere((input.Items), 4)
-        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "output.CopyHere((input.Items))"
+        RichTextBox1.Text = RichTextBox1.Text & vbNewLine & "$ output.CopyHere((input.Items))"
         ProgressBar1.Value = 100
 
     End Sub

@@ -1,29 +1,29 @@
 ﻿'Option Explicit On
 'Option Strict On
-Imports System
-Imports System.Reflection
+Imports System 'Unused import
+Imports System.Reflection 'Unused import
 
-Imports Microsoft.WindowsAPICodePack
+Imports Microsoft.WindowsAPICodePack 'Unused import
 Imports Microsoft.WindowsAPICodePack.Taskbar
-Imports Microsoft.WindowsAPICodePack.Shell
+Imports Microsoft.WindowsAPICodePack.Shell 'Unused import
 
-Imports System.Globalization
-Imports System.Windows.Forms
-Imports AutoUpdaterDotNET
-Imports System.Net
+Imports System.Globalization 'Unused import
+Imports System.Windows.Forms 'Unused import
+Imports AutoUpdaterDotNET 'Unused import
+Imports System.Net 'Unused import
 
 Imports System.IO
-Imports System.IO.Compression
-Imports System.IO.Directory
-Imports System.IO.DirectoryNotFoundException
-Imports System.IO.FileAccess
+Imports System.IO.Compression 'Unused import
+Imports System.IO.Directory 'Unused import
+Imports System.IO.DirectoryNotFoundException 'Unused import
+Imports System.IO.FileAccess 'Unused import
 Imports System.Xml
 
 Imports Gecko
 'Imports System.IO
-Imports System.Linq
+Imports System.Linq 'Unused import
 Imports System.Environment
-Imports System.Runtime.InteropServices
+Imports System.Runtime.InteropServices 'Unused import
 
 ' __  __   ______   __  __   ___   ______    ______       ______   ______   ______    ________  ___   __    _______    __       
 '/_/\/_/\ /_____/\ /_/\/_/\ /__/\ /_____/\  /_____/\     /_____/\ /_____/\ /_____/\  /_______/\/__/\ /__/\ /______/\  /__/\     
@@ -192,7 +192,19 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
     End Sub
 #End Region
 
+    Public Function HaveInternetConnection() As Boolean
+        'This tests your network connection
+        Try
+            Return My.Computer.Network.Ping("www.google.com")
+        Catch
+            Return False
+        End Try
+
+    End Function
+
     Private Sub JumpGo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        Dim WinVerID As String = Environment.OSVersion.ToString()
 
         'Dim jgAppData As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)
 
@@ -249,6 +261,16 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
         'I really do discourage the use of themes in JumpGo because, as with most applications,
         'it slows the application down imensely...
         'Eh, whatever... It'll make it look nice I guess?
+
+        If WinVerID.Contains("10.0") Then 'This checks to see if the current operating system is Windows 10
+            UserControlBox1.Visible = True 'This makes the custom controlbox for JumpGo visible
+            Me.ControlBox = False 'This removes the form's controlbox
+            TabControl1.BackHighColor = Color.DarkGray 'This changes the top back color of the tabcontrol
+            TabControl1.BackLowColor = Color.DarkGray 'This changes the bottom back color of the tabcontrol
+        Else 'This runs if the system is not Windows 10
+            UserControlBox1.Visible = False 'This makes the custom controlbox for JumpGo invisible
+            Me.ControlBox = True 'This makes the form's controlbox visible
+        End If
 
         'The Icon changer doesn't work correctly anymore... sad?
         'This will set the JumpGo icon to whatever current or legacy icon the user chooses
@@ -319,20 +341,39 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
         'TabControl1.TabPages.Add(TabButtonNew).CloseButtonVisible = False
 
         'NewTabButton("")
-        If My.Settings.FirstRun = True Then
-            CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
-            My.Settings.Upgrade()
-            My.Settings.FirstRun = False
-            'This will set the size and window state of the JumpGoMain.vb form
-            If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
-                Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
-            Else 'This will run if the last saved window state was not normal
-                If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
-                    Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+        If HaveInternetConnection() = True Then 'This checks if you're connected to the internet
+            If My.Settings.FirstRun = True Then
+                'CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
+                CreateNewTab("http://jtechme.github.io/jg/jumpgo")
+                My.Settings.Upgrade()
+                My.Settings.FirstRun = False
+                'This will set the size and window state of the JumpGoMain.vb form
+                If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
+                    Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
+                Else 'This will run if the last saved window state was not normal
+                    If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
+                        Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+                    End If
                 End If
+            Else
+                CreateNewTab(My.Settings.Home)
             End If
         Else
-            CreateNewTab(My.Settings.Home)
+            If My.Settings.FirstRun = True Then
+                CreateNewTab(Environment.CurrentDirectory + "\offline.html")
+                My.Settings.Upgrade()
+                My.Settings.FirstRun = False
+                'This will set the size and window state of the JumpGoMain.vb form
+                If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
+                    Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
+                Else 'This will run if the last saved window state was not normal
+                    If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
+                        Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+                    End If
+                End If
+            Else
+                CreateNewTab(My.Settings.Home)
+            End If
         End If
 
         'NewTabButton("")
@@ -404,6 +445,116 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
         CreateNewTab(My.Settings.NewTab)
     End Sub
 #End Region
+
+    Private Sub MaxNormFix()
+        Dim WinVerID As String = Environment.OSVersion.ToString()
+
+#Region "Maximized Fix"
+        If Me.WindowState = FormWindowState.Maximized And Me.ControlBox = True And WinVerID.Contains("6.") Then
+            If WinVerID.Contains("6.1") Then
+                UserControlBox1.Visible = True
+                Me.ControlBox = False
+            Else
+                If WinVerID.Contains("10.0") Then
+                    UserControlBox1.Visible = True
+                    Me.ControlBox = False
+                    TabControl1.BackHighColor = Color.DarkGray
+                    TabControl1.BackLowColor = Color.DarkGray
+                Else
+                    UserControlBox1.Visible = False
+                    Me.ControlBox = True
+                End If
+            End If
+        End If
+
+        If Me.WindowState = FormWindowState.Maximized And Me.ControlBox = True Then
+            If WinVerID.Contains("6.2") Then
+                UserControlBox1.Visible = True
+                Me.ControlBox = False
+            Else
+                If WinVerID.Contains("10.0") Then
+                    UserControlBox1.Visible = True
+                    Me.ControlBox = False
+                    TabControl1.BackHighColor = Color.DarkGray
+                    TabControl1.BackLowColor = Color.DarkGray
+                Else
+                    UserControlBox1.Visible = False
+                    Me.ControlBox = True
+                End If
+            End If
+        End If
+
+        If Me.WindowState = FormWindowState.Maximized And Me.ControlBox = True Then
+            If WinVerID.Contains("6.3") Then
+                UserControlBox1.Visible = True
+                Me.ControlBox = False
+            Else
+                If WinVerID.Contains("10.0") Then
+                    UserControlBox1.Visible = True
+                    Me.ControlBox = False
+                    TabControl1.BackHighColor = Color.DarkGray
+                    TabControl1.BackLowColor = Color.DarkGray
+                Else
+                    UserControlBox1.Visible = False
+                    Me.ControlBox = True
+                End If
+            End If
+        End If
+#End Region
+
+#Region "Normal Fix"
+        If Me.WindowState = FormWindowState.Normal And Me.ControlBox = False And WinVerID.Contains("6.") Then
+            If WinVerID.Contains("6.1") Then
+                UserControlBox1.Visible = False
+                Me.ControlBox = True
+            Else
+                If WinVerID.Contains("10.0") Then
+                    UserControlBox1.Visible = True
+                    Me.ControlBox = False
+                    TabControl1.BackHighColor = Color.DarkGray
+                    TabControl1.BackLowColor = Color.DarkGray
+                Else
+                    UserControlBox1.Visible = False
+                    Me.ControlBox = True
+                End If
+            End If
+        End If
+
+        If Me.WindowState = FormWindowState.Normal And Me.ControlBox = False Then
+            If WinVerID.Contains("6.2") Then
+                UserControlBox1.Visible = False
+                Me.ControlBox = True
+            Else
+                If WinVerID.Contains("10.0") Then
+                    UserControlBox1.Visible = True
+                    Me.ControlBox = False
+                    TabControl1.BackHighColor = Color.DarkGray
+                    TabControl1.BackLowColor = Color.DarkGray
+                Else
+                    UserControlBox1.Visible = False
+                    Me.ControlBox = True
+                End If
+            End If
+        End If
+
+        If Me.WindowState = FormWindowState.Normal And Me.ControlBox = False Then
+            If WinVerID.Contains("6.3") Then
+                UserControlBox1.Visible = False
+                Me.ControlBox = True
+            Else
+                If WinVerID.Contains("10.0") Then
+                    UserControlBox1.Visible = True
+                    Me.ControlBox = False
+                    TabControl1.BackHighColor = Color.DarkGray
+                    TabControl1.BackLowColor = Color.DarkGray
+                Else
+                    UserControlBox1.Visible = False
+                    Me.ControlBox = True
+                End If
+            End If
+        End If
+#End Region
+    End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 

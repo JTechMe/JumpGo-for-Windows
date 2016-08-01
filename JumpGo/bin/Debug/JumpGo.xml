@@ -82,6 +82,51 @@ JumpGo
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_left_bttn1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_left_bttn2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_left_bttn3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_red_bttn11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_red_bttn2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_red_bttn3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_right_bttn1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_right_bttn2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ctrl_box_right_bttn3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:JumpGoStandardEdition.My.Resources.Resources.dgjkbv">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -608,6 +653,16 @@ JumpGo
 </summary>
 </member>
 <member name="P:JumpGoStandardEdition.My.Resources.Resources.Tab_Color_Swatch___Copy__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.tabclose">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.tabclosehot">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
