@@ -490,6 +490,16 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
         Else
             'My.Settings.SavedLinks = New System.Collections.Specialized.StringCollection
         End If
+
+        GridMenuButton1.ForeColor = SystemColors.ControlText
+        GridMenuButton2.ForeColor = SystemColors.ControlText
+        GridMenuButton3.ForeColor = SystemColors.ControlText
+        GridMenuButton4.ForeColor = SystemColors.ControlText
+        GridMenuButton5.ForeColor = SystemColors.ControlText
+        GridMenuButton6.ForeColor = SystemColors.ControlText
+        GridMenuButton7.ForeColor = SystemColors.ControlText
+        GridMenuButton8.ForeColor = SystemColors.ControlText
+        GridMenuButton9.ForeColor = SystemColors.ControlText
     End Sub
 
     Private Sub GoToLink(ByVal sender As System.Object, ByVal e As System.EventArgs)

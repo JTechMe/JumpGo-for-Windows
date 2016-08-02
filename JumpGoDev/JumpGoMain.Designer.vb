@@ -23,6 +23,7 @@ Partial Class JumpGoMain
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim ToolStripProfessionalRenderer1 As System.Windows.Forms.ToolStripProfessionalRenderer = New System.Windows.Forms.ToolStripProfessionalRenderer()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(JumpGoMain))
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -102,7 +103,8 @@ Partial Class JumpGoMain
         Me.TabControl1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.TabControl1.ForeColorDisabled = System.Drawing.SystemColors.ControlLightLight
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
-        Me.TabControl1.MenuRenderer = Nothing
+        ToolStripProfessionalRenderer1.RoundedEdges = True
+        Me.TabControl1.MenuRenderer = ToolStripProfessionalRenderer1
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.Size = New System.Drawing.Size(880, 550)
         Me.TabControl1.TabBackHighColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(185, Byte), Integer))
@@ -124,7 +126,7 @@ Partial Class JumpGoMain
         Me.TabControl1.TabCloseButtonForeColorDisabled = System.Drawing.Color.DimGray
         Me.TabControl1.TabCloseButtonForeColorHot = System.Drawing.Color.DimGray
         Me.TabControl1.TabCloseButtonImage = Global.JumpGoDevEdition.My.Resources.Resources.tabclose
-        Me.TabControl1.TabCloseButtonImageDisabled = Nothing
+        Me.TabControl1.TabCloseButtonImageDisabled = Global.JumpGoDevEdition.My.Resources.Resources.tabclose
         Me.TabControl1.TabCloseButtonImageHot = Global.JumpGoDevEdition.My.Resources.Resources.tabclosehot
         Me.TabControl1.TabIndex = 2
         Me.TabControl1.TabMinimumWidth = 200

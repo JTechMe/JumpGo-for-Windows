@@ -4,7 +4,7 @@
   <description asmv2:iconFile="jumpgo_dev_edition_updated_jg3_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo Dev" version="4.3.7.37672" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo Dev" version="4.4.0.26683" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo Dev.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -127,26 +127,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo Dev.exe" size="22631424">
-      <assemblyIdentity name="JumpGo Dev" version="4.3.7.37672" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo Dev.exe" size="22631936">
+      <assemblyIdentity name="JumpGo Dev" version="4.4.0.26683" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>t69hQsfcKLFFNXhsbRi9dd09wnabLIc6GGfKgH1oOZo=</dsig:DigestValue>
+        <dsig:DigestValue>kZRBBq40y2lxRpMpw9tN1IAO4c5rg8rYutUtVPM4yZ4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="93184">
-      <assemblyIdentity name="MdiTabControl" version="1.1.6055.25413" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="92672">
+      <assemblyIdentity name="MdiTabControl" version="1.1.6057.24578" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TugSawCx0hW9cbl+a0nYjqosZeTtUPTDkFsRl6NHODo=</dsig:DigestValue>
+        <dsig:DigestValue>Sgiri5iTHQf6RxPbqRf6+qfNFy5Zt4WEmHtQ9uRi17g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

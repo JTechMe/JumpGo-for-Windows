@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpGo Universal Edition", 
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JumpGo Developer Edition", "JumpGoDev\JumpGo Developer Edition.vbproj", "{89A975D5-4AF8-4C2C-8FAB-56C5733BA893}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "JGSetupDE", "JGSetupDE\JGSetupDE.vdproj", "{D81424D9-CEE6-408E-8623-78C77E66D59F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -130,6 +132,14 @@ Global
 		{89A975D5-4AF8-4C2C-8FAB-56C5733BA893}.Release|x64.Build.0 = Release|Any CPU
 		{89A975D5-4AF8-4C2C-8FAB-56C5733BA893}.Release|x86.ActiveCfg = Release|Any CPU
 		{89A975D5-4AF8-4C2C-8FAB-56C5733BA893}.Release|x86.Build.0 = Release|Any CPU
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Debug|Any CPU.ActiveCfg = Debug
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Debug|ARM.ActiveCfg = Debug
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Debug|x64.ActiveCfg = Debug
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Debug|x86.ActiveCfg = Debug
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Release|Any CPU.ActiveCfg = Release
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Release|ARM.ActiveCfg = Release
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Release|x64.ActiveCfg = Release
+		{D81424D9-CEE6-408E-8623-78C77E66D59F}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

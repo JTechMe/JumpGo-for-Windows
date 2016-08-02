@@ -315,6 +315,9 @@
     <EmbeddedResource Include="AppBuildTester.resx">
       <DependentUpon>AppBuildTester.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GridMenuButton.resx">
+      <DependentUpon>GridMenuButton.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HistoryForm.resx">
       <DependentUpon>HistoryForm.vb</DependentUpon>
     </EmbeddedResource>
