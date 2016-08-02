@@ -1,1 +1,1 @@
-# JumpGo for Windows [![GitHub release](https://img.shields.io/github/release/JTechMe/JumpGo-for-Windows.svg)](https://github.com/JTechMe/JumpGo-for-Windows/releases)
+# JumpGo for Windows [![GitHub release](https://img.shields.io/github/release/JTechMe/JumpGo-for-Windows.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/releases) [![GitHub issues](https://img.shields.io/github/issues/JTechMe/JumpGo-for-Windows.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/issues)
