@@ -1,1 +1,5 @@
 # JumpGo for Windows [![GitHub release](https://img.shields.io/github/release/JTechMe/JumpGo-for-Windows.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/releases) [![GitHub issues](https://img.shields.io/github/issues/JTechMe/JumpGo-for-Windows.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/issues) [![GitHub forks](https://img.shields.io/github/forks/JTechMe/JumpGo-for-Windows.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/network) [![GitHub stars](https://img.shields.io/github/stars/JTechMe/JumpGo-for-Windows.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/stargazers)
+
+## JumpGo Standard Edition [![Download Standard Ed](https://img.shields.io/badge/download-standard-64BDF1.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/releases/download/v4.4/JGSetup.msi)
+
+## JumpGo Dev Edition [![Download Dev Ed](https://img.shields.io/badge/download-dev-64BDF1.svg?style=flat-square)](https://github.com/JTechMe/JumpGo-for-Windows/releases/download/v4.4/JGSetupDev.msi)
