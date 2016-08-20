@@ -234,6 +234,12 @@
     <Compile Include="InfoTab.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="JGMWin10Tut.Designer.vb">
+      <DependentUpon>JGMWin10Tut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JGMWin10Tut.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="JumpGoMain.Designer.vb">
       <DependentUpon>JumpGoMain.vb</DependentUpon>
     </Compile>
@@ -342,6 +348,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InfoTab.resx">
       <DependentUpon>InfoTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JGMWin10Tut.resx">
+      <DependentUpon>JGMWin10Tut.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JumpGoMain.resx">
       <DependentUpon>JumpGoMain.vb</DependentUpon>

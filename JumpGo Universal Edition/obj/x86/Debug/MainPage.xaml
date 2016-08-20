@@ -7,9 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <!--<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!--
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    </Grid>-->
+    </Grid>
+    -->
+    
     <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="150">
         <SplitView.Pane>
@@ -35,7 +38,7 @@
         </SplitView.Pane>
         <SplitView.Content>
             <Grid Background="#66DAFF">
-                <WebView x:ConnectionId='6' Name="WebView1" Margin="10,0,0,0"/>
+                <WebView x:ConnectionId='6' Name="WebView1" Visibility="Visible" Margin="10,0,0,0"/>
             </Grid>
         </SplitView.Content>
     </SplitView>

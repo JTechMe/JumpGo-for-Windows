@@ -39,6 +39,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Name" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="JumpGo_Universal_Edition.MainPage" />

@@ -513,12 +513,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2516F450C166426E8DB74FC8E736A2C4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2566A6382BDA4A7D9B1B1765CCD65F68"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -568,12 +562,6 @@
         "Entry"
         {
         "MsmKey" = "8:_27BFC45BD0BF49DA93B66CCA51957894"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_27D03911939C4D3499426C8FD8AFF6F9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -808,12 +796,6 @@
         "Entry"
         {
         "MsmKey" = "8:_4187E4315CE6453392B1931F13212CDF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_41F2907C285B4C0A9B0514CD522F2CDB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1563,12 +1545,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7D5E3B4985074DD4841A1AE1C1C66421"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_7FA416A831DE41A4A6DC0F9919B67F61"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1666,12 +1642,6 @@
         "Entry"
         {
         "MsmKey" = "8:_850A3DC1F73747C9AE44EEB69B7B2538"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_85214DE6374E4AC1992960293BE4673B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1907,12 +1877,6 @@
         {
         "MsmKey" = "8:_986CF4B423303923CA20323C52CF073B"
         "OwnerKey" = "8:_7C7D22C575B248BAB41C196CEB96D0E1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_986E1D992A3945818C0DD9A19C80D196"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -2607,18 +2571,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C7999BB7834D419F8FEA95097C9AE17A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C87FE1FC24954EA58BF901CBD41481BC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C90A38F9FF6E4792AC58672A8B493005"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2944,12 +2896,6 @@
         "Entry"
         {
         "MsmKey" = "8:_E2C4C3296C5245B794EE3C03C920D1A7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E2FDDEA86F9447108B1D62F9DF898E4B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -3395,12 +3341,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_E9DC78A7DC21468197DCA4562059A264"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E2FDDEA86F9447108B1D62F9DF898E4B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -4984,7 +4924,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -5328,26 +5268,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2516F450C166426E8DB74FC8E736A2C4"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.application"
-            "TargetName" = "8:JumpGo Developer.application"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2566A6382BDA4A7D9B1B1765CCD65F68"
             {
             "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\mdl-templates\\assets\\customize_2x.png"
@@ -5494,26 +5414,6 @@
             "TargetName" = "8:favicon.old.png"
             "Tag" = "8:"
             "Folder" = "8:_8B10D25963304C9887B940556D907CFA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_27D03911939C4D3499426C8FD8AFF6F9"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.exe.config"
-            "TargetName" = "8:JumpGo Developer.exe.config"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5906,7 +5806,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -6316,26 +6216,6 @@
             "TargetName" = "8:forms.css"
             "Tag" = "8:"
             "Folder" = "8:_05D279CBBB27485795801AA4EDF15A57"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_41F2907C285B4C0A9B0514CD522F2CDB"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.pdb"
-            "TargetName" = "8:JumpGo Developer.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -7428,7 +7308,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -7699,7 +7579,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -8021,7 +7901,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -8725,26 +8605,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7D5E3B4985074DD4841A1AE1C1C66421"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.vshost.application"
-            "TargetName" = "8:JumpGo Developer.vshost.application"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7FA416A831DE41A4A6DC0F9919B67F61"
             {
             "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\Welcome\\images\\icon.png"
@@ -8852,7 +8712,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -9096,26 +8956,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_85214DE6374E4AC1992960293BE4673B"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.exe.manifest"
-            "TargetName" = "8:JumpGo Developer.exe.manifest"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_854D62153286443D8B50D19CA5F8032D"
             {
             "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo 1.ico"
@@ -9263,7 +9103,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -9734,7 +9574,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -9905,28 +9745,8 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_986E1D992A3945818C0DD9A19C80D196"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.vshost.exe.manifest"
-            "TargetName" = "8:JumpGo Developer.vshost.exe.manifest"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_98D1902107BA41B9B11E7A1927DCCA0A"
@@ -10429,7 +10249,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -11182,7 +11002,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -12225,46 +12045,6 @@
             "TargetName" = "8:softokn3.dll"
             "Tag" = "8:"
             "Folder" = "8:_72A10C9E1E4449209632A08F067E6D7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C7999BB7834D419F8FEA95097C9AE17A"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.xml"
-            "TargetName" = "8:JumpGo Developer.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C87FE1FC24954EA58BF901CBD41481BC"
-            {
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.vshost.exe.config"
-            "TargetName" = "8:JumpGo Developer.vshost.exe.config"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -13420,37 +13200,6 @@
             "TargetName" = "8:xpinstall.js"
             "Tag" = "8:"
             "Folder" = "8:_D7A241622D4247EEB5B69B1BF2C37648"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E2FDDEA86F9447108B1D62F9DF898E4B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:vshost32, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_E2FDDEA86F9447108B1D62F9DF898E4B"
-                    {
-                    "Name" = "8:JumpGo Developer.vshost.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\JumpGo Developer.vshost.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -15624,7 +15373,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:JumpGo Browser"
         "ProductCode" = "8:{F054283B-825D-4DFA-8F6A-AE36D59706D3}"
-        "PackageCode" = "8:{8DF28AF3-B59C-4694-AB96-60F1510258F2}"
+        "PackageCode" = "8:{8C052D97-DC39-4FE5-B996-9E68A56D5DAB}"
         "UpgradeCode" = "8:{53B765DB-78E3-434E-8014-CBF05A89CAB6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

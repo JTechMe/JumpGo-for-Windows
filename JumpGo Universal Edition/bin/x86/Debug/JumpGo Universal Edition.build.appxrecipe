@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>2a7626d1-b08f-4ad4-b22e-542e3e3180ea</PackageIdentityName>
+    <PackageIdentityName>ccae03f7-b59b-4b17-8311-e7c973bd14f0</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
@@ -18,8 +18,8 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\JumpGo Universal Edition.exe">
-      <PackagePath>entrypoint\JumpGo Universal Edition.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\JumpGo.exe">
+      <PackagePath>entrypoint\JumpGo.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PopTart\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -330,8 +330,8 @@
     <AppxPackagedFile Include="C:\Users\PopTart\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\My Project\Default.rd.xml">
+      <PackagePath>My Project\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -360,8 +360,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\JumpGo Universal Edition.xr.xml">
-      <PackagePath>JumpGo Universal Edition.xr.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\JumpGo.xr.xml">
+      <PackagePath>JumpGo.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -369,8 +369,8 @@
     <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\Core\JumpGo Universal Edition.exe">
-      <PackagePath>JumpGo Universal Edition.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\Core\JumpGo.exe">
+      <PackagePath>JumpGo.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

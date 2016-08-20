@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="2a7626d1-b08f-4ad4-b22e-542e3e3180ea" Publisher="CN=PopTart" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="2a7626d1-b08f-4ad4-b22e-542e3e3180ea" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="ccae03f7-b59b-4b17-8311-e7c973bd14f0" Publisher="CN=PopTart" Version="0.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="ccae03f7-b59b-4b17-8311-e7c973bd14f0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>JumpGo</DisplayName>
-    <PublisherDisplayName>JTechMe</PublisherDisplayName>
+    <DisplayName>JumpGo Universal Edition</DisplayName>
+    <PublisherDisplayName>PopTart</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="JumpGo_Universal_Edition.App">
-      <uap:VisualElements DisplayName="JumpGo" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="JumpGo Universal Edition" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="JumpGo" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="JumpGo for Windows 10" BackgroundColor="#66DAFF">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
@@ -23,6 +23,12 @@
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="portraitFlipped" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
