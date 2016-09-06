@@ -7,35 +7,30 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="ccae03f7-b59b-4b17-8311-e7c973bd14f0" Publisher="CN=PopTart" Version="0.1.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="ccae03f7-b59b-4b17-8311-e7c973bd14f0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="com.JTechMe.JumpGo" Publisher="CN=JTechMe" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="8afb896b-9fac-4968-abc1-c755ac35e360" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>JumpGo Universal Edition</DisplayName>
-    <PublisherDisplayName>PopTart</PublisherDisplayName>
+    <DisplayName>JumpGo</DisplayName>
+    <PublisherDisplayName>JTechMe</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10586.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="PT-BR" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="JumpGo.exe" EntryPoint="JumpGo_Universal_Edition.App">
-      <uap:VisualElements DisplayName="JumpGo" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="JumpGo for Windows 10" BackgroundColor="#66DAFF">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+    <Application Id="App" Executable="JumpGo Browser.exe" EntryPoint="JumpGo.App">
+      <uap:VisualElements DisplayName="JumpGo" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="JumpGo Browser for Windows 10" BackgroundColor="#00cccc">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
-            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
-        <uap:InitialRotationPreference>
-          <uap:Rotation Preference="portrait" />
-          <uap:Rotation Preference="landscape" />
-          <uap:Rotation Preference="portraitFlipped" />
-          <uap:Rotation Preference="landscapeFlipped" />
-        </uap:InitialRotationPreference>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#00cccc" />
       </uap:VisualElements>
     </Application>
   </Applications>
@@ -47,11 +42,12 @@
     <build:Item Name="VisualStudio" Version="14.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25123.0" />
-    <build:Item Name="ProjectGUID" Value="{150A7D43-DAAF-4A6B-8F7D-A18D6DBCDB0C}" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
+    <build:Item Name="ProjectGUID" Value="{84CEB869-6988-42D1-8C29-2DE641E8617E}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25219.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.10586.212 (th2_release_sec.160328-1908)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
+    <build:Item Name="SQLite.UWP.2015" Version="3.14.1" />
+    <build:Item Name="MakePri.exe" Version="10.0.14393.33 (rs1_release_sec.160727-1952)" />
   </build:Metadata>
 </Package>

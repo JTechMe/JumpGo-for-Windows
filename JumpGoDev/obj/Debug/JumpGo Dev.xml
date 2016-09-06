@@ -147,6 +147,61 @@ JumpGo Dev
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLBG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLBGD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLBGH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLETransparent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLETransparentDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLETransparentHover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLFTransparent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLFTransparentDown">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLFTransparentDown1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLFTransparentHover">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.DLFTransparentHover1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.Dock">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -327,7 +382,67 @@ JumpGo Dev
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_config">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_file">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_img">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_music">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_pdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_rtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_txt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_update">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_video">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_word">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_file_zip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.ic_folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_folder1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -718,6 +833,26 @@ JumpGo Dev
 </summary>
 </member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.URLbar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.w10t_controlbox">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.w10t_jgow10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.w10t_menu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.w10t_tabs">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

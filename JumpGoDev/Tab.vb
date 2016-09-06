@@ -73,17 +73,20 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
             Else
                 FasterBrowser1.Navigate(TextBox1.Text)
                 'AxWebBrowser1.Navigate(TextBox1.Text)
+                AddHandler LauncherDialog.Download, AddressOf LauncherDialog_Download
                 Dim uri As Uri
 
                 If System.Uri.TryCreate(TextBox1.Text, UriKind.RelativeOrAbsolute, uri) Then
                     ' Navigate to it
                     FasterBrowser1.Navigate(TextBox1.Text)
+                    AddHandler LauncherDialog.Download, AddressOf LauncherDialog_Download
                 Else
                     ' Treat it as a search
                     If TextBox1.Text.Contains(" ") Then
                         TextBox1.Text.Replace(" "c, "+"c)
                     Else
                         FasterBrowser1.Navigate(My.Settings.Search + TextBox1.Text)
+                        AddHandler LauncherDialog.Download, AddressOf LauncherDialog_Download
                     End If
                 End If
             End If
@@ -99,6 +102,7 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
         Else
             FasterBrowser1.Navigate(TextBox1.Text)
             'AxWebBrowser1.Navigate(TextBox1.Text)
+            AddHandler LauncherDialog.Download, AddressOf LauncherDialog_Download
         End If
         DdMenu1.Visible = False
         MenuOpen = False
@@ -153,6 +157,7 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
     Private Sub FasterBrowser1_Navigating(sender As Object, e As EventArgs) Handles FasterBrowser1.Navigating
         Me.Text = "Connecting..."
         WebBrowser1.Navigate(FasterBrowser1.Url)
+        'AddHandler LauncherDialog.Download, AddressOf LauncherDialog_Download
     End Sub
 
     Private Sub FasterBrowser1_Navigated(sender As Object, e As GeckoNavigatedEventArgs) Handles FasterBrowser1.Navigated
@@ -537,6 +542,50 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
             Next
         End If
     End Sub
+
+    Private Sub LauncherDialog_Download(sender As Object, e As LauncherDialogEvent)
+        Dim objTarget As nsILocalFile = Xpcom.CreateInstance(Of nsILocalFile)("@mozilla.org/file/local;1")
+
+        Using tmp As New nsAString(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + vbTab & "emp.tmp")
+            objTarget.InitWithPath(tmp)
+        End Using
+
+        'Save file dialog
+        Dim myStream As Stream
+        Dim saveFileDialog1 As New SaveFileDialog()
+
+        saveFileDialog1.Filter = "All files (*.*)|*.*"
+        saveFileDialog1.FilterIndex = 2
+        saveFileDialog1.RestoreDirectory = True
+        saveFileDialog1.FileName = e.Filename
+
+        If saveFileDialog1.ShowDialog() = DialogResult.OK Then
+            If (InlineAssignHelper(myStream, saveFileDialog1.OpenFile())) IsNot Nothing Then
+                Dim source As nsIURI = IOService.CreateNsIUri(e.Url)
+                Dim dest As nsIURI = IOService.CreateNsIUri(New Uri(saveFileDialog1.FileName).AbsoluteUri)
+                Dim t As nsAStringBase = DirectCast(New nsAString(System.IO.Path.GetFileName(saveFileDialog1.FileName)), nsAStringBase)
+
+                Dim persist As nsIWebBrowserPersist = Xpcom.CreateInstance(Of nsIWebBrowserPersist)("@mozilla.org/embedding/browser/nsWebBrowserPersist;1")
+                Dim DownloadMan As nsIDownloadManager = Nothing
+                DownloadMan = Xpcom.CreateInstance(Of nsIDownloadManager)("@mozilla.org/download-manager;1")
+                Dim download As nsIDownload = DownloadMan.AddDownload(0, source, dest, t, e.Mime, 0,
+                Nothing, DirectCast(persist, nsICancelable), False)
+
+                If download IsNot Nothing Then
+                    persist.SetPersistFlagsAttribute(2 Or 32 Or 16384)
+                    persist.SetProgressListenerAttribute(DirectCast(download, nsIWebProgressListener))
+                    persist.SaveURI(source, Nothing, Nothing, Nothing, Nothing, DirectCast(dest, nsISupports),
+                    Nothing)
+                End If
+
+                myStream.Close()
+            End If
+        End If
+    End Sub
+
+    Private Function InlineAssignHelper(myStream As Stream, stream As Stream) As Object
+        Throw New NotImplementedException()
+    End Function
 
     Private Sub Button7_Click(sender As Object, e As EventArgs)
         If MenuOpen = False Then
@@ -1031,6 +1080,14 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
     End Sub
 
     Private Sub FasterBrowser1_CreateWindow(sender As Object, e As GeckoCreateWindowEventArgs) Handles FasterBrowser1.CreateWindow
+
+    End Sub
+
+    Private Sub PictureBox3_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox3.MouseDown
+
+    End Sub
+
+    Private Sub PictureBox3_MouseUp(sender As Object, e As MouseEventArgs) Handles PictureBox3.MouseUp
 
     End Sub
 End Class

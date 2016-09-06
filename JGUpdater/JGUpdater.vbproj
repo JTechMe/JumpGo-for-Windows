@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CBFB2BAC-1265-4246-8544-A61F25E6A33C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>JGUpdater.My.MyApplication</StartupObject>
+    <StartupObject>Sub Main</StartupObject>
     <RootNamespace>JGUpdater</RootNamespace>
     <AssemblyName>JGUpdater</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -110,6 +110,13 @@
     <Compile Include="MainUForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MainUpdateMod.vb" />
+    <Compile Include="MSIUpdaterGUI.Designer.vb">
+      <DependentUpon>MSIUpdaterGUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSIUpdaterGUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -143,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainUForm.resx">
       <DependentUpon>MainUForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSIUpdaterGUI.resx">
+      <DependentUpon>MSIUpdaterGUI.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -42,7 +42,7 @@ Partial Class DDMenu
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackColor = System.Drawing.SystemColors.Control
+        Me.PictureBox1.BackColor = System.Drawing.Color.Silver
         Me.PictureBox1.Image = Global.JumpGoDevEdition.My.Resources.Resources.MenuUL
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
@@ -53,7 +53,7 @@ Partial Class DDMenu
         'PictureBox2
         '
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.BackColor = System.Drawing.SystemColors.Control
+        Me.PictureBox2.BackColor = System.Drawing.Color.Silver
         Me.PictureBox2.Image = Global.JumpGoDevEdition.My.Resources.Resources.MenuUR
         Me.PictureBox2.Location = New System.Drawing.Point(262, 0)
         Me.PictureBox2.Name = "PictureBox2"
@@ -65,7 +65,7 @@ Partial Class DDMenu
         '
         Me.PictureBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox3.BackColor = System.Drawing.SystemColors.Control
+        Me.PictureBox3.BackColor = System.Drawing.Color.Silver
         Me.PictureBox3.Image = Global.JumpGoDevEdition.My.Resources.Resources.MenuUM
         Me.PictureBox3.Location = New System.Drawing.Point(35, 0)
         Me.PictureBox3.Name = "PictureBox3"

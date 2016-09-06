@@ -188,6 +188,12 @@
     <Compile Include="DDMenu.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="DownloadMenuItem.Designer.vb">
+      <DependentUpon>DownloadMenuItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadMenuItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="GridMenuButton.Designer.vb">
       <DependentUpon>GridMenuButton.vb</DependentUpon>
     </Compile>
@@ -227,6 +233,12 @@
     <Compile Include="InfoTab.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="JGMWin10Tut.Designer.vb">
+      <DependentUpon>JGMWin10Tut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JGMWin10Tut.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="JumpGoMain.Designer.vb">
       <DependentUpon>JumpGoMain.vb</DependentUpon>
     </Compile>
@@ -234,6 +246,11 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Settings.Designer.vb">
       <DependentUpon>Settings.vb</DependentUpon>
     </Compile>
@@ -257,11 +274,6 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -315,6 +327,12 @@
     <EmbeddedResource Include="AppBuildTester.resx">
       <DependentUpon>AppBuildTester.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DDMenu.resx">
+      <DependentUpon>DDMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadMenuItem.resx">
+      <DependentUpon>DownloadMenuItem.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GridMenuButton.resx">
       <DependentUpon>GridMenuButton.vb</DependentUpon>
     </EmbeddedResource>
@@ -333,6 +351,9 @@
     <EmbeddedResource Include="InfoTab.resx">
       <DependentUpon>InfoTab.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JGMWin10Tut.resx">
+      <DependentUpon>JGMWin10Tut.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="JumpGoMain.resx">
       <DependentUpon>JumpGoMain.vb</DependentUpon>
     </EmbeddedResource>
@@ -347,9 +368,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TabButtonNew.resx">
       <DependentUpon>TabButtonNew.vb</DependentUpon>
@@ -392,6 +413,8 @@
     <None Include="Resources\arrow-refresh-2-icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\DLFTransparentDown.pdn" />
+    <None Include="Resources\DLFTransparentHover.pdn" />
     <None Include="Resources\fnal2-570x456 - Copy.png" />
   </ItemGroup>
   <ItemGroup>
@@ -426,6 +449,33 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\ic_file_update.png" />
+    <None Include="Resources\ic_file_config.png" />
+    <None Include="Resources\ic_file_word.png" />
+    <None Include="Resources\ic_file_video.png" />
+    <None Include="Resources\ic_file_txt.png" />
+    <None Include="Resources\ic_file_rtf.png" />
+    <None Include="Resources\ic_file_music.png" />
+    <None Include="Resources\ic_file_file.png" />
+    <None Include="Resources\ic_file_pdf.png" />
+    <None Include="Resources\ic_file_img.png" />
+    <None Include="Resources\DLBGH.png" />
+    <None Include="Resources\DLBGD.png" />
+    <None Include="Resources\DLBG.png" />
+    <None Include="Resources\ic_file_zip.png" />
+    <None Include="Resources\ic_folder1.png" />
+    <None Include="Resources\DLFTransparentHover.png" />
+    <None Include="Resources\DLFTransparentDown.png" />
+    <None Include="Resources\DLFTransparent.png" />
+    <None Include="Resources\DLETransparentHover.png" />
+    <None Include="Resources\DLETransparentDown.png" />
+    <None Include="Resources\DLETransparent.png" />
+    <None Include="Resources\w10t_jgow10.png" />
+    <None Include="Resources\w10t_controlbox.png" />
+    <None Include="Resources\w10t_tabs.png" />
+    <None Include="Resources\w10t_menu2.png" />
+    <None Include="Resources\w10t_menu1.png" />
+    <None Include="Resources\w10t_menu.png" />
     <None Include="Resources\ctrl_box_right_bttn2.png" />
     <None Include="Resources\ctrl_box_right_bttn1.png" />
     <None Include="Resources\ctrl_box_red_bttn11.png" />

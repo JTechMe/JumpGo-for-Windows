@@ -96,10 +96,11 @@ Partial Class JumpGoMain
         Me.TabControl1.BackColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.TabControl1.BackHighColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.TabControl1.BackLowColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
-        Me.TabControl1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(185, Byte), Integer))
+        Me.TabControl1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TabControl1.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(43, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.TabControl1.ContextMenuStrip = Me.ContextMenuStrip2
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControl1.FontBoldOnSelect = False
         Me.TabControl1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.TabControl1.ForeColorDisabled = System.Drawing.SystemColors.ControlLightLight
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)

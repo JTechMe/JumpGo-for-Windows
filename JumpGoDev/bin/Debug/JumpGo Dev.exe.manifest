@@ -4,7 +4,7 @@
   <description asmv2:iconFile="jumpgo_dev_edition_updated_jg3_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo Dev" version="4.4.0.29993" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo Dev" version="4.4.0.33770" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo Dev.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -91,50 +91,50 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Geckofx-Core.dll" size="1421312">
-      <assemblyIdentity name="Geckofx-Core" version="29.0.11.0" publicKeyToken="3209AC31600D1857" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Geckofx-Core.dll" size="1315840">
+      <assemblyIdentity name="Geckofx-Core" version="33.0.9.0" publicKeyToken="3209AC31600D1857" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>35IL77xLrirH6nOOTlnwjguiMthMHx6EBezYgqV60hM=</dsig:DigestValue>
+        <dsig:DigestValue>IFF959ngx9IAX4nX9WBrUJ4tn2Oys0vyogijmt9r2Fg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Geckofx-Winforms.dll" size="134144">
-      <assemblyIdentity name="Geckofx-Winforms" version="29.0.11.0" publicKeyToken="3209AC31600D1857" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Geckofx-Winforms.dll" size="136704">
+      <assemblyIdentity name="Geckofx-Winforms" version="33.0.9.0" publicKeyToken="3209AC31600D1857" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ElpKhtGfn1YkIxyCJ/MDqXCeUdMf1YYng8dAtrl9m58=</dsig:DigestValue>
+        <dsig:DigestValue>RclJGxRiXz7NJJCusswzfrgEEhTJf3Bg/BQz6Fwg6Vc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.SHDocVw.dll" size="150528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.SHDocVw.dll" size="151040">
       <assemblyIdentity name="Interop.SHDocVw" version="1.1.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NKN1zuL/DAfzNH/BntqmRHX7J+RjrRRnll+iRPhgfr0=</dsig:DigestValue>
+        <dsig:DigestValue>cn4MDSNVhbZ54qPWCFm9iREsa4cXpeBWs3ipAz5sqyc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo Dev.exe" size="22631936">
-      <assemblyIdentity name="JumpGo Dev" version="4.4.0.29993" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo Dev.exe" size="22744576">
+      <assemblyIdentity name="JumpGo Dev" version="4.4.0.33770" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wA5ZEGoDXZgLlpSoCw76codc/IsrXBENiBGYrmtjMtk=</dsig:DigestValue>
+        <dsig:DigestValue>+b3siT8tmj/+j0uGOdEvQe5xCxe3h+l2IjNOzgFIbVg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

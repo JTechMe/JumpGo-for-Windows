@@ -15,6 +15,7 @@ Public Class GridMenuButton
 
     End Sub
 
+#Region "Properties"
     <Category("Appearance"), Description("The text displayed at the bottom of the button control")>
     Public Property ButtonText() As String
         Get
@@ -36,6 +37,7 @@ Public Class GridMenuButton
             PictureBox1.Image = Value
         End Set
     End Property
+#End Region
 
 #Region "Display Subs"
     Private Sub GridMenuButton_MouseHover(sender As Object, e As EventArgs) Handles MyBase.MouseHover
@@ -99,5 +101,9 @@ Public Class GridMenuButton
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
         Me.OnClick(EventArgs.Empty)
+    End Sub
+
+    Private Sub GridMenuButton_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

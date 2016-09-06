@@ -43,7 +43,6 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\JumpGo.exe
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\JumpGo.pdb
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\JumpGo.xml
-C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Interop.SHDocVw.dll
@@ -80,6 +79,9 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.GridMenuButton.resources
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.dll
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
-C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\MdiTabControl.pdb
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.UserControlBox.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.JGMWin10Tut.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.ThemeCF.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Geckofx-Core.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Geckofx-Winforms.pdb

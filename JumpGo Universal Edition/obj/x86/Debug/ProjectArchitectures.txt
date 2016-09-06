@@ -1,1 +1,1 @@
-C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\JumpGo Universal Edition.vbproj;x86
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\JumpGo Universal Edition.csproj;x86

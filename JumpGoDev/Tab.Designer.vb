@@ -41,10 +41,7 @@ Partial Class Tab
         Me.Button8 = New System.Windows.Forms.Button()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
-        Me.AddFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RemoveFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -57,6 +54,10 @@ Partial Class Tab
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
+        Me.AddFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RemoveFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -84,6 +85,7 @@ Partial Class Tab
         Me.PagePropertiesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LMNOPToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.DdMenu2 = New JumpGoDevEdition.DDMenu()
         Me.DdMenu1 = New JumpGoDevEdition.DDMenu()
         Me.GridMenuButton8 = New JumpGoDevEdition.GridMenuButton()
         Me.GridMenuButton7 = New JumpGoDevEdition.GridMenuButton()
@@ -97,7 +99,7 @@ Partial Class Tab
         Me.FasterBrowser1 = New JumpGoDevEdition.FasterBrowser()
         Me.Panel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        Me.ToolStrip2.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -105,6 +107,7 @@ Partial Class Tab
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ToolStrip2.SuspendLayout()
         Me.Panel5.SuspendLayout()
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
@@ -332,7 +335,7 @@ Partial Class Tab
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.ToolStrip2)
+        Me.Panel1.Controls.Add(Me.PictureBox6)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.Panel3)
         Me.Panel1.Controls.Add(Me.PictureBox4)
@@ -344,49 +347,24 @@ Partial Class Tab
         Me.Panel1.Size = New System.Drawing.Size(822, 45)
         Me.Panel1.TabIndex = 10
         '
-        'ToolStrip2
+        'PictureBox6
         '
-        Me.ToolStrip2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ToolStrip2.BackColor = System.Drawing.Color.Transparent
-        Me.ToolStrip2.Dock = System.Windows.Forms.DockStyle.None
-        Me.ToolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
-        Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripDropDownButton1})
-        Me.ToolStrip2.Location = New System.Drawing.Point(459, 11)
-        Me.ToolStrip2.Name = "ToolStrip2"
-        Me.ToolStrip2.Size = New System.Drawing.Size(36, 27)
-        Me.ToolStrip2.TabIndex = 13
-        Me.ToolStrip2.Text = "ToolStrip2"
-        '
-        'ToolStripDropDownButton1
-        '
-        Me.ToolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripDropDownButton1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddFavoriteToolStripMenuItem, Me.RemoveFavoriteToolStripMenuItem})
-        Me.ToolStripDropDownButton1.Image = Global.JumpGoDevEdition.My.Resources.Resources.ic_action_star
-        Me.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1"
-        Me.ToolStripDropDownButton1.Size = New System.Drawing.Size(33, 24)
-        Me.ToolStripDropDownButton1.Text = "Bookmarks"
-        Me.ToolStripDropDownButton1.ToolTipText = "Bookmarks"
-        '
-        'AddFavoriteToolStripMenuItem
-        '
-        Me.AddFavoriteToolStripMenuItem.Name = "AddFavoriteToolStripMenuItem"
-        Me.AddFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
-        Me.AddFavoriteToolStripMenuItem.Text = "Add Favorite"
-        '
-        'RemoveFavoriteToolStripMenuItem
-        '
-        Me.RemoveFavoriteToolStripMenuItem.Name = "RemoveFavoriteToolStripMenuItem"
-        Me.RemoveFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
-        Me.RemoveFavoriteToolStripMenuItem.Text = "Remove Favorite"
+        Me.PictureBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox6.Image = Global.JumpGoDevEdition.My.Resources.Resources.DLETransparent
+        Me.PictureBox6.Location = New System.Drawing.Point(730, 11)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(41, 26)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox6.TabIndex = 23
+        Me.PictureBox6.TabStop = False
         '
         'PictureBox3
         '
         Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = Global.JumpGoDevEdition.My.Resources.Resources.homeTransparent
-        Me.PictureBox3.Location = New System.Drawing.Point(498, 11)
+        Me.PictureBox3.Location = New System.Drawing.Point(455, 12)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(41, 26)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -402,7 +380,7 @@ Partial Class Tab
         Me.Panel3.Controls.Add(Me.TextBox2)
         Me.Panel3.Controls.Add(Me.PictureBox1)
         Me.Panel3.Controls.Add(Me.Button6)
-        Me.Panel3.Location = New System.Drawing.Point(545, 11)
+        Me.Panel3.Location = New System.Drawing.Point(502, 10)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(222, 25)
         Me.Panel3.TabIndex = 12
@@ -480,7 +458,7 @@ Partial Class Tab
         Me.Panel2.Controls.Add(Me.TextBox1)
         Me.Panel2.Location = New System.Drawing.Point(42, 11)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(415, 25)
+        Me.Panel2.Size = New System.Drawing.Size(407, 25)
         Me.Panel2.TabIndex = 11
         '
         'PictureBox5
@@ -505,7 +483,7 @@ Partial Class Tab
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.ForeColor = System.Drawing.Color.Transparent
-        Me.Button4.Location = New System.Drawing.Point(382, 0)
+        Me.Button4.Location = New System.Drawing.Point(374, 0)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(33, 26)
         Me.Button4.TabIndex = 4
@@ -540,8 +518,46 @@ Partial Class Tab
         Me.TextBox1.ForeColor = System.Drawing.SystemColors.HighlightText
         Me.TextBox1.Location = New System.Drawing.Point(49, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(327, 19)
+        Me.TextBox1.Size = New System.Drawing.Size(319, 19)
         Me.TextBox1.TabIndex = 0
+        '
+        'ToolStrip2
+        '
+        Me.ToolStrip2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ToolStrip2.BackColor = System.Drawing.Color.Transparent
+        Me.ToolStrip2.Dock = System.Windows.Forms.DockStyle.None
+        Me.ToolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripDropDownButton1})
+        Me.ToolStrip2.Location = New System.Drawing.Point(365, 110)
+        Me.ToolStrip2.Name = "ToolStrip2"
+        Me.ToolStrip2.Size = New System.Drawing.Size(36, 27)
+        Me.ToolStrip2.TabIndex = 13
+        Me.ToolStrip2.Text = "ToolStrip2"
+        Me.ToolStrip2.Visible = False
+        '
+        'ToolStripDropDownButton1
+        '
+        Me.ToolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripDropDownButton1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddFavoriteToolStripMenuItem, Me.RemoveFavoriteToolStripMenuItem})
+        Me.ToolStripDropDownButton1.Image = Global.JumpGoDevEdition.My.Resources.Resources.ic_action_star
+        Me.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1"
+        Me.ToolStripDropDownButton1.Size = New System.Drawing.Size(33, 24)
+        Me.ToolStripDropDownButton1.Text = "Bookmarks"
+        Me.ToolStripDropDownButton1.ToolTipText = "Bookmarks"
+        '
+        'AddFavoriteToolStripMenuItem
+        '
+        Me.AddFavoriteToolStripMenuItem.Name = "AddFavoriteToolStripMenuItem"
+        Me.AddFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.AddFavoriteToolStripMenuItem.Text = "Add Favorite"
+        '
+        'RemoveFavoriteToolStripMenuItem
+        '
+        Me.RemoveFavoriteToolStripMenuItem.Name = "RemoveFavoriteToolStripMenuItem"
+        Me.RemoveFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.RemoveFavoriteToolStripMenuItem.Text = "Remove Favorite"
         '
         'Button1
         '
@@ -638,7 +654,7 @@ Partial Class Tab
         '
         'FastColoredTextBox1
         '
-        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(2, 14)
+        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(27, 14)
         Me.FastColoredTextBox1.BackBrush = Nothing
         Me.FastColoredTextBox1.CharHeight = 14
         Me.FastColoredTextBox1.CharWidth = 8
@@ -776,6 +792,15 @@ Partial Class Tab
         Me.WebBrowser1.TabIndex = 15
         Me.WebBrowser1.Visible = False
         Me.WebBrowser1.WebBrowserShortcutsEnabled = False
+        '
+        'DdMenu2
+        '
+        Me.DdMenu2.BackColor = System.Drawing.Color.White
+        Me.DdMenu2.Location = New System.Drawing.Point(373, 45)
+        Me.DdMenu2.Name = "DdMenu2"
+        Me.DdMenu2.Size = New System.Drawing.Size(400, 273)
+        Me.DdMenu2.TabIndex = 16
+        Me.DdMenu2.Visible = False
         '
         'DdMenu1
         '
@@ -916,7 +941,9 @@ Partial Class Tab
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(822, 533)
+        Me.Controls.Add(Me.DdMenu2)
         Me.Controls.Add(Me.DdMenu1)
+        Me.Controls.Add(Me.ToolStrip2)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button7)
@@ -933,9 +960,7 @@ Partial Class Tab
         Me.TransparencyKey = System.Drawing.Color.Magenta
         Me.Panel4.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        Me.ToolStrip2.ResumeLayout(False)
-        Me.ToolStrip2.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
@@ -945,6 +970,8 @@ Partial Class Tab
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ToolStrip2.ResumeLayout(False)
+        Me.ToolStrip2.PerformLayout()
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -953,6 +980,7 @@ Partial Class Tab
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.DdMenu1.ResumeLayout(False)
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents FasterBrowser1 As JumpGoDevEdition.FasterBrowser
@@ -1025,4 +1053,6 @@ Partial Class Tab
     Friend WithEvents GridMenuButton7 As GridMenuButton
     Friend WithEvents GridMenuButton8 As GridMenuButton
     Friend WithEvents WebBrowser1 As WebBrowser
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents DdMenu2 As DDMenu
 End Class

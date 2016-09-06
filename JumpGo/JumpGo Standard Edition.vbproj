@@ -287,6 +287,12 @@
     <Compile Include="TabButtonNew.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ThemeCF.Designer.vb">
+      <DependentUpon>ThemeCF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeCF.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ThemeDesign.Designer.vb">
       <DependentUpon>ThemeDesign.vb</DependentUpon>
     </Compile>
@@ -372,6 +378,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TabButtonNew.resx">
       <DependentUpon>TabButtonNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemeCF.resx">
+      <DependentUpon>ThemeCF.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemeDesign.resx">
       <DependentUpon>ThemeDesign.vb</DependentUpon>

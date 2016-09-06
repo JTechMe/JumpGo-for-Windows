@@ -207,3 +207,8 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\obj\Debug\JumpGoDevEdition.AboutGo1.resources
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\obj\Debug\JumpGoDevEdition.UserControlBox.resources
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\obj\Debug\JumpGoDevEdition.GridMenuButton.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\obj\Debug\JumpGoDevEdition.JGMWin10Tut.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\bin\Debug\Geckofx-Core.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\bin\Debug\Geckofx-Winforms.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\obj\Debug\JumpGoDevEdition.DDMenu.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGoDev\obj\Debug\JumpGoDevEdition.DownloadMenuItem.resources

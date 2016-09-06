@@ -202,8 +202,18 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
 
     End Function
 
+    Public Function IsOnNetwork() As Boolean
+        'This Tests your network connection
+        Try
+            Return My.Computer.Network.IsAvailable
+        Catch ex As Exception
+            Return False
+        End Try
+    End Function
+
     Private Sub JumpGo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        Dim WinVerID As String = Environment.OSVersion.ToString()
         'TabControl1.Anchor = AnchorStyles.Bottom And AnchorStyles.Left And AnchorStyles.Right And AnchorStyles.Top
         TabControl1.Height = Me.Height - 6
         TabControl1.Width = Me.Width - 6
@@ -334,8 +344,14 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
         'TabControl1.TabPages.Add(TabButtonNew).CloseButtonVisible = False
 
         'NewTabButton("")
-        If HaveInternetConnection() = True Then 'This checks if you're connected to the internet
+
+        'If HaveInternetConnection() = True Then 'This checks if you're connected to the internet
+        'If My.Computer.Network.IsAvailable Then 'This checks if you're connected to a network
+        If IsOnNetwork() = True Then 'This checks if you're connected to a network
             If My.Settings.FirstRun = True Then
+                If WinVerID.Contains("10.") Then
+                    'JGMWin10Tut.Visible = True
+                End If
                 'CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
                 CreateNewTab("http://jtechme.github.io/jg/jumpgo")
                 My.Settings.Upgrade()
