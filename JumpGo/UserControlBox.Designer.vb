@@ -32,31 +32,34 @@ Partial Class UserControlBox
         '
         'PictureBox3
         '
+        Me.PictureBox3.BackColor = System.Drawing.Color.DarkGray
         Me.PictureBox3.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ctrl_box_left_bttn1
         Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(31, 21)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.Size = New System.Drawing.Size(33, 27)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox3.TabIndex = 8
         Me.PictureBox3.TabStop = False
         '
         'PictureBox2
         '
+        Me.PictureBox2.BackColor = System.Drawing.Color.DarkGray
         Me.PictureBox2.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ctrl_box_right_bttn1
-        Me.PictureBox2.Location = New System.Drawing.Point(30, 0)
+        Me.PictureBox2.Location = New System.Drawing.Point(33, 0)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.Size = New System.Drawing.Size(33, 27)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 7
         Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.DarkGray
         Me.PictureBox1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ctrl_box_red_bttn11
-        Me.PictureBox1.Location = New System.Drawing.Point(55, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(66, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(45, 21)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.Size = New System.Drawing.Size(34, 27)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
@@ -68,7 +71,7 @@ Partial Class UserControlBox
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "UserControlBox"
-        Me.Size = New System.Drawing.Size(100, 21)
+        Me.Size = New System.Drawing.Size(100, 27)
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

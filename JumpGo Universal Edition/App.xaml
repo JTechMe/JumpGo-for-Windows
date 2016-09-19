@@ -35,12 +35,12 @@
                             </Setter.Value>
                         </Setter>
                     </Style>
-                    
-                    <Color x:Key="SystemAccentColor">#FF00cccc</Color>
 
-                    <SolidColorBrush x:Key="TitleBarBackgroundThemeBrush" Color="#FF00cccc" />
-                    <SolidColorBrush x:Key="TitleBarButtonHoverThemeBrush" Color="#FF0000cc" />
-                    <SolidColorBrush x:Key="TitleBarButtonPressedThemeBrush" Color="#FF0000ff" />
+                    <Color x:Key="SystemAccentColor">#61adce</Color>
+
+                    <SolidColorBrush x:Key="TitleBarBackgroundThemeBrush" Color="#61adce" />
+                    <SolidColorBrush x:Key="TitleBarButtonHoverThemeBrush" Color="#3689ad" />
+                    <SolidColorBrush x:Key="TitleBarButtonPressedThemeBrush" Color="#3c98c0" />
                 </ResourceDictionary>
             </ResourceDictionary.ThemeDictionaries>
         </ResourceDictionary>

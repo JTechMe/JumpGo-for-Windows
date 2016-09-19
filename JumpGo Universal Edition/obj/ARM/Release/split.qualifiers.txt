@@ -1,0 +1,2 @@
+Language=PT-BR
+Scale=100

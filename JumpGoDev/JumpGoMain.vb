@@ -236,18 +236,18 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
 
         File.Copy(sSource, sTarget, True)
 
-        Dim myXmlDocument As XmlDocument = New XmlDocument()
-        'myXmlDocument.Load(Environment.CurrentDirectory + "\curverid.xml")
-        myXmlDocument.Load(appdata + "curverid.loc.xml")
-        Dim lclcurver As String = myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText
-        myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText = My.Application.Info.Version.ToString
+        'Dim myXmlDocument As XmlDocument = New XmlDocument()
+        ''myXmlDocument.Load(Environment.CurrentDirectory + "\curverid.xml")
+        'myXmlDocument.Load(appdata + "curverid.loc.xml")
+        'Dim lclcurver As String = myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText
+        'myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText = My.Application.Info.Version.ToString
 
-        'If File.Exists(tempdata + "\curverid.xml") = True Then
-        '    File.Delete(tempdata + "\curverid.xml")
-        'End If
-        'File.Delete(Environment.CurrentDirectory + "\curverid.xml")
-        'myXmlDocument.Save(Environment.CurrentDirectory + "\curverid.xml")
-        myXmlDocument.Save(appdata + "curverid.loc.xml")
+        ''If File.Exists(tempdata + "\curverid.xml") = True Then
+        ''    File.Delete(tempdata + "\curverid.xml")
+        ''End If
+        ''File.Delete(Environment.CurrentDirectory + "\curverid.xml")
+        ''myXmlDocument.Save(Environment.CurrentDirectory + "\curverid.xml")
+        'myXmlDocument.Save(appdata + "curverid.loc.xml")
 #End Region
 
 #Region "New Aero pt 2"

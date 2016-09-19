@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="com.JTechMe.JumpGo" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN,EN-US</Language>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://com.JTechMe.JumpGo/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="JumpGo Browser.xr.xml" uri="ms-resource://com.JTechMe.JumpGo/Files/JumpGo Browser.xr.xml">
+				<Candidate type="Path">
+					<Value>JumpGo Browser.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://com.JTechMe.JumpGo/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SQLitePCL.Ext.dll" uri="ms-resource://com.JTechMe.JumpGo/Files/SQLitePCL.Ext.dll">
+				<Candidate type="Path">
+					<Value>SQLitePCL.Ext.dll</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SQLitePCL.Ext.pri" uri="ms-resource://com.JTechMe.JumpGo/Files/SQLitePCL.Ext.pri">
+				<Candidate type="Path">
+					<Value>SQLitePCL.Ext.pri</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square310x310Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://com.JTechMe.JumpGo/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://com.JTechMe.JumpGo/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://com.JTechMe.JumpGo/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="AppBased" uri="ms-resource://com.JTechMe.JumpGo/Resources/AppBased">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Derived from</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AppDeveloped" uri="ms-resource://com.JTechMe.JumpGo/Resources/AppDeveloped">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>App developed by</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Back" uri="ms-resource://com.JTechMe.JumpGo/Resources/Back">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Back</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Close" uri="ms-resource://com.JTechMe.JumpGo/Resources/Close">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Close</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DoYouExit" uri="ms-resource://com.JTechMe.JumpGo/Resources/DoYouExit">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Do you want to close JumpGo?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Favorites" uri="ms-resource://com.JTechMe.JumpGo/Resources/Favorites">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Favorites</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Forward" uri="ms-resource://com.JTechMe.JumpGo/Resources/Forward">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Forward</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="History" uri="ms-resource://com.JTechMe.JumpGo/Resources/History">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>History</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="No" uri="ms-resource://com.JTechMe.JumpGo/Resources/No">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Refresh" uri="ms-resource://com.JTechMe.JumpGo/Resources/Refresh">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Refresh</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Yes" uri="ms-resource://com.JTechMe.JumpGo/Resources/Yes">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Yes</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="AF">
+				<NamedResource name="Content" uri="ms-resource://com.JTechMe.JumpGo/Resources/AF/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Add</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBAbout">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBAbout/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>About</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBBack">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Controls]ToolTipService">
+					<NamedResource name="ToolTip" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBBack/[using:Windows.UI.Xaml.Controls]ToolTipService/ToolTip">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+							<Value>Back</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBBack2">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBBack2/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Back</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBFavorite">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBFavorite/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Favorite</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Controls]ToolTipService">
+					<NamedResource name="ToolTip" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBFavorite/[using:Windows.UI.Xaml.Controls]ToolTipService/ToolTip">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+							<Value>Favorite</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBFavoriteCB">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBFavoriteCB/Label"/>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBFavorites">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBFavorites/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Favorites</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBForward">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Controls]ToolTipService">
+					<NamedResource name="ToolTip" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBForward/[using:Windows.UI.Xaml.Controls]ToolTipService/ToolTip">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+							<Value>Forward</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBForward2">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBForward2/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Forward</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBHistory">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBHistory/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>History</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBOpenInBrowser">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBOpenInBrowser/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Open in browser</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBRefresh">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Controls]ToolTipService">
+					<NamedResource name="ToolTip" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBRefresh/[using:Windows.UI.Xaml.Controls]ToolTipService/ToolTip">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+							<Value>Refresh</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBRefresh2">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBRefresh2/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Refresh</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CBUnFavorite">
+				<NamedResource name="Label" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBUnFavorite/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Unfavorite</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Controls]ToolTipService">
+					<NamedResource name="ToolTip" uri="ms-resource://com.JTechMe.JumpGo/Resources/CBUnFavorite/[using:Windows.UI.Xaml.Controls]ToolTipService/ToolTip">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+							<Value>Unfavorite</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Clear">
+				<NamedResource name="Content" uri="ms-resource://com.JTechMe.JumpGo/Resources/Clear/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Clear</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CloseTab">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Controls]ToolTipService">
+					<NamedResource name="ToolTip" uri="ms-resource://com.JTechMe.JumpGo/Resources/CloseTab/[using:Windows.UI.Xaml.Controls]ToolTipService/ToolTip">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+							<Value>Close tab</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="NameFavorite">
+				<NamedResource name="Text" uri="ms-resource://com.JTechMe.JumpGo/Resources/NameFavorite/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Name:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="NewTab">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Controls]ToolTipService">
+					<NamedResource name="ToolTip" uri="ms-resource://com.JTechMe.JumpGo/Resources/NewTab/[using:Windows.UI.Xaml.Controls]ToolTipService/ToolTip">
+						<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+							<Value>New tab</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="SQLitePCL.Resources">
+			<NamedResource name="Platform_AssemblyNotFound" uri="ms-resource://com.JTechMe.JumpGo/SQLitePCL.Resources/Platform_AssemblyNotFound">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>A SQLite Wrapper assembly for the current platform was not found. Ensure that the current project references both {0} and the following platform-specific assembly: {1}.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

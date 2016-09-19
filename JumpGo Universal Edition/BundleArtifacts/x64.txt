@@ -1,0 +1,2 @@
+MainPackage=C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x64\Release\JumpGo Universal Edition_1.0.0.0_x64.appx
+SymbolPackage=C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\AppPackages\JumpGo Universal Edition_1.0.0.0_Test\JumpGo Universal Edition_1.0.0.0_x64.appxsym

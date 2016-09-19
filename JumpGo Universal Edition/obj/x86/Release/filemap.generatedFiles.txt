@@ -1,0 +1,4 @@
+obj\x86\Release\filemap.pri
+obj\x86\Release\filemap.map.txt
+obj\x86\Release\filemap.scale-100.pri
+obj\x86\Release\filemap.scale-100.map.txt

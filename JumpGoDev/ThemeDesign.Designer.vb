@@ -37,6 +37,7 @@ Partial Class ThemeDesign
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button27 = New System.Windows.Forms.Button()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -54,7 +55,6 @@ Partial Class ThemeDesign
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Button27 = New System.Windows.Forms.Button()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Button21 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -264,6 +264,17 @@ Partial Class ThemeDesign
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Navigation Panel"
         '
+        'Button27
+        '
+        Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button27.Location = New System.Drawing.Point(6, 75)
+        Me.Button27.Name = "Button27"
+        Me.Button27.Size = New System.Drawing.Size(229, 23)
+        Me.Button27.TabIndex = 20
+        Me.Button27.Text = "High Contrast Mode - Disabled"
+        Me.Button27.UseVisualStyleBackColor = True
+        '
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(48, 46)
@@ -424,17 +435,6 @@ Partial Class ThemeDesign
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Menu Panel"
         '
-        'Button27
-        '
-        Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button27.Location = New System.Drawing.Point(6, 75)
-        Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(229, 23)
-        Me.Button27.TabIndex = 20
-        Me.Button27.Text = "High Contrast Mode - Disabled"
-        Me.Button27.UseVisualStyleBackColor = True
-        '
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(48, 20)
@@ -569,8 +569,7 @@ Partial Class ThemeDesign
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel1.BackgroundImage = Global.JumpGoDevEdition.My.Resources.Resources.JGTabControlGradient
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(76, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Button7)
         Me.Panel1.Controls.Add(Me.Panel3)
@@ -631,8 +630,10 @@ Partial Class ThemeDesign
         'TextBox2
         '
         Me.TextBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox2.BackColor = System.Drawing.SystemColors.WindowText
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.SystemColors.Window
         Me.TextBox2.Location = New System.Drawing.Point(31, 3)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(188, 19)
@@ -715,9 +716,10 @@ Partial Class ThemeDesign
         '
         Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.WindowText
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.TextBox1.Location = New System.Drawing.Point(61, 3)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(286, 19)
@@ -802,8 +804,6 @@ Partial Class ThemeDesign
     Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
-    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
-    Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
@@ -812,9 +812,6 @@ Partial Class ThemeDesign
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Button16 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents ShapeContainer2 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
-    Friend WithEvents LineShape3 As Microsoft.VisualBasic.PowerPacks.LineShape
-    Friend WithEvents LineShape2 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Button18 As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
@@ -822,7 +819,6 @@ Partial Class ThemeDesign
     Friend WithEvents Button19 As System.Windows.Forms.Button
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents ColorDialog1 As System.Windows.Forms.ColorDialog
-    Friend WithEvents LineShape4 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
     Friend WithEvents Button21 As System.Windows.Forms.Button
@@ -854,4 +850,10 @@ Partial Class ThemeDesign
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
+    Private WithEvents ShapeContainer1 As PowerPacks.ShapeContainer
+    Private WithEvents LineShape1 As PowerPacks.LineShape
+    Private WithEvents ShapeContainer2 As PowerPacks.ShapeContainer
+    Private WithEvents LineShape3 As PowerPacks.LineShape
+    Private WithEvents LineShape2 As PowerPacks.LineShape
+    Private WithEvents LineShape4 As PowerPacks.LineShape
 End Class

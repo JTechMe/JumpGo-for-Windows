@@ -50,7 +50,7 @@
             </Grid>
         </StackPanel>
 
-        <CommandBar HorizontalContentAlignment="Stretch" Opening="CommandBar_Opening" Closing="CommandBar_Closing" Grid.Row="1" Background="#8adbdb">
+        <CommandBar HorizontalContentAlignment="Stretch" Opening="CommandBar_Opening" Closing="CommandBar_Closing" Grid.Row="1" Background="#F2F2F2">
             <CommandBar.Content>
                 <Grid>
                     <Grid.ColumnDefinitions>

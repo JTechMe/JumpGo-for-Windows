@@ -37,6 +37,7 @@ Partial Class AboutGo1
         Me.LabelDesc = New System.Windows.Forms.Label()
         Me.LabelCheckUsOut = New System.Windows.Forms.LinkLabel()
         Me.LabelCopyright = New System.Windows.Forms.Label()
+        Me.LinkDoUpdate = New System.Windows.Forms.LinkLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -198,11 +199,23 @@ Partial Class AboutGo1
         Me.LabelCopyright.TabIndex = 11
         Me.LabelCopyright.Text = "Copyright"
         '
+        'LinkDoUpdate
+        '
+        Me.LinkDoUpdate.AutoSize = True
+        Me.LinkDoUpdate.Location = New System.Drawing.Point(415, 117)
+        Me.LinkDoUpdate.Name = "LinkDoUpdate"
+        Me.LinkDoUpdate.Size = New System.Drawing.Size(42, 13)
+        Me.LinkDoUpdate.TabIndex = 13
+        Me.LinkDoUpdate.TabStop = True
+        Me.LinkDoUpdate.Text = "Update"
+        Me.LinkDoUpdate.Visible = False
+        '
         'AboutGo1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(644, 304)
+        Me.Controls.Add(Me.LinkDoUpdate)
         Me.Controls.Add(Me.LabelCopyright)
         Me.Controls.Add(Me.LabelCheckUsOut)
         Me.Controls.Add(Me.LabelDesc)
@@ -241,4 +254,5 @@ Partial Class AboutGo1
     Friend WithEvents LabelDesc As Label
     Friend WithEvents LabelCheckUsOut As LinkLabel
     Friend WithEvents LabelCopyright As Label
+    Friend WithEvents LinkDoUpdate As LinkLabel
 End Class

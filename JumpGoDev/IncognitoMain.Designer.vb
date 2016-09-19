@@ -71,6 +71,9 @@ Partial Class IncognitoMain
         Me.TabControl1.TabGlassGradient = True
         Me.TabControl1.TabIndex = 2
         Me.TabControl1.TabMinimumWidth = 20
+        Me.TabControl1.TabPlusButton = Nothing
+        Me.TabControl1.TabPlusImage = Nothing
+        Me.TabControl1.TabPlusVisable = False
         Me.TabControl1.TopSeparator = False
         '
         'ContextMenuStrip1
@@ -116,6 +119,7 @@ Partial Class IncognitoMain
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.TabControl1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.KeyPreview = True
         Me.Name = "IncognitoMain"
         Me.Text = "Incognito"
         Me.ToolStrip1.ResumeLayout(False)

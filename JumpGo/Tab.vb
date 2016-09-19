@@ -1,6 +1,7 @@
 ﻿'Imports Skybound.Gecko
 Imports System.Net
 Imports System.IO
+Imports System.Xml
 
 Imports Gecko
 'Imports System.IO

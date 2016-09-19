@@ -202,6 +202,15 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
 
     End Function
 
+    Public Function IsOnNetwork() As Boolean
+        'This Tests your network connection
+        Try
+            Return My.Computer.Network.IsAvailable
+        Catch ex As Exception
+            Return False
+        End Try
+    End Function
+
     Private Sub JumpGo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Dim WinVerID As String = Environment.OSVersion.ToString()
@@ -223,33 +232,39 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
 
         File.Copy(sSource, sTarget, True)
 
-        Dim myXmlDocument As XmlDocument = New XmlDocument()
-        'myXmlDocument.Load(Environment.CurrentDirectory + "\curverid.xml")
-        myXmlDocument.Load(appdata + "curverid.loc.xml")
-        Dim lclcurver As String = myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText
-        myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText = My.Application.Info.Version.ToString
+        'So yeah... It caused a few errors and had to be commented out, but if you want to revive this segment of
+        'code just remove one of the "'"s from each line below until you hit the end of the region.
+        'Dim myXmlDocument As XmlDocument = New XmlDocument()
+        ''myXmlDocument.Load(Environment.CurrentDirectory + "\curverid.xml")
+        'myXmlDocument.Load(appdata + "curverid.loc.xml")
+        'Dim lclcurver As String = myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText
+        'myXmlDocument.SelectSingleNode("application/stable/curverid").InnerText = My.Application.Info.Version.ToString
 
-        'If File.Exists(tempdata + "\curverid.xml") = True Then
-        '    File.Delete(tempdata + "\curverid.xml")
-        'End If
-        'File.Delete(Environment.CurrentDirectory + "\curverid.xml")
-        'myXmlDocument.Save(Environment.CurrentDirectory + "\curverid.xml")
-        myXmlDocument.Save(appdata + "curverid.loc.xml")
+        ''If File.Exists(tempdata + "\curverid.xml") = True Then
+        ''    File.Delete(tempdata + "\curverid.xml")
+        ''End If
+        ''File.Delete(Environment.CurrentDirectory + "\curverid.xml")
+        ''myXmlDocument.Save(Environment.CurrentDirectory + "\curverid.xml")
+        'myXmlDocument.Save(appdata + "curverid.loc.xml")
 #End Region
 
 #Region "New Aero pt 2"
-        'aero extending try
-        Try
-            Me.BackColor = Color.Black 'It must be set to black...
-            Dim Side As Side = New Side 'Dim Side not Dark Side.
-            Side.Left = 0
-            Side.Right = 0
-            Side.Top = 31
-            Side.Bottom = 0
-            Dim result As Integer = DwmExtendFrameIntoClientArea(Me.Handle, Side) 'Yea, this is a headache and a half.
-        Catch ex As Exception
-        End Try
-        'end of aero extending try
+        If WinVerID.Contains("10.0") Then 'This checks to see if the current operating system is Windows 10
+
+        Else 'This runs if the system is not Windows 10
+            'aero extending try
+            Try
+                Me.BackColor = Color.Black 'It must be set to black...
+                Dim Side As Side = New Side 'Dim Side not Dark Side.
+                Side.Left = 0
+                Side.Right = 0
+                Side.Top = 31
+                Side.Bottom = 0
+                Dim result As Integer = DwmExtendFrameIntoClientArea(Me.Handle, Side) 'Yea, this is a headache and a half.
+            Catch ex As Exception
+            End Try
+            'end of aero extending try
+        End If
 #End Region
 
         My.Settings.CurVerIDAvai = My.Application.Info.Version.ToString
@@ -341,7 +356,7 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
         'TabControl1.TabPages.Add(TabButtonNew).CloseButtonVisible = False
 
         'NewTabButton("")
-        If HaveInternetConnection() = True Then 'This checks if you're connected to the internet
+        If IsOnNetwork() = True Then 'This checks if you're connected to the internet
             If My.Settings.FirstRun = True Then
                 'CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
                 CreateNewTab("http://jtechme.github.io/jg/jumpgo")
@@ -386,7 +401,7 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
     End Sub
 
     Private Sub JumpGoMain_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
-        exportSettings()
+        'exportSettings()
     End Sub
 
 #Region "Tab Page Creators"

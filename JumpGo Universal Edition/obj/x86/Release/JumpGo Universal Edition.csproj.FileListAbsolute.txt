@@ -1,0 +1,395 @@
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\SQLitePCL.Ext.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\SQLitePCL.Ext.pri
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\App.xbf
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\MainPage.xbf
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\JumpGo Browser.xr.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\JumpGo Browser.exe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\JumpGo Browser.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\resources.pri
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\AppxManifest.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Adapters.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\AssemblyInfo.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\ClrCompression.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Data.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\Helpers.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\ImplTypes.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\JumpGo Browser.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\JumpGo Browser.exe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\JumpGo Browser.ITFProxy.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\JumpGo Browser.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\JumpGo Browser.xr.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\PInvoke.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\resources.pri
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\SafeTypes.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\SharedStubs.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\sqlite3.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\_Resources\0.rsrc
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ilc\_Resources\index.txt
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\JumpGo Universal Edition.build.appxrecipe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\Microsoft.ApplicationInsights.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\Microsoft.ApplicationInsights.PersistenceChannel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\Microsoft.ApplicationInsights.Extensibility.Windows.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\Microsoft.CSharp.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Core.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Numerics.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.Serialization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ServiceModel.Web.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ServiceModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Windows.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Xml.Linq.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Xml.Serialization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Xml.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\mscorlib.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\Microsoft.VisualBasic.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\Microsoft.Win32.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\SQLitePCL.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.AppContext.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Collections.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Collections.Concurrent.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Collections.Immutable.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Collections.NonGeneric.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Collections.Specialized.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ComponentModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ComponentModel.Annotations.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Data.Common.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Diagnostics.Contracts.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Diagnostics.Debug.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Diagnostics.StackTrace.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Diagnostics.Tools.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Diagnostics.Tracing.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Dynamic.Runtime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Globalization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Globalization.Calendars.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Globalization.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.IO.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.IO.Compression.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\ClrCompression.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.IO.Compression.ZipFile.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.IO.FileSystem.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.IO.IsolatedStorage.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Linq.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Linq.Expressions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Linq.Parallel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Linq.Queryable.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.Http.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.Http.Rtc.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.NetworkInformation.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.Requests.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.Sockets.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Net.WebHeaderCollection.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Numerics.Vectors.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ObjectModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Private.DataContractSerialization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Private.Networking.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Private.ServiceModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Private.Uri.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.Context.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.DispatchProxy.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.Emit.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.Emit.ILGeneration.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.Metadata.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Reflection.TypeExtensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Resources.ResourceManager.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.Handles.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.InteropServices.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.Numerics.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.Serialization.Json.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.WindowsRuntime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Security.Claims.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Security.Principal.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ServiceModel.Duplex.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ServiceModel.Http.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ServiceModel.NetTcp.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ServiceModel.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.ServiceModel.Security.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Text.Encoding.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Text.Encoding.CodePages.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Text.Encoding.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Text.RegularExpressions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Threading.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Threading.Overlapped.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Threading.Tasks.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Threading.Tasks.Dataflow.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Threading.Timer.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Xml.ReaderWriter.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Xml.XDocument.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Xml.XmlDocument.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Release\System.Xml.XmlSerializer.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\JumpGo Universal Edition.csprojResolveAssemblyReference.cache
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\App.g.i.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\App.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\MainPage.g.i.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\MainPage.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\XamlTypeInfo.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\App.xaml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\MainPage.xaml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\App.xbf
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\MainPage.xbf
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\XamlSaveStateFile.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\JumpGo Browser.exe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\JumpGo Browser.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ResourceHandlingTask.state
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\SQLitePCL\en\SQLitePCL.Resources.resw
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\JumpGo Universal Edition.csproj.GenerateResource.Cache
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\priconfig.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\priconfig.xml.intermediate
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\layout.resfiles
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\layout.resfiles.intermediate
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\resources.resfiles
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\resources.resfiles.intermediate
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\pri.resfiles
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\pri.resfiles.intermediate
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\qualifiers.txt
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\qualifiers.txt.intermediate
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\resources.en.resfiles
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\resources.en.resfiles.intermediate
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\SQLitePCL.Ext.pri.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ProjectArchitectures.txt
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Properties\Default.rd.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\JumpGo Browser.xr.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\AppxManifest.xml
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\JumpGo Browser.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\JumpGo Browser.exe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Microsoft.ApplicationInsights.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Microsoft.ApplicationInsights.PersistenceChannel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Microsoft.ApplicationInsights.Extensibility.Windows.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Microsoft.CSharp.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ComponentModel.DataAnnotations.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Core.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Numerics.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.Serialization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ServiceModel.Web.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ServiceModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Windows.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Xml.Linq.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Xml.Serialization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Xml.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\mscorlib.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Microsoft.VisualBasic.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Microsoft.Win32.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\SQLitePCL.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.AppContext.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Collections.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Collections.Concurrent.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Collections.Immutable.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Collections.NonGeneric.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Collections.Specialized.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ComponentModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ComponentModel.Annotations.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ComponentModel.EventBasedAsync.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Data.Common.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Diagnostics.Contracts.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Diagnostics.Debug.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Diagnostics.StackTrace.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Diagnostics.Tools.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Diagnostics.Tracing.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Dynamic.Runtime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Globalization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Globalization.Calendars.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Globalization.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.IO.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.IO.Compression.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.IO.Compression.ZipFile.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.IO.FileSystem.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.IO.FileSystem.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.IO.IsolatedStorage.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.IO.UnmanagedMemoryStream.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Linq.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Linq.Expressions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Linq.Parallel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Linq.Queryable.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.Http.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.Http.Rtc.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.NetworkInformation.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.Requests.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.Sockets.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Net.WebHeaderCollection.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Numerics.Vectors.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ObjectModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Private.DataContractSerialization.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Private.Networking.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Private.ServiceModel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Private.Uri.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.Context.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.DispatchProxy.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.Emit.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.Emit.ILGeneration.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.Metadata.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Reflection.TypeExtensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Resources.ResourceManager.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.Handles.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.InteropServices.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.Numerics.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.Serialization.Json.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.Serialization.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.Serialization.Xml.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Security.Claims.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Security.Principal.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ServiceModel.Duplex.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ServiceModel.Http.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ServiceModel.NetTcp.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ServiceModel.Primitives.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.ServiceModel.Security.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Text.Encoding.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Text.Encoding.CodePages.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Text.Encoding.Extensions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Text.RegularExpressions.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Threading.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Threading.Overlapped.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Threading.Tasks.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Threading.Tasks.Dataflow.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Threading.Tasks.Parallel.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Threading.Timer.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Xml.ReaderWriter.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Xml.XDocument.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Xml.XmlDocument.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\System.Xml.XmlSerializer.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\SQLitePCL.Ext.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\resources.pri
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\ClrCompression.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\sqlite3.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\SplashScreen.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square150x150Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square310x310Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square310x310Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square44x44Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square71x71Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square71x71Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\StoreLogo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\StoreLogo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Wide310x150Logo.scale-100.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\LockScreenLogo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\SplashScreen.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square150x150Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square44x44Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\in\Assets\Wide310x150Logo.scale-200.png
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc.JumpGo Universal Edition.rsp
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.rc
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.res
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.txt
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\gkargs.rsp
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.closure.csv
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.csv
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.forwarders.csv
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.ilexe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.ilexe.ILTransformTask.repro
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.ilpdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.McgInterop.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.McgInterop.ilpdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.metadata
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.reflectionlog.csv
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\JumpGo Browser.res
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\Microsoft.ApplicationInsights.Extensibility.Windows.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\Microsoft.ApplicationInsights.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\Microsoft.ApplicationInsights.PersistenceChannel.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\Microsoft.Win32.Primitives.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\SQLitePCL.Ext.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\SQLitePCL.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.AppContext.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Collections.NonGeneric.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Collections.Specialized.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Data.Common.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.StackTrace.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Tools.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.Extensions.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.Compression.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.Primitives.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.IsolatedStorage.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.UnmanagedMemoryStream.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Net.Http.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Net.Requests.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Net.WebHeaderCollection.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Numerics.Vectors.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.DeveloperExperience.AppX.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.DeveloperExperience.AppX.ilpdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.Networking.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.PortableThunks.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.PortableThunks.ilpdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.StackTraceGenerator.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.StackTraceGenerator.ilpdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.WinRTInterop.CoreLib.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.WinRTInterop.CoreLib.ilpdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Handles.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Serialization.Primitives.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.UI.Xaml.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Claims.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Principal.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.CodePages.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Overlapped.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.Parallel.ildll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.ITFProxy.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\Adapters.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\AssemblyInfo.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\Data.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\Helpers.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\ImplTypes.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\PInvoke.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\SafeTypes.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\JumpGo Browser.McgInterop\SharedStubs.g.cs
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\MDIL\JumpGo Browser.mdilexe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\MDIL\JumpGo Browser.mdilpdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\MDIL\JumpGo Browser.rsp
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\Native.res
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\Native\JumpGo Browser.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\JumpGo Browser.exe
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\JumpGo Browser.pdb
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\rhbindargs.JumpGo Browser.rsp
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\sgargs.rsp
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro

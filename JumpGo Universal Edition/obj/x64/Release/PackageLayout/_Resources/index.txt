@@ -1,0 +1,2 @@
+SQLitePCL, Version=3.8.7.2, Culture=neutral, PublicKeyToken=bddade01e9c850c5
+  SQLitePCL.Resources.resources

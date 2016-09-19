@@ -43,7 +43,7 @@ Public Class IncognitoMain
         'Here we make use of the API to add the buttons. It will handle the form itself, and use the array of buttons we defined earlier
         TaskbarManager.Instance.ThumbnailToolBars.AddButtons(Me.Handle, array)
 
-        TabControl1.TabPages.Add(IncognitoTabButtonNew)
+        'TabControl1.TabPages.Add(IncognitoTabButtonNew)
 
         'NewTabButton("")
         If My.Settings.FirstRun = True Then

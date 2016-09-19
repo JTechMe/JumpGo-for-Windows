@@ -181,7 +181,7 @@
     <value>Close tab</value>
   </data>
   <data name="DoYouExit" xml:space="preserve">
-    <value>Do you want to close this JumpGo?</value>
+    <value>Do you want to close JumpGo?</value>
   </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favorites</value>

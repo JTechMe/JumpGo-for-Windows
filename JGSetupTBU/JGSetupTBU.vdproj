@@ -111,18 +111,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0630C153C42148BC77494CF2037C5DBB"
-        "OwnerKey" = "8:_2745B9CA64684842B2BB93CBFEA735BF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0630C153C42148BC77494CF2037C5DBB"
-        "OwnerKey" = "8:_CD94623AA157473CC8A55F4AFF99ACC2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_07043D43CF8442E29C4C32AAB1006E03"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -549,12 +537,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2745B9CA64684842B2BB93CBFEA735BF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_27B829CD2A0F4030B34942CC02FD33A3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -593,12 +575,6 @@
         {
         "MsmKey" = "8:_2BA590EBF41149E1A11B5831F6185676"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2C58800952934D6CF441292D028CE26B"
-        "OwnerKey" = "8:_2745B9CA64684842B2BB93CBFEA735BF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1126,13 +1102,13 @@
         "Entry"
         {
         "MsmKey" = "8:_5BF92CE41E415349D44F86350108B00C"
-        "OwnerKey" = "8:_1A62706FB15D48C7BB6B789808235725"
+        "OwnerKey" = "8:_C669067D91534E288F3117CF921CA220"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5BF92CE41E415349D44F86350108B00C"
-        "OwnerKey" = "8:_C669067D91534E288F3117CF921CA220"
+        "OwnerKey" = "8:_1A62706FB15D48C7BB6B789808235725"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -2637,12 +2613,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CD94623AA157473CC8A55F4AFF99ACC2"
-        "OwnerKey" = "8:_2745B9CA64684842B2BB93CBFEA735BF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_CFC3E9306E33463B9021B25C28AC518A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -3505,30 +3475,6 @@
         "OwnerKey" = "8:_65DE84DA904174BFED7955ABB5C2F842"
         "MsmSig" = "8:_UNDEFINED"
         }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2745B9CA64684842B2BB93CBFEA735BF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CD94623AA157473CC8A55F4AFF99ACC2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2C58800952934D6CF441292D028CE26B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0630C153C42148BC77494CF2037C5DBB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
     }
     "Configurations"
     {
@@ -3918,37 +3864,6 @@
                     }
                 }
             "SourcePath" = "8:System.IO.Compression.FileSystem.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0630C153C42148BC77494CF2037C5DBB"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_0630C153C42148BC77494CF2037C5DBB"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_53627329B0C345768033052FCB058B51"
@@ -4810,7 +4725,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:JumpGo, Version=4.4.0.24961, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:JumpGo, Version=4.4.0.37017, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
                     "_1A62706FB15D48C7BB6B789808235725"
@@ -5526,37 +5441,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2C58800952934D6CF441292D028CE26B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:JGUpdaterElevated, Version=0.1.0.24955, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_2C58800952934D6CF441292D028CE26B"
-                    {
-                    "Name" = "8:JGUpdaterElevated.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:JGUpdaterElevated.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2C5BCF98F34B43AFA1BE054B4491EF89"
@@ -12279,37 +12163,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CD94623AA157473CC8A55F4AFF99ACC2"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Octokit, Version=0.19.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_CD94623AA157473CC8A55F4AFF99ACC2"
-                    {
-                    "Name" = "8:Octokit.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Octokit.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CFC3E9306E33463B9021B25C28AC518A"
             {
             "SourcePath" = "8:..\\JumpGo\\bin\\Debug\\mdl-templates\\assets\\templates\\product_2x.jpg"
@@ -15727,34 +15580,6 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2745B9CA64684842B2BB93CBFEA735BF"
-            {
-            "SourcePath" = "8:..\\JGUpdater\\obj\\Debug\\JGUpdater.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_53627329B0C345768033052FCB058B51"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{CBFB2BAC-1265-4246-8544-A61F25E6A33C}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7C7D22C575B248BAB41C196CEB96D0E1"
             {
             "SourcePath" = "8:..\\JumpGo\\obj\\Debug\\JumpGo.exe"

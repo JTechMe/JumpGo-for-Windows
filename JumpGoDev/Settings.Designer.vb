@@ -302,9 +302,9 @@ Partial Class Settings
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.PictureBox3)
         Me.GroupBox3.Controls.Add(Me.Button9)
         Me.GroupBox3.Controls.Add(Me.Button8)
-        Me.GroupBox3.Controls.Add(Me.PictureBox2)
         Me.GroupBox3.Location = New System.Drawing.Point(12, 247)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(270, 129)
@@ -337,11 +337,11 @@ Partial Class Settings
         'PictureBox2
         '
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.Image = Global.JumpGoDevEdition.My.Resources.Resources.index
+        Me.PictureBox2.Image = Global.JumpGoDevEdition.My.Resources.Resources.ic_file_config
         Me.PictureBox2.Location = New System.Drawing.Point(6, 73)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(50, 50)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 14
         Me.PictureBox2.TabStop = False
         '
@@ -497,8 +497,8 @@ Partial Class Settings
         'GroupBox6
         '
         Me.GroupBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GroupBox6.Controls.Add(Me.PictureBox3)
         Me.GroupBox6.Controls.Add(Me.Label5)
+        Me.GroupBox6.Controls.Add(Me.PictureBox2)
         Me.GroupBox6.Location = New System.Drawing.Point(288, 247)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(223, 129)
@@ -510,7 +510,7 @@ Partial Class Settings
         '
         Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.PictureBox3.Image = Global.JumpGoDevEdition.My.Resources.Resources.JumpGo_Dev_Edition_Updated1
-        Me.PictureBox3.Location = New System.Drawing.Point(4, 73)
+        Me.PictureBox3.Location = New System.Drawing.Point(6, 73)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -555,10 +555,10 @@ Partial Class Settings
         Me.RadioButton10.Checked = True
         Me.RadioButton10.Location = New System.Drawing.Point(6, 19)
         Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(76, 17)
+        Me.RadioButton10.Size = New System.Drawing.Size(74, 17)
         Me.RadioButton10.TabIndex = 0
         Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "Beta Client"
+        Me.RadioButton10.Text = "Dev Client"
         Me.RadioButton10.UseVisualStyleBackColor = True
         '
         'Settings
