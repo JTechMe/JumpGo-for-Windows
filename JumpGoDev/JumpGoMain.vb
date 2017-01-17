@@ -344,46 +344,49 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
         'TabControl1.TabPages.Add(TabButtonNew).CloseButtonVisible = False
 
         'NewTabButton("")
-
+        'If My.Application.CommandLineArgs < 0 Then
         'If HaveInternetConnection() = True Then 'This checks if you're connected to the internet
         'If My.Computer.Network.IsAvailable Then 'This checks if you're connected to a network
         If IsOnNetwork() = True Then 'This checks if you're connected to a network
-            If My.Settings.FirstRun = True Then
-                If WinVerID.Contains("10.") Then
-                    'JGMWin10Tut.Visible = True
-                End If
-                'CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
-                CreateNewTab("http://jtechme.github.io/jg/jumpgo")
-                My.Settings.Upgrade()
-                My.Settings.FirstRun = False
-                'This will set the size and window state of the JumpGoMain.vb form
-                If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
-                    Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
-                Else 'This will run if the last saved window state was not normal
-                    If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
-                        Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+                If My.Settings.FirstRun = True Then
+                    If WinVerID.Contains("10.") Then
+                        'JGMWin10Tut.Visible = True
                     End If
+                    'CreateNewTab(Environment.CurrentDirectory + "\Getting Started.html")
+                    CreateNewTab("http://jtechme.github.io/jg/jumpgo")
+                    My.Settings.Upgrade()
+                    My.Settings.FirstRun = False
+                    'This will set the size and window state of the JumpGoMain.vb form
+                    If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
+                        Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
+                    Else 'This will run if the last saved window state was not normal
+                        If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
+                            Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+                        End If
+                    End If
+                Else
+                    CreateNewTab(My.Settings.Home)
                 End If
             Else
-                CreateNewTab(My.Settings.Home)
-            End If
-        Else
-            If My.Settings.FirstRun = True Then
-                CreateNewTab(Environment.CurrentDirectory + "\offline.html")
-                My.Settings.Upgrade()
-                My.Settings.FirstRun = False
-                'This will set the size and window state of the JumpGoMain.vb form
-                If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
-                    Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
-                Else 'This will run if the last saved window state was not normal
-                    If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
-                        Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+                If My.Settings.FirstRun = True Then
+                    CreateNewTab(Environment.CurrentDirectory + "\offline.html")
+                    My.Settings.Upgrade()
+                    My.Settings.FirstRun = False
+                    'This will set the size and window state of the JumpGoMain.vb form
+                    If My.Settings.LastWinState = "normal" Then 'This first checks if the last window state is normal
+                        Me.Size = My.Settings.LastSize 'If so this will set the form size to the last saved size
+                    Else 'This will run if the last saved window state was not normal
+                        If My.Settings.LastWinState = "maximized" Then 'This checks if the last saved window state is maximized
+                            Me.WindowState = FormWindowState.Maximized 'If so this will set the current window state to maximized
+                        End If
                     End If
+                Else
+                    CreateNewTab(Environment.CurrentDirectory + "\offline.html")
                 End If
-            Else
-                CreateNewTab(My.Settings.Home)
             End If
-        End If
+        'Else
+
+        'End If
 
         'NewTabButton("")
 

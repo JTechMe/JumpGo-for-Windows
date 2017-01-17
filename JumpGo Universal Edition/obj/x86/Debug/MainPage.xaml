@@ -14,7 +14,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackPanel Background="#E6E6E6" Grid.Row="0" Height="50">
+        <StackPanel Background="#61adce" Grid.Row="0" Height="50">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>

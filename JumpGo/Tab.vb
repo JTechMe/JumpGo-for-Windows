@@ -517,7 +517,7 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
         End If
     End Sub
 
-    Private Sub RemoveFavoriteToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RemoveFavoriteToolStripMenuItem.Click
+    Private Sub RemoveFavoriteToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         If My.Settings.SavedLinks IsNot Nothing Then
             For Each Savedlink As String In My.Settings.SavedLinks
                 If Savedlink = FasterBrowser1.DocumentTitle & "," & FasterBrowser1.Url.ToString Then

@@ -97,6 +97,7 @@ Partial Class Tab
         Me.GridMenuButton2 = New JumpGoDevEdition.GridMenuButton()
         Me.GridMenuButton1 = New JumpGoDevEdition.GridMenuButton()
         Me.FasterBrowser1 = New JumpGoDevEdition.FasterBrowser()
+        'Me.FasterBrowser1 = New Gecko.GeckoWebBrowser
         Me.Panel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()

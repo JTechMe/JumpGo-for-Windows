@@ -41,7 +41,7 @@ Public Class AboutGo1
         'Me.LabelCompanyName.Text = "JumpGo and the JumpGo logos are trademarks of " + My.Application.Info.CompanyName
         Me.LabelCompanyName.Text = My.Application.Info.CompanyName
         Me.LabelCopyright.Text = My.Application.Info.Copyright
-#Region "Update Checking"
+#Region "Update Checking Pt1"
         If IsOnNetwork() = True Then
             Me.LabelCurVer.Text = "Checking for update"
             If File.Exists(result + "\curverid.xml") = True Then
@@ -54,21 +54,7 @@ Public Class AboutGo1
             dldxml,
                 result + "\curverid.xml")
             End If
-            'Const URLString As String = "http://localhost/books.xml"
-            'Dim reader As XmlTextReader = New XmlTextReader(URLString)
-            Dim doc As XmlDocument = New XmlDocument()
-            doc.Load(result + "/curverid.xml")
-            Dim dldcurver As String = doc.SelectSingleNode("application/jgdev/stable/curverid").InnerText
-
-            If dldcurver > My.Application.Info.Version.ToString Then
-                dldurl = doc.SelectSingleNode("application/jgdev/stable/curlink").InnerText
-                Me.LabelCurVer.Text = "JumpGo has an update available"
-                LinkDoUpdate.Visible = True
-            ElseIf dldcurver = My.Application.Info.Version.ToString Then
-                Me.LabelCurVer.Text = "JumpGo is up to date"
-            ElseIf dldcurver < My.Application.Info.Version.ToString Then
-                Me.LabelCurVer.Text = "JumpGo is up to date"
-            End If
+            Chck4Updts()
         Else
             LinkDoUpdate.Visible = False
             Me.LabelCurVer.Text = "JumpGo is up to date"
@@ -76,6 +62,26 @@ Public Class AboutGo1
 #End Region
         Me.ShowIcon = False
     End Sub
+
+#Region "Update Checking Pt2"
+    Public Sub Chck4Updts()
+        'Const URLString As String = "http://localhost/books.xml"
+        'Dim reader As XmlTextReader = New XmlTextReader(URLString)
+        Dim doc As XmlDocument = New XmlDocument()
+        doc.Load(result + "/curverid.xml")
+        Dim dldcurver As String = doc.SelectSingleNode("application/jgdev/stable/curverid").InnerText
+
+        If dldcurver > My.Application.Info.Version.ToString Then
+            dldurl = doc.SelectSingleNode("application/jgdev/stable/curlink").InnerText
+            Me.LabelCurVer.Text = "JumpGo has an update available"
+            LinkDoUpdate.Visible = True
+        ElseIf dldcurver = My.Application.Info.Version.ToString Then
+            Me.LabelCurVer.Text = "JumpGo is up to date"
+        ElseIf dldcurver < My.Application.Info.Version.ToString Then
+            Me.LabelCurVer.Text = "JumpGo is up to date"
+        End If
+    End Sub
+#End Region
 
 #Region "Label Links"
     Private Sub LabelWhatsNew_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LabelWhatsNew.LinkClicked

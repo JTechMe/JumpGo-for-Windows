@@ -38,6 +38,7 @@ Partial Class AboutGo1
         Me.LabelCheckUsOut = New System.Windows.Forms.LinkLabel()
         Me.LabelCopyright = New System.Windows.Forms.Label()
         Me.LinkDoUpdate = New System.Windows.Forms.LinkLabel()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -210,11 +211,24 @@ Partial Class AboutGo1
         Me.LinkDoUpdate.Text = "Update"
         Me.LinkDoUpdate.Visible = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Candara", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(402, 42)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(70, 39)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "Dev"
+        '
         'AboutGo1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(644, 304)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LinkDoUpdate)
         Me.Controls.Add(Me.LabelCopyright)
         Me.Controls.Add(Me.LabelCheckUsOut)
@@ -222,7 +236,6 @@ Partial Class AboutGo1
         Me.Controls.Add(Me.LabelCurVer)
         Me.Controls.Add(Me.LabelWhatsNew)
         Me.Controls.Add(Me.LabelVersion)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -255,4 +268,5 @@ Partial Class AboutGo1
     Friend WithEvents LabelCheckUsOut As LinkLabel
     Friend WithEvents LabelCopyright As Label
     Friend WithEvents LinkDoUpdate As LinkLabel
+    Friend WithEvents Label1 As Label
 End Class

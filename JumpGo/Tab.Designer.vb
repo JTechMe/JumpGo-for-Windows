@@ -44,7 +44,6 @@ Partial Class Tab
         Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
         Me.AddFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RemoveFavoriteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -361,7 +360,7 @@ Partial Class Tab
         'ToolStripDropDownButton1
         '
         Me.ToolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripDropDownButton1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddFavoriteToolStripMenuItem, Me.RemoveFavoriteToolStripMenuItem})
+        Me.ToolStripDropDownButton1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddFavoriteToolStripMenuItem})
         Me.ToolStripDropDownButton1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_action_star
         Me.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1"
@@ -372,14 +371,8 @@ Partial Class Tab
         'AddFavoriteToolStripMenuItem
         '
         Me.AddFavoriteToolStripMenuItem.Name = "AddFavoriteToolStripMenuItem"
-        Me.AddFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
-        Me.AddFavoriteToolStripMenuItem.Text = "Add Favorite"
-        '
-        'RemoveFavoriteToolStripMenuItem
-        '
-        Me.RemoveFavoriteToolStripMenuItem.Name = "RemoveFavoriteToolStripMenuItem"
-        Me.RemoveFavoriteToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
-        Me.RemoveFavoriteToolStripMenuItem.Text = "Remove Favorite"
+        Me.AddFavoriteToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
+        Me.AddFavoriteToolStripMenuItem.Text = "Add Bookmark"
         '
         'PictureBox3
         '
@@ -643,7 +636,6 @@ Partial Class Tab
         Me.FastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.FastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
         Me.FastColoredTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FastColoredTextBox1.Font = New System.Drawing.Font("Courier New", 9.75!)
         Me.FastColoredTextBox1.IsReplaceMode = False
         Me.FastColoredTextBox1.Language = FastColoredTextBoxNS.Language.HTML
         Me.FastColoredTextBox1.LeftBracket = Global.Microsoft.VisualBasic.ChrW(60)
@@ -1006,7 +998,6 @@ Partial Class Tab
     Friend WithEvents ToolStrip2 As ToolStrip
     Friend WithEvents ToolStripDropDownButton1 As ToolStripDropDownButton
     Friend WithEvents AddFavoriteToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents RemoveFavoriteToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox

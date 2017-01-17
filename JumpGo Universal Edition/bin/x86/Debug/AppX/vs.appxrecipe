@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-06T21:16:24.315</Modified>
+      <Modified>2016-12-02T04:09:27.647</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\JumpGo Browser.exe">
       <PackagePath>entrypoint\JumpGo Browser.exe</PackagePath>
-      <Modified>2016-09-06T21:16:21.322</Modified>
+      <Modified>2016-12-02T04:09:24.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PopTart\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -565,11 +565,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-09-06T21:16:23.399</Modified>
+      <Modified>2016-12-02T04:09:26.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\bin\x86\Debug\Core\JumpGo Browser.exe">
       <PackagePath>JumpGo Browser.exe</PackagePath>
-      <Modified>2016-09-06T21:16:24.279</Modified>
+      <Modified>2016-12-02T04:09:27.625</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

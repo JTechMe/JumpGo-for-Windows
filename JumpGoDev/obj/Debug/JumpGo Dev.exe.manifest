@@ -4,7 +4,7 @@
   <description asmv2:iconFile="jumpgo_dev_edition_updated_jg3_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo Dev" version="4.4.0.24800" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo Dev" version="4.4.1.30931" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo Dev.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -122,19 +122,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cn4MDSNVhbZ54qPWCFm9iREsa4cXpeBWs3ipAz5sqyc=</dsig:DigestValue>
+        <dsig:DigestValue>G/jdDW3/hG7Kmam2O1qRE4XlgPbAXMwX83EeaaFq3WY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo Dev.exe" size="22752768">
-      <assemblyIdentity name="JumpGo Dev" version="4.4.0.24800" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo Dev.exe" size="22753280">
+      <assemblyIdentity name="JumpGo Dev" version="4.4.1.30931" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BBd4GxzQqXfj3I8WYt3/OxM2L2c4WNhwvH4o+5GYEWY=</dsig:DigestValue>
+        <dsig:DigestValue>mGvSp+oJ2g8dkjocUtZwmkh/neIpcbekWeYc+PQaOHU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -36,7 +36,7 @@
                         </Setter>
                     </Style>
 
-                    <Color x:Key="SystemAccentColor">#61adce</Color>
+                    <Color x:Key="SystemAccentColor">#7CD7FF</Color>
 
                     <SolidColorBrush x:Key="TitleBarBackgroundThemeBrush" Color="#61adce" />
                     <SolidColorBrush x:Key="TitleBarButtonHoverThemeBrush" Color="#3689ad" />

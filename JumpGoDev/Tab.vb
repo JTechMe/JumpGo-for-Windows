@@ -187,8 +187,9 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
         Else
             Button20.BackgroundImage = My.Resources.unsecured
         End If
-        FavIconChange()
-        geticon()
+        'FavIconChange()
+        'geticon()
+        favicon()
         Dim obj As [Object]
         obj = FasterBrowser1.Url.AbsoluteUri
         'My.Settings.WebHistory.Items.Add(obj)
@@ -235,8 +236,9 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
         Else
             Button20.BackgroundImage = My.Resources.unsecured
         End If
-        FavIconChange()
-        geticon()
+        'FavIconChange()
+        'geticon()
+        favicon()
         Dim obj As [Object]
         obj = FasterBrowser1.Url
         'My.Settings.WebHistory.Items.Add(FasterBrowser1.Url.ToString)
@@ -328,6 +330,27 @@ Public Class Tab 'I think this is possibly the most headache enducing class in t
             End If
         Catch ex As Exception
             'Me.favicon.Image = Nothing
+        End Try
+    End Sub
+
+    Public Sub favicon()
+        Try
+            Dim url As Uri = New Uri(FasterBrowser1.Url.ToString)
+
+            If url.HostNameType = UriHostNameType.Dns Then
+                If File.Exists("C:\favicon.png") Then
+                    File.Delete("C:\favicon.png")
+                End If
+                My.Computer.Network.DownloadFile(
+        "https://www.google.com/s2/favicons?domain_url=" + url.ToString,
+        "C:\favicon.png")
+                Dim bmp As System.Drawing.Bitmap = System.Drawing.Bitmap.FromFile("C:\favicon.png")
+                Dim ico As System.Drawing.Icon = System.Drawing.Icon.FromHandle(bmp.GetHicon())
+
+                Me.Icon = ico
+            End If
+        Catch ex As Exception
+
         End Try
     End Sub
 
