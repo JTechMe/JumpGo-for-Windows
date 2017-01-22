@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="com.JTechMe.JumpGo" Publisher="CN=JTechMe" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="com.JTechMe.JumpGo" Publisher="CN=JTechMe" Version="0.6.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="8afb896b-9fac-4968-abc1-c755ac35e360" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>JumpGo</DisplayName>
@@ -42,12 +42,11 @@
     <build:Item Name="VisualStudio" Version="14.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25431.1" />
     <build:Item Name="ProjectGUID" Value="{84CEB869-6988-42D1-8C29-2DE641E8617E}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
-    <build:Item Name="SQLite.UWP.2015" Version="3.14.1" />
     <build:Item Name="MakePri.exe" Version="10.0.14393.33 (rs1_release_sec.160727-1952)" />
   </build:Metadata>
 </Package>

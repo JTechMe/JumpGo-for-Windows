@@ -85,3 +85,49 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\obj\Debug\JumpGoStandardEdition.ThemeCF.resources
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Geckofx-Core.pdb
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Geckofx-Winforms.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.exe.config
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\Interop.SHDocVw.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbproj.ResolveComReference.cache
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.exe.manifest
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.application
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Interop.SHDocVw.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AboutBox1.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AboutGo1.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AddOnSettings.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AppBuilder.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AppBuildTester.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.DDMenu.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.GridMenuButton.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.HistoryForm.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.IncognitoMain.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.IncognitoTab.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.IncognitoTabButtonNew.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.InfoTab.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.JGMWin10Tut.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.JumpGoMain.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.Settings.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.SourceWriter.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.Tab.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.Resources.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.TabButtonNew.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.ThemeCF.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.ThemeDesign.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.UserControlBox.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.WebAppForm.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.WebSource.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbproj.GenerateResource.Cache
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.exe.manifest
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.application
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.pdb

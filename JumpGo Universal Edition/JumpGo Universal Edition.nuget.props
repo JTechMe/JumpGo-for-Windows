@@ -4,6 +4,6 @@
     <NuGetPackageRoot>$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
   </PropertyGroup>
   <ImportGroup>
-    <Import Project="$(NuGetPackageRoot)\SQLitePCL\3.8.7.2\build\netcore451\SQLitePCL.props" Condition="Exists('$(NuGetPackageRoot)\SQLitePCL\3.8.7.2\build\netcore451\SQLitePCL.props')" />
+    <Import Project="$(NuGetPackageRoot)\SQLitePCL\3.8.5.1\build\netcore451\SQLitePCL.props" Condition="Exists('$(NuGetPackageRoot)\SQLitePCL\3.8.5.1\build\netcore451\SQLitePCL.props')" />
   </ImportGroup>
 </Project>

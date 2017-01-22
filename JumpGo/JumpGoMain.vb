@@ -402,6 +402,7 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
 
     Private Sub JumpGoMain_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
         'exportSettings()
+        'TabControl1.TabPages.Clear()
     End Sub
 
 #Region "Tab Page Creators"

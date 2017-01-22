@@ -129,9 +129,10 @@ Partial Class Tab
         Me.Panel4.Controls.Add(Me.Button9)
         Me.Panel4.Controls.Add(Me.Button8)
         Me.Panel4.Controls.Add(Me.ShapeContainer1)
-        Me.Panel4.Location = New System.Drawing.Point(622, 42)
+        Me.Panel4.Location = New System.Drawing.Point(933, 65)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(200, 313)
+        Me.Panel4.Size = New System.Drawing.Size(300, 482)
         Me.Panel4.TabIndex = 11
         Me.Panel4.Visible = False
         '
@@ -142,9 +143,10 @@ Partial Class Tab
         Me.Button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button21.Location = New System.Drawing.Point(3, 233)
+        Me.Button21.Location = New System.Drawing.Point(4, 358)
+        Me.Button21.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(194, 23)
+        Me.Button21.Size = New System.Drawing.Size(291, 35)
         Me.Button21.TabIndex = 13
         Me.Button21.Text = "History"
         Me.Button21.UseVisualStyleBackColor = False
@@ -156,9 +158,10 @@ Partial Class Tab
         Me.Button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.Location = New System.Drawing.Point(3, 210)
+        Me.Button19.Location = New System.Drawing.Point(4, 323)
+        Me.Button19.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(194, 23)
+        Me.Button19.Size = New System.Drawing.Size(291, 35)
         Me.Button19.TabIndex = 12
         Me.Button19.Text = "JG App Builder"
         Me.Button19.UseVisualStyleBackColor = False
@@ -170,9 +173,10 @@ Partial Class Tab
         Me.Button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.Location = New System.Drawing.Point(3, 52)
+        Me.Button18.Location = New System.Drawing.Point(4, 80)
+        Me.Button18.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(194, 23)
+        Me.Button18.Size = New System.Drawing.Size(291, 35)
         Me.Button18.TabIndex = 11
         Me.Button18.Text = "New Incognito Window"
         Me.Button18.UseVisualStyleBackColor = False
@@ -184,9 +188,10 @@ Partial Class Tab
         Me.Button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.Location = New System.Drawing.Point(3, 190)
+        Me.Button17.Location = New System.Drawing.Point(4, 292)
+        Me.Button17.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(194, 23)
+        Me.Button17.Size = New System.Drawing.Size(291, 35)
         Me.Button17.TabIndex = 10
         Me.Button17.Text = "HTML SourceWriter"
         Me.Button17.UseVisualStyleBackColor = False
@@ -198,9 +203,10 @@ Partial Class Tab
         Me.Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Location = New System.Drawing.Point(3, 170)
+        Me.Button16.Location = New System.Drawing.Point(4, 262)
+        Me.Button16.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(194, 23)
+        Me.Button16.Size = New System.Drawing.Size(291, 35)
         Me.Button16.TabIndex = 9
         Me.Button16.Text = "View Source"
         Me.Button16.UseVisualStyleBackColor = False
@@ -212,9 +218,10 @@ Partial Class Tab
         Me.Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Location = New System.Drawing.Point(3, 105)
+        Me.Button15.Location = New System.Drawing.Point(4, 162)
+        Me.Button15.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(194, 23)
+        Me.Button15.Size = New System.Drawing.Size(291, 35)
         Me.Button15.TabIndex = 8
         Me.Button15.Text = "ThemeDesigner"
         Me.Button15.UseVisualStyleBackColor = False
@@ -226,9 +233,10 @@ Partial Class Tab
         Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Location = New System.Drawing.Point(3, 282)
+        Me.Button14.Location = New System.Drawing.Point(4, 434)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(194, 23)
+        Me.Button14.Size = New System.Drawing.Size(291, 35)
         Me.Button14.TabIndex = 7
         Me.Button14.Text = "Exit"
         Me.Button14.UseVisualStyleBackColor = False
@@ -240,9 +248,10 @@ Partial Class Tab
         Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Location = New System.Drawing.Point(3, 262)
+        Me.Button13.Location = New System.Drawing.Point(4, 403)
+        Me.Button13.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(194, 23)
+        Me.Button13.Size = New System.Drawing.Size(291, 35)
         Me.Button13.TabIndex = 6
         Me.Button13.Text = "About"
         Me.Button13.UseVisualStyleBackColor = False
@@ -254,9 +263,10 @@ Partial Class Tab
         Me.Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Location = New System.Drawing.Point(3, 145)
+        Me.Button12.Location = New System.Drawing.Point(4, 223)
+        Me.Button12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(194, 23)
+        Me.Button12.Size = New System.Drawing.Size(291, 35)
         Me.Button12.TabIndex = 5
         Me.Button12.Text = "Inspect Source"
         Me.Button12.UseVisualStyleBackColor = False
@@ -270,9 +280,10 @@ Partial Class Tab
         Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button11.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.Button11.Location = New System.Drawing.Point(3, 125)
+        Me.Button11.Location = New System.Drawing.Point(4, 192)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(194, 23)
+        Me.Button11.Size = New System.Drawing.Size(291, 35)
         Me.Button11.TabIndex = 4
         Me.Button11.Text = "Save As"
         Me.Button11.UseVisualStyleBackColor = False
@@ -284,9 +295,10 @@ Partial Class Tab
         Me.Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Location = New System.Drawing.Point(3, 75)
+        Me.Button10.Location = New System.Drawing.Point(4, 115)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(194, 23)
+        Me.Button10.Size = New System.Drawing.Size(291, 35)
         Me.Button10.TabIndex = 2
         Me.Button10.Text = "Settings"
         Me.Button10.UseVisualStyleBackColor = False
@@ -298,9 +310,10 @@ Partial Class Tab
         Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(3, 29)
+        Me.Button9.Location = New System.Drawing.Point(4, 45)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(194, 23)
+        Me.Button9.Size = New System.Drawing.Size(291, 35)
         Me.Button9.TabIndex = 1
         Me.Button9.Text = "New Window"
         Me.Button9.UseVisualStyleBackColor = False
@@ -312,9 +325,10 @@ Partial Class Tab
         Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(3, 9)
+        Me.Button8.Location = New System.Drawing.Point(4, 14)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(194, 23)
+        Me.Button8.Size = New System.Drawing.Size(291, 35)
         Me.Button8.TabIndex = 0
         Me.Button8.Text = "New Tab"
         Me.Button8.UseVisualStyleBackColor = False
@@ -324,7 +338,7 @@ Partial Class Tab
         Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Size = New System.Drawing.Size(200, 313)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(300, 482)
         Me.ShapeContainer1.TabIndex = 3
         Me.ShapeContainer1.TabStop = False
         '
@@ -339,8 +353,9 @@ Partial Class Tab
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(822, 45)
+        Me.Panel1.Size = New System.Drawing.Size(1233, 69)
         Me.Panel1.TabIndex = 10
         '
         'ToolStrip2
@@ -351,9 +366,10 @@ Partial Class Tab
         Me.ToolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripDropDownButton1})
-        Me.ToolStrip2.Location = New System.Drawing.Point(459, 11)
+        Me.ToolStrip2.Location = New System.Drawing.Point(701, 17)
         Me.ToolStrip2.Name = "ToolStrip2"
-        Me.ToolStrip2.Size = New System.Drawing.Size(36, 27)
+        Me.ToolStrip2.Padding = New System.Windows.Forms.Padding(0, 0, 2, 0)
+        Me.ToolStrip2.Size = New System.Drawing.Size(42, 27)
         Me.ToolStrip2.TabIndex = 13
         Me.ToolStrip2.Text = "ToolStrip2"
         '
@@ -364,14 +380,14 @@ Partial Class Tab
         Me.ToolStripDropDownButton1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_action_star
         Me.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1"
-        Me.ToolStripDropDownButton1.Size = New System.Drawing.Size(33, 24)
+        Me.ToolStripDropDownButton1.Size = New System.Drawing.Size(38, 24)
         Me.ToolStripDropDownButton1.Text = "Bookmarks"
         Me.ToolStripDropDownButton1.ToolTipText = "Bookmarks"
         '
         'AddFavoriteToolStripMenuItem
         '
         Me.AddFavoriteToolStripMenuItem.Name = "AddFavoriteToolStripMenuItem"
-        Me.AddFavoriteToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
+        Me.AddFavoriteToolStripMenuItem.Size = New System.Drawing.Size(217, 30)
         Me.AddFavoriteToolStripMenuItem.Text = "Add Bookmark"
         '
         'PictureBox3
@@ -379,9 +395,10 @@ Partial Class Tab
         Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = Global.JumpGoStandardEdition.My.Resources.Resources.homeTransparent
-        Me.PictureBox3.Location = New System.Drawing.Point(498, 11)
+        Me.PictureBox3.Location = New System.Drawing.Point(747, 17)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(41, 26)
+        Me.PictureBox3.Size = New System.Drawing.Size(62, 40)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox3.TabIndex = 21
         Me.PictureBox3.TabStop = False
@@ -395,28 +412,31 @@ Partial Class Tab
         Me.Panel3.Controls.Add(Me.TextBox2)
         Me.Panel3.Controls.Add(Me.PictureBox1)
         Me.Panel3.Controls.Add(Me.Button6)
-        Me.Panel3.Location = New System.Drawing.Point(545, 11)
+        Me.Panel3.Location = New System.Drawing.Point(818, 17)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(222, 25)
+        Me.Panel3.Size = New System.Drawing.Size(333, 38)
         Me.Panel3.TabIndex = 12
         '
         'TextBox2
         '
         Me.TextBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(31, 3)
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(46, 5)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(186, 19)
+        Me.TextBox2.Size = New System.Drawing.Size(279, 28)
         Me.TextBox2.TabIndex = 8
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BarEnd
-        Me.PictureBox1.Location = New System.Drawing.Point(196, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(294, 0)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(24, 24)
+        Me.PictureBox1.Size = New System.Drawing.Size(36, 37)
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
@@ -431,8 +451,9 @@ Partial Class Tab
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.ForeColor = System.Drawing.Color.Transparent
         Me.Button6.Location = New System.Drawing.Point(0, 0)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(25, 25)
+        Me.Button6.Size = New System.Drawing.Size(38, 38)
         Me.Button6.TabIndex = 9
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -440,9 +461,10 @@ Partial Class Tab
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.BackCircleDis
-        Me.PictureBox4.Location = New System.Drawing.Point(12, 9)
+        Me.PictureBox4.Location = New System.Drawing.Point(18, 14)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(30, 29)
+        Me.PictureBox4.Size = New System.Drawing.Size(45, 45)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 20
         Me.PictureBox4.TabStop = False
@@ -452,9 +474,10 @@ Partial Class Tab
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = Global.JumpGoStandardEdition.My.Resources.Resources.MenuTransparent
-        Me.PictureBox2.Location = New System.Drawing.Point(777, 11)
+        Me.PictureBox2.Location = New System.Drawing.Point(1166, 17)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(33, 26)
+        Me.PictureBox2.Size = New System.Drawing.Size(50, 40)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 22
         Me.PictureBox2.TabStop = False
@@ -469,18 +492,20 @@ Partial Class Tab
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Button20)
         Me.Panel2.Controls.Add(Me.TextBox1)
-        Me.Panel2.Location = New System.Drawing.Point(42, 11)
+        Me.Panel2.Location = New System.Drawing.Point(63, 17)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(415, 25)
+        Me.Panel2.Size = New System.Drawing.Size(622, 38)
         Me.Panel2.TabIndex = 11
         '
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ForwardSquareDis
-        Me.PictureBox5.Location = New System.Drawing.Point(0, -1)
+        Me.PictureBox5.Location = New System.Drawing.Point(0, -2)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(23, 27)
+        Me.PictureBox5.Size = New System.Drawing.Size(34, 42)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 23
         Me.PictureBox5.TabStop = False
@@ -496,9 +521,10 @@ Partial Class Tab
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.ForeColor = System.Drawing.Color.Transparent
-        Me.Button4.Location = New System.Drawing.Point(382, 0)
+        Me.Button4.Location = New System.Drawing.Point(573, 0)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(33, 26)
+        Me.Button4.Size = New System.Drawing.Size(50, 40)
         Me.Button4.TabIndex = 4
         Me.Button4.UseVisualStyleBackColor = False
         '
@@ -512,9 +538,10 @@ Partial Class Tab
         Me.Button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button20.ForeColor = System.Drawing.Color.Transparent
-        Me.Button20.Location = New System.Drawing.Point(23, 0)
+        Me.Button20.Location = New System.Drawing.Point(34, 0)
+        Me.Button20.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(25, 26)
+        Me.Button20.Size = New System.Drawing.Size(38, 40)
         Me.Button20.TabIndex = 4
         Me.Button20.UseVisualStyleBackColor = False
         '
@@ -527,10 +554,11 @@ Partial Class Tab
         Me.TextBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.AllUrl
         Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(49, 3)
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(74, 5)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(327, 19)
+        Me.TextBox1.Size = New System.Drawing.Size(490, 28)
         Me.TextBox1.TabIndex = 0
         '
         'Button1
@@ -542,9 +570,10 @@ Partial Class Tab
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(175, 167)
+        Me.Button1.Location = New System.Drawing.Point(262, 257)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(30, 30)
+        Me.Button1.Size = New System.Drawing.Size(45, 46)
         Me.Button1.TabIndex = 6
         Me.ToolTip1.SetToolTip(Me.Button1, "Back")
         Me.Button1.UseVisualStyleBackColor = False
@@ -560,9 +589,10 @@ Partial Class Tab
         Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.ForeColor = System.Drawing.Color.Transparent
-        Me.Button7.Location = New System.Drawing.Point(467, 232)
+        Me.Button7.Location = New System.Drawing.Point(700, 357)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(33, 26)
+        Me.Button7.Size = New System.Drawing.Size(50, 40)
         Me.Button7.TabIndex = 13
         Me.Button7.UseVisualStyleBackColor = False
         Me.Button7.Visible = False
@@ -576,9 +606,10 @@ Partial Class Tab
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(243, 115)
+        Me.Button2.Location = New System.Drawing.Point(364, 177)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(23, 26)
+        Me.Button2.Size = New System.Drawing.Size(34, 40)
         Me.Button2.TabIndex = 2
         Me.ToolTip1.SetToolTip(Me.Button2, "Forward")
         Me.Button2.UseVisualStyleBackColor = False
@@ -594,9 +625,10 @@ Partial Class Tab
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.ForeColor = System.Drawing.Color.Transparent
-        Me.Button5.Location = New System.Drawing.Point(459, 114)
+        Me.Button5.Location = New System.Drawing.Point(688, 175)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(41, 26)
+        Me.Button5.Size = New System.Drawing.Size(62, 40)
         Me.Button5.TabIndex = 5
         Me.Button5.UseVisualStyleBackColor = False
         Me.Button5.Visible = False
@@ -620,43 +652,48 @@ Partial Class Tab
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel5.Controls.Add(Me.FastColoredTextBox1)
         Me.Panel5.Controls.Add(Me.ToolStrip1)
-        Me.Panel5.Location = New System.Drawing.Point(0, 361)
+        Me.Panel5.Location = New System.Drawing.Point(0, 555)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(822, 172)
+        Me.Panel5.Size = New System.Drawing.Size(1233, 265)
         Me.Panel5.TabIndex = 12
         Me.Panel5.Visible = False
         '
         'FastColoredTextBox1
         '
-        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(2, 14)
+        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(2, 22)
         Me.FastColoredTextBox1.BackBrush = Nothing
-        Me.FastColoredTextBox1.CharHeight = 14
-        Me.FastColoredTextBox1.CharWidth = 8
+        Me.FastColoredTextBox1.CharHeight = 22
+        Me.FastColoredTextBox1.CharWidth = 12
         Me.FastColoredTextBox1.CommentPrefix = Nothing
         Me.FastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.FastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
         Me.FastColoredTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FastColoredTextBox1.Font = New System.Drawing.Font("Courier New", 9.75!)
         Me.FastColoredTextBox1.IsReplaceMode = False
         Me.FastColoredTextBox1.Language = FastColoredTextBoxNS.Language.HTML
         Me.FastColoredTextBox1.LeftBracket = Global.Microsoft.VisualBasic.ChrW(60)
         Me.FastColoredTextBox1.LeftBracket2 = Global.Microsoft.VisualBasic.ChrW(40)
-        Me.FastColoredTextBox1.Location = New System.Drawing.Point(0, 25)
+        Me.FastColoredTextBox1.Location = New System.Drawing.Point(0, 32)
+        Me.FastColoredTextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.FastColoredTextBox1.Name = "FastColoredTextBox1"
         Me.FastColoredTextBox1.Paddings = New System.Windows.Forms.Padding(0)
         Me.FastColoredTextBox1.RightBracket = Global.Microsoft.VisualBasic.ChrW(62)
         Me.FastColoredTextBox1.RightBracket2 = Global.Microsoft.VisualBasic.ChrW(41)
         Me.FastColoredTextBox1.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.FastColoredTextBox1.Size = New System.Drawing.Size(822, 147)
+        Me.FastColoredTextBox1.Size = New System.Drawing.Size(1233, 233)
         Me.FastColoredTextBox1.TabIndex = 1
         Me.FastColoredTextBox1.Zoom = 100
         '
         'ToolStrip1
         '
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(822, 25)
+        Me.ToolStrip1.Padding = New System.Windows.Forms.Padding(0, 0, 2, 0)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1233, 32)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -666,7 +703,7 @@ Partial Class Tab
         Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 29)
         Me.ToolStripButton1.Text = "Close"
         Me.ToolStripButton1.ToolTipText = "Hide"
         '
@@ -674,95 +711,97 @@ Partial Class Tab
         '
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(122, 22)
+        Me.ToolStripButton2.Size = New System.Drawing.Size(183, 29)
         Me.ToolStripButton2.Text = "View Source Window"
         '
         'ContextMenuStrip1
         '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackToolStripMenuItem, Me.ForwardToolStripMenuItem, Me.ToolStripSeparator1, Me.OpenInNewTabToolStripMenuItem, Me.CopyImageContentsToolStripMenuItem, Me.CopyImageLocationToolStripMenuItem, Me.SelectAllToolStripMenuItem, Me.ToolStripSeparator2, Me.ViewSourceToolStripMenuItem, Me.ViewInSystemBrowserToolStripMenuItem, Me.PagePropertiesToolStripMenuItem, Me.LMNOPToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(199, 236)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(284, 316)
         '
         'BackToolStripMenuItem
         '
         Me.BackToolStripMenuItem.Name = "BackToolStripMenuItem"
-        Me.BackToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.BackToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.BackToolStripMenuItem.Text = "Back"
         '
         'ForwardToolStripMenuItem
         '
         Me.ForwardToolStripMenuItem.Name = "ForwardToolStripMenuItem"
-        Me.ForwardToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.ForwardToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.ForwardToolStripMenuItem.Text = "Forward"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(195, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(280, 6)
         '
         'OpenInNewTabToolStripMenuItem
         '
         Me.OpenInNewTabToolStripMenuItem.Name = "OpenInNewTabToolStripMenuItem"
-        Me.OpenInNewTabToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.OpenInNewTabToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.OpenInNewTabToolStripMenuItem.Text = "Open in New Tab"
         Me.OpenInNewTabToolStripMenuItem.Visible = False
         '
         'CopyImageContentsToolStripMenuItem
         '
         Me.CopyImageContentsToolStripMenuItem.Name = "CopyImageContentsToolStripMenuItem"
-        Me.CopyImageContentsToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.CopyImageContentsToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.CopyImageContentsToolStripMenuItem.Text = "Copy Image Contents"
         Me.CopyImageContentsToolStripMenuItem.Visible = False
         '
         'CopyImageLocationToolStripMenuItem
         '
         Me.CopyImageLocationToolStripMenuItem.Name = "CopyImageLocationToolStripMenuItem"
-        Me.CopyImageLocationToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.CopyImageLocationToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.CopyImageLocationToolStripMenuItem.Text = "Copy Image Location"
         Me.CopyImageLocationToolStripMenuItem.Visible = False
         '
         'SelectAllToolStripMenuItem
         '
         Me.SelectAllToolStripMenuItem.Name = "SelectAllToolStripMenuItem"
-        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.SelectAllToolStripMenuItem.Text = "Select All"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(195, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(280, 6)
         '
         'ViewSourceToolStripMenuItem
         '
         Me.ViewSourceToolStripMenuItem.Name = "ViewSourceToolStripMenuItem"
-        Me.ViewSourceToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.ViewSourceToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.ViewSourceToolStripMenuItem.Text = "View Source"
         '
         'ViewInSystemBrowserToolStripMenuItem
         '
         Me.ViewInSystemBrowserToolStripMenuItem.Name = "ViewInSystemBrowserToolStripMenuItem"
-        Me.ViewInSystemBrowserToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.ViewInSystemBrowserToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.ViewInSystemBrowserToolStripMenuItem.Text = "View in System Browser"
         '
         'PagePropertiesToolStripMenuItem
         '
         Me.PagePropertiesToolStripMenuItem.Name = "PagePropertiesToolStripMenuItem"
-        Me.PagePropertiesToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.PagePropertiesToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.PagePropertiesToolStripMenuItem.Text = "Page Properties"
         '
         'LMNOPToolStripMenuItem
         '
         Me.LMNOPToolStripMenuItem.Name = "LMNOPToolStripMenuItem"
-        Me.LMNOPToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.LMNOPToolStripMenuItem.Size = New System.Drawing.Size(283, 30)
         Me.LMNOPToolStripMenuItem.Text = "LMNOP"
         '
         'WebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(195, 283)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Location = New System.Drawing.Point(292, 435)
+        Me.WebBrowser1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(30, 31)
         Me.WebBrowser1.Name = "WebBrowser1"
         Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(250, 250)
+        Me.WebBrowser1.Size = New System.Drawing.Size(375, 385)
         Me.WebBrowser1.TabIndex = 15
         Me.WebBrowser1.Visible = False
         Me.WebBrowser1.WebBrowserShortcutsEnabled = False
@@ -780,9 +819,10 @@ Partial Class Tab
         Me.DdMenu1.Controls.Add(Me.GridMenuButton3)
         Me.DdMenu1.Controls.Add(Me.GridMenuButton2)
         Me.DdMenu1.Controls.Add(Me.GridMenuButton1)
-        Me.DdMenu1.Location = New System.Drawing.Point(510, 45)
+        Me.DdMenu1.Location = New System.Drawing.Point(765, 69)
+        Me.DdMenu1.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.DdMenu1.Name = "DdMenu1"
-        Me.DdMenu1.Size = New System.Drawing.Size(300, 296)
+        Me.DdMenu1.Size = New System.Drawing.Size(450, 455)
         Me.DdMenu1.TabIndex = 14
         Me.DdMenu1.Visible = False
         '
@@ -793,6 +833,7 @@ Partial Class Tab
         Me.GridMenuButton8.ButtonText = "     About"
         Me.GridMenuButton8.Image = Global.JumpGoStandardEdition.My.Resources.Resources.JumpGo_4_2
         Me.GridMenuButton8.Location = New System.Drawing.Point(196, 179)
+        Me.GridMenuButton8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton8.Name = "GridMenuButton8"
         Me.GridMenuButton8.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton8.TabIndex = 24
@@ -804,6 +845,7 @@ Partial Class Tab
         Me.GridMenuButton7.ButtonText = "Powered By"
         Me.GridMenuButton7.Image = Global.JumpGoStandardEdition.My.Resources.Resources.index
         Me.GridMenuButton7.Location = New System.Drawing.Point(110, 179)
+        Me.GridMenuButton7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton7.Name = "GridMenuButton7"
         Me.GridMenuButton7.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton7.TabIndex = 23
@@ -816,6 +858,7 @@ Partial Class Tab
         Me.GridMenuButton9.ButtonText = "     History"
         Me.GridMenuButton9.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_history
         Me.GridMenuButton9.Location = New System.Drawing.Point(24, 179)
+        Me.GridMenuButton9.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton9.Name = "GridMenuButton9"
         Me.GridMenuButton9.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton9.TabIndex = 22
@@ -828,6 +871,7 @@ Partial Class Tab
         Me.GridMenuButton4.ButtonText = "View Source"
         Me.GridMenuButton4.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_source
         Me.GridMenuButton4.Location = New System.Drawing.Point(196, 98)
+        Me.GridMenuButton4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton4.Name = "GridMenuButton4"
         Me.GridMenuButton4.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton4.TabIndex = 21
@@ -840,6 +884,7 @@ Partial Class Tab
         Me.GridMenuButton5.ButtonText = "    Theme"
         Me.GridMenuButton5.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_customize
         Me.GridMenuButton5.Location = New System.Drawing.Point(110, 98)
+        Me.GridMenuButton5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton5.Name = "GridMenuButton5"
         Me.GridMenuButton5.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton5.TabIndex = 20
@@ -852,6 +897,7 @@ Partial Class Tab
         Me.GridMenuButton6.ButtonText = "   Settings"
         Me.GridMenuButton6.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_gear_cog
         Me.GridMenuButton6.Location = New System.Drawing.Point(24, 98)
+        Me.GridMenuButton6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton6.Name = "GridMenuButton6"
         Me.GridMenuButton6.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton6.TabIndex = 19
@@ -864,6 +910,7 @@ Partial Class Tab
         Me.GridMenuButton3.ButtonText = "Save Page"
         Me.GridMenuButton3.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_webpage
         Me.GridMenuButton3.Location = New System.Drawing.Point(196, 17)
+        Me.GridMenuButton3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton3.Name = "GridMenuButton3"
         Me.GridMenuButton3.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton3.TabIndex = 18
@@ -876,6 +923,7 @@ Partial Class Tab
         Me.GridMenuButton2.ButtonText = "  Incognito"
         Me.GridMenuButton2.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_incognito
         Me.GridMenuButton2.Location = New System.Drawing.Point(110, 17)
+        Me.GridMenuButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton2.Name = "GridMenuButton2"
         Me.GridMenuButton2.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton2.TabIndex = 17
@@ -887,6 +935,7 @@ Partial Class Tab
         Me.GridMenuButton1.ButtonText = "NewWindow"
         Me.GridMenuButton1.Image = Global.JumpGoStandardEdition.My.Resources.Resources.ic_new_window
         Me.GridMenuButton1.Location = New System.Drawing.Point(24, 17)
+        Me.GridMenuButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GridMenuButton1.Name = "GridMenuButton1"
         Me.GridMenuButton1.Size = New System.Drawing.Size(80, 75)
         Me.GridMenuButton1.TabIndex = 16
@@ -895,17 +944,18 @@ Partial Class Tab
         '
         Me.FasterBrowser1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.FasterBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FasterBrowser1.Location = New System.Drawing.Point(0, 45)
+        Me.FasterBrowser1.Location = New System.Drawing.Point(0, 69)
+        Me.FasterBrowser1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.FasterBrowser1.Name = "FasterBrowser1"
-        Me.FasterBrowser1.Size = New System.Drawing.Size(822, 488)
+        Me.FasterBrowser1.Size = New System.Drawing.Size(1233, 751)
         Me.FasterBrowser1.TabIndex = 1
         Me.FasterBrowser1.UseHttpActivityObserver = False
         '
         'Tab
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(822, 533)
+        Me.ClientSize = New System.Drawing.Size(1233, 820)
         Me.Controls.Add(Me.DdMenu1)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.Button1)
@@ -917,6 +967,7 @@ Partial Class Tab
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Tab"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "JumpGo"
