@@ -4,7 +4,7 @@
   <description asmv2:iconFile="JumpGo_4_2_Updated.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo" version="4.4.0.36874" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo" version="4.4.1.18135" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -122,19 +122,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KTYaDP+01aOOFC9mAUAc0VWdtOZojH8yEX5sDT/KNng=</dsig:DigestValue>
+        <dsig:DigestValue>1rJR29nQTYnZt0C27ODESppm0ROnPiW8+aBmgkq0h3k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23399424">
-      <assemblyIdentity name="JumpGo" version="4.4.0.36874" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23394816">
+      <assemblyIdentity name="JumpGo" version="4.4.1.18135" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nRWGfidbQhcMiB1FJWhCLZH/skBpcdXwIJucFzr/u/I=</dsig:DigestValue>
+        <dsig:DigestValue>wgPYvNcdLHQlWQTyyZcD/HFJfD1G0lDSHahC0NFeBwk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -234,13 +234,13 @@
       <dsig:DigestValue>Wx6fRMx2lmGudOLAQcjdbBX3n22k5lOStVsXNvO3P+I=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="JumpGo.exe.config" size="5062">
+  <file name="JumpGo.exe.config" size="5039">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>984YZ2FX6eSVxTGJn6DfGIJualrX7XaKs6tO4eS7Qbg=</dsig:DigestValue>
+      <dsig:DigestValue>XF7k8S00uo2uQGUJyHMSmg0X4maaD8GJXgh1KxBwVwo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="JumpGo.ico" size="13546574">
@@ -296,4 +296,9 @@
       <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
     </application>
   </compatibility>
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">false</dpiAware>
+    </windowsSettings>
+  </application>
 </asmv1:assembly>

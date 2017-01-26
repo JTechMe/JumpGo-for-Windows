@@ -4,7 +4,7 @@
   <description asmv2:publisher="JTechMe" asmv2:product="JumpGo" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.5.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="JumpGo.exe.manifest" size="15968">
@@ -14,7 +14,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pTteoI/0vzUMcJUGL9KB85vWQYCP1+7oCURGIPH0wl0=</dsig:DigestValue>
+        <dsig:DigestValue>EwRY/tgFlJs4A3r51kewvIXobMNefD/ZeE8UhzETTNw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
