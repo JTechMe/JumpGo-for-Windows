@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CBFB2BAC-1265-4246-8544-A61F25E6A33C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>JGUpdater.MSIUpdaterGUI</StartupObject>
+    <StartupObject>Sub Main</StartupObject>
     <RootNamespace>JGUpdater</RootNamespace>
     <AssemblyName>JGUpdater</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -91,7 +91,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BGUpdateChk.vb" />
     <Compile Include="IEDLTF1.Designer.vb">
       <DependentUpon>IEDLTF1.vb</DependentUpon>
     </Compile>
