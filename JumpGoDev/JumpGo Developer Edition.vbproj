@@ -85,32 +85,40 @@
   <ItemGroup>
     <Reference Include="APNM FrameWork CL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\APNM FrameWork CL.dll</HintPath>
+      <HintPath>..\Refferences\APNM FrameWork CL.dll</HintPath>
     </Reference>
     <Reference Include="AutoUpdater.NET, Version=1.3.1.0, Culture=neutral, PublicKeyToken=942f95247e354701, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\AutoUpdater.NET.dll</HintPath>
+      <HintPath>..\Refferences\AutoUpdater.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.SHDocVw, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Refferences\AxInterop.SHDocVw.dll</HintPath>
     </Reference>
     <Reference Include="FastColoredTextBox, Version=2.9.15.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\Refferences\FastColoredTextBox.dll</HintPath>
     </Reference>
-    <Reference Include="Geckofx-Core, Version=29.0.11.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
+    <Reference Include="Geckofx-Core, Version=33.0.9.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Geckofx-Core.dll</HintPath>
+      <HintPath>..\Refferences\Geckofx-Core.dll</HintPath>
     </Reference>
-    <Reference Include="Geckofx-Winforms, Version=29.0.11.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=MSIL">
+    <Reference Include="Geckofx-Winforms, Version=33.0.9.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Geckofx-Winforms.dll</HintPath>
+      <HintPath>..\Refferences\Geckofx-Winforms.dll</HintPath>
     </Reference>
-    <Reference Include="MdiTabControl, Version=1.0.3742.19745, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\MdiTabControl.dll</HintPath>
+    <Reference Include="Interop.FlashBrokerLib">
+      <HintPath>..\Refferences\Interop.FlashBrokerLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+    <Reference Include="Interop.SHDocVw, Version=1.1.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
-      <Private>True</Private>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Refferences\Interop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="MdiTabControl, Version=1.1.6057.24578, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Refferences\MdiTabControl.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack">
       <HintPath>..\packages\WindowsAPICodePack-Core.1.1.1\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
@@ -123,7 +131,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="rtaGlassEffectsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\rtaGlassEffectsLib.dll</HintPath>
+      <HintPath>..\Refferences\rtaGlassEffectsLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -428,15 +436,6 @@
       <Lcid>0</Lcid>
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
-    </COMReference>
-    <COMReference Include="FlashBrokerLib">
-      <Guid>{FAB3E735-69C7-453B-A446-B6823C6DF1C9}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
     <COMReference Include="SHDocVw">
       <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
