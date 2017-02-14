@@ -229,9 +229,9 @@ Partial Class JumpGoMain
         '
         Me.UserControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UserControlBox1.BackColor = System.Drawing.Color.DarkGray
-        Me.UserControlBox1.Location = New System.Drawing.Point(780, 0)
+        Me.UserControlBox1.Location = New System.Drawing.Point(760, 0)
         Me.UserControlBox1.Name = "UserControlBox1"
-        Me.UserControlBox1.Size = New System.Drawing.Size(100, 27)
+        Me.UserControlBox1.Size = New System.Drawing.Size(120, 27)
         Me.UserControlBox1.TabIndex = 9
         '
         'JumpGoMain
