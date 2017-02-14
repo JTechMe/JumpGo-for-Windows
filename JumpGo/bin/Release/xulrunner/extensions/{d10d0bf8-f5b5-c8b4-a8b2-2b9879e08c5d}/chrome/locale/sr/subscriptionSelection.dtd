@@ -1,0 +1,12 @@
+<!ENTITY addMain.label "&amp;Додај и пријаву „?1?“">
+<!ENTITY list.download.failed "Не могу да преузмем списак пријава.">
+<!ENTITY list.download.retry "Покушај поново">
+<!ENTITY title.label "&amp;Назив пријаве:">
+<!ENTITY list.download.website "Отвори сајт">
+<!ENTITY supplementMessage "Ову пријаву је потребно да користите у комбинацији са пријавом „?1?“.">
+<!ENTITY viewList.label "Погледај филтере">
+<!ENTITY visitHomepage.label "Посети почетну страницу">
+<!ENTITY addSubscription.label "Додај пријаву">
+<!ENTITY dialog.title "Додавање пријаве за Adblock Plus">
+<!ENTITY location.label "&amp;Локација списка са филтерима:">
+<!ENTITY fromWeb.description "Потврдите да желите да се пријавите на овај списак филтера. Имајте на уму да можете променити назив или локацију пријаве.">

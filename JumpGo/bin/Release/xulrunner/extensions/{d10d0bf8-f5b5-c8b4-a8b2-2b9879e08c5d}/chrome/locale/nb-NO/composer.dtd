@@ -1,0 +1,33 @@
+<!ENTITY anchor.end.label "på slutte&amp;n av adressen">
+<!ENTITY domainRestriction.label "Begrens til &amp;domene:">
+<!ENTITY collapse.default.no.label "Bruk standard (nei)">
+<!ENTITY firstParty.label "Kun fø&amp;rsteparts">
+<!ENTITY preferences.label "Vi&amp;s eksisterende filtre...">
+<!ENTITY pattern.label "Se etter mønster">
+<!ENTITY thirdParty.label "Kun &amp;tredjeparts">
+<!ENTITY filter.label "Nytt &amp;filter:">
+<!ENTITY collapse.label "Minimer b&amp;lokkerte:">
+<!ENTITY match.warning "Mønsteret du laget stemmer ikke lenger overens med adressen som skal blokkeres/hvitelistes, og vil ikke ha noen effekt.">
+<!ENTITY anchor.start.label "på starten av adressen (&amp;g)">
+<!ENTITY matchCase.label "Ta hensyn til s&amp;må eller store bokstaver">
+<!ENTITY custom.pattern.label "Egendefinert: (&amp;C)">
+<!ENTITY unselectAllTypes.label "Velg ingen">
+<!ENTITY type.whitelist.label "Unntaksregel (&amp;x)">
+<!ENTITY regexp.warning "Mønsteret du har lagt inn vil bli tolket som et regulært uttrykk som ikke kan behandles effektivt av Adblock Plus og kan gjøre nettleseren din tregere. Hvis du ikke mente å lage et regulært uttrykk, legg til en stjerne (*) på slutten av mønsteret.">
+<!ENTITY dialog.title "Legg til filtreringsregel for Adblock Plus">
+<!ENTITY basic.label "Grunnleggende visning">
+<!ENTITY type.filter.label "&amp;Blokkeringsfilter">
+<!ENTITY types.label "Bruk på typer:">
+<!ENTITY shortpattern.warning "Mønsteret du skrev inn er for kort til å bli optimalisert, og kan gjøre nettleseren din tregere. Vi anbefaler at du velger en lengre tekstsekvens for dette filteret, slik at Adblock Plus kan behandle filteret mer effektivt.">
+<!ENTITY collapse.yes.label "Ja">
+<!ENTITY anchors.label "Aksepter kun mønster:">
+<!ENTITY collapse.default.yes.label "Bruk standard (ja)">
+<!ENTITY domainRestriction.help "Bruk dette valget til å spesifisere ett domene eller flere domener, separert med vertikalstreker (|). Filteret vil kun brukes på domenet eller domenene som er valgt. En tilde (~) foran et domenenavn indikerer at filteret ikke skal brukes på det domenet.">
+<!ENTITY accept.label "Legg til filter">
+<!ENTITY options.label "Alternativer">
+<!ENTITY disabled.warning "Adblock Plus er deaktivert. Du kan fremdeles legge til filtre, men de blir ikke aktivert med mindre du [link]aktiverer Adblock Plus[/link].">
+<!ENTITY anchor.start.flexible.label "på starten av domenenavnet (&amp;g)">
+<!ENTITY collapse.no.label "Nei">
+<!ENTITY selectAllTypes.label "Velg alle">
+<!ENTITY advanced.label "Avansert visning">
+<!ENTITY pattern.explanation "Mønsteret kan være hvilken som helst del av adressen; stjerner (*) fungerer som frie symboler. Filteret vil kun bli aktivert for adresser som stemmer overens med sekvensen du har definert.">
