@@ -12,12 +12,13 @@ JumpGo for Windows Standard Edition is not a watered down version of JumpGo, but
 * GeckoFX Rendering Engine (v33.0.9.0)
 * XULRunner (v33)
 * [MDI Browser Tab Control](https://github.com/nutellarlz/MDI-Browser-Tab-Control)
-* Windows 10 Support Layer (Win10SL v1.0) 
+* Windows 10 Support Layer (Win10SL v1.1) 
  * New PacificTen theme (only applied to JumpGo on Win10) 
   * Improved contrast
   * Custom controlbox
   * Updated title bar
   * Updated JGUI Dark Icons
+  * New Start Menu Tiles
 * New Pacific Theme (applied to JumpGo on Win7, Win8 and Win8.1) 
  * Improved contrast
  * Updated JGUI Dark Icons
