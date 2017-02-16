@@ -4,7 +4,7 @@
   <description asmv2:iconFile="JumpGo_4_2_Updated.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo" version="4.4.1.22917" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo" version="4.4.1.23127" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -122,31 +122,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sP+XJtN5MfTZRpxiaGjIvOcJoEAPRH8xFlRVxTg+eJc=</dsig:DigestValue>
+        <dsig:DigestValue>p4sxjpBUzCRX5cewJj/t8uqS30aioBJXzU+qpJar8fI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23610368">
-      <assemblyIdentity name="JumpGo" version="4.4.1.22917" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="JumpGo" version="4.4.1.23127" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5YgzPle0jpbdJ9uzj3hNLkIqxJTDndJrx+jEYAnsFck=</dsig:DigestValue>
+        <dsig:DigestValue>7d7xwL0vCYCEfuPYY34lllu0ZmcJr7zygOy1uHbn7yc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="100352">
-      <assemblyIdentity name="MdiTabControl" version="1.1.6253.25639" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="MdiTabControl" version="1.1.6255.39331" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>d2T4nWtKVrL20Eq5X9IbrFcNbRI2yYE4JOhArBD68LA=</dsig:DigestValue>
+        <dsig:DigestValue>WdzvXEelVvWTuvpmTJYCApymDFpU87nm2GHYcj6AlQI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
