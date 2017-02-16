@@ -19,3 +19,25 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpda
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\JGUpdaterElevated.pdb
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\bin\Debug\JGUpdaterElevated.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdater\obj\Debug\JGUpdater.MSIUpdaterGUI.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.vbprojResolveAssemblyReference.cache
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.IEDLTF1.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.GHUForm.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.MainUForm.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.MSIUpdaterGUI.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.Resources.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.ZIPUpdater.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.vbproj.GenerateResource.Cache
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdater.exe.config
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdater.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdater.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdater.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdaterElevated.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\Octokit.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdaterElevated.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdaterElevated.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\JGUpdaterElevated.exe.config
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\Octokit.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\bin\Debug\Octokit.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdater\obj\Debug\JGUpdater.pdb

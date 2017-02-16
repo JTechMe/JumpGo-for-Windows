@@ -9,3 +9,14 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpda
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.exe
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\bin\Debug\JGUpdaterElevated.exe.config
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\bin\Debug\JGUpdaterElevated.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\bin\Debug\JGUpdaterElevated.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\bin\Debug\JGUpdaterElevated.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.vbprojResolveAssemblyReference.cache
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.Resources.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.ZIPUpdater.resources
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.vbproj.GenerateResource.Cache
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JGUpdaterElevated\obj\Debug\JGUpdaterElevated.pdb
