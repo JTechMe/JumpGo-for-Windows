@@ -37,17 +37,24 @@
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Universal.SQLite.dll</Path>
+        <ActivatableClass ActivatableClassId="Universal.SQLite.Sqlite3" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
-    <build:Item Name="VisualStudio" Version="14.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017 RC" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26206.0" />
     <build:Item Name="ProjectGUID" Value="{84CEB869-6988-42D1-8C29-2DE641E8617E}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
-    <build:Item Name="SQLite.UWP.2015" Version="3.14.1" />
-    <build:Item Name="MakePri.exe" Version="10.0.14393.33 (rs1_release_sec.160727-1952)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26206.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.14393.795 (rs1_release_sec.170105-1850)" />
   </build:Metadata>
 </Package>
