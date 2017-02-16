@@ -35,9 +35,6 @@ Partial Class IncognitoTab
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.LineShape2 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.FasterBrowser1 = New JumpGoDevEdition.FasterBrowser()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button7 = New System.Windows.Forms.Button()
@@ -74,7 +71,6 @@ Partial Class IncognitoTab
         Me.Panel4.Controls.Add(Me.Button10)
         Me.Panel4.Controls.Add(Me.Button9)
         Me.Panel4.Controls.Add(Me.Button8)
-        Me.Panel4.Controls.Add(Me.ShapeContainer1)
         Me.Panel4.Location = New System.Drawing.Point(622, 42)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(200, 248)
@@ -223,31 +219,6 @@ Partial Class IncognitoTab
         Me.Button8.Text = "New Incognito Tab"
         Me.Button8.UseVisualStyleBackColor = False
         '
-        'ShapeContainer1
-        '
-        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape2, Me.LineShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(200, 248)
-        Me.ShapeContainer1.TabIndex = 3
-        Me.ShapeContainer1.TabStop = False
-        '
-        'LineShape2
-        '
-        Me.LineShape2.Name = "LineShape2"
-        Me.LineShape2.X1 = 1
-        Me.LineShape2.X2 = 200
-        Me.LineShape2.Y1 = 192
-        Me.LineShape2.Y2 = 192
-        '
-        'LineShape1
-        '
-        Me.LineShape1.Name = "LineShape1"
-        Me.LineShape1.X1 = 0
-        Me.LineShape1.X2 = 198
-        Me.LineShape1.Y1 = 77
-        Me.LineShape1.Y2 = 77
         '
         'FasterBrowser1
         '
@@ -468,9 +439,6 @@ Partial Class IncognitoTab
     Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
-    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
-    Friend WithEvents LineShape2 As Microsoft.VisualBasic.PowerPacks.LineShape
-    Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents FasterBrowser1 As JumpGoDevEdition.FasterBrowser
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Button7 As System.Windows.Forms.Button
