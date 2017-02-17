@@ -102,7 +102,6 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.Window
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Interop.SHDocVw.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\AxInterop.SHDocVw.dll
-C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AboutBox1.resources
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AboutGo1.resources
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AddOnSettings.resources
@@ -137,3 +136,4 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Geckofx-Core.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Geckofx-Winforms.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\MdiTabControl.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\rtaGlassEffectsLib.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache

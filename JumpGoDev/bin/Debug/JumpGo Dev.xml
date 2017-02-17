@@ -467,6 +467,11 @@ JumpGo Dev
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_new_window_dev_otk_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.ic_search">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -475,6 +480,11 @@ JumpGo Dev
 <member name="P:JumpGoDevEdition.My.Resources.Resources.ic_source">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.ic_source_dev_Kmk_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
 </member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.ic_webpage">
@@ -737,9 +747,19 @@ JumpGo Dev
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.newtabb2_yGR_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.NewTabZ">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.paintshop_glyph_1000x1000_FmP_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
 </member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.poweredby_400_6d69147aa379">
@@ -775,6 +795,16 @@ JumpGo Dev
 <member name="P:JumpGoDevEdition.My.Resources.Resources.secured">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.settings_glyph_1000x1000_9hE_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JumpGoDevEdition.My.Resources.Resources.settings_logo_1000x1000_Jtd_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
 </member>
 <member name="P:JumpGoDevEdition.My.Resources.Resources.Stop_Icon">
