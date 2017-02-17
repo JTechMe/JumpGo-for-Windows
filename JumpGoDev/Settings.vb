@@ -181,8 +181,8 @@ Public Class Settings
     End Sub
 
     Private Sub RadioButton9_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton9.CheckedChanged
-        PictureBox1.Image = My.Resources.JumpGo_Dev_Edition
-        AboutBox1.PictureBox1.Image = My.Resources.JumpGo_Dev_Edition
+        PictureBox1.Image = My.Resources.JumpGo_Dev_Edition_Updated1
+        AboutBox1.PictureBox1.Image = My.Resources.JumpGo_Dev_Edition_Updated1
         JumpGoMain.Icon = My.Resources.JumpGo_Dev_Edition_Updated_2015
         My.Settings.SetIcon = "Dev"
     End Sub
