@@ -951,6 +951,16 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property ic_new_window_dev_otk_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_new_window_dev_otk_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property ic_search() As System.Drawing.Bitmap
@@ -967,6 +977,16 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("ic_source", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property ic_source_dev_Kmk_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ic_source_dev_Kmk_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         
@@ -1491,12 +1511,32 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property newtabb2_yGR_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("newtabb2_yGR_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property NewTabZ() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("NewTabZ", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property paintshop_glyph_1000x1000_FmP_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("paintshop_glyph_1000x1000_FmP_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         
@@ -1567,6 +1607,26 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("secured", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property settings_glyph_1000x1000_9hE_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("settings_glyph_1000x1000_9hE_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property settings_logo_1000x1000_Jtd_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("settings_logo_1000x1000_Jtd_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         
