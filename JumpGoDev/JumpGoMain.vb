@@ -39,11 +39,11 @@ Public Class JumpGoMain 'What do ya know? The main startup form class! It's amaz
 
 #Region "Buttons in Dev Ed"
     'This buttons are pretty useless outside of the Dev Edition. I keep 'em aroud because I pull sources back and forth between editions.
-    Public WithEvents TaskButton1 As New ThumbnailToolBarButton(My.Resources.imageres_5302, "Web Source")
-    Public WithEvents TaskButton2 As New ThumbnailToolBarButton(My.Resources.imageres_5306, "Source Writer")
-    Public WithEvents TaskButton3 As New ThumbnailToolBarButton(My.Resources.IconPlus, "New Tab")
-    Public WithEvents TaskButton4 As New ThumbnailToolBarButton(My.Resources.imageres_114, "Settings")
-    Public WithEvents TaskButton5 As New ThumbnailToolBarButton(My.Resources.imageres_5322, "New Window")
+    Public WithEvents TaskButton1 As New ThumbnailToolBarButton(My.Resources.ic_source_dev_Kmk_icon, "Web Source")
+    Public WithEvents TaskButton2 As New ThumbnailToolBarButton(My.Resources.paintshop_glyph_1000x1000_FmP_icon, "Source Writer")
+    Public WithEvents TaskButton3 As New ThumbnailToolBarButton(My.Resources.newtabb2_yGR_icon, "New Tab")
+    Public WithEvents TaskButton4 As New ThumbnailToolBarButton(My.Resources.settings_glyph_1000x1000_9hE_icon, "Settings")
+    Public WithEvents TaskButton5 As New ThumbnailToolBarButton(My.Resources.ic_new_window_dev_otk_icon, "New Window")
 
     Private Sub TaskButton1Click(ByVal sender As System.Object,
                            ByVal e As Microsoft.WindowsAPICodePack.Taskbar.ThumbnailButtonClickedEventArgs) _
