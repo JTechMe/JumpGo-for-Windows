@@ -453,6 +453,17 @@
     <None Include="Resources\ctrl_box_right_bttn3.png" />
     <None Include="Resources\ctrl_box_right_bttn1.png" />
     <None Include="Resources\ctrl_box_right_bttn2.png" />
+    <None Include="Resources\ic_file_config.png" />
+    <None Include="Resources\ic_file_file.png" />
+    <None Include="Resources\ic_file_img.png" />
+    <None Include="Resources\ic_file_music.png" />
+    <None Include="Resources\ic_file_pdf.png" />
+    <None Include="Resources\ic_file_rtf.png" />
+    <None Include="Resources\ic_file_txt.png" />
+    <None Include="Resources\ic_file_update.png" />
+    <None Include="Resources\ic_file_video.png" />
+    <None Include="Resources\ic_file_word.png" />
+    <None Include="Resources\ic_file_zip.png" />
     <Content Include="TestPage001.html" />
     <None Include="Resources\ic_source.png" />
     <None Include="Resources\ic_customize.png" />
