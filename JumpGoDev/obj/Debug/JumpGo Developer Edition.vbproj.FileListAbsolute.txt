@@ -265,3 +265,4 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGoDev\bin\Debug\Interop.SHDoc
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGoDev\obj\Debug\JumpGo Dev.exe.manifest
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGoDev\obj\Debug\JumpGo Dev.application
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGoDev\obj\Debug\JumpGo Dev.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGoDev\obj\Debug\JumpGoDevEdition.CrashSaver.resources
