@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: He4YnIrouCIIXp4zbNMiTg==
+SHA1-Digest: Opoz7o9Usk1Lgw07PwW5EU8fYnE=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7bXGjs354WXP08z1LJmaUQ==
+SHA1-Digest: hBvzrYsRacNpTOCOH+GOhYBn2mE=
+
+Name: index.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NzCc7w/1Evh41B4F6xwsMg==
+SHA1-Digest: 8Cg1X3ve/wlK6zDuMUrdmHDUe/s=
+
+Name: package.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SnvbSoO+qSoj8R58RwcdAg==
+SHA1-Digest: 5FclfUQ3mdursltrncOOmysxGmk=
+
+Name: README.md
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sQXVdKSi2bHCNE9kYYpDWQ==
+SHA1-Digest: lfJxfHf8/VUxP57JK+A6Nl+S9cg=
+
+Name: data/script.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gjcNlwlCSYn6OHnDmkGXDw==
+SHA1-Digest: vT95E/3SDMtjLhXknxjMrez17/k=
+
+Name: LICENSE
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ox44YW+x4OYDTJv6QB112w==
+SHA1-Digest: T9mghkmNQcfCnqxblOdWkcFe+GA=
+

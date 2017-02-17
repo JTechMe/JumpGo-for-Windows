@@ -45,6 +45,7 @@ Partial Class Settings
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -64,7 +65,6 @@ Partial Class Settings
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.RadioButton11 = New System.Windows.Forms.RadioButton()
@@ -73,11 +73,11 @@ Partial Class Settings
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox7.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -89,9 +89,10 @@ Partial Class Settings
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.JumpGoDevEdition.My.Resources.Resources.JumpGo_Dev_Edition_Updated1
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(18, 18)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox1.Size = New System.Drawing.Size(150, 154)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 8
         Me.PictureBox1.TabStop = False
@@ -108,9 +109,11 @@ Partial Class Settings
         Me.GroupBox1.Controls.Add(Me.RadioButton3)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 118)
+        Me.GroupBox1.Location = New System.Drawing.Point(18, 182)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(270, 123)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox1.Size = New System.Drawing.Size(405, 189)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Search Settings"
@@ -119,9 +122,10 @@ Partial Class Settings
         '
         Me.RadioButton15.AutoSize = True
         Me.RadioButton15.FlatAppearance.BorderSize = 0
-        Me.RadioButton15.Location = New System.Drawing.Point(189, 19)
+        Me.RadioButton15.Location = New System.Drawing.Point(284, 29)
+        Me.RadioButton15.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(72, 17)
+        Me.RadioButton15.Size = New System.Drawing.Size(102, 24)
         Me.RadioButton15.TabIndex = 9
         Me.RadioButton15.Text = "Wikipedia"
         Me.RadioButton15.UseVisualStyleBackColor = True
@@ -130,9 +134,10 @@ Partial Class Settings
         '
         Me.RadioButton14.AutoSize = True
         Me.RadioButton14.FlatAppearance.BorderSize = 0
-        Me.RadioButton14.Location = New System.Drawing.Point(72, 65)
+        Me.RadioButton14.Location = New System.Drawing.Point(108, 100)
+        Me.RadioButton14.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(91, 17)
+        Me.RadioButton14.Size = New System.Drawing.Size(130, 24)
         Me.RadioButton14.TabIndex = 8
         Me.RadioButton14.Text = "DuckDuckGo"
         Me.RadioButton14.UseVisualStyleBackColor = True
@@ -141,9 +146,10 @@ Partial Class Settings
         '
         Me.RadioButton13.AutoSize = True
         Me.RadioButton13.FlatAppearance.BorderSize = 0
-        Me.RadioButton13.Location = New System.Drawing.Point(72, 42)
+        Me.RadioButton13.Location = New System.Drawing.Point(108, 65)
+        Me.RadioButton13.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(58, 17)
+        Me.RadioButton13.Size = New System.Drawing.Size(85, 24)
         Me.RadioButton13.TabIndex = 7
         Me.RadioButton13.Text = "GitHub"
         Me.RadioButton13.UseVisualStyleBackColor = True
@@ -152,9 +158,10 @@ Partial Class Settings
         '
         Me.RadioButton12.AutoSize = True
         Me.RadioButton12.FlatAppearance.BorderSize = 0
-        Me.RadioButton12.Location = New System.Drawing.Point(72, 19)
+        Me.RadioButton12.Location = New System.Drawing.Point(108, 29)
+        Me.RadioButton12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(111, 17)
+        Me.RadioButton12.Size = New System.Drawing.Size(162, 24)
         Me.RadioButton12.TabIndex = 6
         Me.RadioButton12.Text = "Google Developer"
         Me.RadioButton12.UseVisualStyleBackColor = True
@@ -163,27 +170,30 @@ Partial Class Settings
         '
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(206, 87)
+        Me.Button1.Location = New System.Drawing.Point(309, 134)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(47, 20)
+        Me.Button1.Size = New System.Drawing.Size(70, 31)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Set"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(72, 87)
+        Me.TextBox1.Location = New System.Drawing.Point(108, 134)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(128, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(190, 26)
         Me.TextBox1.TabIndex = 4
         '
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.FlatAppearance.BorderSize = 0
-        Me.RadioButton4.Location = New System.Drawing.Point(6, 88)
+        Me.RadioButton4.Location = New System.Drawing.Point(9, 135)
+        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(60, 17)
+        Me.RadioButton4.Size = New System.Drawing.Size(89, 24)
         Me.RadioButton4.TabIndex = 3
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "Custom"
@@ -193,9 +203,10 @@ Partial Class Settings
         '
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.FlatAppearance.BorderSize = 0
-        Me.RadioButton3.Location = New System.Drawing.Point(6, 65)
+        Me.RadioButton3.Location = New System.Drawing.Point(9, 100)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(46, 17)
+        Me.RadioButton3.Size = New System.Drawing.Size(66, 24)
         Me.RadioButton3.TabIndex = 2
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "Bing"
@@ -205,9 +216,10 @@ Partial Class Settings
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.FlatAppearance.BorderSize = 0
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 42)
+        Me.RadioButton2.Location = New System.Drawing.Point(9, 65)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton2.Size = New System.Drawing.Size(81, 24)
         Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Yahoo"
@@ -217,9 +229,10 @@ Partial Class Settings
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.FlatAppearance.BorderSize = 0
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton1.Location = New System.Drawing.Point(9, 29)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(59, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(86, 24)
         Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.Text = "Google"
         Me.RadioButton1.UseVisualStyleBackColor = True
@@ -233,9 +246,11 @@ Partial Class Settings
         Me.GroupBox2.Controls.Add(Me.TextBox4)
         Me.GroupBox2.Controls.Add(Me.Button5)
         Me.GroupBox2.Controls.Add(Me.Button4)
-        Me.GroupBox2.Location = New System.Drawing.Point(288, 118)
+        Me.GroupBox2.Location = New System.Drawing.Point(432, 182)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(223, 123)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox2.Size = New System.Drawing.Size(334, 189)
         Me.GroupBox2.TabIndex = 10
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Theme Settings"
@@ -244,9 +259,10 @@ Partial Class Settings
         '
         Me.Button7.FlatAppearance.BorderSize = 0
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(6, 97)
+        Me.Button7.Location = New System.Drawing.Point(9, 149)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(211, 20)
+        Me.Button7.Size = New System.Drawing.Size(316, 31)
         Me.Button7.TabIndex = 14
         Me.Button7.Text = "Reset Theme"
         Me.Button7.UseVisualStyleBackColor = True
@@ -255,9 +271,10 @@ Partial Class Settings
         '
         Me.Button6.FlatAppearance.BorderSize = 0
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(6, 71)
+        Me.Button6.Location = New System.Drawing.Point(9, 109)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(211, 20)
+        Me.Button6.Size = New System.Drawing.Size(316, 31)
         Me.Button6.TabIndex = 13
         Me.Button6.Text = "Open Theme"
         Me.Button6.UseVisualStyleBackColor = True
@@ -265,26 +282,29 @@ Partial Class Settings
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 48)
+        Me.Label1.Location = New System.Drawing.Point(9, 74)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(71, 13)
+        Me.Label1.Size = New System.Drawing.Size(104, 20)
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "Theme Name"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(83, 45)
+        Me.TextBox4.Location = New System.Drawing.Point(124, 69)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(81, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(120, 26)
         Me.TextBox4.TabIndex = 6
         '
         'Button5
         '
         Me.Button5.FlatAppearance.BorderSize = 0
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(170, 45)
+        Me.Button5.Location = New System.Drawing.Point(255, 69)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(47, 20)
+        Me.Button5.Size = New System.Drawing.Size(70, 31)
         Me.Button5.TabIndex = 11
         Me.Button5.Text = "Load"
         Me.Button5.UseVisualStyleBackColor = True
@@ -293,9 +313,10 @@ Partial Class Settings
         '
         Me.Button4.FlatAppearance.BorderSize = 0
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(6, 19)
+        Me.Button4.Location = New System.Drawing.Point(9, 29)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(211, 20)
+        Me.Button4.Size = New System.Drawing.Size(316, 31)
         Me.Button4.TabIndex = 10
         Me.Button4.Text = "Create Theme"
         Me.Button4.UseVisualStyleBackColor = True
@@ -305,20 +326,35 @@ Partial Class Settings
         Me.GroupBox3.Controls.Add(Me.PictureBox3)
         Me.GroupBox3.Controls.Add(Me.Button9)
         Me.GroupBox3.Controls.Add(Me.Button8)
-        Me.GroupBox3.Location = New System.Drawing.Point(12, 247)
+        Me.GroupBox3.Location = New System.Drawing.Point(18, 380)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(270, 129)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox3.Size = New System.Drawing.Size(405, 198)
         Me.GroupBox3.TabIndex = 11
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "AddOn Settings"
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox3.Image = Global.JumpGoDevEdition.My.Resources.Resources.JumpGo_Dev_Edition_Updated1
+        Me.PictureBox3.Location = New System.Drawing.Point(9, 112)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(75, 77)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 16
+        Me.PictureBox3.TabStop = False
         '
         'Button9
         '
         Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(194, 19)
+        Me.Button9.Location = New System.Drawing.Point(291, 29)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(70, 23)
+        Me.Button9.Size = New System.Drawing.Size(105, 35)
         Me.Button9.TabIndex = 16
         Me.Button9.Text = "App Builder"
         Me.Button9.UseVisualStyleBackColor = True
@@ -327,9 +363,10 @@ Partial Class Settings
         '
         Me.Button8.FlatAppearance.BorderSize = 0
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(6, 19)
+        Me.Button8.Location = New System.Drawing.Point(9, 29)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(106, 23)
+        Me.Button8.Size = New System.Drawing.Size(159, 35)
         Me.Button8.TabIndex = 15
         Me.Button8.Text = "Extended Settings"
         Me.Button8.UseVisualStyleBackColor = True
@@ -338,9 +375,10 @@ Partial Class Settings
         '
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = Global.JumpGoDevEdition.My.Resources.Resources.ic_file_config
-        Me.PictureBox2.Location = New System.Drawing.Point(6, 73)
+        Me.PictureBox2.Location = New System.Drawing.Point(9, 112)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox2.Size = New System.Drawing.Size(75, 77)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 14
         Me.PictureBox2.TabStop = False
@@ -352,9 +390,11 @@ Partial Class Settings
         Me.GroupBox4.Controls.Add(Me.RadioButton7)
         Me.GroupBox4.Controls.Add(Me.RadioButton6)
         Me.GroupBox4.Controls.Add(Me.RadioButton5)
-        Me.GroupBox4.Location = New System.Drawing.Point(118, 12)
+        Me.GroupBox4.Location = New System.Drawing.Point(177, 18)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(164, 100)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox4.Size = New System.Drawing.Size(246, 154)
         Me.GroupBox4.TabIndex = 12
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Icon Mode"
@@ -363,9 +403,10 @@ Partial Class Settings
         '
         Me.RadioButton9.AutoSize = True
         Me.RadioButton9.FlatAppearance.BorderSize = 0
-        Me.RadioButton9.Location = New System.Drawing.Point(6, 18)
+        Me.RadioButton9.Location = New System.Drawing.Point(9, 28)
+        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton9.Size = New System.Drawing.Size(82, 24)
         Me.RadioButton9.TabIndex = 4
         Me.RadioButton9.Text = "JG DE"
         Me.RadioButton9.UseVisualStyleBackColor = True
@@ -374,9 +415,10 @@ Partial Class Settings
         '
         Me.RadioButton8.AutoSize = True
         Me.RadioButton8.FlatAppearance.BorderSize = 0
-        Me.RadioButton8.Location = New System.Drawing.Point(67, 42)
+        Me.RadioButton8.Location = New System.Drawing.Point(100, 65)
+        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(55, 17)
+        Me.RadioButton8.Size = New System.Drawing.Size(79, 24)
         Me.RadioButton8.TabIndex = 3
         Me.RadioButton8.Text = "JG 1.x"
         Me.RadioButton8.UseVisualStyleBackColor = True
@@ -385,9 +427,10 @@ Partial Class Settings
         '
         Me.RadioButton7.AutoSize = True
         Me.RadioButton7.FlatAppearance.BorderSize = 0
-        Me.RadioButton7.Location = New System.Drawing.Point(67, 18)
+        Me.RadioButton7.Location = New System.Drawing.Point(100, 28)
+        Me.RadioButton7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(55, 17)
+        Me.RadioButton7.Size = New System.Drawing.Size(79, 24)
         Me.RadioButton7.TabIndex = 2
         Me.RadioButton7.Text = "JG 2.x"
         Me.RadioButton7.UseVisualStyleBackColor = True
@@ -396,9 +439,10 @@ Partial Class Settings
         '
         Me.RadioButton6.AutoSize = True
         Me.RadioButton6.FlatAppearance.BorderSize = 0
-        Me.RadioButton6.Location = New System.Drawing.Point(6, 65)
+        Me.RadioButton6.Location = New System.Drawing.Point(9, 100)
+        Me.RadioButton6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(55, 17)
+        Me.RadioButton6.Size = New System.Drawing.Size(79, 24)
         Me.RadioButton6.TabIndex = 1
         Me.RadioButton6.Text = "JG 3.x"
         Me.RadioButton6.UseVisualStyleBackColor = True
@@ -407,9 +451,10 @@ Partial Class Settings
         '
         Me.RadioButton5.AutoSize = True
         Me.RadioButton5.FlatAppearance.BorderSize = 0
-        Me.RadioButton5.Location = New System.Drawing.Point(6, 42)
+        Me.RadioButton5.Location = New System.Drawing.Point(9, 65)
+        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(55, 17)
+        Me.RadioButton5.Size = New System.Drawing.Size(79, 24)
         Me.RadioButton5.TabIndex = 0
         Me.RadioButton5.Text = "JG 4.x"
         Me.RadioButton5.UseVisualStyleBackColor = True
@@ -423,9 +468,11 @@ Partial Class Settings
         Me.GroupBox5.Controls.Add(Me.Label3)
         Me.GroupBox5.Controls.Add(Me.Button2)
         Me.GroupBox5.Controls.Add(Me.TextBox2)
-        Me.GroupBox5.Location = New System.Drawing.Point(288, 12)
+        Me.GroupBox5.Location = New System.Drawing.Point(432, 18)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(223, 100)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox5.Size = New System.Drawing.Size(334, 154)
         Me.GroupBox5.TabIndex = 13
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Default Sites"
@@ -433,9 +480,10 @@ Partial Class Settings
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 48)
+        Me.Label4.Location = New System.Drawing.Point(9, 74)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(48, 13)
+        Me.Label4.Size = New System.Drawing.Size(67, 20)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "NewTab"
         '
@@ -443,26 +491,29 @@ Partial Class Settings
         '
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(170, 45)
+        Me.Button3.Location = New System.Drawing.Point(255, 69)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(47, 20)
+        Me.Button3.Size = New System.Drawing.Size(70, 31)
         Me.Button3.TabIndex = 9
         Me.Button3.Text = "Set"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(60, 45)
+        Me.TextBox3.Location = New System.Drawing.Point(90, 69)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(104, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(154, 26)
         Me.TextBox3.TabIndex = 8
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 22)
+        Me.Label3.Location = New System.Drawing.Point(9, 34)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(35, 13)
+        Me.Label3.Size = New System.Drawing.Size(52, 20)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Home"
         '
@@ -470,18 +521,20 @@ Partial Class Settings
         '
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(170, 19)
+        Me.Button2.Location = New System.Drawing.Point(255, 29)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(47, 20)
+        Me.Button2.Size = New System.Drawing.Size(70, 31)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Set"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(47, 19)
+        Me.TextBox2.Location = New System.Drawing.Point(70, 29)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(117, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(174, 26)
         Me.TextBox2.TabIndex = 0
         '
         'OpenFileDialog1
@@ -499,31 +552,23 @@ Partial Class Settings
         Me.GroupBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox6.Controls.Add(Me.Label5)
         Me.GroupBox6.Controls.Add(Me.PictureBox2)
-        Me.GroupBox6.Location = New System.Drawing.Point(288, 247)
+        Me.GroupBox6.Location = New System.Drawing.Point(432, 380)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(223, 129)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox6.Size = New System.Drawing.Size(334, 198)
         Me.GroupBox6.TabIndex = 15
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "Extention Settings"
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox3.Image = Global.JumpGoDevEdition.My.Resources.Resources.JumpGo_Dev_Edition_Updated1
-        Me.PictureBox3.Location = New System.Drawing.Point(6, 73)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(50, 50)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox3.TabIndex = 16
-        Me.PictureBox3.TabStop = False
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(65, 59)
+        Me.Label5.Location = New System.Drawing.Point(98, 91)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(117, 20)
+        Me.Label5.Size = New System.Drawing.Size(178, 29)
         Me.Label5.TabIndex = 15
         Me.Label5.Text = "Coming Soon..."
         '
@@ -531,9 +576,11 @@ Partial Class Settings
         '
         Me.GroupBox7.Controls.Add(Me.RadioButton11)
         Me.GroupBox7.Controls.Add(Me.RadioButton10)
-        Me.GroupBox7.Location = New System.Drawing.Point(12, 382)
+        Me.GroupBox7.Location = New System.Drawing.Point(18, 588)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(270, 45)
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox7.Size = New System.Drawing.Size(405, 69)
         Me.GroupBox7.TabIndex = 16
         Me.GroupBox7.TabStop = False
         Me.GroupBox7.Text = "Build Channel"
@@ -542,9 +589,10 @@ Partial Class Settings
         '
         Me.RadioButton11.AutoSize = True
         Me.RadioButton11.Enabled = False
-        Me.RadioButton11.Location = New System.Drawing.Point(168, 19)
+        Me.RadioButton11.Location = New System.Drawing.Point(252, 29)
+        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(55, 17)
+        Me.RadioButton11.Size = New System.Drawing.Size(80, 24)
         Me.RadioButton11.TabIndex = 1
         Me.RadioButton11.Text = "Stable"
         Me.RadioButton11.UseVisualStyleBackColor = True
@@ -553,9 +601,10 @@ Partial Class Settings
         '
         Me.RadioButton10.AutoSize = True
         Me.RadioButton10.Checked = True
-        Me.RadioButton10.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton10.Location = New System.Drawing.Point(9, 29)
+        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(74, 17)
+        Me.RadioButton10.Size = New System.Drawing.Size(106, 24)
         Me.RadioButton10.TabIndex = 0
         Me.RadioButton10.TabStop = True
         Me.RadioButton10.Text = "Dev Client"
@@ -563,9 +612,9 @@ Partial Class Settings
         '
         'Settings
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(523, 439)
+        Me.ClientSize = New System.Drawing.Size(784, 675)
         Me.Controls.Add(Me.GroupBox7)
         Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox5)
@@ -576,6 +625,7 @@ Partial Class Settings
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Settings"
         Me.Text = "Settings"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -584,6 +634,7 @@ Partial Class Settings
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
@@ -591,7 +642,6 @@ Partial Class Settings
         Me.GroupBox5.PerformLayout()
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox6.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox7.ResumeLayout(False)
         Me.GroupBox7.PerformLayout()
         Me.ResumeLayout(False)

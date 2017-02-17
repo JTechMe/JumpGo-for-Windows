@@ -11,5 +11,8 @@
     <Setting Name="DLURL" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://jtechme.github.io/jgwinse/</Value>
     </Setting>
+    <Setting Name="PatchLvl" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

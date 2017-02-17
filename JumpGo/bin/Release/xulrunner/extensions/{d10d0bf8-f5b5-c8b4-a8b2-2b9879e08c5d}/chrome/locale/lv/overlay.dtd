@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp; Nē">
+<!ENTITY sync.label "Sinhronizet Adblock Plus uzstādījumus">
+<!ENTITY whitelist.site.label "Atspējot uz ?1?">
+<!ENTITY filters.label "Filtra preferences">
+<!ENTITY disable.label "Atspējot visur">
+<!ENTITY objecttab.title "Bloķēt">
+<!ENTITY objecttab.tooltip "Noklikšķiniet šeit, lai bloķētu šo objektu ar Adblock Plus">
+<!ENTITY menuitem.label "Adblock Plus Iestatījumi">
+<!ENTITY objecttabs.label "Rādī&amp;t cilnes Flash un Java">
+<!ENTITY sendReport.label "&amp;Ziņot par problēmām šajā lapā">
+<!ENTITY whitelist.page.label "Atspējot tikai šajā lapā">
+<!ENTITY context.image.label "Adblock Plus: Bloķēt attēlu">
+<!ENTITY notification.button.yes "&amp; Jā">
+<!ENTITY opensidebar.label "Atvērt bloķējamās vienības">
+<!ENTITY notification.button.close "&amp; Aizvērt">
+<!ENTITY contribute.label "Palīdziet Adblock Plus veidošanai, tulkošanai...">
+<!ENTITY toolbarbutton.label "Adblock Plus">
+<!ENTITY context.frame.label "Adblock Plus: Bloķēt rāmi">
+<!ENTITY blocked.tooltip "Bloķētās vienības šajā lapā:">
+<!ENTITY counthits.label "Skaitīt filtra izmantojumus">
+<!ENTITY showinstatusbar.label "Rādīt stāvokļa joslā">
+<!ENTITY sidebar.title "Bloķējamās vienības šajā lapā">
+<!ENTITY options.label "Iespējas">
+<!ENTITY context.object.label "Adblock Plus: Bloķēt objektu">
+<!ENTITY context.removeWhitelist.label "Adblock Plus: Iespējot šajā lapā">
+<!ENTITY filters.tooltip "Visaktīvākie filtri:">
+<!ENTITY closesidebar.label "Aizvērt bloķējamās vienības">
+<!ENTITY showintoolbar.label "Rādīt rīkjoslā">
+<!ENTITY status.tooltip "Statuss:">
+<!ENTITY context.media.label "Adblock Plus: Bloķēt audio/video">
+<!ENTITY notification.closing.button.hide "Close t&amp;his notification">
+<!ENTITY shownotifications.label "Show useful &amp;notifications">
+<!ENTITY notification.closing.button.optout "&amp;Stop showing notifications">

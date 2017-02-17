@@ -74,42 +74,48 @@ Partial Class AppBuilder
         '
         'FastColoredTextBox1
         '
-        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(27, 14)
+        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(35, 22)
         Me.FastColoredTextBox1.BackBrush = Nothing
-        Me.FastColoredTextBox1.CharHeight = 14
-        Me.FastColoredTextBox1.CharWidth = 8
+        Me.FastColoredTextBox1.CharHeight = 22
+        Me.FastColoredTextBox1.CharWidth = 12
         Me.FastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.FastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
+        Me.FastColoredTextBox1.Font = New System.Drawing.Font("Courier New", 9.75!)
         Me.FastColoredTextBox1.IsReplaceMode = False
-        Me.FastColoredTextBox1.Location = New System.Drawing.Point(305, 28)
+        Me.FastColoredTextBox1.Location = New System.Drawing.Point(458, 43)
+        Me.FastColoredTextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.FastColoredTextBox1.Name = "FastColoredTextBox1"
         Me.FastColoredTextBox1.Paddings = New System.Windows.Forms.Padding(0)
         Me.FastColoredTextBox1.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.FastColoredTextBox1.Size = New System.Drawing.Size(416, 478)
+        Me.FastColoredTextBox1.Size = New System.Drawing.Size(624, 735)
         Me.FastColoredTextBox1.TabIndex = 2
         Me.FastColoredTextBox1.Zoom = 100
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 509)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 787)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(733, 22)
+        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(2, 0, 21, 0)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1100, 30)
         Me.StatusStrip1.TabIndex = 3
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(126, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(188, 25)
         Me.ToolStripStatusLabel1.Text = "Build Status: Unknown"
         '
         'ToolStrip1
         '
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSplitButton1, Me.ToolStripButton1})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(733, 25)
+        Me.ToolStrip1.Padding = New System.Windows.Forms.Padding(0, 0, 2, 0)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1100, 32)
         Me.ToolStrip1.TabIndex = 4
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -119,107 +125,107 @@ Partial Class AppBuilder
         Me.ToolStripSplitButton1.Image = Global.JumpGoDevEdition.My.Resources.Resources.ic_action_tabs
         Me.ToolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripSplitButton1.Name = "ToolStripSplitButton1"
-        Me.ToolStripSplitButton1.Size = New System.Drawing.Size(70, 22)
+        Me.ToolStripSplitButton1.Size = New System.Drawing.Size(102, 29)
         Me.ToolStripSplitButton1.Text = "Menu"
         '
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProjectToolStripMenuItem, Me.FileToolStripMenuItem, Me.XMLObjectToolStripMenuItem, Me.JavaScryptOpjectToolStripMenuItem, Me.CSSObjectToolStripMenuItem})
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.NewToolStripMenuItem.Text = "New"
         '
         'ProjectToolStripMenuItem
         '
         Me.ProjectToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MaterialDesignToolStripMenuItem1})
         Me.ProjectToolStripMenuItem.Name = "ProjectToolStripMenuItem"
-        Me.ProjectToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.ProjectToolStripMenuItem.Size = New System.Drawing.Size(237, 30)
         Me.ProjectToolStripMenuItem.Text = "Project"
         '
         'MaterialDesignToolStripMenuItem1
         '
         Me.MaterialDesignToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AndroidcomToolStripMenuItem, Me.ArticleToolStripMenuItem, Me.BlogToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.TextOnlyToolStripMenuItem})
         Me.MaterialDesignToolStripMenuItem1.Name = "MaterialDesignToolStripMenuItem1"
-        Me.MaterialDesignToolStripMenuItem1.Size = New System.Drawing.Size(156, 22)
+        Me.MaterialDesignToolStripMenuItem1.Size = New System.Drawing.Size(220, 30)
         Me.MaterialDesignToolStripMenuItem1.Text = "Material Design"
         '
         'AndroidcomToolStripMenuItem
         '
         Me.AndroidcomToolStripMenuItem.Name = "AndroidcomToolStripMenuItem"
-        Me.AndroidcomToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.AndroidcomToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.AndroidcomToolStripMenuItem.Text = "Android.com"
         '
         'ArticleToolStripMenuItem
         '
         Me.ArticleToolStripMenuItem.Name = "ArticleToolStripMenuItem"
-        Me.ArticleToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.ArticleToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.ArticleToolStripMenuItem.Text = "Article"
         '
         'BlogToolStripMenuItem
         '
         Me.BlogToolStripMenuItem.Name = "BlogToolStripMenuItem"
-        Me.BlogToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.BlogToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.BlogToolStripMenuItem.Text = "Blog"
         '
         'DashboardToolStripMenuItem
         '
         Me.DashboardToolStripMenuItem.Name = "DashboardToolStripMenuItem"
-        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.DashboardToolStripMenuItem.Text = "Dashboard"
         '
         'TextOnlyToolStripMenuItem
         '
         Me.TextOnlyToolStripMenuItem.Name = "TextOnlyToolStripMenuItem"
-        Me.TextOnlyToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.TextOnlyToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.TextOnlyToolStripMenuItem.Text = "Text Only"
         '
         'FileToolStripMenuItem
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MaterialDesignToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(237, 30)
         Me.FileToolStripMenuItem.Text = "HTML Page"
         '
         'MaterialDesignToolStripMenuItem
         '
         Me.MaterialDesignToolStripMenuItem.Name = "MaterialDesignToolStripMenuItem"
-        Me.MaterialDesignToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.MaterialDesignToolStripMenuItem.Size = New System.Drawing.Size(220, 30)
         Me.MaterialDesignToolStripMenuItem.Text = "Material Design"
         '
         'XMLObjectToolStripMenuItem
         '
         Me.XMLObjectToolStripMenuItem.Name = "XMLObjectToolStripMenuItem"
-        Me.XMLObjectToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.XMLObjectToolStripMenuItem.Size = New System.Drawing.Size(237, 30)
         Me.XMLObjectToolStripMenuItem.Text = "XML Object"
         '
         'JavaScryptOpjectToolStripMenuItem
         '
         Me.JavaScryptOpjectToolStripMenuItem.Name = "JavaScryptOpjectToolStripMenuItem"
-        Me.JavaScryptOpjectToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.JavaScryptOpjectToolStripMenuItem.Size = New System.Drawing.Size(237, 30)
         Me.JavaScryptOpjectToolStripMenuItem.Text = "JavaScrypt Opject"
         '
         'CSSObjectToolStripMenuItem
         '
         Me.CSSObjectToolStripMenuItem.Name = "CSSObjectToolStripMenuItem"
-        Me.CSSObjectToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.CSSObjectToolStripMenuItem.Size = New System.Drawing.Size(237, 30)
         Me.CSSObjectToolStripMenuItem.Text = "CSS Object"
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.OpenToolStripMenuItem.Text = "Open"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.SaveToolStripMenuItem.Text = "Save"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'ToolStripButton1
@@ -228,7 +234,7 @@ Partial Class AppBuilder
         Me.ToolStripButton1.Image = Global.JumpGoDevEdition.My.Resources.Resources.ic_action_desktop
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(48, 22)
+        Me.ToolStripButton1.Size = New System.Drawing.Size(70, 29)
         Me.ToolStripButton1.Text = "Test"
         '
         'TreeView1
@@ -237,26 +243,29 @@ Partial Class AppBuilder
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TreeView1.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.TreeView1.Location = New System.Drawing.Point(3, 28)
+        Me.TreeView1.Location = New System.Drawing.Point(4, 43)
+        Me.TreeView1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TreeView1.Name = "TreeView1"
-        Me.TreeView1.Size = New System.Drawing.Size(281, 212)
+        Me.TreeView1.Size = New System.Drawing.Size(420, 323)
         Me.TreeView1.TabIndex = 5
         '
         'ContextMenuStrip1
         '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewHTMLDocToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(163, 26)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(230, 34)
         '
         'ViewHTMLDocToolStripMenuItem
         '
         Me.ViewHTMLDocToolStripMenuItem.Name = "ViewHTMLDocToolStripMenuItem"
-        Me.ViewHTMLDocToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.ViewHTMLDocToolStripMenuItem.Size = New System.Drawing.Size(229, 30)
         Me.ViewHTMLDocToolStripMenuItem.Text = "Open Document"
         '
         'SplitContainer1
         '
-        Me.SplitContainer1.Location = New System.Drawing.Point(12, 28)
+        Me.SplitContainer1.Location = New System.Drawing.Point(18, 43)
+        Me.SplitContainer1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.SplitContainer1.Name = "SplitContainer1"
         Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
         '
@@ -268,39 +277,44 @@ Partial Class AppBuilder
         'SplitContainer1.Panel2
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.ToolStrip3)
-        Me.SplitContainer1.Size = New System.Drawing.Size(287, 478)
-        Me.SplitContainer1.SplitterDistance = 243
+        Me.SplitContainer1.Size = New System.Drawing.Size(430, 735)
+        Me.SplitContainer1.SplitterDistance = 373
+        Me.SplitContainer1.SplitterWidth = 6
         Me.SplitContainer1.TabIndex = 6
         '
         'ToolStrip2
         '
         Me.ToolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1})
         Me.ToolStrip2.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip2.Name = "ToolStrip2"
-        Me.ToolStrip2.Size = New System.Drawing.Size(287, 25)
+        Me.ToolStrip2.Padding = New System.Windows.Forms.Padding(0, 0, 2, 0)
+        Me.ToolStrip2.Size = New System.Drawing.Size(430, 28)
         Me.ToolStrip2.TabIndex = 6
         Me.ToolStrip2.Text = "ToolStrip2"
         '
         'ToolStripLabel1
         '
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(89, 22)
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(135, 25)
         Me.ToolStripLabel1.Text = "Project Explorer"
         '
         'ToolStrip3
         '
+        Me.ToolStrip3.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ToolStrip3.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel2})
         Me.ToolStrip3.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip3.Name = "ToolStrip3"
-        Me.ToolStrip3.Size = New System.Drawing.Size(287, 25)
+        Me.ToolStrip3.Padding = New System.Windows.Forms.Padding(0, 0, 2, 0)
+        Me.ToolStrip3.Size = New System.Drawing.Size(430, 28)
         Me.ToolStrip3.TabIndex = 0
         Me.ToolStrip3.Text = "ToolStrip3"
         '
         'ToolStripLabel2
         '
         Me.ToolStripLabel2.Name = "ToolStripLabel2"
-        Me.ToolStripLabel2.Size = New System.Drawing.Size(60, 22)
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(92, 25)
         Me.ToolStripLabel2.Text = "Properties"
         '
         'FileSystemWatcher1
@@ -320,14 +334,15 @@ Partial Class AppBuilder
         '
         'AppBuilder
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(733, 531)
+        Me.ClientSize = New System.Drawing.Size(1100, 817)
         Me.Controls.Add(Me.SplitContainer1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.FastColoredTextBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "AppBuilder"
         Me.Text = "AppBuilder"
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).EndInit()

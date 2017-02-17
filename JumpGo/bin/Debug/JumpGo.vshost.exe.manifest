@@ -4,7 +4,7 @@
   <description asmv2:iconFile="JumpGo_4_2_Updated.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="JumpGo" version="4.4.1.29447" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="JumpGo" version="4.4.1.28625" language="neutral" processorArchitecture="x86" />
     <commandLine file="JumpGo.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -122,31 +122,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EudSN0lajThFF+Pocw4NKFTWbSKk5Rby5+JCKwrqP1w=</dsig:DigestValue>
+        <dsig:DigestValue>4ejjmLgKjmZAqGEN4VDORNy5EPGAo3ibBqP9ouyk9jA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23414784">
-      <assemblyIdentity name="JumpGo" version="4.4.1.29447" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JumpGo.exe" size="23413760">
+      <assemblyIdentity name="JumpGo" version="4.4.1.28625" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>io9SfDIqGZLsz5KWVXZgcW7FqqadPWSn7dDtwdddd0g=</dsig:DigestValue>
+        <dsig:DigestValue>0u3IhoTLZA27FTcwcvtkRK0KroqfoQ9e/jbip3J/bhA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="92672">
-      <assemblyIdentity name="MdiTabControl" version="1.1.6057.24578" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MdiTabControl.dll" size="100352">
+      <assemblyIdentity name="MdiTabControl" version="1.1.6253.25639" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Sgiri5iTHQf6RxPbqRf6+qfNFy5Zt4WEmHtQ9uRi17g=</dsig:DigestValue>
+        <dsig:DigestValue>d2T4nWtKVrL20Eq5X9IbrFcNbRI2yYE4JOhArBD68LA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -296,9 +296,4 @@
       <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
     </application>
   </compatibility>
-  <application xmlns="urn:schemas-microsoft-com:asm.v3">
-    <windowsSettings>
-      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">false</dpiAware>
-    </windowsSettings>
-  </application>
 </asmv1:assembly>

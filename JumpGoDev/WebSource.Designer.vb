@@ -27,6 +27,7 @@ Partial Class WebSource
         Me.FastColoredTextBox1 = New FastColoredTextBoxNS.FastColoredTextBox()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.NewToolStripButton = New System.Windows.Forms.ToolStripButton()
         Me.OpenToolStripButton = New System.Windows.Forms.ToolStripButton()
@@ -40,7 +41,6 @@ Partial Class WebSource
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.PrintPreviewDialog1 = New System.Windows.Forms.PrintPreviewDialog()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.StatusStrip1.SuspendLayout()
@@ -49,50 +49,62 @@ Partial Class WebSource
         '
         'FastColoredTextBox1
         '
-        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(27, 14)
+        Me.FastColoredTextBox1.AutoScrollMinSize = New System.Drawing.Size(35, 22)
         Me.FastColoredTextBox1.BackBrush = Nothing
-        Me.FastColoredTextBox1.CharHeight = 14
-        Me.FastColoredTextBox1.CharWidth = 8
+        Me.FastColoredTextBox1.CharHeight = 22
+        Me.FastColoredTextBox1.CharWidth = 12
         Me.FastColoredTextBox1.CommentPrefix = Nothing
         Me.FastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.FastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
         Me.FastColoredTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FastColoredTextBox1.Font = New System.Drawing.Font("Courier New", 9.75!)
         Me.FastColoredTextBox1.IsReplaceMode = False
         Me.FastColoredTextBox1.Language = FastColoredTextBoxNS.Language.HTML
         Me.FastColoredTextBox1.LeftBracket = Global.Microsoft.VisualBasic.ChrW(60)
         Me.FastColoredTextBox1.LeftBracket2 = Global.Microsoft.VisualBasic.ChrW(40)
-        Me.FastColoredTextBox1.Location = New System.Drawing.Point(0, 25)
+        Me.FastColoredTextBox1.Location = New System.Drawing.Point(0, 31)
+        Me.FastColoredTextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.FastColoredTextBox1.Name = "FastColoredTextBox1"
         Me.FastColoredTextBox1.Paddings = New System.Windows.Forms.Padding(0)
         Me.FastColoredTextBox1.RightBracket = Global.Microsoft.VisualBasic.ChrW(62)
         Me.FastColoredTextBox1.RightBracket2 = Global.Microsoft.VisualBasic.ChrW(41)
         Me.FastColoredTextBox1.SelectionColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.FastColoredTextBox1.Size = New System.Drawing.Size(591, 404)
+        Me.FastColoredTextBox1.Size = New System.Drawing.Size(886, 633)
         Me.FastColoredTextBox1.TabIndex = 1
         Me.FastColoredTextBox1.Zoom = 100
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 429)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 664)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(591, 22)
+        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(2, 0, 21, 0)
+        Me.StatusStrip1.Size = New System.Drawing.Size(886, 30)
         Me.StatusStrip1.TabIndex = 2
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(42, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(64, 25)
         Me.ToolStripStatusLabel1.Text = "Status:"
+        '
+        'ToolStripStatusLabel2
+        '
+        Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(42, 25)
+        Me.ToolStripStatusLabel2.Text = "File:"
         '
         'ToolStrip1
         '
         Me.ToolStrip1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripButton, Me.OpenToolStripButton, Me.SaveToolStripButton, Me.PrintToolStripButton, Me.toolStripSeparator, Me.CutToolStripButton, Me.CopyToolStripButton, Me.PasteToolStripButton})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(591, 25)
+        Me.ToolStrip1.Padding = New System.Windows.Forms.Padding(0, 0, 2, 0)
+        Me.ToolStrip1.Size = New System.Drawing.Size(886, 31)
         Me.ToolStrip1.TabIndex = 3
         '
         'NewToolStripButton
@@ -101,7 +113,7 @@ Partial Class WebSource
         Me.NewToolStripButton.Image = CType(resources.GetObject("NewToolStripButton.Image"), System.Drawing.Image)
         Me.NewToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.NewToolStripButton.Name = "NewToolStripButton"
-        Me.NewToolStripButton.Size = New System.Drawing.Size(23, 22)
+        Me.NewToolStripButton.Size = New System.Drawing.Size(28, 28)
         Me.NewToolStripButton.Text = "&New"
         '
         'OpenToolStripButton
@@ -110,7 +122,7 @@ Partial Class WebSource
         Me.OpenToolStripButton.Image = CType(resources.GetObject("OpenToolStripButton.Image"), System.Drawing.Image)
         Me.OpenToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.OpenToolStripButton.Name = "OpenToolStripButton"
-        Me.OpenToolStripButton.Size = New System.Drawing.Size(23, 22)
+        Me.OpenToolStripButton.Size = New System.Drawing.Size(28, 28)
         Me.OpenToolStripButton.Text = "&Open"
         '
         'SaveToolStripButton
@@ -119,7 +131,7 @@ Partial Class WebSource
         Me.SaveToolStripButton.Image = CType(resources.GetObject("SaveToolStripButton.Image"), System.Drawing.Image)
         Me.SaveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.SaveToolStripButton.Name = "SaveToolStripButton"
-        Me.SaveToolStripButton.Size = New System.Drawing.Size(23, 22)
+        Me.SaveToolStripButton.Size = New System.Drawing.Size(28, 28)
         Me.SaveToolStripButton.Text = "&Save"
         '
         'PrintToolStripButton
@@ -128,13 +140,13 @@ Partial Class WebSource
         Me.PrintToolStripButton.Image = CType(resources.GetObject("PrintToolStripButton.Image"), System.Drawing.Image)
         Me.PrintToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.PrintToolStripButton.Name = "PrintToolStripButton"
-        Me.PrintToolStripButton.Size = New System.Drawing.Size(23, 22)
+        Me.PrintToolStripButton.Size = New System.Drawing.Size(28, 28)
         Me.PrintToolStripButton.Text = "&Print"
         '
         'toolStripSeparator
         '
         Me.toolStripSeparator.Name = "toolStripSeparator"
-        Me.toolStripSeparator.Size = New System.Drawing.Size(6, 25)
+        Me.toolStripSeparator.Size = New System.Drawing.Size(6, 31)
         '
         'CutToolStripButton
         '
@@ -142,7 +154,7 @@ Partial Class WebSource
         Me.CutToolStripButton.Image = CType(resources.GetObject("CutToolStripButton.Image"), System.Drawing.Image)
         Me.CutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.CutToolStripButton.Name = "CutToolStripButton"
-        Me.CutToolStripButton.Size = New System.Drawing.Size(23, 22)
+        Me.CutToolStripButton.Size = New System.Drawing.Size(28, 28)
         Me.CutToolStripButton.Text = "C&ut"
         '
         'CopyToolStripButton
@@ -151,7 +163,7 @@ Partial Class WebSource
         Me.CopyToolStripButton.Image = CType(resources.GetObject("CopyToolStripButton.Image"), System.Drawing.Image)
         Me.CopyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.CopyToolStripButton.Name = "CopyToolStripButton"
-        Me.CopyToolStripButton.Size = New System.Drawing.Size(23, 22)
+        Me.CopyToolStripButton.Size = New System.Drawing.Size(28, 28)
         Me.CopyToolStripButton.Text = "&Copy"
         '
         'PasteToolStripButton
@@ -160,7 +172,7 @@ Partial Class WebSource
         Me.PasteToolStripButton.Image = CType(resources.GetObject("PasteToolStripButton.Image"), System.Drawing.Image)
         Me.PasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.PasteToolStripButton.Name = "PasteToolStripButton"
-        Me.PasteToolStripButton.Size = New System.Drawing.Size(23, 22)
+        Me.PasteToolStripButton.Size = New System.Drawing.Size(28, 28)
         Me.PasteToolStripButton.Text = "&Paste"
         '
         'PrintDialog1
@@ -186,12 +198,6 @@ Partial Class WebSource
     "les|*.apnm|All Files|*.*"
         Me.OpenFileDialog1.Title = "Open Web Source File"
         '
-        'ToolStripStatusLabel2
-        '
-        Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(28, 17)
-        Me.ToolStripStatusLabel2.Text = "File:"
-        '
         'SaveFileDialog1
         '
         Me.SaveFileDialog1.Filter = "HTML Files|*.html|XML Files|*.xml|JavaScript Files|*.js|JSON Files|*.json|APNM Fi" &
@@ -200,13 +206,14 @@ Partial Class WebSource
         '
         'WebSource
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(591, 451)
+        Me.ClientSize = New System.Drawing.Size(886, 694)
         Me.Controls.Add(Me.FastColoredTextBox1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "WebSource"
         Me.Text = "WebSource"
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -1,5 +1,6 @@
 MSVCR100.dll
 MSVCP100.dll
+sandboxbroker.dll
 mozglue.dll
 nss3.dll
 mozjs.dll

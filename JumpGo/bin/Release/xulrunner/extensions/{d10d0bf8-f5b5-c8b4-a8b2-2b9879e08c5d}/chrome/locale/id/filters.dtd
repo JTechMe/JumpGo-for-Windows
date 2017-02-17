@@ -1,0 +1,74 @@
+<!ENTITY restore.custom.warning "Semua penyaring ubahsuaian Anda akan diganti dengan isi dari berkas terpilih. Apakah Anda ingin melanjutkan?">
+<!ENTITY slow.column "Penyaring yang &amp;lambat">
+<!ENTITY enabled.column "&amp;Diaktifkan">
+<!ENTITY subscription.lastDownload.checksumMismatch "Gagal, checksum tidak cocok">
+<!ENTITY noFiltersInGroup.text "Kelompok yang dipilih kosong.">
+<!ENTITY subscription.actions.label "Tindakan">
+<!ENTITY filter.selectAll.label "Pilih Semua">
+<!ENTITY backupButton.label "&amp;Cadangkan dan Pulihkan">
+<!ENTITY restore.minVersion.warning "Peringatan: berkas ini dibuat dengan Adblock Plus versi baru. Anda harus memutakhirkan Adblock Plus ke versi terbaru sebelum memulihkan dari berkas ini.">
+<!ENTITY restore.error "Data berkas tidak dapat diproses, mungkin ini bukan berkas cadangan Adblock Plus?">
+<!ENTITY sort.ascending.label "Urutan &amp;A &gt; Z">
+<!ENTITY sort.label "&amp;Urutkan menurut">
+<!ENTITY subscription.source.label "Daftar penyaring">
+<!ENTITY hitcount.column "Sasaran">
+<!ENTITY noFilters.text "Anda belum memiliki penyaring ubahsuaian.">
+<!ENTITY backup.custom.title "Penyaring ubahsuaian saja">
+<!ENTITY subscription.external.label "Telah dimutakhirkan oleh ekstensi lain">
+<!ENTITY subscription.delete.label "Hapus">
+<!ENTITY noGroupSelected.text "Anda perlu memilih sebuah kelompok penyaring sebelum dapat menampilkan isi penyaringnya.">
+<!ENTITY filter.cut.label "Potong">
+<!ENTITY restore.default.label "Pulihkan cadangan ?1?">
+<!ENTITY subscription.lastDownload.inProgress "Mengunduh…">
+<!ENTITY subscriptions.tab.label "Penyaring langganan">
+<!ENTITY sort.descending.label "Urutan &amp;Z &gt; A">
+<!ENTITY filters.remove.warning "Apakah Anda yakin ingin menghapus semua penyaring terpilih?">
+<!ENTITY filter.delete.label "Hapus">
+<!ENTITY addSubscriptionAdd.label "Tambahkan">
+<!ENTITY viewMenu.label "Tampilkan">
+<!ENTITY subscription.lastDownload.unknown "(Tidak diketahui)">
+<!ENTITY addSubscriptionCancel.label "Batal">
+<!ENTITY subscription.enabled.label "Diaktifkan">
+<!ENTITY noSubscriptions.text "Anda belum menambahkan penyaring langganan apapun. Adblock Plus
+ tidak akan mencekal apa-apa tanpa adanya penyaring, silakan gunakan
+ &quot;Tambah penyaring langganan&quot; untuk menambahkan beberapa penyaring.">
+<!ENTITY subscription.update.label "Mutakhirkan penyaring">
+<!ENTITY dialog.title "Preferensi Penyaring Adblock Plus">
+<!ENTITY addFilter.label "Tambah &amp;penyaring">
+<!ENTITY subscription.minVersion.warning "Penyaring langganan ini memerlukan versi Adblock Plus yang lebih baru, Anda harus memutakhirkan Adblock Plus ke versi terbaru.">
+<!ENTITY subscription.lastDownload.invalidURL "Gagal, alamat tidak sah">
+<!ENTITY backup.error "Terjadi galat penulisan penyaring ke berkas. Pastikan berkas tersebut tidak baca-saja dan tidak sedang digunakan aplikasi lain.">
+<!ENTITY filter.moveUp.label "Naikkan">
+<!ENTITY addGroup.label "Tambah &amp;kelompok penyaring">
+<!ENTITY filter.edit.label "Sunting">
+<!ENTITY subscription.showHideFilters.label "Tampilkan/sembunyikan penyaring">
+<!ENTITY acceptableAds2.label "Izinkan beberapa iklan yang tidak men&amp;colok">
+<!ENTITY addSubscriptionOther.label "Tambah langganan yang lainnya">
+<!ENTITY close.label "Tutup">
+<!ENTITY sort.none.label "&amp;Belum diurutkan">
+<!ENTITY filter.actions.label "Tindakan penyaring">
+<!ENTITY filter.copy.label "Salin">
+<!ENTITY filter.moveDown.label "Turunkan">
+<!ENTITY filter.resetHitCounts.label "Atur ulang statistik kunjungan">
+<!ENTITY readMore.label "Baca lebih lanjut">
+<!ENTITY subscription.moveUp.label "Naikkan">
+<!ENTITY addSubscription.label "Tambah &amp;penyaring langganan">
+<!ENTITY subscription.homepage.label "Beranda">
+<!ENTITY backup.complete.title "Semua penyaring dan langganan">
+<!ENTITY restore.own.label "Pulihkan cadangan sendiri">
+<!ENTITY restore.complete.warning "Semua preferensi penyaring Anda akan diganti dengan isi dari berkas terpilih. Apakah Anda ingin melanjutkan?">
+<!ENTITY filters.tab.label "Penyaring ubahsuaian">
+<!ENTITY backup.label "Buat cadangan baru">
+<!ENTITY find.label "&amp;Temukan">
+<!ENTITY subscription.moveDown.label "Turunkan">
+<!ENTITY subscription.lastDownload.connectionError "Gagal, kesalahan pengunduhan">
+<!ENTITY subscription.lastDownload.success "Berhasil">
+<!ENTITY subscription.lastDownload.invalidData "Gagal, daftar penyaring tidak sah">
+<!ENTITY filter.paste.label "Tempel">
+<!ENTITY subscription.disabledFilters.enable "Aktifkan penyaring yang dinonaktifkan">
+<!ENTITY lasthit.column "Kunjungan &amp;terkini">
+<!ENTITY subscription.editTitle.label "Sunting judul">
+<!ENTITY subscription.disabledFilters.warning "Beberapa penyaring pada langganan ini dinonaktifkan.">
+<!ENTITY filter.column "&amp;Aturan penyaring">
+<!ENTITY subscription.lastDownload.label "Terakhir diunduh:">
+<!ENTITY viewList.label "Lihat daftar">

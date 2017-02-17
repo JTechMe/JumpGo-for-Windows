@@ -90,27 +90,31 @@
   <ItemGroup>
     <Reference Include="APNM FrameWork CL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\APNM FrameWork CL.dll</HintPath>
+      <HintPath>..\Refferences\APNM FrameWork CL.dll</HintPath>
     </Reference>
     <Reference Include="AutoUpdater.NET, Version=1.3.1.0, Culture=neutral, PublicKeyToken=942f95247e354701, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\JumpGo Dev Ed Source Gecko Upgrade\JumpGo\bin\Debug\AutoUpdater.NET.dll</HintPath>
+      <HintPath>..\Refferences\AutoUpdater.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.SHDocVw, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Refferences\AxInterop.SHDocVw.dll</HintPath>
     </Reference>
     <Reference Include="FastColoredTextBox, Version=2.9.15.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\Refferences\FastColoredTextBox.dll</HintPath>
     </Reference>
-    <Reference Include="Geckofx-Core, Version=29.0.11.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
+    <Reference Include="Geckofx-Core, Version=33.0.9.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Geckofx-Core.dll</HintPath>
+      <HintPath>..\Refferences\Geckofx-Core.dll</HintPath>
     </Reference>
-    <Reference Include="Geckofx-Winforms, Version=29.0.11.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=MSIL">
+    <Reference Include="Geckofx-Winforms, Version=33.0.9.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Geckofx-Winforms.dll</HintPath>
+      <HintPath>..\Refferences\Geckofx-Winforms.dll</HintPath>
     </Reference>
-    <Reference Include="MdiTabControl, Version=1.1.6015.39347, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="MdiTabControl, Version=1.1.6253.25639, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\MdiTabControl.dll</HintPath>
+      <HintPath>..\Refferences\MdiTabControl.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -128,7 +132,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="rtaGlassEffectsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\rtaGlassEffectsLib.dll</HintPath>
+      <HintPath>..\Refferences\rtaGlassEffectsLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -426,14 +430,6 @@
     <None Include="Resources\forward-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="AxSHDocVw">
-      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>1</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
     <COMReference Include="SHDocVw">
       <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -457,6 +453,17 @@
     <None Include="Resources\ctrl_box_right_bttn3.png" />
     <None Include="Resources\ctrl_box_right_bttn1.png" />
     <None Include="Resources\ctrl_box_right_bttn2.png" />
+    <None Include="Resources\ic_file_config.png" />
+    <None Include="Resources\ic_file_file.png" />
+    <None Include="Resources\ic_file_img.png" />
+    <None Include="Resources\ic_file_music.png" />
+    <None Include="Resources\ic_file_pdf.png" />
+    <None Include="Resources\ic_file_rtf.png" />
+    <None Include="Resources\ic_file_txt.png" />
+    <None Include="Resources\ic_file_update.png" />
+    <None Include="Resources\ic_file_video.png" />
+    <None Include="Resources\ic_file_word.png" />
+    <None Include="Resources\ic_file_zip.png" />
     <Content Include="TestPage001.html" />
     <None Include="Resources\ic_source.png" />
     <None Include="Resources\ic_customize.png" />

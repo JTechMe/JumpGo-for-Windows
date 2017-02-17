@@ -87,10 +87,10 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo\bin\Debug\Geckofx-Winforms.pdb
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.exe.config
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\Interop.SHDocVw.dll
-C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\AxInterop.SHDocVw.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbproj.ResolveComReference.cache
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.exe
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.xml
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.pdb
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.exe.manifest
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.application
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\JumpGo.exe
@@ -102,7 +102,6 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.Window
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Interop.SHDocVw.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\AxInterop.SHDocVw.dll
-C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AboutBox1.resources
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AboutGo1.resources
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEdition.AddOnSettings.resources
@@ -130,4 +129,11 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGoStandardEd
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbproj.GenerateResource.Cache
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.exe.manifest
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.application
-C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo.pdb
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\APNM FrameWork CL.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\AutoUpdater.NET.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\FastColoredTextBox.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Geckofx-Core.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\Geckofx-Winforms.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\MdiTabControl.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\bin\Debug\rtaGlassEffectsLib.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo\obj\Debug\JumpGo Standard Edition.vbprojResolveAssemblyReference.cache

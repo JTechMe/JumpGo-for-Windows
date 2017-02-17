@@ -307,6 +307,61 @@ JumpGo
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_config">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_file">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_img">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_music">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_pdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_rtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_txt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_update">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_video">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_word">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_file_zip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:JumpGoStandardEdition.My.Resources.Resources.ic_folder">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

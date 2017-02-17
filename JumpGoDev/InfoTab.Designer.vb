@@ -52,7 +52,6 @@ Partial Class InfoTab
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -273,7 +272,6 @@ Partial Class InfoTab
         Me.Panel4.Controls.Add(Me.Button10)
         Me.Panel4.Controls.Add(Me.Button9)
         Me.Panel4.Controls.Add(Me.Button8)
-        Me.Panel4.Controls.Add(Me.ShapeContainer1)
         Me.Panel4.Location = New System.Drawing.Point(622, 42)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(200, 313)
@@ -464,15 +462,6 @@ Partial Class InfoTab
         Me.Button8.Text = "New Tab"
         Me.Button8.UseVisualStyleBackColor = False
         '
-        'ShapeContainer1
-        '
-        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Size = New System.Drawing.Size(200, 313)
-        Me.ShapeContainer1.TabIndex = 3
-        Me.ShapeContainer1.TabStop = False
-        '
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
@@ -532,7 +521,6 @@ Partial Class InfoTab
     Friend WithEvents Button10 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button8 As Button
-    Private WithEvents ShapeContainer1 As PowerPacks.ShapeContainer
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents Timer1 As Timer

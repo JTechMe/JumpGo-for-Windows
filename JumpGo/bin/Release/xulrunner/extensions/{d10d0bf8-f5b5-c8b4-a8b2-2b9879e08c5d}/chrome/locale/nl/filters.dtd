@@ -1,0 +1,72 @@
+<!ENTITY restore.custom.warning "Al uw aangepaste filters worden vervangen door de inhoud van het geselecteerde bestand. Wilt u doorgaan?">
+<!ENTITY slow.column "T&amp;rage filters">
+<!ENTITY enabled.column "I&amp;ngeschakeld">
+<!ENTITY subscription.lastDownload.checksumMismatch "Mislukt, afwijkend controlecijfer">
+<!ENTITY noFiltersInGroup.text "De geselecteerde groep is leeg.">
+<!ENTITY subscription.actions.label "Acties">
+<!ENTITY filter.selectAll.label "Alles selecteren">
+<!ENTITY backupButton.label "Ba&amp;ck-up en herstel">
+<!ENTITY restore.minVersion.warning "Waarschuwing: het bestand is gemaakt met een nieuwere versie van Adblock Plus. U dient Adblock Plus bij te werken naar de nieuwste versie voordat u iets vanuit dit bestand kunt terugzetten.">
+<!ENTITY restore.error "De gegevens in het bestand konden niet worden verwerkt; wellicht is het geen back-upbestand van Adblock Plus?">
+<!ENTITY sort.ascending.label "Sorteervolgorde &amp;A &gt; Z">
+<!ENTITY sort.label "&amp;Sorteren op">
+<!ENTITY subscription.source.label "Filterlijst">
+<!ENTITY hitcount.column "&amp;Treffers">
+<!ENTITY noFilters.text "U hebt nog geen aangepaste filters.">
+<!ENTITY backup.custom.title "Alleen aangepaste filters">
+<!ENTITY subscription.external.label "Bijgewerkt door een andere extensie">
+<!ENTITY subscription.delete.label "Verwijderen">
+<!ENTITY noGroupSelected.text "U dient een filtergroep te selecteren voordat de filters ervan kunnen worden weergegeven.">
+<!ENTITY filter.cut.label "Knippen">
+<!ENTITY restore.default.label "Back-up van ?1? terugzetten">
+<!ENTITY subscription.lastDownload.inProgress "Downloaden…">
+<!ENTITY subscriptions.tab.label "Filterabonnementen">
+<!ENTITY sort.descending.label "Sorteervolgorde &amp;Z &gt; A">
+<!ENTITY filters.remove.warning "Wilt u echt alle geselecteerde filters verwijderen?">
+<!ENTITY filter.delete.label "Verwijderen">
+<!ENTITY addSubscriptionAdd.label "Toevoegen">
+<!ENTITY viewMenu.label "Beeld">
+<!ENTITY subscription.lastDownload.unknown "N.v.t.">
+<!ENTITY addSubscriptionCancel.label "Annuleren">
+<!ENTITY subscription.enabled.label "Ingeschakeld">
+<!ENTITY noSubscriptions.text "U hebt nog geen filterabonnementen toegevoegd. Adblock Plus blokkeert niets zonder filters; gebruik ‘Filterabonnement toevoegen’ om er enkele toe te voegen.">
+<!ENTITY subscription.update.label "Filters bijwerken">
+<!ENTITY dialog.title "Adblock Plus-filtervoorkeuren">
+<!ENTITY addFilter.label "Filter &amp;toevoegen">
+<!ENTITY subscription.minVersion.warning "Dit filterabonnement vereist een nieuwere versie van Adblock Plus; u dient Adblock Plus bij te werken naar de nieuwste versie.">
+<!ENTITY subscription.lastDownload.invalidURL "Mislukt, geen geldig adres">
+<!ENTITY backup.error "Er is een fout opgetreden bij het wegschrijven van de filters. Zorg ervoor dat het bestand niet tegen schrijven is beveiligd of door een andere toepassing wordt gebruikt.">
+<!ENTITY filter.moveUp.label "Omhoog verplaatsen">
+<!ENTITY addGroup.label "&amp;Filtergroep toevoegen">
+<!ENTITY filter.edit.label "Bewerken">
+<!ENTITY subscription.showHideFilters.label "Filters tonen/verbergen">
+<!ENTITY acceptableAds2.label "&amp;Enkele niet-opdringerige advertenties toestaan">
+<!ENTITY addSubscriptionOther.label "Een ander abonnement toevoegen">
+<!ENTITY close.label "Sluiten">
+<!ENTITY sort.none.label "&amp;Ongesorteerd">
+<!ENTITY filter.actions.label "Filteracties">
+<!ENTITY filter.copy.label "Kopiëren">
+<!ENTITY filter.moveDown.label "Omlaag verplaatsen">
+<!ENTITY filter.resetHitCounts.label "Trefferstatistieken opnieuw instellen">
+<!ENTITY readMore.label "Meer lezen">
+<!ENTITY subscription.moveUp.label "Omhoog verplaatsen">
+<!ENTITY addSubscription.label "&amp;Filterabonnement toevoegen">
+<!ENTITY subscription.homepage.label "Startpagina">
+<!ENTITY backup.complete.title "Alle filters en abonnementen">
+<!ENTITY restore.own.label "Eigen back-up terugzetten">
+<!ENTITY restore.complete.warning "Al uw filtervoorkeuren worden vervangen door de inhoud van het geselecteerde bestand. Wilt u doorgaan?">
+<!ENTITY filters.tab.label "Aangepaste filters">
+<!ENTITY backup.label "Nieuwe back-up maken">
+<!ENTITY find.label "&amp;Zoeken">
+<!ENTITY subscription.moveDown.label "Omlaag verplaatsen">
+<!ENTITY subscription.lastDownload.connectionError "Mislukt, downloadprobleem">
+<!ENTITY subscription.lastDownload.success "Gelukt">
+<!ENTITY subscription.lastDownload.invalidData "Mislukt, geen geldige filterlijst">
+<!ENTITY filter.paste.label "Plakken">
+<!ENTITY subscription.disabledFilters.enable "Uitgeschakelde filters inschakelen">
+<!ENTITY lasthit.column "&amp;Laatste treffer">
+<!ENTITY subscription.editTitle.label "Titel bewerken">
+<!ENTITY subscription.disabledFilters.warning "Enkele filters in dit abonnement zijn uitgeschakeld.">
+<!ENTITY filter.column "&amp;Filterregel">
+<!ENTITY subscription.lastDownload.label "Laatste download:">
+<!ENTITY viewList.label "Lijst bekijken">

@@ -202,6 +202,7 @@ C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Debug\SQLitePCL.Ext.pri.xml
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\JumpGo Standard Ed\JumpGo Universal Edition\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\JumpGo Browser.exe
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\JumpGo Browser.pdb
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\SQLitePCL.Ext.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\SQLitePCL.Ext.pri
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\App.xbf
@@ -232,6 +233,7 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\System.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\Microsoft.VisualBasic.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\sqlite3.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\SQLitePCL.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\System.AppContext.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\System.Collections.dll
@@ -321,6 +323,9 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\System.Xml.XmlSerializer.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\Universal.SQLite.dll
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\Universal.SQLite.pri
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\Universal.SQLite.winmd
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\JumpGo Universal Edition.csprojResolveAssemblyReference.cache
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\App.g.i.cs
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\App.g.cs
@@ -332,7 +337,6 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\App.xbf
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\MainPage.xbf
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\XamlSaveStateFile.xml
-C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\JumpGo Browser.pdb
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\ResourceHandlingTask.state
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw
@@ -402,6 +406,6 @@ C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\resources.en.resfiles
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\resources.en.resfiles.intermediate
+C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\Universal.SQLite.pri.xml
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\SQLitePCL.Ext.pri.xml
 C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\joeho\Source\Repos\JumpGo-for-Windows\JumpGo Universal Edition\bin\x86\Debug\sqlite3.dll

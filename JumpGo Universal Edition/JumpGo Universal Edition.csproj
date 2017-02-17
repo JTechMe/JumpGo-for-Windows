@@ -94,6 +94,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="JumpGo Universal Edition_TemporaryKey.pfx" />
     <None Include="project.json" />
     <PRIResource Include="Strings\pt-BR\Resources.resw" />
     <PRIResource Include="Strings\en-US\Resources.resw" />

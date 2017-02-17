@@ -32,8 +32,6 @@ Partial Class ThemeDesign
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -43,10 +41,6 @@ Partial Class ThemeDesign
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ShapeContainer2 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.LineShape4 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.LineShape2 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -105,7 +99,6 @@ Partial Class ThemeDesign
         Me.Panel4.Controls.Add(Me.Button10)
         Me.Panel4.Controls.Add(Me.Button9)
         Me.Panel4.Controls.Add(Me.Button8)
-        Me.Panel4.Controls.Add(Me.ShapeContainer1)
         Me.Panel4.Location = New System.Drawing.Point(551, 45)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(200, 170)
@@ -211,24 +204,6 @@ Partial Class ThemeDesign
         Me.Button8.Text = "New Tab"
         Me.Button8.UseVisualStyleBackColor = False
         '
-        'ShapeContainer1
-        '
-        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(200, 170)
-        Me.ShapeContainer1.TabIndex = 3
-        Me.ShapeContainer1.TabStop = False
-        '
-        'LineShape1
-        '
-        Me.LineShape1.Name = "LineShape1"
-        Me.LineShape1.X1 = 0
-        Me.LineShape1.X2 = 198
-        Me.LineShape1.Y1 = 77
-        Me.LineShape1.Y2 = 77
-        '
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(48, 19)
@@ -321,40 +296,6 @@ Partial Class ThemeDesign
         Me.Label1.Size = New System.Drawing.Size(36, 13)
         Me.Label1.TabIndex = 15
         Me.Label1.Text = "Image"
-        '
-        'ShapeContainer2
-        '
-        Me.ShapeContainer2.Location = New System.Drawing.Point(0, 0)
-        Me.ShapeContainer2.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer2.Name = "ShapeContainer2"
-        Me.ShapeContainer2.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape4, Me.LineShape3, Me.LineShape2})
-        Me.ShapeContainer2.Size = New System.Drawing.Size(751, 296)
-        Me.ShapeContainer2.TabIndex = 16
-        Me.ShapeContainer2.TabStop = False
-        '
-        'LineShape4
-        '
-        Me.LineShape4.Name = "LineShape4"
-        Me.LineShape4.X1 = 460
-        Me.LineShape4.X2 = 546
-        Me.LineShape4.Y1 = 144
-        Me.LineShape4.Y2 = 144
-        '
-        'LineShape3
-        '
-        Me.LineShape3.Name = "LineShape3"
-        Me.LineShape3.X1 = 77
-        Me.LineShape3.X2 = 77
-        Me.LineShape3.Y1 = 79
-        Me.LineShape3.Y2 = 128
-        '
-        'LineShape2
-        '
-        Me.LineShape2.Name = "LineShape2"
-        Me.LineShape2.X1 = 18
-        Me.LineShape2.X2 = 18
-        Me.LineShape2.Y1 = 50
-        Me.LineShape2.Y2 = 183
         '
         'GroupBox2
         '
@@ -774,7 +715,6 @@ Partial Class ThemeDesign
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Panel4)
-        Me.Controls.Add(Me.ShapeContainer2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ThemeDesign"
@@ -850,10 +790,4 @@ Partial Class ThemeDesign
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
-    Private WithEvents ShapeContainer1 As PowerPacks.ShapeContainer
-    Private WithEvents LineShape1 As PowerPacks.LineShape
-    Private WithEvents ShapeContainer2 As PowerPacks.ShapeContainer
-    Private WithEvents LineShape3 As PowerPacks.LineShape
-    Private WithEvents LineShape2 As PowerPacks.LineShape
-    Private WithEvents LineShape4 As PowerPacks.LineShape
 End Class

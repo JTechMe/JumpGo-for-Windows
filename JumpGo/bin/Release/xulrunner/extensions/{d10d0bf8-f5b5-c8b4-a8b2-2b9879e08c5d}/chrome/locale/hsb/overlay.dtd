@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Ně">
+<!ENTITY sync.label "Nastajenja Adblo&amp;ck Plus synchronizować">
+<!ENTITY whitelist.site.label "Na ?1? znjemóžnić">
+<!ENTITY notification.closing.button.hide "T&amp;utu zdźělenku začinić">
+<!ENTITY filters.label "&amp;Filtrowe nastajenja">
+<!ENTITY disable.label "Wšudźe znjemóžnić">
+<!ENTITY objecttab.title "Blokować">
+<!ENTITY objecttab.tooltip "Klikńće sem, zo byšće tutón objekt z pomocu Adblock Plus blokował">
+<!ENTITY menuitem.label "Na&amp;stajenja Adblock Plus">
+<!ENTITY objecttabs.label "Rajtarki wo Flash a Ja&amp;va pokazać">
+<!ENTITY sendReport.label "&amp;Problem na tutej stronje zdźělić">
+<!ENTITY whitelist.page.label "Jenož na tutej stronje znjemóžnić">
+<!ENTITY context.image.label "Adblock Plus: Wobraz blokować">
+<!ENTITY notification.button.yes "&amp;Haj">
+<!ENTITY opensidebar.label "Blo&amp;kujomne elementy wočinić">
+<!ENTITY notification.button.close "&amp;Začinić">
+<!ENTITY shownotifications.label "Wužitne &amp;zdźělenki pokazać">
+<!ENTITY contribute.label "K Adblock Plus přinošować">
+<!ENTITY toolbarbutton.label "Adblock Plus">
+<!ENTITY context.frame.label "Adblock Plus: Wobłuk blokować">
+<!ENTITY blocked.tooltip "Zablokowane elementy na tutej stronje:">
+<!ENTITY notification.closing.button.optout "Zdźělenki &amp;hižo njepokazać">
+<!ENTITY counthits.label "&amp;Filtrowe wotpowědniki ličić">
+<!ENTITY showinstatusbar.label "W &amp;statusowej lajsće pokazać">
+<!ENTITY sidebar.title "Blokujomne elementy na aktualnej stronje">
+<!ENTITY options.label "&amp;Opcije">
+<!ENTITY context.object.label "Adblock Plus: Objekt blokować">
+<!ENTITY context.removeWhitelist.label "Adblock Plus: Na tutej stronje zaso zmóžnić">
+<!ENTITY filters.tooltip "Najaktiwniše filtry:">
+<!ENTITY closesidebar.label "Blo&amp;kujomne elementy začinić">
+<!ENTITY showintoolbar.label "W gratowej &amp;lajsće pokazać">
+<!ENTITY status.tooltip "Status:">
+<!ENTITY context.media.label "Adblock Plus: Awdio/Widejo blokować">
