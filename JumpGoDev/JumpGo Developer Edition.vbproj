@@ -190,6 +190,13 @@
     <Compile Include="AppBuildTester.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CrashSaver.Designer.vb">
+      <DependentUpon>CrashSaver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CrashSaver.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DDMenu.Designer.vb">
       <DependentUpon>DDMenu.vb</DependentUpon>
     </Compile>
@@ -335,6 +342,9 @@
     <EmbeddedResource Include="AppBuildTester.resx">
       <DependentUpon>AppBuildTester.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrashSaver.resx">
+      <DependentUpon>CrashSaver.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DDMenu.resx">
       <DependentUpon>DDMenu.vb</DependentUpon>
     </EmbeddedResource>
@@ -448,6 +458,12 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\paintshop_glyph_1000x1000_FmP_icon.ico" />
+    <None Include="Resources\ic_source_dev_Kmk_icon.ico" />
+    <None Include="Resources\ic_new_window_dev_otk_icon.ico" />
+    <None Include="Resources\settings_logo_1000x1000_Jtd_icon.ico" />
+    <None Include="Resources\settings_glyph_1000x1000_9hE_icon.ico" />
+    <None Include="Resources\newtabb2_yGR_icon.ico" />
     <None Include="Resources\ic_file_update.png" />
     <None Include="Resources\ic_file_config.png" />
     <None Include="Resources\ic_file_word.png" />
